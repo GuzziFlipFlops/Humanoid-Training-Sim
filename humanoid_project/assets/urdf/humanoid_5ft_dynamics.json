@@ -1,0 +1,2087 @@
+{
+  "name": "humanoid_5ft_ragdoll",
+  "height_m": 1.524,
+  "coordinate_convention": "X left/right, Y front/back, Z up; pelvis origin is the model datum.",
+  "dof": 22,
+  "dof_breakdown": {
+    "legs": 12,
+    "waist": 2,
+    "arms": 6,
+    "head": 2
+  },
+  "modeled_mass_kg": 38.0,
+  "target_complete_mass_kg": 39.0,
+  "unallocated_system_mass_kg": 1.0,
+  "links": {
+    "pelvis": {
+      "name": "pelvis",
+      "mass_kg": 3.5,
+      "box_size_m": [
+        0.26,
+        0.16,
+        0.16
+      ],
+      "visual_origin_xyz_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rgba": [
+        0.22,
+        0.25,
+        0.31,
+        1.0
+      ],
+      "com_xyz_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_kg_m2": {
+        "ixx": 0.014933333333333333,
+        "ixy": 0.0,
+        "ixz": 0.0,
+        "iyy": 0.027183333333333337,
+        "iyz": 0.0,
+        "izz": 0.027183333333333337
+      }
+    },
+    "waist_yaw_link": {
+      "name": "waist_yaw_link",
+      "mass_kg": 1.0,
+      "box_size_m": [
+        0.18,
+        0.12,
+        0.05
+      ],
+      "visual_origin_xyz_m": [
+        0.0,
+        0.0,
+        0.01
+      ],
+      "rgba": [
+        0.95,
+        0.55,
+        0.16,
+        1.0
+      ],
+      "com_xyz_m": [
+        0.0,
+        0.0,
+        0.01
+      ],
+      "inertia_kg_m2": {
+        "ixx": 0.0014083333333333333,
+        "ixy": 0.0,
+        "ixz": 0.0,
+        "iyy": 0.0029083333333333335,
+        "iyz": 0.0,
+        "izz": 0.0038999999999999994
+      }
+    },
+    "torso": {
+      "name": "torso",
+      "mass_kg": 8.2,
+      "box_size_m": [
+        0.32,
+        0.17,
+        0.28
+      ],
+      "visual_origin_xyz_m": [
+        0.0,
+        0.0,
+        0.14
+      ],
+      "rgba": [
+        0.28,
+        0.32,
+        0.4,
+        1.0
+      ],
+      "com_xyz_m": [
+        0.0,
+        0.0,
+        0.14
+      ],
+      "inertia_kg_m2": {
+        "ixx": 0.07332166666666667,
+        "ixy": 0.0,
+        "ixz": 0.0,
+        "iyy": 0.12354666666666668,
+        "iyz": 0.0,
+        "izz": 0.08972166666666666
+      }
+    },
+    "left_hip_yaw_link": {
+      "name": "left_hip_yaw_link",
+      "mass_kg": 1.1,
+      "box_size_m": [
+        0.1,
+        0.105,
+        0.07
+      ],
+      "visual_origin_xyz_m": [
+        0.0,
+        0.0,
+        -0.02
+      ],
+      "rgba": [
+        0.27,
+        0.55,
+        0.91,
+        1.0
+      ],
+      "com_xyz_m": [
+        0.0,
+        0.0,
+        -0.02
+      ],
+      "inertia_kg_m2": {
+        "ixx": 0.0014597916666666665,
+        "ixy": 0.0,
+        "ixz": 0.0,
+        "iyy": 0.0013658333333333337,
+        "iyz": 0.0,
+        "izz": 0.0019272916666666672
+      }
+    },
+    "left_hip_roll_link": {
+      "name": "left_hip_roll_link",
+      "mass_kg": 1.1,
+      "box_size_m": [
+        0.095,
+        0.1,
+        0.07
+      ],
+      "visual_origin_xyz_m": [
+        0.0,
+        0.0,
+        -0.02
+      ],
+      "rgba": [
+        0.27,
+        0.55,
+        0.91,
+        1.0
+      ],
+      "com_xyz_m": [
+        0.0,
+        0.0,
+        -0.02
+      ],
+      "inertia_kg_m2": {
+        "ixx": 0.0013658333333333337,
+        "ixy": 0.0,
+        "ixz": 0.0,
+        "iyy": 0.0012764583333333334,
+        "iyz": 0.0,
+        "izz": 0.0017439583333333335
+      }
+    },
+    "left_thigh": {
+      "name": "left_thigh",
+      "mass_kg": 3.6,
+      "box_size_m": [
+        0.08,
+        0.085,
+        0.35900000000000004
+      ],
+      "visual_origin_xyz_m": [
+        0.0,
+        0.0,
+        -0.17750000000000002
+      ],
+      "rgba": [
+        0.45,
+        0.49,
+        0.58,
+        1.0
+      ],
+      "com_xyz_m": [
+        0.0,
+        0.0,
+        -0.17750000000000002
+      ],
+      "inertia_kg_m2": {
+        "ixx": 0.04083180000000001,
+        "ixy": 0.0,
+        "ixz": 0.0,
+        "iyy": 0.040584300000000004,
+        "iyz": 0.0,
+        "izz": 0.004087500000000001
+      }
+    },
+    "left_shank": {
+      "name": "left_shank",
+      "mass_kg": 2.4,
+      "box_size_m": [
+        0.075,
+        0.065,
+        0.374
+      ],
+      "visual_origin_xyz_m": [
+        0.0,
+        0.0,
+        -0.185
+      ],
+      "rgba": [
+        0.55,
+        0.59,
+        0.67,
+        1.0
+      ],
+      "com_xyz_m": [
+        0.0,
+        0.0,
+        -0.185
+      ],
+      "inertia_kg_m2": {
+        "ixx": 0.0288202,
+        "ixy": 0.0,
+        "ixz": 0.0,
+        "iyy": 0.029100199999999996,
+        "iyz": 0.0,
+        "izz": 0.00197
+      }
+    },
+    "left_ankle_pitch_link": {
+      "name": "left_ankle_pitch_link",
+      "mass_kg": 0.35,
+      "box_size_m": [
+        0.09,
+        0.08,
+        0.06
+      ],
+      "visual_origin_xyz_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rgba": [
+        0.27,
+        0.55,
+        0.91,
+        1.0
+      ],
+      "com_xyz_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_kg_m2": {
+        "ixx": 0.00029166666666666664,
+        "ixy": 0.0,
+        "ixz": 0.0,
+        "iyy": 0.00034125,
+        "iyz": 0.0,
+        "izz": 0.00042291666666666666
+      }
+    },
+    "left_foot": {
+      "name": "left_foot",
+      "mass_kg": 0.65,
+      "box_size_m": [
+        0.12,
+        0.25,
+        0.052
+      ],
+      "visual_origin_xyz_m": [
+        0.0,
+        0.045,
+        -0.054
+      ],
+      "rgba": [
+        0.2,
+        0.23,
+        0.28,
+        1.0
+      ],
+      "com_xyz_m": [
+        0.0,
+        0.045,
+        -0.054
+      ],
+      "inertia_kg_m2": {
+        "ixx": 0.003531883333333333,
+        "ixy": 0.0,
+        "ixz": 0.0,
+        "iyy": 0.0009264666666666668,
+        "iyz": 0.0,
+        "izz": 0.004165416666666667
+      }
+    },
+    "right_hip_yaw_link": {
+      "name": "right_hip_yaw_link",
+      "mass_kg": 1.1,
+      "box_size_m": [
+        0.1,
+        0.105,
+        0.07
+      ],
+      "visual_origin_xyz_m": [
+        0.0,
+        0.0,
+        -0.02
+      ],
+      "rgba": [
+        0.25,
+        0.72,
+        0.58,
+        1.0
+      ],
+      "com_xyz_m": [
+        0.0,
+        0.0,
+        -0.02
+      ],
+      "inertia_kg_m2": {
+        "ixx": 0.0014597916666666665,
+        "ixy": 0.0,
+        "ixz": 0.0,
+        "iyy": 0.0013658333333333337,
+        "iyz": 0.0,
+        "izz": 0.0019272916666666672
+      }
+    },
+    "right_hip_roll_link": {
+      "name": "right_hip_roll_link",
+      "mass_kg": 1.1,
+      "box_size_m": [
+        0.095,
+        0.1,
+        0.07
+      ],
+      "visual_origin_xyz_m": [
+        0.0,
+        0.0,
+        -0.02
+      ],
+      "rgba": [
+        0.25,
+        0.72,
+        0.58,
+        1.0
+      ],
+      "com_xyz_m": [
+        0.0,
+        0.0,
+        -0.02
+      ],
+      "inertia_kg_m2": {
+        "ixx": 0.0013658333333333337,
+        "ixy": 0.0,
+        "ixz": 0.0,
+        "iyy": 0.0012764583333333334,
+        "iyz": 0.0,
+        "izz": 0.0017439583333333335
+      }
+    },
+    "right_thigh": {
+      "name": "right_thigh",
+      "mass_kg": 3.6,
+      "box_size_m": [
+        0.08,
+        0.085,
+        0.35900000000000004
+      ],
+      "visual_origin_xyz_m": [
+        0.0,
+        0.0,
+        -0.17750000000000002
+      ],
+      "rgba": [
+        0.45,
+        0.49,
+        0.58,
+        1.0
+      ],
+      "com_xyz_m": [
+        0.0,
+        0.0,
+        -0.17750000000000002
+      ],
+      "inertia_kg_m2": {
+        "ixx": 0.04083180000000001,
+        "ixy": 0.0,
+        "ixz": 0.0,
+        "iyy": 0.040584300000000004,
+        "iyz": 0.0,
+        "izz": 0.004087500000000001
+      }
+    },
+    "right_shank": {
+      "name": "right_shank",
+      "mass_kg": 2.4,
+      "box_size_m": [
+        0.075,
+        0.065,
+        0.374
+      ],
+      "visual_origin_xyz_m": [
+        0.0,
+        0.0,
+        -0.185
+      ],
+      "rgba": [
+        0.55,
+        0.59,
+        0.67,
+        1.0
+      ],
+      "com_xyz_m": [
+        0.0,
+        0.0,
+        -0.185
+      ],
+      "inertia_kg_m2": {
+        "ixx": 0.0288202,
+        "ixy": 0.0,
+        "ixz": 0.0,
+        "iyy": 0.029100199999999996,
+        "iyz": 0.0,
+        "izz": 0.00197
+      }
+    },
+    "right_ankle_pitch_link": {
+      "name": "right_ankle_pitch_link",
+      "mass_kg": 0.35,
+      "box_size_m": [
+        0.09,
+        0.08,
+        0.06
+      ],
+      "visual_origin_xyz_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rgba": [
+        0.25,
+        0.72,
+        0.58,
+        1.0
+      ],
+      "com_xyz_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_kg_m2": {
+        "ixx": 0.00029166666666666664,
+        "ixy": 0.0,
+        "ixz": 0.0,
+        "iyy": 0.00034125,
+        "iyz": 0.0,
+        "izz": 0.00042291666666666666
+      }
+    },
+    "right_foot": {
+      "name": "right_foot",
+      "mass_kg": 0.65,
+      "box_size_m": [
+        0.12,
+        0.25,
+        0.052
+      ],
+      "visual_origin_xyz_m": [
+        0.0,
+        0.045,
+        -0.054
+      ],
+      "rgba": [
+        0.2,
+        0.23,
+        0.28,
+        1.0
+      ],
+      "com_xyz_m": [
+        0.0,
+        0.045,
+        -0.054
+      ],
+      "inertia_kg_m2": {
+        "ixx": 0.003531883333333333,
+        "ixy": 0.0,
+        "ixz": 0.0,
+        "iyy": 0.0009264666666666668,
+        "iyz": 0.0,
+        "izz": 0.004165416666666667
+      }
+    },
+    "left_shoulder_pitch_link": {
+      "name": "left_shoulder_pitch_link",
+      "mass_kg": 0.6,
+      "box_size_m": [
+        0.084,
+        0.09,
+        0.085
+      ],
+      "visual_origin_xyz_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rgba": [
+        0.27,
+        0.55,
+        0.91,
+        1.0
+      ],
+      "com_xyz_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_kg_m2": {
+        "ixx": 0.00076625,
+        "ixy": 0.0,
+        "ixz": 0.0,
+        "iyy": 0.00071405,
+        "iyz": 0.0,
+        "izz": 0.0007577999999999999
+      }
+    },
+    "left_upper_arm": {
+      "name": "left_upper_arm",
+      "mass_kg": 1.0,
+      "box_size_m": [
+        0.07,
+        0.07,
+        0.304
+      ],
+      "visual_origin_xyz_m": [
+        0.0,
+        0.0,
+        -0.152
+      ],
+      "rgba": [
+        0.48,
+        0.52,
+        0.6,
+        1.0
+      ],
+      "com_xyz_m": [
+        0.0,
+        0.0,
+        -0.152
+      ],
+      "inertia_kg_m2": {
+        "ixx": 0.008109666666666666,
+        "ixy": 0.0,
+        "ixz": 0.0,
+        "iyy": 0.008109666666666666,
+        "iyz": 0.0,
+        "izz": 0.0008166666666666668
+      }
+    },
+    "left_forearm": {
+      "name": "left_forearm",
+      "mass_kg": 0.6,
+      "box_size_m": [
+        0.065,
+        0.06,
+        0.25
+      ],
+      "visual_origin_xyz_m": [
+        0.0,
+        0.0,
+        -0.123
+      ],
+      "rgba": [
+        0.58,
+        0.62,
+        0.69,
+        1.0
+      ],
+      "com_xyz_m": [
+        0.0,
+        0.0,
+        -0.123
+      ],
+      "inertia_kg_m2": {
+        "ixx": 0.003305,
+        "ixy": 0.0,
+        "ixz": 0.0,
+        "iyy": 0.0033362500000000002,
+        "iyz": 0.0,
+        "izz": 0.00039125000000000005
+      }
+    },
+    "right_shoulder_pitch_link": {
+      "name": "right_shoulder_pitch_link",
+      "mass_kg": 0.6,
+      "box_size_m": [
+        0.084,
+        0.09,
+        0.085
+      ],
+      "visual_origin_xyz_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rgba": [
+        0.25,
+        0.72,
+        0.58,
+        1.0
+      ],
+      "com_xyz_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inertia_kg_m2": {
+        "ixx": 0.00076625,
+        "ixy": 0.0,
+        "ixz": 0.0,
+        "iyy": 0.00071405,
+        "iyz": 0.0,
+        "izz": 0.0007577999999999999
+      }
+    },
+    "right_upper_arm": {
+      "name": "right_upper_arm",
+      "mass_kg": 1.0,
+      "box_size_m": [
+        0.07,
+        0.07,
+        0.304
+      ],
+      "visual_origin_xyz_m": [
+        0.0,
+        0.0,
+        -0.152
+      ],
+      "rgba": [
+        0.48,
+        0.52,
+        0.6,
+        1.0
+      ],
+      "com_xyz_m": [
+        0.0,
+        0.0,
+        -0.152
+      ],
+      "inertia_kg_m2": {
+        "ixx": 0.008109666666666666,
+        "ixy": 0.0,
+        "ixz": 0.0,
+        "iyy": 0.008109666666666666,
+        "iyz": 0.0,
+        "izz": 0.0008166666666666668
+      }
+    },
+    "right_forearm": {
+      "name": "right_forearm",
+      "mass_kg": 0.6,
+      "box_size_m": [
+        0.065,
+        0.06,
+        0.25
+      ],
+      "visual_origin_xyz_m": [
+        0.0,
+        0.0,
+        -0.123
+      ],
+      "rgba": [
+        0.58,
+        0.62,
+        0.69,
+        1.0
+      ],
+      "com_xyz_m": [
+        0.0,
+        0.0,
+        -0.123
+      ],
+      "inertia_kg_m2": {
+        "ixx": 0.003305,
+        "ixy": 0.0,
+        "ixz": 0.0,
+        "iyy": 0.0033362500000000002,
+        "iyz": 0.0,
+        "izz": 0.00039125000000000005
+      }
+    },
+    "neck_yaw_link": {
+      "name": "neck_yaw_link",
+      "mass_kg": 0.3,
+      "box_size_m": [
+        0.08,
+        0.08,
+        0.08500000000000019
+      ],
+      "visual_origin_xyz_m": [
+        0.0,
+        0.0,
+        0.04250000000000009
+      ],
+      "rgba": [
+        0.95,
+        0.55,
+        0.16,
+        1.0
+      ],
+      "com_xyz_m": [
+        0.0,
+        0.0,
+        0.04250000000000009
+      ],
+      "inertia_kg_m2": {
+        "ixx": 0.0003406250000000008,
+        "ixy": 0.0,
+        "ixz": 0.0,
+        "iyy": 0.0003406250000000008,
+        "iyz": 0.0,
+        "izz": 0.00032
+      }
+    },
+    "head": {
+      "name": "head",
+      "mass_kg": 2.2,
+      "box_size_m": [
+        0.16,
+        0.17,
+        0.18399999999999994
+      ],
+      "visual_origin_xyz_m": [
+        0.0,
+        0.0,
+        0.09199999999999997
+      ],
+      "rgba": [
+        0.32,
+        0.36,
+        0.44,
+        1.0
+      ],
+      "com_xyz_m": [
+        0.0,
+        0.0,
+        0.09199999999999997
+      ],
+      "inertia_kg_m2": {
+        "ixx": 0.011505266666666665,
+        "ixy": 0.0,
+        "ixz": 0.0,
+        "iyy": 0.010900266666666665,
+        "iyz": 0.0,
+        "izz": 0.009991666666666668
+      }
+    }
+  },
+  "joints": [
+    {
+      "name": "waist_yaw",
+      "type": "revolute",
+      "parent": "pelvis",
+      "child": "waist_yaw_link",
+      "origin_xyz_m": [
+        0.0,
+        0.0,
+        0.08
+      ],
+      "axis_xyz": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "limit_lower_rad": -1.5707963267948966,
+      "limit_upper_rad": 1.5707963267948966,
+      "actuator_assignment": "waist_yaw",
+      "actuator": {
+        "motor": "gim8115_9_48v",
+        "continuous_torque_nm": 15.27,
+        "peak_torque_nm": 50.0,
+        "max_velocity_rad_s": 8.0,
+        "gear_ratio": 9.0,
+        "armature_kg_m2": 0.02025,
+        "stiffness_nm_rad": 100.0,
+        "damping_nms_rad": 3.0
+      },
+      "world_origin_m": [
+        0.0,
+        0.0,
+        0.08
+      ]
+    },
+    {
+      "name": "waist_pitch",
+      "type": "revolute",
+      "parent": "waist_yaw_link",
+      "child": "torso",
+      "origin_xyz_m": [
+        0.0,
+        0.0,
+        0.02
+      ],
+      "axis_xyz": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "limit_lower_rad": -0.6108652381980153,
+      "limit_upper_rad": 0.6981317007977318,
+      "actuator_assignment": "waist_pitch",
+      "actuator": {
+        "motor": "gim8115_9_48v",
+        "continuous_torque_nm": 15.27,
+        "peak_torque_nm": 60.0,
+        "max_velocity_rad_s": 8.0,
+        "gear_ratio": 9.0,
+        "armature_kg_m2": 0.02025,
+        "stiffness_nm_rad": 140.0,
+        "damping_nms_rad": 5.0
+      },
+      "world_origin_m": [
+        0.0,
+        0.0,
+        0.1
+      ]
+    },
+    {
+      "name": "left_hip_yaw",
+      "type": "revolute",
+      "parent": "pelvis",
+      "child": "left_hip_yaw_link",
+      "origin_xyz_m": [
+        -0.105,
+        0.0,
+        -0.02
+      ],
+      "axis_xyz": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "limit_lower_rad": -0.7853981633974483,
+      "limit_upper_rad": 0.7853981633974483,
+      "actuator_assignment": "hip_yaw",
+      "actuator": {
+        "motor": "gim8115_9_48v",
+        "continuous_torque_nm": 15.27,
+        "peak_torque_nm": 50.0,
+        "max_velocity_rad_s": 8.0,
+        "gear_ratio": 9.0,
+        "armature_kg_m2": 0.02025,
+        "stiffness_nm_rad": 120.0,
+        "damping_nms_rad": 4.0
+      },
+      "world_origin_m": [
+        -0.105,
+        0.0,
+        -0.02
+      ]
+    },
+    {
+      "name": "left_hip_roll",
+      "type": "revolute",
+      "parent": "left_hip_yaw_link",
+      "child": "left_hip_roll_link",
+      "origin_xyz_m": [
+        0.0,
+        0.0,
+        -0.025
+      ],
+      "axis_xyz": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "limit_lower_rad": -0.6981317007977318,
+      "limit_upper_rad": 0.6981317007977318,
+      "actuator_assignment": "hip_roll",
+      "actuator": {
+        "motor": "gim8108_36_high_48v",
+        "continuous_torque_nm": 25.0,
+        "peak_torque_nm": 132.25,
+        "max_velocity_rad_s": 6.0,
+        "gear_ratio": 36.0,
+        "armature_kg_m2": 0.15552,
+        "stiffness_nm_rad": 180.0,
+        "damping_nms_rad": 6.0
+      },
+      "world_origin_m": [
+        -0.105,
+        0.0,
+        -0.045
+      ]
+    },
+    {
+      "name": "left_hip_pitch",
+      "type": "revolute",
+      "parent": "left_hip_roll_link",
+      "child": "left_thigh",
+      "origin_xyz_m": [
+        0.0,
+        0.0,
+        -0.025
+      ],
+      "axis_xyz": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "limit_lower_rad": -2.0943951023931953,
+      "limit_upper_rad": 0.7853981633974483,
+      "actuator_assignment": "hip_pitch",
+      "actuator": {
+        "motor": "custom_hip_pitch_16",
+        "continuous_torque_nm": 60.0,
+        "peak_torque_nm": 226.8,
+        "max_velocity_rad_s": 14.0,
+        "gear_ratio": 16.0,
+        "armature_kg_m2": 0.0896,
+        "stiffness_nm_rad": 220.0,
+        "damping_nms_rad": 7.0
+      },
+      "world_origin_m": [
+        -0.105,
+        0.0,
+        -0.07
+      ]
+    },
+    {
+      "name": "left_knee_pitch",
+      "type": "revolute",
+      "parent": "left_thigh",
+      "child": "left_shank",
+      "origin_xyz_m": [
+        0.0,
+        0.0,
+        -0.35500000000000004
+      ],
+      "axis_xyz": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "limit_lower_rad": 0.0,
+      "limit_upper_rad": 2.6179938779914944,
+      "actuator_assignment": "knee_pitch",
+      "actuator": {
+        "motor": "custom_knee_pitch_16",
+        "continuous_torque_nm": 65.0,
+        "peak_torque_nm": 243.0,
+        "max_velocity_rad_s": 14.0,
+        "gear_ratio": 16.0,
+        "armature_kg_m2": 0.1024,
+        "stiffness_nm_rad": 240.0,
+        "damping_nms_rad": 7.0
+      },
+      "world_origin_m": [
+        -0.105,
+        0.0,
+        -0.42500000000000004
+      ]
+    },
+    {
+      "name": "left_ankle_pitch",
+      "type": "revolute",
+      "parent": "left_shank",
+      "child": "left_ankle_pitch_link",
+      "origin_xyz_m": [
+        0.0,
+        0.0,
+        -0.37
+      ],
+      "axis_xyz": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "limit_lower_rad": -0.8726646259971648,
+      "limit_upper_rad": 0.6108652381980153,
+      "actuator_assignment": "ankle_pitch",
+      "actuator": {
+        "motor": "2x_gim6010_36_differential",
+        "continuous_torque_nm": 40.48,
+        "peak_torque_nm": 115.0,
+        "max_velocity_rad_s": 8.0,
+        "gear_ratio": 41.4,
+        "armature_kg_m2": 0.171396,
+        "stiffness_nm_rad": 140.0,
+        "damping_nms_rad": 5.0
+      },
+      "world_origin_m": [
+        -0.105,
+        0.0,
+        -0.795
+      ]
+    },
+    {
+      "name": "left_ankle_roll",
+      "type": "revolute",
+      "parent": "left_ankle_pitch_link",
+      "child": "left_foot",
+      "origin_xyz_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis_xyz": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "limit_lower_rad": -0.4363323129985824,
+      "limit_upper_rad": 0.4363323129985824,
+      "actuator_assignment": "ankle_roll",
+      "actuator": {
+        "motor": "2x_gim6010_36_differential",
+        "continuous_torque_nm": 40.48,
+        "peak_torque_nm": 65.0,
+        "max_velocity_rad_s": 6.0,
+        "gear_ratio": 41.4,
+        "armature_kg_m2": 0.171396,
+        "stiffness_nm_rad": 120.0,
+        "damping_nms_rad": 4.0
+      },
+      "world_origin_m": [
+        -0.105,
+        0.0,
+        -0.795
+      ]
+    },
+    {
+      "name": "right_hip_yaw",
+      "type": "revolute",
+      "parent": "pelvis",
+      "child": "right_hip_yaw_link",
+      "origin_xyz_m": [
+        0.105,
+        0.0,
+        -0.02
+      ],
+      "axis_xyz": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "limit_lower_rad": -0.7853981633974483,
+      "limit_upper_rad": 0.7853981633974483,
+      "actuator_assignment": "hip_yaw",
+      "actuator": {
+        "motor": "gim8115_9_48v",
+        "continuous_torque_nm": 15.27,
+        "peak_torque_nm": 50.0,
+        "max_velocity_rad_s": 8.0,
+        "gear_ratio": 9.0,
+        "armature_kg_m2": 0.02025,
+        "stiffness_nm_rad": 120.0,
+        "damping_nms_rad": 4.0
+      },
+      "world_origin_m": [
+        0.105,
+        0.0,
+        -0.02
+      ]
+    },
+    {
+      "name": "right_hip_roll",
+      "type": "revolute",
+      "parent": "right_hip_yaw_link",
+      "child": "right_hip_roll_link",
+      "origin_xyz_m": [
+        0.0,
+        0.0,
+        -0.025
+      ],
+      "axis_xyz": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "limit_lower_rad": -0.6981317007977318,
+      "limit_upper_rad": 0.6981317007977318,
+      "actuator_assignment": "hip_roll",
+      "actuator": {
+        "motor": "gim8108_36_high_48v",
+        "continuous_torque_nm": 25.0,
+        "peak_torque_nm": 132.25,
+        "max_velocity_rad_s": 6.0,
+        "gear_ratio": 36.0,
+        "armature_kg_m2": 0.15552,
+        "stiffness_nm_rad": 180.0,
+        "damping_nms_rad": 6.0
+      },
+      "world_origin_m": [
+        0.105,
+        0.0,
+        -0.045
+      ]
+    },
+    {
+      "name": "right_hip_pitch",
+      "type": "revolute",
+      "parent": "right_hip_roll_link",
+      "child": "right_thigh",
+      "origin_xyz_m": [
+        0.0,
+        0.0,
+        -0.025
+      ],
+      "axis_xyz": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "limit_lower_rad": -2.0943951023931953,
+      "limit_upper_rad": 0.7853981633974483,
+      "actuator_assignment": "hip_pitch",
+      "actuator": {
+        "motor": "custom_hip_pitch_16",
+        "continuous_torque_nm": 60.0,
+        "peak_torque_nm": 226.8,
+        "max_velocity_rad_s": 14.0,
+        "gear_ratio": 16.0,
+        "armature_kg_m2": 0.0896,
+        "stiffness_nm_rad": 220.0,
+        "damping_nms_rad": 7.0
+      },
+      "world_origin_m": [
+        0.105,
+        0.0,
+        -0.07
+      ]
+    },
+    {
+      "name": "right_knee_pitch",
+      "type": "revolute",
+      "parent": "right_thigh",
+      "child": "right_shank",
+      "origin_xyz_m": [
+        0.0,
+        0.0,
+        -0.35500000000000004
+      ],
+      "axis_xyz": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "limit_lower_rad": 0.0,
+      "limit_upper_rad": 2.6179938779914944,
+      "actuator_assignment": "knee_pitch",
+      "actuator": {
+        "motor": "custom_knee_pitch_16",
+        "continuous_torque_nm": 65.0,
+        "peak_torque_nm": 243.0,
+        "max_velocity_rad_s": 14.0,
+        "gear_ratio": 16.0,
+        "armature_kg_m2": 0.1024,
+        "stiffness_nm_rad": 240.0,
+        "damping_nms_rad": 7.0
+      },
+      "world_origin_m": [
+        0.105,
+        0.0,
+        -0.42500000000000004
+      ]
+    },
+    {
+      "name": "right_ankle_pitch",
+      "type": "revolute",
+      "parent": "right_shank",
+      "child": "right_ankle_pitch_link",
+      "origin_xyz_m": [
+        0.0,
+        0.0,
+        -0.37
+      ],
+      "axis_xyz": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "limit_lower_rad": -0.8726646259971648,
+      "limit_upper_rad": 0.6108652381980153,
+      "actuator_assignment": "ankle_pitch",
+      "actuator": {
+        "motor": "2x_gim6010_36_differential",
+        "continuous_torque_nm": 40.48,
+        "peak_torque_nm": 115.0,
+        "max_velocity_rad_s": 8.0,
+        "gear_ratio": 41.4,
+        "armature_kg_m2": 0.171396,
+        "stiffness_nm_rad": 140.0,
+        "damping_nms_rad": 5.0
+      },
+      "world_origin_m": [
+        0.105,
+        0.0,
+        -0.795
+      ]
+    },
+    {
+      "name": "right_ankle_roll",
+      "type": "revolute",
+      "parent": "right_ankle_pitch_link",
+      "child": "right_foot",
+      "origin_xyz_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis_xyz": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "limit_lower_rad": -0.4363323129985824,
+      "limit_upper_rad": 0.4363323129985824,
+      "actuator_assignment": "ankle_roll",
+      "actuator": {
+        "motor": "2x_gim6010_36_differential",
+        "continuous_torque_nm": 40.48,
+        "peak_torque_nm": 65.0,
+        "max_velocity_rad_s": 6.0,
+        "gear_ratio": 41.4,
+        "armature_kg_m2": 0.171396,
+        "stiffness_nm_rad": 120.0,
+        "damping_nms_rad": 4.0
+      },
+      "world_origin_m": [
+        0.105,
+        0.0,
+        -0.795
+      ]
+    },
+    {
+      "name": "left_shoulder_pitch",
+      "type": "revolute",
+      "parent": "torso",
+      "child": "left_shoulder_pitch_link",
+      "origin_xyz_m": [
+        -0.2,
+        0.0,
+        0.27
+      ],
+      "axis_xyz": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "limit_lower_rad": -2.792526803190927,
+      "limit_upper_rad": 2.792526803190927,
+      "actuator_assignment": "shoulder_pitch",
+      "actuator": {
+        "motor": "gim8108_9_48v",
+        "continuous_torque_nm": 8.19,
+        "peak_torque_nm": 32.0,
+        "max_velocity_rad_s": 15.0,
+        "gear_ratio": 9.0,
+        "armature_kg_m2": 0.00972,
+        "stiffness_nm_rad": 50.0,
+        "damping_nms_rad": 2.0
+      },
+      "world_origin_m": [
+        -0.2,
+        0.0,
+        0.37
+      ]
+    },
+    {
+      "name": "left_shoulder_roll",
+      "type": "revolute",
+      "parent": "left_shoulder_pitch_link",
+      "child": "left_upper_arm",
+      "origin_xyz_m": [
+        -0.04,
+        0.0,
+        0.0
+      ],
+      "axis_xyz": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "limit_lower_rad": -1.6580627893946132,
+      "limit_upper_rad": 1.6580627893946132,
+      "actuator_assignment": "shoulder_roll",
+      "actuator": {
+        "motor": "gim8108_9_48v",
+        "continuous_torque_nm": 8.19,
+        "peak_torque_nm": 30.0,
+        "max_velocity_rad_s": 15.0,
+        "gear_ratio": 9.0,
+        "armature_kg_m2": 0.00972,
+        "stiffness_nm_rad": 50.0,
+        "damping_nms_rad": 2.0
+      },
+      "world_origin_m": [
+        -0.24000000000000002,
+        0.0,
+        0.37
+      ]
+    },
+    {
+      "name": "left_elbow_pitch",
+      "type": "revolute",
+      "parent": "left_upper_arm",
+      "child": "left_forearm",
+      "origin_xyz_m": [
+        0.0,
+        0.0,
+        -0.3
+      ],
+      "axis_xyz": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "limit_lower_rad": 0.0,
+      "limit_upper_rad": 2.443460952792061,
+      "actuator_assignment": "elbow_pitch",
+      "actuator": {
+        "motor": "gim8108_8_48v",
+        "continuous_torque_nm": 6.71,
+        "peak_torque_nm": 26.0,
+        "max_velocity_rad_s": 18.0,
+        "gear_ratio": 8.0,
+        "armature_kg_m2": 0.00768,
+        "stiffness_nm_rad": 40.0,
+        "damping_nms_rad": 1.5
+      },
+      "world_origin_m": [
+        -0.24000000000000002,
+        0.0,
+        0.07
+      ]
+    },
+    {
+      "name": "right_shoulder_pitch",
+      "type": "revolute",
+      "parent": "torso",
+      "child": "right_shoulder_pitch_link",
+      "origin_xyz_m": [
+        0.2,
+        0.0,
+        0.27
+      ],
+      "axis_xyz": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "limit_lower_rad": -2.792526803190927,
+      "limit_upper_rad": 2.792526803190927,
+      "actuator_assignment": "shoulder_pitch",
+      "actuator": {
+        "motor": "gim8108_9_48v",
+        "continuous_torque_nm": 8.19,
+        "peak_torque_nm": 32.0,
+        "max_velocity_rad_s": 15.0,
+        "gear_ratio": 9.0,
+        "armature_kg_m2": 0.00972,
+        "stiffness_nm_rad": 50.0,
+        "damping_nms_rad": 2.0
+      },
+      "world_origin_m": [
+        0.2,
+        0.0,
+        0.37
+      ]
+    },
+    {
+      "name": "right_shoulder_roll",
+      "type": "revolute",
+      "parent": "right_shoulder_pitch_link",
+      "child": "right_upper_arm",
+      "origin_xyz_m": [
+        0.04,
+        0.0,
+        0.0
+      ],
+      "axis_xyz": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "limit_lower_rad": -1.6580627893946132,
+      "limit_upper_rad": 1.6580627893946132,
+      "actuator_assignment": "shoulder_roll",
+      "actuator": {
+        "motor": "gim8108_9_48v",
+        "continuous_torque_nm": 8.19,
+        "peak_torque_nm": 30.0,
+        "max_velocity_rad_s": 15.0,
+        "gear_ratio": 9.0,
+        "armature_kg_m2": 0.00972,
+        "stiffness_nm_rad": 50.0,
+        "damping_nms_rad": 2.0
+      },
+      "world_origin_m": [
+        0.24000000000000002,
+        0.0,
+        0.37
+      ]
+    },
+    {
+      "name": "right_elbow_pitch",
+      "type": "revolute",
+      "parent": "right_upper_arm",
+      "child": "right_forearm",
+      "origin_xyz_m": [
+        0.0,
+        0.0,
+        -0.3
+      ],
+      "axis_xyz": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "limit_lower_rad": 0.0,
+      "limit_upper_rad": 2.443460952792061,
+      "actuator_assignment": "elbow_pitch",
+      "actuator": {
+        "motor": "gim8108_8_48v",
+        "continuous_torque_nm": 6.71,
+        "peak_torque_nm": 26.0,
+        "max_velocity_rad_s": 18.0,
+        "gear_ratio": 8.0,
+        "armature_kg_m2": 0.00768,
+        "stiffness_nm_rad": 40.0,
+        "damping_nms_rad": 1.5
+      },
+      "world_origin_m": [
+        0.24000000000000002,
+        0.0,
+        0.07
+      ]
+    },
+    {
+      "name": "head_yaw",
+      "type": "revolute",
+      "parent": "torso",
+      "child": "neck_yaw_link",
+      "origin_xyz_m": [
+        0.0,
+        0.0,
+        0.28
+      ],
+      "axis_xyz": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "limit_lower_rad": -1.5707963267948966,
+      "limit_upper_rad": 1.5707963267948966,
+      "actuator_assignment": "head_yaw",
+      "actuator": {
+        "motor": "gim4310_10_24v",
+        "continuous_torque_nm": 1.63,
+        "peak_torque_nm": 7.0,
+        "max_velocity_rad_s": 5.0,
+        "gear_ratio": 10.0,
+        "armature_kg_m2": 0.0015,
+        "stiffness_nm_rad": 15.0,
+        "damping_nms_rad": 0.5
+      },
+      "world_origin_m": [
+        0.0,
+        0.0,
+        0.38
+      ]
+    },
+    {
+      "name": "head_pitch",
+      "type": "revolute",
+      "parent": "neck_yaw_link",
+      "child": "head",
+      "origin_xyz_m": [
+        0.0,
+        0.0,
+        0.08500000000000019
+      ],
+      "axis_xyz": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "limit_lower_rad": -0.6108652381980153,
+      "limit_upper_rad": 0.6108652381980153,
+      "actuator_assignment": "head_pitch",
+      "actuator": {
+        "motor": "gim4310_10_24v",
+        "continuous_torque_nm": 1.63,
+        "peak_torque_nm": 7.0,
+        "max_velocity_rad_s": 5.0,
+        "gear_ratio": 10.0,
+        "armature_kg_m2": 0.0015,
+        "stiffness_nm_rad": 15.0,
+        "damping_nms_rad": 0.5
+      },
+      "world_origin_m": [
+        0.0,
+        0.0,
+        0.4650000000000002
+      ]
+    }
+  ],
+  "world_positions_m": {
+    "pelvis": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "waist_yaw_link": [
+      0.0,
+      0.0,
+      0.08
+    ],
+    "torso": [
+      0.0,
+      0.0,
+      0.1
+    ],
+    "left_hip_yaw_link": [
+      -0.105,
+      0.0,
+      -0.02
+    ],
+    "left_hip_roll_link": [
+      -0.105,
+      0.0,
+      -0.045
+    ],
+    "left_thigh": [
+      -0.105,
+      0.0,
+      -0.07
+    ],
+    "left_shank": [
+      -0.105,
+      0.0,
+      -0.42500000000000004
+    ],
+    "left_ankle_pitch_link": [
+      -0.105,
+      0.0,
+      -0.795
+    ],
+    "left_foot": [
+      -0.105,
+      0.0,
+      -0.795
+    ],
+    "right_hip_yaw_link": [
+      0.105,
+      0.0,
+      -0.02
+    ],
+    "right_hip_roll_link": [
+      0.105,
+      0.0,
+      -0.045
+    ],
+    "right_thigh": [
+      0.105,
+      0.0,
+      -0.07
+    ],
+    "right_shank": [
+      0.105,
+      0.0,
+      -0.42500000000000004
+    ],
+    "right_ankle_pitch_link": [
+      0.105,
+      0.0,
+      -0.795
+    ],
+    "right_foot": [
+      0.105,
+      0.0,
+      -0.795
+    ],
+    "left_shoulder_pitch_link": [
+      -0.2,
+      0.0,
+      0.37
+    ],
+    "left_upper_arm": [
+      -0.24000000000000002,
+      0.0,
+      0.37
+    ],
+    "left_forearm": [
+      -0.24000000000000002,
+      0.0,
+      0.07
+    ],
+    "right_shoulder_pitch_link": [
+      0.2,
+      0.0,
+      0.37
+    ],
+    "right_upper_arm": [
+      0.24000000000000002,
+      0.0,
+      0.37
+    ],
+    "right_forearm": [
+      0.24000000000000002,
+      0.0,
+      0.07
+    ],
+    "neck_yaw_link": [
+      0.0,
+      0.0,
+      0.38
+    ],
+    "head": [
+      0.0,
+      0.0,
+      0.4650000000000002
+    ]
+  },
+  "floor_z_m": -0.8750000000000001,
+  "measured_geometry_height_m": 1.5240000000000002,
+  "anthropometric_landmark_heights_m": {
+    "ankle": 0.08000000000000007,
+    "knee": 0.45000000000000007,
+    "hip_pitch": 0.8050000000000002,
+    "shoulder": 1.245,
+    "neck_base": 1.2550000000000001,
+    "head_base": 1.3400000000000003,
+    "head_top": 1.5240000000000002
+  },
+  "segment_lengths_m": {
+    "thigh_hip_to_knee": 0.35500000000000004,
+    "shank_knee_to_ankle": 0.37,
+    "neck_link": 0.08500000000000019,
+    "head": 0.18399999999999994
+  },
+  "actuator_families": {
+    "hip_yaw": {
+      "motor": "gim8115_9_48v",
+      "continuous_torque_nm": 15.27,
+      "peak_torque_nm": 50.0,
+      "max_velocity_rad_s": 8.0,
+      "gear_ratio": 9.0,
+      "armature_kg_m2": 0.02025,
+      "stiffness_nm_rad": 120.0,
+      "damping_nms_rad": 4.0
+    },
+    "hip_roll": {
+      "motor": "gim8108_36_high_48v",
+      "continuous_torque_nm": 25.0,
+      "peak_torque_nm": 132.25,
+      "max_velocity_rad_s": 6.0,
+      "gear_ratio": 36.0,
+      "armature_kg_m2": 0.15552,
+      "stiffness_nm_rad": 180.0,
+      "damping_nms_rad": 6.0
+    },
+    "hip_pitch": {
+      "motor": "custom_hip_pitch_16",
+      "continuous_torque_nm": 60.0,
+      "peak_torque_nm": 226.8,
+      "max_velocity_rad_s": 14.0,
+      "gear_ratio": 16.0,
+      "armature_kg_m2": 0.0896,
+      "stiffness_nm_rad": 220.0,
+      "damping_nms_rad": 7.0
+    },
+    "knee_pitch": {
+      "motor": "custom_knee_pitch_16",
+      "continuous_torque_nm": 65.0,
+      "peak_torque_nm": 243.0,
+      "max_velocity_rad_s": 14.0,
+      "gear_ratio": 16.0,
+      "armature_kg_m2": 0.1024,
+      "stiffness_nm_rad": 240.0,
+      "damping_nms_rad": 7.0
+    },
+    "ankle_pitch": {
+      "motor": "2x_gim6010_36_differential",
+      "continuous_torque_nm": 40.48,
+      "peak_torque_nm": 115.0,
+      "max_velocity_rad_s": 8.0,
+      "gear_ratio": 41.4,
+      "armature_kg_m2": 0.171396,
+      "stiffness_nm_rad": 140.0,
+      "damping_nms_rad": 5.0
+    },
+    "ankle_roll": {
+      "motor": "2x_gim6010_36_differential",
+      "continuous_torque_nm": 40.48,
+      "peak_torque_nm": 65.0,
+      "max_velocity_rad_s": 6.0,
+      "gear_ratio": 41.4,
+      "armature_kg_m2": 0.171396,
+      "stiffness_nm_rad": 120.0,
+      "damping_nms_rad": 4.0
+    },
+    "waist_yaw": {
+      "motor": "gim8115_9_48v",
+      "continuous_torque_nm": 15.27,
+      "peak_torque_nm": 50.0,
+      "max_velocity_rad_s": 8.0,
+      "gear_ratio": 9.0,
+      "armature_kg_m2": 0.02025,
+      "stiffness_nm_rad": 100.0,
+      "damping_nms_rad": 3.0
+    },
+    "waist_pitch": {
+      "motor": "gim8115_9_48v",
+      "continuous_torque_nm": 15.27,
+      "peak_torque_nm": 60.0,
+      "max_velocity_rad_s": 8.0,
+      "gear_ratio": 9.0,
+      "armature_kg_m2": 0.02025,
+      "stiffness_nm_rad": 140.0,
+      "damping_nms_rad": 5.0
+    },
+    "shoulder_pitch": {
+      "motor": "gim8108_9_48v",
+      "continuous_torque_nm": 8.19,
+      "peak_torque_nm": 32.0,
+      "max_velocity_rad_s": 15.0,
+      "gear_ratio": 9.0,
+      "armature_kg_m2": 0.00972,
+      "stiffness_nm_rad": 50.0,
+      "damping_nms_rad": 2.0
+    },
+    "shoulder_roll": {
+      "motor": "gim8108_9_48v",
+      "continuous_torque_nm": 8.19,
+      "peak_torque_nm": 30.0,
+      "max_velocity_rad_s": 15.0,
+      "gear_ratio": 9.0,
+      "armature_kg_m2": 0.00972,
+      "stiffness_nm_rad": 50.0,
+      "damping_nms_rad": 2.0
+    },
+    "elbow_pitch": {
+      "motor": "gim8108_8_48v",
+      "continuous_torque_nm": 6.71,
+      "peak_torque_nm": 26.0,
+      "max_velocity_rad_s": 18.0,
+      "gear_ratio": 8.0,
+      "armature_kg_m2": 0.00768,
+      "stiffness_nm_rad": 40.0,
+      "damping_nms_rad": 1.5
+    },
+    "head_yaw": {
+      "motor": "gim4310_10_24v",
+      "continuous_torque_nm": 1.63,
+      "peak_torque_nm": 7.0,
+      "max_velocity_rad_s": 5.0,
+      "gear_ratio": 10.0,
+      "armature_kg_m2": 0.0015,
+      "stiffness_nm_rad": 15.0,
+      "damping_nms_rad": 0.5
+    },
+    "head_pitch": {
+      "motor": "gim4310_10_24v",
+      "continuous_torque_nm": 1.63,
+      "peak_torque_nm": 7.0,
+      "max_velocity_rad_s": 5.0,
+      "gear_ratio": 10.0,
+      "armature_kg_m2": 0.0015,
+      "stiffness_nm_rad": 15.0,
+      "damping_nms_rad": 0.5
+    }
+  },
+  "motor_catalog": {
+    "gim6010_36_high_48v": {
+      "manufacturer": "Steadywin",
+      "model": "GIM6010-36",
+      "variant": "48 V high-peak",
+      "workbook_cell": "P3:P25",
+      "rated_voltage_v": 48.0,
+      "gear_ratio": 36.0,
+      "rated_torque_nm": 17.6,
+      "stock_peak_torque_nm": 52.48,
+      "boosted_peak_torque_nm": 65.6,
+      "max_speed_rpm": 105.0,
+      "mass_without_driver_kg": 0.546,
+      "diameter_m": 0.076,
+      "axial_length_m": 0.0455,
+      "estimated_rotor_inertia_kg_m2": 5e-05,
+      "rotor_inertia_status": "engineering estimate; the supplied workbook does not publish rotor inertia"
+    },
+    "gim6010_48_high_48v": {
+      "manufacturer": "Steadywin",
+      "model": "GIM6010-48",
+      "variant": "48 V high-peak",
+      "workbook_cell": "R3:R25",
+      "rated_voltage_v": 48.0,
+      "gear_ratio": 48.0,
+      "rated_torque_nm": 26.2,
+      "stock_peak_torque_nm": 74.8,
+      "boosted_peak_torque_nm": 93.5,
+      "max_speed_rpm": 95.0,
+      "mass_without_driver_kg": 0.7589,
+      "diameter_m": 0.08,
+      "axial_length_m": 0.0565,
+      "rotor_inertia_status": "engineering estimate; the supplied workbook does not publish rotor inertia"
+    },
+    "gim8108_36_high_48v": {
+      "manufacturer": "Steadywin",
+      "model": "GIM8108-36",
+      "variant": "48 V high-peak",
+      "workbook_cell": "Z3:Z25",
+      "rated_voltage_v": 48.0,
+      "gear_ratio": 36.0,
+      "rated_torque_nm": 25.0,
+      "stock_peak_torque_nm": 130.2,
+      "boosted_peak_torque_nm": 162.75,
+      "max_speed_rpm": 67.1,
+      "mass_without_driver_kg": 0.72,
+      "diameter_m": 0.096,
+      "axial_length_m": 0.0445,
+      "estimated_rotor_inertia_kg_m2": 0.00012,
+      "rotor_inertia_status": "engineering estimate; the supplied workbook does not publish rotor inertia"
+    },
+    "gim10015_9_high_48v": {
+      "manufacturer": "Steadywin",
+      "model": "GIM10015-9",
+      "variant": "48 V high-peak",
+      "workbook_cell": "AI3:AI25",
+      "rated_voltage_v": 48.0,
+      "gear_ratio": 9.0,
+      "rated_torque_nm": 20.5,
+      "stock_peak_torque_nm": 112.0,
+      "boosted_peak_torque_nm": 140.0,
+      "max_speed_rpm": 114.0,
+      "mass_without_driver_kg": 1.325,
+      "diameter_m": 0.12,
+      "axial_length_m": 0.045,
+      "rotor_inertia_status": "engineering estimate; the supplied workbook does not publish rotor inertia"
+    },
+    "gim8115_9_48v": {
+      "manufacturer": "Steadywin",
+      "model": "GIM8115-9",
+      "variant": "48 V",
+      "workbook_cell": "AE3:AE25",
+      "rated_voltage_v": 48.0,
+      "gear_ratio": 9.0,
+      "rated_torque_nm": 15.27,
+      "stock_peak_torque_nm": 54.55,
+      "boosted_peak_torque_nm": 68.1875,
+      "max_speed_rpm": 125.0,
+      "mass_without_driver_kg": 0.66,
+      "diameter_m": 0.096,
+      "axial_length_m": 0.041,
+      "estimated_rotor_inertia_kg_m2": 0.00025,
+      "rotor_inertia_status": "engineering estimate; the supplied workbook does not publish rotor inertia"
+    },
+    "gim8108_9_48v": {
+      "manufacturer": "Steadywin",
+      "model": "GIM8108-9",
+      "variant": "48 V",
+      "workbook_cell": "W3:W25",
+      "rated_voltage_v": 48.0,
+      "gear_ratio": 9.0,
+      "rated_torque_nm": 8.19,
+      "stock_peak_torque_nm": 27.38,
+      "boosted_peak_torque_nm": 34.225,
+      "max_speed_rpm": 242.0,
+      "mass_without_driver_kg": 0.525,
+      "diameter_m": 0.096,
+      "axial_length_m": 0.034,
+      "estimated_rotor_inertia_kg_m2": 0.00012,
+      "rotor_inertia_status": "engineering estimate; the supplied workbook does not publish rotor inertia"
+    },
+    "gim8108_8_48v": {
+      "manufacturer": "Steadywin",
+      "model": "GIM8108-8",
+      "variant": "48 V GDZ468H high-speed winding",
+      "workbook_cell": "V3:V25",
+      "rated_voltage_v": 48.0,
+      "gear_ratio": 8.0,
+      "rated_torque_nm": 6.71,
+      "stock_peak_torque_nm": 23.09,
+      "boosted_peak_torque_nm": 28.8625,
+      "max_speed_rpm": 290.0,
+      "mass_without_driver_kg": 0.378,
+      "diameter_m": 0.092,
+      "axial_length_m": 0.044,
+      "estimated_rotor_inertia_kg_m2": 0.00012,
+      "rotor_inertia_status": "engineering estimate; the supplied workbook does not publish rotor inertia"
+    },
+    "gim4310_10_24v": {
+      "manufacturer": "Steadywin",
+      "model": "GIM4310-10",
+      "variant": "24 V",
+      "workbook_cell": "G3:G25",
+      "rated_voltage_v": 24.0,
+      "gear_ratio": 10.0,
+      "rated_torque_nm": 1.63,
+      "stock_peak_torque_nm": 7.98,
+      "boosted_peak_torque_nm": 9.975000000000001,
+      "max_speed_rpm": 212.0,
+      "mass_without_driver_kg": 0.217,
+      "diameter_m": 0.053,
+      "axial_length_m": 0.032,
+      "estimated_rotor_inertia_kg_m2": 1.5e-05,
+      "rotor_inertia_status": "engineering estimate; the supplied workbook does not publish rotor inertia"
+    },
+    "custom_hip_pitch_16": {
+      "manufacturer": "Custom",
+      "model": "HP-226-16",
+      "variant": "16:1 pancake BLDC planetary",
+      "rated_voltage_v": 48.0,
+      "gear_ratio": 16.0,
+      "rated_torque_nm": 60.0,
+      "stock_peak_torque_nm": 226.8,
+      "boosted_peak_torque_nm": 226.8,
+      "max_speed_rpm": 133.7,
+      "mass_without_driver_kg": 1.5,
+      "diameter_m": 0.115,
+      "axial_length_m": 0.055,
+      "estimated_rotor_inertia_kg_m2": 0.00035,
+      "status": "design target; requires motor, inverter, thermal, and gearbox validation",
+      "rotor_inertia_status": "engineering estimate; the supplied workbook does not publish rotor inertia"
+    },
+    "custom_knee_pitch_16": {
+      "manufacturer": "Custom",
+      "model": "KP-243-16",
+      "variant": "16:1 pancake BLDC planetary with remote chain drive",
+      "rated_voltage_v": 48.0,
+      "gear_ratio": 16.0,
+      "rated_torque_nm": 65.0,
+      "stock_peak_torque_nm": 243.0,
+      "boosted_peak_torque_nm": 243.0,
+      "max_speed_rpm": 133.7,
+      "mass_without_driver_kg": 1.5,
+      "diameter_m": 0.115,
+      "axial_length_m": 0.055,
+      "estimated_rotor_inertia_kg_m2": 0.0004,
+      "status": "design target; requires motor, inverter, thermal, chain, and gearbox validation",
+      "rotor_inertia_status": "engineering estimate; the supplied workbook does not publish rotor inertia"
+    }
+  },
+  "motor_role_assignments": {
+    "hip_yaw": {
+      "motor": "gim8115_9_48v",
+      "count": 2
+    },
+    "hip_roll": {
+      "motor": "gim8108_36_high_48v",
+      "count": 2
+    },
+    "hip_pitch": {
+      "motor": "custom_hip_pitch_16",
+      "count": 2
+    },
+    "knee_pitch": {
+      "motor": "custom_knee_pitch_16",
+      "count": 2
+    },
+    "ankle_differential": {
+      "motor": "gim6010_36_high_48v",
+      "count": 4,
+      "secondary_reduction": 1.15
+    },
+    "waist_yaw": {
+      "motor": "gim8115_9_48v",
+      "count": 1
+    },
+    "waist_pitch": {
+      "motor": "gim8115_9_48v",
+      "count": 1
+    },
+    "shoulder_pitch_roll": {
+      "motor": "gim8108_9_48v",
+      "count": 4
+    },
+    "elbow_pitch": {
+      "motor": "gim8108_8_48v",
+      "count": 2
+    },
+    "head_yaw_pitch": {
+      "motor": "gim4310_10_24v",
+      "count": 2
+    }
+  },
+  "physical_motor_count": 22,
+  "physical_motor_mass_kg": 15.554,
+  "custom_driver_mass_kg": 0.6599999999999999,
+  "armature_model": {
+    "formula": "J_reflected = motor_count_per_joint * J_rotor_estimate * effective_reduction^2",
+    "status": "Rotor inertia is an engineering estimate because the supplied Steadywin workbook does not publish it. Replace these values when measured or vendor rotor inertia becomes available.",
+    "ankle_note": "The symmetric two-motor differential contributes both motor inertias to each equivalent ankle axis; equal motor assumptions cancel the pitch-roll cross term."
+  },
+  "recovery_torque_basis": {
+    "robot_weight_n_at_38kg": 372.78000000000003,
+    "hip_pitch_floor_recovery_nm": 223.66800000000003,
+    "knee_pitch_floor_recovery_nm": 241.56144,
+    "hip_roll_recovery_nm": 128.60909999999998,
+    "note": "Conservative whole-body moment-arm checks for difficult recovery poses. They justify the approved short-duration simulation clamps but are not substitutes for trajectory-level thermal and structural validation."
+  },
+  "ankle_transmission": {
+    "type": "two-motor two-rod differential layout",
+    "input_crank_m": 0.04,
+    "output_arm_m": 0.046,
+    "torque_reduction_ratio": 1.15,
+    "effective_motor_to_joint_ratio": 41.4,
+    "small_angle_forward_mapping": {
+      "pitch_rad": "(input_crank/output_arm) * (motor_a_rad - motor_b_rad) / 2",
+      "roll_rad": "(input_crank/output_arm) * (motor_a_rad + motor_b_rad) / 2"
+    },
+    "small_angle_inverse_mapping": {
+      "motor_a_rad": "(output_arm/input_crank) * (pitch_rad + roll_rad)",
+      "motor_b_rad": "(output_arm/input_crank) * (-pitch_rad + roll_rad)"
+    },
+    "coupled_peak_torque_constraints_nm": [
+      "abs(tau_pitch + tau_roll) <= 150.88",
+      "abs(-tau_pitch + tau_roll) <= 150.88"
+    ],
+    "coupled_velocity_constraints_rad_s": [
+      "abs(qd_pitch + qd_roll) <= 9.56",
+      "abs(-qd_pitch + qd_roll) <= 9.56"
+    ],
+    "physical_two_motor_pure_axis_continuous_nm": 40.48,
+    "physical_two_motor_pure_axis_boosted_peak_nm": 150.87999999999997,
+    "cad_joint_names": [
+      "left_ankle_motor_a_output",
+      "left_ankle_motor_b_output",
+      "left_ankle_rod_a_motor_pivot",
+      "left_ankle_rod_b_motor_pivot",
+      "left_ankle_rod_a_foot_pivot",
+      "left_ankle_rod_b_foot_pivot",
+      "right_ankle_motor_a_output",
+      "right_ankle_motor_b_output",
+      "right_ankle_rod_a_motor_pivot",
+      "right_ankle_rod_b_motor_pivot",
+      "right_ankle_rod_a_foot_pivot",
+      "right_ankle_rod_b_foot_pivot"
+    ],
+    "note": "Fusion contains two motor-output revolute joints and four passive rod pivots per ankle. The URDF keeps equivalent pitch/roll output joints because its tree format cannot directly carry this closed kinematic loop."
+  },
+  "references": {
+    "unitree_g1": {
+      "url": "https://www.unitree.com/mobile/g1/",
+      "published_height_m": 1.32,
+      "published_mass_kg_with_battery": 35.0
+    },
+    "unitree_h1": {
+      "url": "https://www.unitree.com/h1/",
+      "published_height_m": 1.8,
+      "published_mass_kg": 47.0
+    },
+    "cdc_niosh_anthropometry": {
+      "url": "https://stacks.cdc.gov/view/cdc/206117/cdc_206117_DS1.pdf",
+      "note": "Standing stature and acromiale-height tables support a shoulder-height target near 81-82 percent of stature."
+    },
+    "nasa_anthropometric_source_book": {
+      "url": "https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/19790005540.pdf",
+      "note": "Used as a general reference for standing anthropometric landmarks; robot clearances remain design-specific."
+    },
+    "mass_target_reasoning": "A 39 kg completed target lies between the official G1 and H1 masses at an intermediate 1.524 m height. This pass models 38 kg, including leg actuator packages plus torso battery/electronics mass placement; 1 kg remains reserved for wiring, covers, fasteners, and final tuning."
+  },
+  "design_intent": {
+    "ankles": "Two GIM6010-36 motor outputs and two jointed rods per ankle drive the equivalent pitch/roll axes. The 40 mm cranks and 46 mm output arms give 1.15:1 torque multiplication and 41.4:1 effective motor-to-joint reduction.",
+    "actuators": "Approved short-duration Isaac peak clamps, separate continuous ratings, joint speed clamps, and reduction-dependent reflected armatures are assigned by joint family.",
+    "arms": "Minimal functional arm: shoulder pitch, shoulder roll, elbow pitch on each side.",
+    "mass_notice": "The modeled links total 38 kg; 1 kg is reserved for wiring, covers, fasteners, and final tuning. Fusion bodies are density-calibrated by component to their assigned link masses."
+  }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "file": "unitree_rl_mjlab_src_tasks_velocity_config_h2_env_cfgs.py",
+    "url": "https://raw.githubusercontent.com/unitreerobotics/unitree_rl_mjlab/1425b15f73bd4095f0df53709d7c389c3eb9e790/src/tasks/velocity/config/h2/env_cfgs.py",
+    "commit": "1425b15f73bd4095f0df53709d7c389c3eb9e790",
+    "sha256": "448f2349ab51636d390efb59c9650ce4df82c47c8825db4157daf106ba8b0692"
+  },
+  {
+    "file": "unitree_rl_mjlab_src_tasks_velocity_velocity_env_cfg.py",
+    "url": "https://raw.githubusercontent.com/unitreerobotics/unitree_rl_mjlab/1425b15f73bd4095f0df53709d7c389c3eb9e790/src/tasks/velocity/velocity_env_cfg.py",
+    "commit": "1425b15f73bd4095f0df53709d7c389c3eb9e790",
+    "sha256": "87a58574713e66c406ee5defd33240c30646092be495480249c84646799e8bc3"
+  },
+  {
+    "file": "unitree_rl_mjlab_src_tasks_velocity_mdp_rewards.py",
+    "url": "https://raw.githubusercontent.com/unitreerobotics/unitree_rl_mjlab/1425b15f73bd4095f0df53709d7c389c3eb9e790/src/tasks/velocity/mdp/rewards.py",
+    "commit": "1425b15f73bd4095f0df53709d7c389c3eb9e790",
+    "sha256": "5deb9a9ef2bffba30a29c757cf7cb833280e6d18d3e69f430dfa519680ff0034"
+  },
+  {
+    "file": "unitree_rl_gym_legged_gym_envs_h1_h1_config.py",
+    "url": "https://raw.githubusercontent.com/unitreerobotics/unitree_rl_gym/276801e46c5d433564f24658bac64f254b7d2d4b/legged_gym/envs/h1/h1_config.py",
+    "commit": "276801e46c5d433564f24658bac64f254b7d2d4b",
+    "sha256": "5bcac02e88e087734bdfaf9d9e304a20598b691e572864b9630c0ebd56216079"
+  },
+  {
+    "file": "unitree_rl_gym_legged_gym_envs_h1_h1_env.py",
+    "url": "https://raw.githubusercontent.com/unitreerobotics/unitree_rl_gym/276801e46c5d433564f24658bac64f254b7d2d4b/legged_gym/envs/h1/h1_env.py",
+    "commit": "276801e46c5d433564f24658bac64f254b7d2d4b",
+    "sha256": "657a68d5f2a401395912c5334a717ffa4e3e408487509c2654519008602cd902"
+  },
+  {
+    "file": "unitree_rl_gym_legged_gym_envs_g1_g1_config.py",
+    "url": "https://raw.githubusercontent.com/unitreerobotics/unitree_rl_gym/276801e46c5d433564f24658bac64f254b7d2d4b/legged_gym/envs/g1/g1_config.py",
+    "commit": "276801e46c5d433564f24658bac64f254b7d2d4b",
+    "sha256": "26eae3cab4141b9f17462eb5150b355643a8466140eb6b8941219e6f28b667b2"
+  },
+  {
+    "file": "unitree_rl_gym_legged_gym_envs_g1_g1_env.py",
+    "url": "https://raw.githubusercontent.com/unitreerobotics/unitree_rl_gym/276801e46c5d433564f24658bac64f254b7d2d4b/legged_gym/envs/g1/g1_env.py",
+    "commit": "276801e46c5d433564f24658bac64f254b7d2d4b",
+    "sha256": "7c62c9e1e2222e1446ab4cfb64a471d063998a55c02c0600874451edcc944d82"
+  },
+  {
+    "file": "g1_isaaclab.gif",
+    "url": "https://oss-global-cdn.unitree.com/static/d879adac250648c587d3681e90658b49_480x397.gif",
+    "sha256": "3a93349d10f2a0debd5936d98ad2849a3fc6503a05c292a810f6f9751a32f97b",
+    "frames": 28,
+    "seconds": 2.800000000000001
+  },
+  {
+    "file": "g1_physical.gif",
+    "url": "https://oss-global-cdn.unitree.com/static/6c17c6cf52ec4e26bbfab1fbf591adb2_480x270.gif",
+    "sha256": "454dbd4fb871f644daf7f42fa8281ae4a8acf6bccd83c84489ddf49c0c5e6b72",
+    "frames": 19,
+    "seconds": 1.9000000000000006
+  }
+]

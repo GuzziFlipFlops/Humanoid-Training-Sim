@@ -1,0 +1,18 @@
+{
+  "recorded_utc": "2026-10-05T18:10:54.098103+00:00",
+  "run": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261005_r37_offline_ground_full_state",
+  "action": "Reject local diagnostic trajectory transfer; resume exact same R37 full-state learner",
+  "paused_checkpoint": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261005_r37_offline_ground_full_state\\060_run_150_train_018\\candidate.pt",
+  "paused_checkpoint_sha256": "0d9eebbc204ed776681eda652b50a50d0db46a300c8e3efc72f15ec2e7063461",
+  "actor_critic_Adam_exploration_retained": true,
+  "training_source_reward_physics_caps_unchanged": true,
+  "diagnostic_offsets_or_actors_deployed": false,
+  "running_qualified": false,
+  "velocity_ceiling_proven": false,
+  "next_tests": [
+    "Resolve the measured physical timing and objective tradeoff before another running repair. Independent validation gives 0.915% flight, all just after the intended window, and loses 5.31 complete-return units; tracking dominates the loss. Saved flight half-cycle phases are 0.005-0.014 after wrap, versus the intended 0.43-0.50 window. Test earlier feasible leg timing and smoothed periodic force/velocity feedback using truthful recorded states, normal-limit physics and complete-return counterexamples for hopping, sliding and early exit. A one-tick clock distinction is not proof that the reward clock is wrong or that a fixed latency shift is optimal. Require a justified narrow candidate, unchanged current full-state control at 64 and 128 updates, and all nominal, pushed, prior, head and direction checks before deployment.",
+    "Compare matching stopped, 0.15, 0.35, 0.65, 1.0 and 1.5 m/s gates, head/arm telemetry and per-command conditioned-teacher coverage. Prior retention regressed at 1,024 and recovered at 1,152 updates; preserve passing actors and current posture rather than claiming monotonic recovery. Diagnose recurring speed or lateral drift. Clipping-equivalence, running-row transfer and 44% exposure remain rejected absent new evidence. Keep production observations truthful; do not deploy pulses, hybrids or a tilted-head rollback.",
+    "Verify the same full-state learner, local ground, 55 frozen hashes, one actual worker, moving 8,192/6,144 capacity, 300 MiB reserve, host guards and 180 continuous healthy training seconds before ramps. Exclude the documented diagnostic pause from throughput. Keep native CAD caps: the earlier 200 Hz probe had no driving-speed clips through 2.0 m/s, and fallen 2.5 m/s spikes do not establish a velocity ceiling. Preserve unsaved Fusion work and completed videos."
+  ],
+  "limitation": "Bounded ten-parameter local search is not proof that physical running is impossible, all running has lower reward, or a hardware ceiling. Validation tests diagnostic offsets, not the unmodified policy or whole-chain independent qualification. Different robots within a population are not paired-state counterfactuals."
+}

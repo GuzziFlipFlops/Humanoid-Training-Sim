@@ -1,0 +1,18 @@
+{
+  "recorded_utc": "2026-10-05T21:00:49.915595+00:00",
+  "run": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261005_r37_offline_ground_full_state",
+  "action": "Reject fixed timing advances and this box-smoothed force candidate; preserve exact same R37 learner and investigate actual bound-aware gradient variance",
+  "paused_checkpoint": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261005_r37_offline_ground_full_state\\136_run_150_train_043\\candidate.pt",
+  "paused_checkpoint_sha256": "2c0689dfb08da6e251b8d00ee38fad5ae9ac021e5076a79250ed414ac05a1d04",
+  "actor_critic_Adam_exploration_retained": true,
+  "training_source_reward_physics_caps_unchanged": true,
+  "diagnostic_offsets_or_actors_deployed": false,
+  "running_qualified": false,
+  "velocity_ceiling_proven": false,
+  "next_tests": [
+    "Prioritize actual per-command advantage-weighted exploration and gradient evidence: checkpoint139 now loses 0.35 speed retention in both tests (0.464/0.459 m/s), while 0.0/0.15/0.65/1.0 pass. Compare qualified teacher labels/coverage, lower effective targets, PPO versus teacher gradients, and tracking-kernel credit on slow and running samples. The CPU running-state audit finds 14.53% raw means outside +/-3, with predicted Gaussian clipping 57.8/63.3% at left/right ankle pitch and 39.0/73.2% at left/right ankle roll. Synthetic tail-score tests are not actual PPO evidence. Passively compare actual minibatch ordinary versus clipped-Gaussian CDF scores, real flight credit, entropy and importance ratios. Only stage a narrow training-only estimator after unbiasedness/numerical tests, unchanged inference/physics/full-state load, and matched current-state 64/128-update control with every nominal/pushed/prior/head/direction gate. CAPG is a primary-source research lead, not deployed or proven causal; the old teacher-clipping-equivalence candidate remains rejected.",
+    "Preserve current neutral-head and walking state and compare exact matching prior/current gates with the preserved 133 actor and newest actor. Recent true flight rose to 0.236/0.365% before this pause but remains below 1.5% and is seed-sensitive. The 192-robot current-actor timing probe rejects 20/40/60ms advances: zero flight and lower complete return. Existing offsets produce only 0.479% flight and -4.274 return; never deploy these pulses/labels or repeat fixed shifts without new evidence. Box phase smoothing changes full return by too little to repair the tradeoff and reintroduces edge redistribution credit; it is rejected before learning. Inspect full objective and feasible natural gait, not grounded local-return maximization, arbitrary weights, observation spoofs, head rollback or hybrids.",
+    "Verify 6144/8192 moving capacity, one actual worker, 55 frozen hashes, native caps and full-state recovery. The 069 VRAM failure preserved 58 genuine updates in memory_recovery.pt and 070 loaded actor/critic/Adam/exploration exactly; supervisor completed-operation count omits those 58. Report completed and recovered updates separately and all actual retained samples/time, excluding both R37 diagnostic pauses. Current healthy ramp requires about 2091 MiB free GPU for the 6144-to-8192 tier, not merely 300 MiB; keep the reserve and 180 continuous healthy training seconds. Earlier 200Hz no-driving-clip evidence through 2.0 is actor-specific; fallen 2.5 spikes are not a ceiling."
+  ],
+  "limitation": "Fixed-cohort local offsets do not prove running impossible or a motor ceiling. Robots are not paired-state counterfactuals. Smoothed offline rewards change no dynamics. 50Hz flight duration is not substep-certified contact pressure. No diagnostic controller is deployed."
+}

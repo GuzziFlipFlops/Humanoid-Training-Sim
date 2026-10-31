@@ -1,0 +1,13 @@
+{
+  "selected": "preserve_same_R35",
+  "candidate": "gait_consistent_running_frontier_v2",
+  "deployed": false,
+  "why": "Matched candidate loses nominal0.35 retention and has less independently measured flight than control; posture also worsens slightly.",
+  "same_checkpoint_source": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261004_r35_upper_body_refinement\\135_run_150_train_042\\candidate.pt",
+  "same_checkpoint_sha256": "788837ad7b431073575a2e3aa3ad0460fe1f97b3d480336a8e8c6e01576d06fb",
+  "diagnostic_actors_deployed": false,
+  "training_source_changed": false,
+  "reward_or_caps_changed": false,
+  "evidence": "matched_comparison.json",
+  "qualification_inferred": false
+}

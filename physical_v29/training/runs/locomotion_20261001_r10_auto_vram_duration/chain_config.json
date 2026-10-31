@@ -1,0 +1,82 @@
+{
+  "stages": [
+    [
+      "stand",
+      0.0
+    ],
+    [
+      "walk_015",
+      0.15
+    ],
+    [
+      "walk_035",
+      0.35
+    ],
+    [
+      "walk_065",
+      0.65
+    ],
+    [
+      "walk_100",
+      1.0
+    ],
+    [
+      "run_150",
+      1.5
+    ],
+    [
+      "run_200",
+      2.0
+    ],
+    [
+      "run_250",
+      2.5
+    ]
+  ],
+  "reserve_mb": 300,
+  "max_hours": 18.0,
+  "iterations_per_block": 25,
+  "train_environment_fallback": [
+    8192,
+    6144,
+    4096,
+    3072,
+    2048,
+    1024,
+    512
+  ],
+  "automatic_upward_ramp": {
+    "hold_seconds": 180,
+    "max_envs": 8192,
+    "one_tier_at_a_time": true,
+    "checkpoint_boundary": true,
+    "training_samples_only": true
+  },
+  "eval_envs": 128,
+  "evaluation_seconds": 20,
+  "seeds": [
+    901,
+    1301
+  ],
+  "sources_sha256": {
+    "environment.py": "f32cc53159f858790649546d5a5644c1b7a85907fa16b3f96545de08d2eea439",
+    "worker.py": "9b761467f775587882c13bb6be9ff6c13a8d39d8204bd4468cb0603ebe01a877",
+    "evaluation.py": "bfee7b873418c6c7288683a50b23671973486f7aa4f27cd6fc052dd0e13b644d",
+    "supervisor.py": "173ce3f06c5ef60a52de37103feddbc5976bb7c949522c690ed5b7342dcf8b06",
+    "status_io.py": "d9b14fc5022dd5a97cbcd411bd79d228cf6bcfa78b4b8192a55b2a2985fe1734",
+    "walking_rewards.py": "157475f01d9f07d77f3b8f0457bc35335f7ae386095bf7eda1d39fe424196444",
+    "reference_geometry.py": "818964780b020442032fa1d57ceedcacc6acdc6c8b0afbb13c411b8c8930b9b1",
+    "mass_estimate.json": "760fccba4ae16568a3c08b25ca11fd01ee9a1fcd40a6d57dd58a2c9b3c37282d",
+    "assets/robot_training.urdf": "26d5579ac6ac05e4d35180abf323398fa8fc0fdaa41003b1c55b694fc635eb17",
+    "assets/motion_reference.npz": "37af2ab6c2ac3246f973a2170702a7a98dcb5f032248d91cba8f079216556c4a",
+    "physical_assets/actuator_limits.json": "b395e16136108b99c5e1f6b3c4688568c7ae5aff23c05acad25308638fabba16",
+    "physical_assets/differential_geometry.json": "bbb24cb6b6043995f214c07621f914cfd7bc8dc8cca441f757cb939d7ca3c84e",
+    "physical_v29/hardware_actuators.py": "fd916c3243db9d05ec769bfd6871050fdba771763aa55c093f505b136127f0db",
+    "physical_v29/cad_differential.py": "6ecdabdda8f312d7d7cbcf04011b507f14a52415eb60fcebf8b1e53ca6f2b36c",
+    "physical_v29/assets/export_metadata.json": "07505f194e55eeb3a9d97ecc3d3a1b56dbe59e6129866bcf06dffaa6ac4999d0",
+    "vram_ramp.py": "732b704e32383981f9c4cc9431865a62ff04d50cf5b27b929a3462f31817426c"
+  },
+  "no_cameras": true,
+  "local_only": true,
+  "resume_run": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261001_r9_auto_vram"
+}

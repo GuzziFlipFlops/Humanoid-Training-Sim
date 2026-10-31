@@ -1,0 +1,20 @@
+{
+  "recorded_utc": "2026-10-06T13:30:03.963362+00:00",
+  "action": "Reject diagnostic frontier-lateral exposure; resume unchanged same full learner and existing upper refinement.",
+  "same_run": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261006_r39_commanded_travel_teacher_certificate",
+  "source_reward_physics_caps_optimizer_reset": false,
+  "diagnostic_actors_deployed": false,
+  "current_stage_qualified": false,
+  "highest_existing_contract_qualified_speed_m_s": 3.0,
+  "velocity_ceiling_proven": false,
+  "human_like_upper_motion_certified": false,
+  "actual5m_s_proven": false,
+  "actual4m_s_fallback_proven": false,
+  "matched_test": "E:\\Aditya\\robot_sim\\physical_v29\\training\\diagnostics\\adaptive_check_20261006_1243\\matched_exposure_review.json",
+  "resume_evidence": "E:\\Aditya\\robot_sim\\physical_v29\\training\\diagnostics\\adaptive_check_20261006_1243\\resumed_learning_verification.json",
+  "next_focused_tests": [
+    "Current3.5 direction and retained0.15 net travel/1.5 geometric flight/3.0 hopping are primary. Uniform +/-0.1 frontier lateral exposure is rejected after exact full-state4096env64/128 control tests:128 lateral0.773/0.740 versus control0.592/0.564 and additional prior failures. Do not repeat it without new evidence. Diagnose advantage-weighted fixed-frame/body-frame objective and heading/yaw response; teacher-context label changes are measured, not a proven cause. Test a narrow justified current-state continuation, not arbitrary weights or reward-identical waiting.",
+    "Mandatory upper timelines remain. Normal-limit50Hz current physical cohorts show shoulder target/actual phase differences about-150/+174deg at2.66Hz, versus-47/-50deg near1.27Hz; locked-subtree masses/inertias are nearly symmetric. These are descriptive, not causal ID. Run bounded truthful free-base arm/PD frequency-response and coupling tests before changing gain or posture weights. Preserve head, gait and exact learner; any justified upper refinement needs full-state64/128 control plus all gates. No spoof/hybrid/cap raise. Human/Unitree exact curve likeness remains uncertified.",
+    "Verify one worker/55 hashes/full-state recovery, actual retained updates incl33 current-run recovery,6144/8192 target/reserve300/host guards/180healthy training seconds. Straight1/3.5 physical cohorts have zero native5ms driving speed clips; one isolated yaw-cohort5ms clip is no ceiling. Before final5 or conditional4 endpoint, establish32 independently seeded nominal-physics initial-state trials per command; current nominal clones share one reset condition. Preserve all existing nominal/pushed classifiers and save explicit diversity evidence."
+  ]
+}

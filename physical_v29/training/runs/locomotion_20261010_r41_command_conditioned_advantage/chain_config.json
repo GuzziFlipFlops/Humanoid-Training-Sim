@@ -1,0 +1,196 @@
+{
+  "stages": [
+    [
+      "stand",
+      0.0
+    ],
+    [
+      "walk_035",
+      0.35
+    ],
+    [
+      "walk_065",
+      0.65
+    ],
+    [
+      "walk_100",
+      1.0
+    ],
+    [
+      "run_150",
+      1.5
+    ],
+    [
+      "run_200",
+      2.0
+    ],
+    [
+      "run_250",
+      2.5
+    ],
+    [
+      "run_300",
+      3.0
+    ],
+    [
+      "run_350",
+      3.5
+    ],
+    [
+      "run_400",
+      4.0
+    ],
+    [
+      "run_450",
+      4.5
+    ],
+    [
+      "run_500",
+      5.0
+    ]
+  ],
+  "reserve_mb": 300,
+  "max_hours": 0,
+  "iterations_per_block": 64,
+  "train_environment_fallback": [
+    8192,
+    6144,
+    4096,
+    3072,
+    2048,
+    1024,
+    512
+  ],
+  "automatic_upward_ramp": {
+    "hold_seconds": 180,
+    "max_envs": 8192,
+    "one_tier_at_a_time": true,
+    "checkpoint_boundary": true,
+    "training_samples_only": true
+  },
+  "host_memory_maintenance": {
+    "minimum_available_mb": 2048,
+    "maximum_worker_commit_to_host_ram": 1.15,
+    "checkpoint_recycling": true
+  },
+  "eval_envs": 128,
+  "eval_minimum_trials_per_command": 32,
+  "evaluation_seconds": 20,
+  "seeds": [
+    901,
+    1301
+  ],
+  "sources_sha256": {
+    "environment_unitree.py": "4c696acd5d0b7882d72110487f051e541c9c26a17b4c0dec23f2767b82817909",
+    "worker_unitree.py": "700340e3ae1d7b157408ce867a575ec9e4ee298a04ef9c4da46c80aaeb0c4f7b",
+    "unitree_reward_port.py": "3c9ef52c50b7bec2b65180dfaa5be97871e1b213ebf78450b105ed7505697c59",
+    "stage_rewards.py": "3729ae1fc7d94ee3a17470dde8131165ac2e9e45d475b1a83a9668b4ff39649c",
+    "support_geometry.py": "15a06dae46482a3900c9bb229e60c3ee831185fc08635f18b7262b4b444638e7",
+    "reward_warm_start.py": "ddb46aa44fcffcde99ff8c85410d55abf00563708694363d4836a3e866089de6",
+    "heading_control.py": "361fd19167b92c67f5dc5a16c7c7d113f496a6077e3f8ea5d41c7958c11d2ae6",
+    "environment.py": "e60769643bf2c0c84d7c1dc96f688fa67c47c26ba4b7830127becffda9e6ac30",
+    "worker.py": "e5d40517d4f9560abeafefbacc03c29172c0c349ed55f0dee0a90ef30b8fa405",
+    "evaluation.py": "dc7c5279baf1bdee188aa103b5bc3c5de20e3907b0e69a111804111d02a1dd23",
+    "evaluation_steps.py": "0b3ad04af6e1ef5b5f3a76df0acf27e788b5ee3f7e46c299ae668b269edac7c8",
+    "memory_guard.py": "9962a52b2188ba2c47ec8ce1cdc4fa5290ccd7a67e60aa8d388f1d559ab7784c",
+    "supervisor_unitree.py": "56c48678cc588fe78b4f12477586c954e0eadfaf125350cc65be5a1a5f9e6e67",
+    "status_io.py": "d9b14fc5022dd5a97cbcd411bd79d228cf6bcfa78b4b8192a55b2a2985fe1734",
+    "walking_rewards.py": "ea721f6d7f07a6b42330cad5236fef467fce926b8a5889b8f4ec5946ff32793d",
+    "standing_retention.py": "fb1d137d9325a2f08b6220aeb28a305711febb7bb8bdab02cf2641c41531d8a6",
+    "ppo_update_audit.py": "c65be7ce883a00ce5cc454f59ddd03cde079645a3256673d08de137fb688b374",
+    "reference_geometry.py": "252622273e48f247cc988d60e84711d3f1c103269fb19a2c9cf5758375d69c09",
+    "mass_estimate.json": "760fccba4ae16568a3c08b25ca11fd01ee9a1fcd40a6d57dd58a2c9b3c37282d",
+    "assets/robot_training.urdf": "26d5579ac6ac05e4d35180abf323398fa8fc0fdaa41003b1c55b694fc635eb17",
+    "assets/motion_reference.npz": "37af2ab6c2ac3246f973a2170702a7a98dcb5f032248d91cba8f079216556c4a",
+    "command_curriculum.py": "bb523c62ead24d61eeee8518855fab832757724e537d059aa6e09ce47efece49",
+    "curriculum_provenance.py": "52f549d6e76aeb922d9b2c7a1eb2de2ad3f9b16a5a2766421a1ed10bd2a6c70b",
+    "upper_body_refinement.py": "d925675b1d499e54e500ae5d0d7ce7b7c3d4444126127dd86eefc4c678de0dfa",
+    "teacher_head_context.py": "e98ffed8d42d8bbb6a76d9113e80bd519ed988df71ec6e4165a6232348a6a21a",
+    "teacher_head_context.json": "f289af08cabb51e82e10c80e42ceecdddf5b5dc2e8aa916db9ed1e48e5d0280e",
+    "unitree_vendor/g1_cfg.py": "22deed51bf779bb9730cdbb48df3b098ec64dab15984942153f0073d40840b8f",
+    "unitree_vendor/g1_cfg.py.rewards.txt": "8cc753b8aa8812d069b57411f80b0cd7d13d48d4242cc4e4d8f1d09d7be41829",
+    "unitree_vendor/h1_cfg.py": "2811746c2aae8944d55bed0e274ded65025d658809ff0b63f23326707e3a8e8e",
+    "unitree_vendor/h1_cfg.py.rewards.txt": "5743720b475996cb2080caa73914d8693df907fe64eb1cddcfd61a927b7d8e9a",
+    "unitree_vendor/h2_velocity_cfg.py": "87a58574713e66c406ee5defd33240c30646092be495480249c84646799e8bc3",
+    "unitree_vendor/isaac_rewards.py": "16434c6977132fa94ea0a6d71a18a5025e58136c19ea1a70df7d81bd5987c033",
+    "unitree_vendor/LICENCE": "ff28cacaef7b9919a0fb905136cf4ccffba5191522bf5d024c4339932c0edc28",
+    "unitree_vendor/mdp_init.py": "2b61e4b16274bdad8174e7a11f49a6cde647b015b0acbe0c0861bd9c0b935546",
+    "unitree_vendor/ppo.py": "0f15211f85adc84cf6586770dad448f080d579ea55b4f509aca20a36a11310f7",
+    "unitree_vendor/README.md": "87a0ca55d9896c74b6b6fa690a3795c6ebc1635e57d2d50f36d87fcfe7718a32",
+    "unitree_vendor/rewards.py": "8a41249e85997414f759c56b990ebd8a9289f7d98c47e2fc70f54180e86d4ad3",
+    "unitree_vendor/rlgym_legged_robot.py": "255c67339be0c8e98332a632330d62d56c61de4c2e93c43bd30402e9d76eac3d",
+    "unitree_vendor/rlgym_legged_robot_config.py": "009677a88e2cca66feae457a90679c32fc8676272045a29649a125fb59f2ef56",
+    "unitree_vendor/rlgym_LICENSE": "aef6394ba1597725a68308167324e675f562e6606027404deb1b9da254c2b9c1",
+    "unitree_vendor/sources.json": "e779b4078b595256cb7f074c13e9234a59342303559e404c29446874016f95ee",
+    "unitree_vendor/velocity_rewards.py": "c0441764c360fdab4a3c661802d808e96ffb04a101f2aadd2686984653a56bd9",
+    "physical_assets/actuator_limits.json": "b395e16136108b99c5e1f6b3c4688568c7ae5aff23c05acad25308638fabba16",
+    "physical_assets/differential_geometry.json": "bbb24cb6b6043995f214c07621f914cfd7bc8dc8cca441f757cb939d7ca3c84e",
+    "physical_v29/hardware_actuators.py": "3ccb0f1be7eb7ba6fc2579d258e1a1cb85de2d943d7af449596a55148c3d3431",
+    "physical_v29/cad_differential.py": "ebad5ef4004f682fbab01faac6f5a94bd4f8b1bbd700ed7382a9ad46c5342988",
+    "physical_v29/owned_cuda_graph.py": "fc15b703f007aff31fea35daf418809b38f557231e114f5efb3bba63586bdca5",
+    "physical_v29/assets/export_metadata.json": "07505f194e55eeb3a9d97ecc3d3a1b56dbe59e6129866bcf06dffaa6ac4999d0",
+    "offline_ground.py": "9dae10cdd8f5b61a26b3edf2f9488151ad56499af9f3f6e866fdf01079bd4f2d",
+    "assets/ground/default_environment.usd": "8a21c317d638d33a4e6c20c958a7ed8f4d8c5195efd7e20f1b85178b4a15638a",
+    "assets/ground/manifest.json": "bdcdae6728fd22ea8771f0b0e1278b72c9b55ffb2190949e6c4c129c82f269df",
+    "assets/ground/Materials/Textures/WireframeBlur_basecolor.png": "deab39088eaf39ed7be951966c5e6bd5e58b90ab64743b0cdc8e5579fd5a99d9",
+    "assets/ground/Materials/Textures/WireframeBlur_blue.png": "44fc0e82007bb0bd94631cd7ec45986a71ed74b9413899fbffac13efe151be4b",
+    "assets/ground/Materials/Textures/Wireframe_blue.png": "940b96ee8c8e53bd1acbc770d4ca0ac98bed9c96439ab386d1b27dbc9790cc4e",
+    "vram_ramp.py": "b8c4a804649e902894a204739660bdc5ba9e9d3b97b5b5a497d513db40f3375b",
+    "command_advantage.py": "c0da49f8551ac23afe33310ce2d26ff162fcd5a784cc28e6976f29aba3b6757d"
+  },
+  "no_cameras": true,
+  "local_only": true,
+  "resume_run": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261006_r39_commanded_travel_teacher_certificate",
+  "migrate_run": null,
+  "reward_migrate_run": null,
+  "actor_warm_start": false,
+  "initial_actor_checkpoint": null,
+  "qualification_reused": false,
+  "optimization_proof": null,
+  "curriculum_proof": null,
+  "retention_proof": null,
+  "experiment_only": true,
+  "exact_user_stop_utc": "2026-10-10T09:03:00+00:00",
+  "comparison_path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\diagnostics\\substantial_iteration_20261010_0405\\matched_command_advantage",
+  "executed_driver": "E:\\Aditya\\robot_sim\\physical_v29\\training\\diagnostics\\substantial_iteration_20261010_0405\\run_comparison.py",
+  "driver_identity": {
+    "pid": 20340,
+    "create_time": 1791605615.676842,
+    "cmdline": [
+      "C:\\Users\\rshan\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+      "-u",
+      "-X",
+      "utf8",
+      "E:/Aditya/robot_sim/physical_v29/training/diagnostics/substantial_iteration_20261010_0405/run_comparison.py"
+    ],
+    "launcher_and_actual_driver": [
+      {
+        "pid": 10556,
+        "create_time": 1791605615.6660123,
+        "cmdline": [
+          "E:\\Aditya\\robot_sim\\env_isaaclab\\Scripts\\python.exe",
+          "-u",
+          "-X",
+          "utf8",
+          "E:/Aditya/robot_sim/physical_v29/training/diagnostics/substantial_iteration_20261010_0405/run_comparison.py"
+        ]
+      },
+      {
+        "pid": 20340,
+        "create_time": 1791605615.676842,
+        "cmdline": [
+          "C:\\Users\\rshan\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+          "-u",
+          "-X",
+          "utf8",
+          "E:/Aditya/robot_sim/physical_v29/training/diagnostics/substantial_iteration_20261010_0405/run_comparison.py"
+        ]
+      }
+    ]
+  },
+  "source_parent": "locomotion_20261007_r40_goal_budget_full_state",
+  "actual_comparison_environment_count": 4096,
+  "target_environments_after_qualification": 8192,
+  "executed_training_update": "command_conditioned_advantage_v1",
+  "source_freeze_manifest": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261010_r41_command_conditioned_advantage\\training_update_manifest.json"
+}

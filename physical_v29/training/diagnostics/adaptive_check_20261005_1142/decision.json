@@ -1,0 +1,33 @@
+{
+  "recorded_utc": "2026-10-05T12:03:47.910013+00:00",
+  "run": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261005_r36_posture_conditioned_priors",
+  "action": "Preserve and resume the same full-state R36 learner; no production repair deployed this check.",
+  "reason": "Walking retention and neutral head hold across repeated independent gates. Bounded normal-limit take-off grid does not produce genuine flight. Exact target replay finds action/joint/slew dead zones, but no tested closed-loop training change yet improves running while retaining the prior skills.",
+  "training_sources_changed": false,
+  "weights_changed": false,
+  "physics_limits_changed": false,
+  "actor_critic_Adam_exploration_retained": true,
+  "diagnostic_pulses_deployed": false,
+  "running_qualified": false,
+  "velocity_ceiling_proven": false,
+  "next_tests": [
+    "Prioritize reproduced slow-command regression: checkpoint059 nominal0.35 and pushed0.65 fail speed, after checkpoint056 passed every prior case. Audit per-command conditioned-teacher labels and sample selection, effective clipped target error, coverage, teacher versus PPO/shared-trunk gradient magnitudes and tracking-kernel sensitivity. Compare a narrow training-only continuation on the current useful full state against unchanged control at64/128 updates and all matched prior/head/running gates before deploying. Do not roll back posture, spoof production observations or reset the whole learner.",
+    "Resolve running target dead zones and pre-action/reward phase versus measured joint/sole response delay. Test feasible normal-limit timing and full objective return. All nine pulse variants remained grounded and lowered reward; local ankle derivatives do not establish the cause or a motor ceiling. Only deploy a constraint-aware exploration/target candidate after a bounded matched-control learning comparison retains prior skills and improves independent flight.",
+    "Compare fresh matching stopped/prior/current speed, direction, head/arm and genuine-flight gates. Preserve checkpoint056 and the qualified walking/earlier flight actors. Verify8192 memory,300MiB reserve, exact full-state fallback and180healthy-second ramps. Keep the rejected running-row transfer and44% exposure variants rejected absent new evidence; do not spend the next check only waiting."
+  ],
+  "closing_recorded_utc": "2026-10-05T12:17:43.515439+00:00",
+  "closing_retention_regression": true,
+  "closing_failed_prior_commands": [
+    0.35,
+    0.65
+  ],
+  "last_all_prior_passing_actor": {
+    "checkpoint": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261005_r36_posture_conditioned_priors\\056_run_150_train_016\\candidate.pt",
+    "sha256": "9d75b36e34a63728b26ad0766c31c09cae7b74015343eb032cf85623b86d5da6",
+    "nominal": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261005_r36_posture_conditioned_priors\\057_run_150_gate_017_nominal",
+    "pushed": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261005_r36_posture_conditioned_priors\\058_run_150_gate_017_push",
+    "all_prior_cases_pass": true,
+    "running_pass": false
+  },
+  "closing_reason": "Newest exact1088-update matching pair regresses0.35 nominal and0.65 pushed speed; running remains grounded. Preserve the independently passing1024-update actor and current neutral-head state. This new failure makes per-command teacher/objective diagnosis the next priority; no untested repair is deployed."
+}

@@ -1,0 +1,35 @@
+{
+  "groups": {
+    "0": {
+      "accepted": 256,
+      "attempted": 256,
+      "rejected": 0
+    },
+    "1": {
+      "accepted": 256,
+      "attempted": 256,
+      "rejected": 0
+    },
+    "2": {
+      "accepted": 256,
+      "attempted": 960,
+      "rejected": 695
+    },
+    "3": {
+      "accepted": 256,
+      "attempted": 960,
+      "rejected": 695
+    },
+    "4": {
+      "accepted": 256,
+      "attempted": 832,
+      "rejected": 557
+    }
+  },
+  "enabled_self_collisions": true,
+  "filtered_ground_sensors": 23,
+  "bank_sha256": "09d52b9b0483f85f066baa08d00b56935ea7570971dc88252396600d8615e726",
+  "pose_count": 1280,
+  "settling_seconds": 2.0,
+  "mass_kg": 38.0
+}

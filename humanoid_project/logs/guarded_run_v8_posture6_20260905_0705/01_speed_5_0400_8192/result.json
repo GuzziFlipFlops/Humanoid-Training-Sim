@@ -1,0 +1,30 @@
+{
+  "completed": true,
+  "checkpoint": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\01_speed_5_0400_8192\\candidate.pt",
+  "iterations": 200,
+  "seconds": 665.2189999999828,
+  "num_envs": 8192,
+  "action_scale": 0.35,
+  "stage": "speed",
+  "velocity_boost": 1.0,
+  "boost_classes": [],
+  "stance_signal": {
+    "valid_fraction": 0.5361869303385417,
+    "ungated_mean_cost": 0.11404132843017578,
+    "mean_cost": 0.058792254130045574,
+    "weighted_mean_cost": -0.03527535247802734
+  },
+  "traction_signal": {
+    "valid_fraction": 0.9182858276367187,
+    "ungated_mean_cost": 0.1267382558186849,
+    "mean_cost": 0.08879841486612956,
+    "weighted_mean_cost": -0.05327904891967773
+  },
+  "torso_signal": {
+    "active_fraction": 0.5723272705078125,
+    "mean_tilt_rad": 0.11697745005289714,
+    "mean_cost": 0.013194825649261475,
+    "weighted_mean_cost": -0.02638965129852295
+  },
+  "source_sha256": "b221ef74afb9d407e02106e19f712cab1debcc35f1e341ecda10a6c7b16ba83d"
+}

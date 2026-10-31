@@ -1,0 +1,306 @@
+{
+  "recorded_utc": "2026-10-09T13:02:42.983561+00:00",
+  "candidate_status": "REJECTED",
+  "deploy": false,
+  "explanation": "The new tolerance-width slow reward is REJECTED after exact full-state 64/128 tests, two learning seeds and diverse initial states. Both original 128-update control nominal/pushed pairs pass 3.5 direction; all four corresponding candidate tests fail, with lateral speeds about 0.26-0.33 m/s versus controls about 0.12-0.13. Some slow-command gains do not safely retain fast gait; 1.5 flight remains below the unchanged minimum. Fresh current-actor tests now cover 4/4.5/5 m/s with every original gate, plus 32 individually seeded states per command. No 4/5 qualification or causal actuator ceiling is established. Actual paired PPO objective captures and the current-head/body inverse arms-only physical test are preserved; neither supplies a production repair by itself. No diagnostic actor, reward, hybrid or optimizer reset is deployed.",
+  "diagnostic_summary": "The new tolerance-width slow reward is REJECTED after exact full-state 64/128 tests, two learning seeds and diverse initial states. Both original 128-update control nominal/pushed pairs pass 3.5 direction; all four corresponding candidate tests fail, with lateral speeds about 0.26-0.33 m/s versus controls about 0.12-0.13. Some slow-command gains do not safely retain fast gait; 1.5 flight remains below the unchanged minimum. Fresh current-actor tests now cover 4/4.5/5 m/s with every original gate, plus 32 individually seeded states per command. No 4/5 qualification or causal actuator ceiling is established. Actual paired PPO objective captures and the current-head/body inverse arms-only physical test are preserved; neither supplies a production repair by itself. No diagnostic actor, reward, hybrid or optimizer reset is deployed.",
+  "exact_reward_selection": "E:\\Aditya\\robot_sim\\physical_v29\\training\\diagnostics\\adaptive_check_20261009_1047\\reward_selection.json",
+  "higher_speed_cases": [
+    {
+      "test": "nominal",
+      "command": 3.5,
+      "signed_forward_m_s": 3.4559894663245316,
+      "lateral_m_s": 0.21258984687191815,
+      "survival": 1.0,
+      "failures": [
+        "world_lateral_speed"
+      ]
+    },
+    {
+      "test": "nominal",
+      "command": 4.0,
+      "signed_forward_m_s": 3.388434175906609,
+      "lateral_m_s": 1.3523548667959078,
+      "survival": 1.0,
+      "failures": [
+        "lateral_speed",
+        "bilateral_steps",
+        "bilateral_stance",
+        "gait_cadence",
+        "flight",
+        "geometric_flight",
+        "alternating_landings",
+        "fixed_heading",
+        "world_forward_speed",
+        "world_lateral_speed"
+      ]
+    },
+    {
+      "test": "nominal",
+      "command": 4.5,
+      "signed_forward_m_s": 1.8040603638611026,
+      "lateral_m_s": 2.521731262329404,
+      "survival": 1.0,
+      "failures": [
+        "speed",
+        "lateral_speed",
+        "bilateral_steps",
+        "bilateral_stance",
+        "no_hopping",
+        "gait_cadence",
+        "alternating_landings",
+        "fixed_heading",
+        "world_forward_speed",
+        "world_lateral_speed",
+        "forward_net_travel"
+      ]
+    },
+    {
+      "test": "nominal",
+      "command": 5.0,
+      "signed_forward_m_s": 0.3239329744067938,
+      "lateral_m_s": 1.4026070387211924,
+      "survival": 1.0,
+      "failures": [
+        "foot_slip",
+        "speed",
+        "lateral_speed",
+        "bilateral_steps",
+        "bilateral_stance",
+        "no_hopping",
+        "gait_cadence",
+        "alternating_landings",
+        "actual_goal_speed",
+        "fixed_heading",
+        "world_forward_speed",
+        "world_lateral_speed",
+        "forward_net_travel"
+      ]
+    },
+    {
+      "test": "pushed",
+      "command": 3.5,
+      "signed_forward_m_s": 3.4523775780250907,
+      "lateral_m_s": 0.21538620637781794,
+      "survival": 1.0,
+      "failures": [
+        "world_lateral_speed"
+      ]
+    },
+    {
+      "test": "pushed",
+      "command": 4.0,
+      "signed_forward_m_s": 3.400947927996808,
+      "lateral_m_s": 1.3224731155218525,
+      "survival": 1.0,
+      "failures": [
+        "lateral_speed",
+        "bilateral_steps",
+        "bilateral_stance",
+        "gait_cadence",
+        "flight",
+        "geometric_flight",
+        "alternating_landings",
+        "fixed_heading",
+        "world_forward_speed",
+        "world_lateral_speed"
+      ]
+    },
+    {
+      "test": "pushed",
+      "command": 4.5,
+      "signed_forward_m_s": 1.8260906426516992,
+      "lateral_m_s": 2.4711824611203963,
+      "survival": 1.0,
+      "failures": [
+        "speed",
+        "lateral_speed",
+        "bilateral_steps",
+        "bilateral_stance",
+        "no_hopping",
+        "gait_cadence",
+        "alternating_landings",
+        "fixed_heading",
+        "world_forward_speed",
+        "world_lateral_speed",
+        "forward_net_travel"
+      ]
+    },
+    {
+      "test": "pushed",
+      "command": 5.0,
+      "signed_forward_m_s": 0.3110058840322594,
+      "lateral_m_s": 1.415911722907474,
+      "survival": 1.0,
+      "failures": [
+        "foot_slip",
+        "speed",
+        "lateral_speed",
+        "bilateral_steps",
+        "bilateral_stance",
+        "no_hopping",
+        "gait_cadence",
+        "alternating_landings",
+        "actual_goal_speed",
+        "fixed_heading",
+        "world_forward_speed",
+        "world_lateral_speed",
+        "forward_net_travel"
+      ]
+    },
+    {
+      "test": "diverse_nominal",
+      "command": 3.5,
+      "signed_forward_m_s": 3.4564879536628723,
+      "lateral_m_s": 0.2135860379369066,
+      "survival": 1.0,
+      "failures": [
+        "world_lateral_speed"
+      ]
+    },
+    {
+      "test": "diverse_nominal",
+      "command": 4.0,
+      "signed_forward_m_s": 3.3958569945580215,
+      "lateral_m_s": 1.3615961372852325,
+      "survival": 1.0,
+      "failures": [
+        "lateral_speed",
+        "bilateral_steps",
+        "bilateral_stance",
+        "gait_cadence",
+        "flight",
+        "geometric_flight",
+        "alternating_landings",
+        "fixed_heading",
+        "world_forward_speed",
+        "world_lateral_speed"
+      ]
+    },
+    {
+      "test": "diverse_nominal",
+      "command": 4.5,
+      "signed_forward_m_s": 1.6589686372343388,
+      "lateral_m_s": 2.6225386852367296,
+      "survival": 1.0,
+      "failures": [
+        "speed",
+        "lateral_speed",
+        "bilateral_steps",
+        "bilateral_stance",
+        "no_hopping",
+        "gait_cadence",
+        "alternating_landings",
+        "fixed_heading",
+        "world_forward_speed",
+        "world_lateral_speed",
+        "forward_net_travel"
+      ]
+    },
+    {
+      "test": "diverse_nominal",
+      "command": 5.0,
+      "signed_forward_m_s": 0.3072007625837233,
+      "lateral_m_s": 1.4199952404509044,
+      "survival": 1.0,
+      "failures": [
+        "foot_slip",
+        "speed",
+        "lateral_speed",
+        "bilateral_steps",
+        "bilateral_stance",
+        "no_hopping",
+        "gait_cadence",
+        "alternating_landings",
+        "actual_goal_speed",
+        "fixed_heading",
+        "world_forward_speed",
+        "world_lateral_speed",
+        "forward_net_travel"
+      ]
+    },
+    {
+      "test": "diverse_pushed",
+      "command": 3.5,
+      "signed_forward_m_s": 3.4594559692387477,
+      "lateral_m_s": 0.21353019859287992,
+      "survival": 1.0,
+      "failures": [
+        "world_lateral_speed"
+      ]
+    },
+    {
+      "test": "diverse_pushed",
+      "command": 4.0,
+      "signed_forward_m_s": 3.40327336960186,
+      "lateral_m_s": 1.3118966950842454,
+      "survival": 1.0,
+      "failures": [
+        "lateral_speed",
+        "bilateral_steps",
+        "bilateral_stance",
+        "gait_cadence",
+        "flight",
+        "geometric_flight",
+        "alternating_landings",
+        "fixed_heading",
+        "world_forward_speed",
+        "world_lateral_speed"
+      ]
+    },
+    {
+      "test": "diverse_pushed",
+      "command": 4.5,
+      "signed_forward_m_s": 1.7835790572386214,
+      "lateral_m_s": 2.551359169851135,
+      "survival": 1.0,
+      "failures": [
+        "speed",
+        "lateral_speed",
+        "bilateral_steps",
+        "bilateral_stance",
+        "no_hopping",
+        "gait_cadence",
+        "alternating_landings",
+        "fixed_heading",
+        "world_forward_speed",
+        "world_lateral_speed",
+        "forward_net_travel"
+      ]
+    },
+    {
+      "test": "diverse_pushed",
+      "command": 5.0,
+      "signed_forward_m_s": 0.2677370295677771,
+      "lateral_m_s": 1.4084421585810856,
+      "survival": 1.0,
+      "failures": [
+        "foot_slip",
+        "speed",
+        "lateral_speed",
+        "bilateral_steps",
+        "bilateral_stance",
+        "no_hopping",
+        "alternating_landings",
+        "actual_goal_speed",
+        "fixed_heading",
+        "world_forward_speed",
+        "world_lateral_speed",
+        "forward_net_travel"
+      ]
+    }
+  ],
+  "inverse_arm_physical_summary": "seed4591_current_body_teacher_arms_0.15: signed 0.080 m/s, flight 0.000%, survival 1.000; seed4591_current_body_teacher_arms_1.5: signed 1.419 m/s, flight 0.408%, survival 1.000; seed4611_current_body_teacher_arms_0.15: signed 0.080 m/s, flight 0.000%, survival 1.000; seed4611_current_body_teacher_arms_1.5: signed 1.419 m/s, flight 0.399%, survival 1.000",
+  "inverse_arm_physical_promising": false,
+  "first_PPO_pair_exact": true,
+  "endpoint_proven": false,
+  "velocity_ceiling_proven": false,
+  "production_changed": false,
+  "next_tests": [
+    "The tests now explicitly extend to 4, 4.5 and 5 m/s, but current-policy extrapolation does not qualify those speeds. Preserve the full R40 learner and separately passing 992/605/908/917 current-speed actors, 267 all-prior and certified 349. Compare fresh exact 3.5 direction and every retained speed, especially slow tracking and 1.5 genuine/geometric flight. Freshly requalify the earlier neutral-head all-prior actor 267 in the current runtime and compare its effective targets, full physical return and compatibility with the current upper controller against qualified 349 at 0.15/1.5. Neither earlier actor supplies labels above its independently reverified certificate. Use that previous-checkpoint evidence and the new exact paired reward/critic/global-advantage evidence to select a retention-preserving continuation. The narrow instantaneous slow kernel is rejected in both learning seeds; do not repeat it, reset the learner, relax gates or simply skip retention. Any new reward must have explicit versioned provenance, finite/counterexample checks, unchanged full-state 64/128 controls and independent seeds.",
+    "The inverse current-body/current-head with qualified-arm cohorts do not meet the bounded physical screen. Do not copy those arm rows into production. Resolve phase-specific leg targets, sole unloading and torso/arm feedback at 0.15/1.5 using the qualified teacher and current truthful states before a coupled command-local training target. Never use 349 labels above its 3 m/s certificate or deploy diagnostic composites. Every check still saves and inspects actual head, shoulder pitch/roll and elbow angles, targets, velocities, bilateral and arm-leg phase and noncancelling slow bias. Preserve forward head, both teachers, upper 20 batches/update and original 35/1 gains. No fabricated human/Unitree encoder curves, production observation substitution, imposed trajectory, hybrid or cap increase.",
+    "Verify the same owned supervisor 39000, one actual CUDA worker, all 55 frozen hashes/53 authored files, original local ground and exact actor/critic/Adam/exploration plus teachers. Count 27,507 inherited plus completed and 50 proven R40 recoveries; exclude diagnostic/smoke/capacity samples and 32 unsaved R39 updates. Exclude both current bounded pauses only through each timing endpoint. Keep target 8,192, reserve 300 MiB, host guards/fallback and 180 continuous healthy training seconds; Fusion stays closed. The higher-speed 5 ms motor attribution excludes terminal/reset samples. Turning, gait failure and brief clips are not a causal limit. Only qualified 5 m/s, or qualified 4 m/s with controlled native limits proving 5 blocked, all gates and 32 individually seeded states per command, ends training."
+  ],
+  "original_full_learner_preserved": true,
+  "computer_on": true
+}

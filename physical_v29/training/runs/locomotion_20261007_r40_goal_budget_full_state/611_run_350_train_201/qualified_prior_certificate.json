@@ -1,0 +1,23 @@
+{
+  "schema": "qualified_prior_retention_v1",
+  "checkpoint": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261005_r37_offline_ground_full_state\\349_run_300_train_018\\candidate.pt",
+  "checkpoint_sha256": "18e19ec3b558922a5927136d2b1b51fc3b68dc44a22df252e5630fce84c00a3e",
+  "reward_signature": "8e5ce54a3d4d626eaf4cc7488a542485924cdfec69b4dabfd8daaf1b504c7e9d",
+  "gate_version": "physical_landing_v6_geometric_flight",
+  "reward_version": "cad_running_bilateral_unload_v8",
+  "maximum_command_m_s": 3.0,
+  "gates": [
+    {
+      "result": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261006_r39_commanded_travel_teacher_certificate\\007_run_300_gate_termination_teacher_requalification_nominal\\result.json",
+      "result_sha256": "766233b929de121fd0c8007f614aee39802f3b4f8ecc15b1f5a6daee1697f0bd",
+      "config": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261006_r39_commanded_travel_teacher_certificate\\007_run_300_gate_termination_teacher_requalification_nominal\\run_config.json",
+      "config_sha256": "4e938cad8b4b9992b2a341c4ae66b92ab2e92c9993b89a39ed41932b8f1aa957"
+    },
+    {
+      "result": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261006_r39_commanded_travel_teacher_certificate\\008_run_300_gate_termination_teacher_requalification_push\\result.json",
+      "result_sha256": "10d325325b0b68a75ed4ab4636831326b59e01a7a03bf6700d313d09f22dc8d7",
+      "config": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261006_r39_commanded_travel_teacher_certificate\\008_run_300_gate_termination_teacher_requalification_push\\run_config.json",
+      "config_sha256": "ed995a6b2cb84936ce48f88b97cedf7a307d5d1d0fa8e63f382a27189b78897f"
+    }
+  ]
+}

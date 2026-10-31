@@ -1,0 +1,90 @@
+{
+  "stages": [
+    [
+      "stand",
+      0.0
+    ],
+    [
+      "walk_015",
+      0.15
+    ],
+    [
+      "walk_035",
+      0.35
+    ],
+    [
+      "walk_065",
+      0.65
+    ],
+    [
+      "walk_100",
+      1.0
+    ],
+    [
+      "run_150",
+      1.5
+    ],
+    [
+      "run_200",
+      2.0
+    ],
+    [
+      "run_250",
+      2.5
+    ]
+  ],
+  "reserve_mb": 300,
+  "max_hours": 18.0,
+  "iterations_per_block": 64,
+  "train_environment_fallback": [
+    8192,
+    6144,
+    4096,
+    3072,
+    2048,
+    1024,
+    512
+  ],
+  "automatic_upward_ramp": {
+    "hold_seconds": 180,
+    "max_envs": 8192,
+    "one_tier_at_a_time": true,
+    "checkpoint_boundary": true,
+    "training_samples_only": true
+  },
+  "host_memory_maintenance": {
+    "minimum_available_mb": 2048,
+    "maximum_worker_commit_to_host_ram": 1.15,
+    "checkpoint_recycling": true
+  },
+  "eval_envs": 128,
+  "evaluation_seconds": 20,
+  "seeds": [
+    901,
+    1301
+  ],
+  "sources_sha256": {
+    "environment.py": "a0f754ceb8ba64a35437ea99c0d5d08fbc0e71e4dc4f899063ecd675fc8193a2",
+    "worker.py": "851e2703b47888b4dacffe04e3f4817787170a2377b6f921df45c90e5b0eca8a",
+    "evaluation.py": "80eb82776e70930f3addc90a716551a85a4cf336593a007ed8a12785a398f8de",
+    "evaluation_steps.py": "8ff1e908205eac74456cd1bf46467b542397d34f76c22c745dc60b7c27180738",
+    "memory_guard.py": "9962a52b2188ba2c47ec8ce1cdc4fa5290ccd7a67e60aa8d388f1d559ab7784c",
+    "supervisor.py": "3398844dd38da06b9b8b13c669db550309454425966927c62352a2c669eb9d75",
+    "status_io.py": "d9b14fc5022dd5a97cbcd411bd79d228cf6bcfa78b4b8192a55b2a2985fe1734",
+    "walking_rewards.py": "f1c34711d373ac3eb16818707be39066bc7a122b66466d94fb117a63e00796c0",
+    "reference_geometry.py": "252622273e48f247cc988d60e84711d3f1c103269fb19a2c9cf5758375d69c09",
+    "mass_estimate.json": "760fccba4ae16568a3c08b25ca11fd01ee9a1fcd40a6d57dd58a2c9b3c37282d",
+    "assets/robot_training.urdf": "26d5579ac6ac05e4d35180abf323398fa8fc0fdaa41003b1c55b694fc635eb17",
+    "assets/motion_reference.npz": "37af2ab6c2ac3246f973a2170702a7a98dcb5f032248d91cba8f079216556c4a",
+    "physical_assets/actuator_limits.json": "b395e16136108b99c5e1f6b3c4688568c7ae5aff23c05acad25308638fabba16",
+    "physical_assets/differential_geometry.json": "bbb24cb6b6043995f214c07621f914cfd7bc8dc8cca441f757cb939d7ca3c84e",
+    "physical_v29/hardware_actuators.py": "fd916c3243db9d05ec769bfd6871050fdba771763aa55c093f505b136127f0db",
+    "physical_v29/cad_differential.py": "6ecdabdda8f312d7d7cbcf04011b507f14a52415eb60fcebf8b1e53ca6f2b36c",
+    "physical_v29/assets/export_metadata.json": "07505f194e55eeb3a9d97ecc3d3a1b56dbe59e6129866bcf06dffaa6ac4999d0",
+    "vram_ramp.py": "732b704e32383981f9c4cc9431865a62ff04d50cf5b27b929a3462f31817426c"
+  },
+  "no_cameras": true,
+  "local_only": true,
+  "resume_run": null,
+  "migrate_run": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261002_r13_balance_verified"
+}

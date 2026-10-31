@@ -1,0 +1,18 @@
+{
+  "completed": true,
+  "checkpoint": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\917_run_350_train_303\\candidate.pt",
+  "iterations": 64,
+  "seconds": 344.6720000000205,
+  "num_envs": 8192,
+  "gpu": {
+    "used_mb": 6501,
+    "free_mb": 1456,
+    "utilization": 60,
+    "ram_available_mb": 6416,
+    "ram_total_mb": 32580,
+    "process_rss_mb": 8008,
+    "process_private_mb": 15104,
+    "torch_allocated_mb": 874,
+    "torch_reserved_mb": 2164
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "recorded_utc": "2026-10-05T15:52:49.806335+00:00",
+  "run": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261005_r37_offline_ground_full_state",
+  "action": "Exact full-state continuation with tested startup-only offline ground maintenance; reject training-gradient candidate",
+  "source_checkpoint": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261005_r36_posture_conditioned_priors\\080_run_150_train_024\\candidate.pt",
+  "source_sha256": "e59b721540593883223ccc07d19aaca1d69cdd0b129f21b9aaecb37ff3a528ec",
+  "actor_critic_Adam_exploration_retained": true,
+  "reward_weights_physics_caps_PPO_unchanged": true,
+  "offline_ground_physical_parity": true,
+  "training_gradient_candidate_deployed": false,
+  "running_qualified": false,
+  "velocity_ceiling_proven": false,
+  "next_tests": [
+    "Running still plateaus with retained neutral head and walking. Perform a bounded constraint-aware search or trajectory optimization around truthful current-state leg targets, resolving pre-action/reward phase and actual sole-force/target delay. Optimize complete return, not flight alone; validate any feasible normal-limit take-off trajectory in separate seeds and all prior/head cases before a 64/128-update matched-control continuation. Smoothed periodic force/velocity composition is a research lead; do not change arbitrary weights or deploy pulses, observation rewrites or hybrids.",
+    "Compare fresh exact-checkpoint nominal/pushed stopped,0.15,0.35,0.65,1.0 and1.5 cases, head/arm motion and true flight. Preserve independently passing actors. The teacher-clipping-equivalence candidate failed to improve flight at64 and128 and is rejected; running-row transfer and44% exposure remain rejected. Diagnose the full running objective/phase/action timing, not repeated reward-identical waiting or raw-action loss alone.",
+    "Verify local-ground provenance, exact actor/critic/Adam/exploration recovery, one worker/55 frozen hashes, moving8192/6144 memory,300MiB reserve and180 healthy training seconds before ramps. Use actual5ms CAD motor speed and driving-clip attribution; cap spikes during extrapolated falls never establish the endpoint. Retain all higher-speed/lower-speed gates and leave the computer on."
+  ]
+}

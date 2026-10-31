@@ -1,0 +1,156 @@
+{
+  "label": "Running at 4 m/s",
+  "skill": "Running_at_4_m_s",
+  "speed_m_s": 4.0,
+  "duration_s": 15.0,
+  "control_dt_s": 0.02,
+  "control_steps": 750,
+  "video_fps": 50.0,
+  "checkpoint": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v6_traction6_20260905_0122\\00_traction_4_0200_8192\\candidate.pt",
+  "checkpoint_sha256": "a770187d4eaf274e5417b97061cc6b126a5a61b6044c473006927e9ea305ea4e",
+  "candidate_version": "guarded_run_v6_traction6",
+  "action_scale": 0.35,
+  "velocity_boost": 1.0,
+  "boost_classes": [],
+  "falls": 0,
+  "video": "video/Running_at_4_m_s.mp4",
+  "csv": "telemetry.csv",
+  "joints": [
+    {
+      "name": "left_hip_yaw",
+      "slug": "left_hip_yaw",
+      "effort_limit_nm": 50.0,
+      "velocity_limit_rad_s": 8.0
+    },
+    {
+      "name": "right_hip_yaw",
+      "slug": "right_hip_yaw",
+      "effort_limit_nm": 50.0,
+      "velocity_limit_rad_s": 8.0
+    },
+    {
+      "name": "waist_yaw",
+      "slug": "waist_yaw",
+      "effort_limit_nm": 50.0,
+      "velocity_limit_rad_s": 8.0
+    },
+    {
+      "name": "left_hip_roll",
+      "slug": "left_hip_roll",
+      "effort_limit_nm": 132.25,
+      "velocity_limit_rad_s": 6.0
+    },
+    {
+      "name": "right_hip_roll",
+      "slug": "right_hip_roll",
+      "effort_limit_nm": 132.25,
+      "velocity_limit_rad_s": 6.0
+    },
+    {
+      "name": "waist_pitch",
+      "slug": "waist_pitch",
+      "effort_limit_nm": 60.0,
+      "velocity_limit_rad_s": 8.0
+    },
+    {
+      "name": "left_hip_pitch",
+      "slug": "left_hip_pitch",
+      "effort_limit_nm": 226.8000030517578,
+      "velocity_limit_rad_s": 14.0
+    },
+    {
+      "name": "right_hip_pitch",
+      "slug": "right_hip_pitch",
+      "effort_limit_nm": 226.8000030517578,
+      "velocity_limit_rad_s": 14.0
+    },
+    {
+      "name": "head_yaw",
+      "slug": "head_yaw",
+      "effort_limit_nm": 7.0,
+      "velocity_limit_rad_s": 5.0
+    },
+    {
+      "name": "left_shoulder_pitch",
+      "slug": "left_shoulder_pitch",
+      "effort_limit_nm": 32.0,
+      "velocity_limit_rad_s": 15.0
+    },
+    {
+      "name": "right_shoulder_pitch",
+      "slug": "right_shoulder_pitch",
+      "effort_limit_nm": 32.0,
+      "velocity_limit_rad_s": 15.0
+    },
+    {
+      "name": "left_knee_pitch",
+      "slug": "left_knee_pitch",
+      "effort_limit_nm": 243.0,
+      "velocity_limit_rad_s": 14.0
+    },
+    {
+      "name": "right_knee_pitch",
+      "slug": "right_knee_pitch",
+      "effort_limit_nm": 243.0,
+      "velocity_limit_rad_s": 14.0
+    },
+    {
+      "name": "head_pitch",
+      "slug": "head_pitch",
+      "effort_limit_nm": 7.0,
+      "velocity_limit_rad_s": 5.0
+    },
+    {
+      "name": "left_shoulder_roll",
+      "slug": "left_shoulder_roll",
+      "effort_limit_nm": 30.0,
+      "velocity_limit_rad_s": 15.0
+    },
+    {
+      "name": "right_shoulder_roll",
+      "slug": "right_shoulder_roll",
+      "effort_limit_nm": 30.0,
+      "velocity_limit_rad_s": 15.0
+    },
+    {
+      "name": "left_ankle_pitch",
+      "slug": "left_ankle_pitch",
+      "effort_limit_nm": 115.0,
+      "velocity_limit_rad_s": 8.0
+    },
+    {
+      "name": "right_ankle_pitch",
+      "slug": "right_ankle_pitch",
+      "effort_limit_nm": 115.0,
+      "velocity_limit_rad_s": 8.0
+    },
+    {
+      "name": "left_elbow_pitch",
+      "slug": "left_elbow_pitch",
+      "effort_limit_nm": 26.0,
+      "velocity_limit_rad_s": 18.0
+    },
+    {
+      "name": "right_elbow_pitch",
+      "slug": "right_elbow_pitch",
+      "effort_limit_nm": 26.0,
+      "velocity_limit_rad_s": 18.0
+    },
+    {
+      "name": "left_ankle_roll",
+      "slug": "left_ankle_roll",
+      "effort_limit_nm": 65.0,
+      "velocity_limit_rad_s": 6.0
+    },
+    {
+      "name": "right_ankle_roll",
+      "slug": "right_ankle_roll",
+      "effort_limit_nm": 65.0,
+      "velocity_limit_rad_s": 6.0
+    }
+  ],
+  "dashboard_mp4": "dashboard.mp4",
+  "dashboard_gif": "dashboard.gif",
+  "dashboard_fps": 10,
+  "dashboard_frames": 150
+}

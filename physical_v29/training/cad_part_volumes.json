@@ -1,0 +1,3029 @@
+[
+  {
+    "link": "waist_yaw_link",
+    "part": "W05_PA12CF_lower_pitch_base (1)",
+    "count": 2,
+    "volume_cm3": 66.00630270512436,
+    "appearances": [
+      "DJI_(28, 29, 33)",
+      "Steel - Satin"
+    ]
+  },
+  {
+    "link": "waist_yaw_link",
+    "part": "W10_lower_pitch_pin",
+    "count": 1,
+    "volume_cm3": 3.2862787032510123,
+    "appearances": [
+      "S01_Ankle_to_oval_rail_adapter_finish"
+    ]
+  },
+  {
+    "link": "waist_yaw_link",
+    "part": "W15_output_bolt_REFERENCES (1)",
+    "count": 6,
+    "volume_cm3": 0.7447459544599823,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "waist_yaw_link",
+    "part": "W17_M3_lower_pitch_pin_reinforcement_REFERENCE",
+    "count": 1,
+    "volume_cm3": 0.46063602283262317,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "waist_yaw_link",
+    "part": "W21_6mm_transverse_base_pin (1)",
+    "count": 3,
+    "volume_cm3": 4.25560533554344,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "waist_yaw_link",
+    "part": "W22_Base_pin_spacers_retention (1)",
+    "count": 5,
+    "volume_cm3": 2.0378694729746747,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "waist_pitch_link",
+    "part": "W09_lower_pitch_bushings",
+    "count": 2,
+    "volume_cm3": 0.8293804605477404,
+    "appearances": [
+      "Robot26 Printed structural polymer"
+    ]
+  },
+  {
+    "link": "waist_pitch_link",
+    "part": "W12_upper_roll_pin",
+    "count": 1,
+    "volume_cm3": 1.9095542626314033,
+    "appearances": [
+      "S01_Ankle_to_oval_rail_adapter_finish"
+    ]
+  },
+  {
+    "link": "waist_pitch_link",
+    "part": "W18_M3_upper_roll_pin_reinforcement_REFERENCE",
+    "count": 1,
+    "volume_cm3": 0.44649885589143046,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "waist_pitch_link",
+    "part": "W06_PA12CF_pitch_to_roll_bridge",
+    "count": 1,
+    "volume_cm3": 18.257311565297965,
+    "appearances": [
+      "S01_Ankle_to_oval_rail_adapter_finish"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "W07_upper_roll_spine_GWK_carrier (1)",
+    "count": 1,
+    "volume_cm3": 67.54009017032477,
+    "appearances": [
+      "Robot26 Printed structural polymer"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "W08_spine_18X10Y_extended_REFERENCE",
+    "count": 1,
+    "volume_cm3": 58.89531304846007,
+    "appearances": [
+      "Steel - Satin"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "W11_upper_roll_bushings",
+    "count": 2,
+    "volume_cm3": 0.56548667764618,
+    "appearances": [
+      "Robot26 Printed structural polymer"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "W16_spine_crossbolt_REFERENCES (1)",
+    "count": 2,
+    "volume_cm3": 1.0147344271095473,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "W19_GWK6010_8_casing_free (1)",
+    "count": 1,
+    "volume_cm3": 51.50679146243046,
+    "appearances": [
+      "Robot26 Purchased motor case"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "W20_GWK6010_8_casing_free (1)",
+    "count": 1,
+    "volume_cm3": 51.50679146242817,
+    "appearances": [
+      "Robot26 Purchased motor case"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "U01_Battery_12S3P_21700_ENVELOPE",
+    "count": 1,
+    "volume_cm3": 1904.0,
+    "appearances": [
+      "Robot26 Battery envelope"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "U02_Battery_lower_cradle",
+    "count": 1,
+    "volume_cm3": 121.81689213626497,
+    "appearances": [
+      "Robot26 Printed structural polymer"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "U03_Battery_bottom_pad_REFERENCE",
+    "count": 1,
+    "volume_cm3": 23.799999999998647,
+    "appearances": [
+      "Robot26 Rubber TPU"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "U04_Battery_upper_restraint",
+    "count": 1,
+    "volume_cm3": 29.480622454835903,
+    "appearances": [
+      "Robot26 Printed structural polymer"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "U05_Battery_cradle_M4_REFERENCES",
+    "count": 8,
+    "volume_cm3": 3.2442159192118183,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "C28_Torso_lower_front_right_motion_hem",
+    "count": 1,
+    "volume_cm3": 53.925607831507456,
+    "appearances": [
+      "C28 Pale shell"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "C28_Torso_lower_front_motion_hem",
+    "count": 1,
+    "volume_cm3": 53.943203327942285,
+    "appearances": [
+      "C28 Pale shell"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "C28_Torso_lower_rear_right_motion_hem",
+    "count": 1,
+    "volume_cm3": 60.7604453109875,
+    "appearances": [
+      "C28 Pale shell"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "C28_Torso_lower_rear_motion_hem",
+    "count": 1,
+    "volume_cm3": 60.81759868192876,
+    "appearances": [
+      "C28 Pale shell"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "C27_Torso_middle_front_right",
+    "count": 1,
+    "volume_cm3": 81.5109091318694,
+    "appearances": [
+      "C27 Pale shell"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "C27_Torso_middle_front",
+    "count": 1,
+    "volume_cm3": 81.51822827916146,
+    "appearances": [
+      "C27 Pale shell"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "C27_Torso_middle_rear_right",
+    "count": 1,
+    "volume_cm3": 89.49564058013834,
+    "appearances": [
+      "C27 Pale shell"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "C27_Torso_middle_rear",
+    "count": 1,
+    "volume_cm3": 89.46629506517728,
+    "appearances": [
+      "C27 Pale shell"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "C27_Torso_upper_front_right",
+    "count": 1,
+    "volume_cm3": 52.911650839104254,
+    "appearances": [
+      "C27 Pale shell"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "C27_Torso_upper_front",
+    "count": 1,
+    "volume_cm3": 52.87025532992425,
+    "appearances": [
+      "C27 Pale shell"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "C27_Torso_upper_rear_right",
+    "count": 1,
+    "volume_cm3": 60.85361614610184,
+    "appearances": [
+      "C27 Pale shell"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "C27_Torso_upper_rear",
+    "count": 1,
+    "volume_cm3": 60.87612551724783,
+    "appearances": [
+      "C27 Pale shell"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "C27_Torso_blue_identifier",
+    "count": 1,
+    "volume_cm3": 1.3286052732359674,
+    "appearances": [
+      "C27 Blue accent"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "N01_Oval_spine_6005_servo_adapter",
+    "count": 1,
+    "volume_cm3": 48.92897307569344,
+    "appearances": [
+      "Robot26 Printed structural polymer"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "N02_6005_25x47x12_REFERENCE",
+    "count": 1,
+    "volume_cm3": 14.928848289859904,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "S24_L_6810_pitch_bearing",
+    "count": 1,
+    "volume_cm3": 9.48368282302468,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "S24_L_pitch_outer_race_retainer",
+    "count": 1,
+    "volume_cm3": 16.93869789795669,
+    "appearances": [
+      "Steel - Satin"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "S24_R_6810_pitch_bearing",
+    "count": 1,
+    "volume_cm3": 9.483682823024637,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "S24_R_pitch_outer_race_retainer",
+    "count": 1,
+    "volume_cm3": 16.93869789795606,
+    "appearances": [
+      "Steel - Satin"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "T24_internal_shoulder_spine_frame",
+    "count": 1,
+    "volume_cm3": 283.31103738649176,
+    "appearances": [
+      "Steel - Satin"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "T24_spine_clamp_cap_1",
+    "count": 1,
+    "volume_cm3": 8.314911066307097,
+    "appearances": [
+      "Robot26 Printed structural polymer"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "T24_spine_clamp_cap_2",
+    "count": 1,
+    "volume_cm3": 18.101397595613324,
+    "appearances": [
+      "Robot26 Printed structural polymer"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "E24_electronics_box",
+    "count": 1,
+    "volume_cm3": 160.8203177278814,
+    "appearances": [
+      "Robot26 Printed structural polymer"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "E24_electronics_lid",
+    "count": 1,
+    "volume_cm3": 34.36722876291193,
+    "appearances": [
+      "Robot26 Printed structural polymer"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "T24_frame_shell_clamp_hardware",
+    "count": 20,
+    "volume_cm3": 12.327609572686175,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "T24_nuts_washers_electronics_screws",
+    "count": 30,
+    "volume_cm3": 5.248564598572983,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "S25_R_GWK6010_pitch_stator",
+    "count": 1,
+    "volume_cm3": 51.05389939835913,
+    "appearances": [
+      "Robot26 Purchased motor case"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "S25_R_pitch_motor_face_mount",
+    "count": 1,
+    "volume_cm3": 30.043781264657454,
+    "appearances": [
+      "Robot26 Machined aluminum"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "S25_L_GWK6010_pitch_stator",
+    "count": 1,
+    "volume_cm3": 51.05389939835911,
+    "appearances": [
+      "Robot26 Purchased motor case"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "S25_L_pitch_motor_face_mount",
+    "count": 1,
+    "volume_cm3": 30.043856631714164,
+    "appearances": [
+      "Robot26 Machined aluminum"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "N25_Feetech_yaw_case",
+    "count": 1,
+    "volume_cm3": 34.80647576141297,
+    "appearances": [
+      "DJI_(28, 29, 33)"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "S25_R_pitch_mount_fasteners_fixed",
+    "count": 8,
+    "volume_cm3": 0.7186393195086355,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "S25_L_pitch_mount_fasteners_fixed",
+    "count": 8,
+    "volume_cm3": 0.718639319508636,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "N25_yaw_servo_retaining_clamp",
+    "count": 1,
+    "volume_cm3": 12.975617355564829,
+    "appearances": [
+      "Robot26 Printed structural polymer"
+    ]
+  },
+  {
+    "link": "torso",
+    "part": "N25_yaw_6005_outer_race_retainer",
+    "count": 1,
+    "volume_cm3": 5.039334527843231,
+    "appearances": [
+      "Steel - Satin"
+    ]
+  },
+  {
+    "link": "left_ankle_pitch_link",
+    "part": "Left_A01_PA12CF_cross_axis_block",
+    "count": 9,
+    "volume_cm3": 27.42673088123903,
+    "appearances": [
+      "A01_PA12CF_cross_axis_block_finish",
+      "H01_Steel_crush_sleeves_finish",
+      "Steel - Satin"
+    ]
+  },
+  {
+    "link": "left_foot",
+    "part": "Left_F03_Roll_bearing_rear",
+    "count": 20,
+    "volume_cm3": 6.541371559264698,
+    "appearances": [
+      "F03_Roll_bearing_rear_finish"
+    ]
+  },
+  {
+    "link": "left_foot",
+    "part": "Left_F04_Roll_bearing_front",
+    "count": 20,
+    "volume_cm3": 6.541377753770852,
+    "appearances": [
+      "F04_Roll_bearing_front_finish"
+    ]
+  },
+  {
+    "link": "left_foot",
+    "part": "Left_F09_Purchased_bearing_M5_fasteners",
+    "count": 16,
+    "volume_cm3": 3.7301712764596613,
+    "appearances": [
+      "H01_Steel_crush_sleeves_finish",
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "left_foot",
+    "part": "Left_F06_Heel_pillow_block_L",
+    "count": 20,
+    "volume_cm3": 6.54127337067213,
+    "appearances": [
+      "S02_Pitch_bearing_left_finish"
+    ]
+  },
+  {
+    "link": "left_foot",
+    "part": "Left_F07_Printed_8_to_6_bearing_sleeve_L",
+    "count": 1,
+    "volume_cm3": 0.2638937829015313,
+    "appearances": [
+      "Robot26 Printed structural polymer"
+    ]
+  },
+  {
+    "link": "left_foot",
+    "part": "Left_F06_Heel_pillow_block_R",
+    "count": 20,
+    "volume_cm3": 6.541292750492316,
+    "appearances": [
+      "S02_Pitch_bearing_left_finish"
+    ]
+  },
+  {
+    "link": "left_foot",
+    "part": "Left_F07_Printed_8_to_6_bearing_sleeve_R",
+    "count": 1,
+    "volume_cm3": 0.26389378290153115,
+    "appearances": [
+      "Robot26 Printed structural polymer"
+    ]
+  },
+  {
+    "link": "left_foot",
+    "part": "Left_F08_Heel_cross_shaft_6mm",
+    "count": 3,
+    "volume_cm3": 4.0665959778662915,
+    "appearances": [
+      "H01_Steel_crush_sleeves_finish",
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "left_foot",
+    "part": "Left_F10_Heel_axial_spacers",
+    "count": 3,
+    "volume_cm3": 1.245397228318343,
+    "appearances": [
+      "Robot26 Printed structural polymer"
+    ]
+  },
+  {
+    "link": "left_foot",
+    "part": "Left_F11_Heel_pillow_M5_hardware",
+    "count": 16,
+    "volume_cm3": 3.7301712764596613,
+    "appearances": [
+      "H01_Steel_crush_sleeves_finish",
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "left_foot",
+    "part": "C28_Left_shoe_sole_rim",
+    "count": 1,
+    "volume_cm3": 6.56360141779439,
+    "appearances": [
+      "C28 Graphite"
+    ]
+  },
+  {
+    "link": "left_foot",
+    "part": "C28_Left_shoe_upper",
+    "count": 1,
+    "volume_cm3": 129.30787355819453,
+    "appearances": [
+      "C28 Pale shell"
+    ]
+  },
+  {
+    "link": "left_foot",
+    "part": "Left_F01_Foot_plate",
+    "count": 1,
+    "volume_cm3": 46.907164632885355,
+    "appearances": [
+      "F01_Foot_plate_finish"
+    ]
+  },
+  {
+    "link": "left_foot",
+    "part": "Left_F02_Replaceable_sole",
+    "count": 1,
+    "volume_cm3": 234.44742474178793,
+    "appearances": [
+      "F02_Replaceable_sole_finish"
+    ]
+  },
+  {
+    "link": "left_hip_pitch_link",
+    "part": "Left_DJI10018_Hip_roll_REFERENCE",
+    "count": 49,
+    "volume_cm3": 84.74491381438146,
+    "appearances": [
+      "DJI_(106, 112, 118)",
+      "DJI_(154, 160, 165)",
+      "DJI_(165, 171, 175)",
+      "DJI_(166, 170, 174)",
+      "DJI_(28, 29, 33)",
+      "Steel - Satin"
+    ]
+  },
+  {
+    "link": "left_hip_pitch_link",
+    "part": "Left_Q03_CNC_roll_to_pitch_fork",
+    "count": 1,
+    "volume_cm3": 37.39588675785588,
+    "appearances": [
+      "Robot26 Machined aluminum"
+    ]
+  },
+  {
+    "link": "left_hip_pitch_link",
+    "part": "C27_Left_hip_roll_front_cap",
+    "count": 1,
+    "volume_cm3": 17.87104976746624,
+    "appearances": [
+      "C27 Pale shell"
+    ]
+  },
+  {
+    "link": "left_hip_pitch_link",
+    "part": "Left_leg_H01_roll_aluminum_tube_110OD_106ID",
+    "count": 1,
+    "volume_cm3": 31.214864606068264,
+    "appearances": [
+      "Robot26 Machined aluminum"
+    ]
+  },
+  {
+    "link": "left_hip_pitch_link",
+    "part": "Left_H06_Roll_tube_recessed_endcaps",
+    "count": 2,
+    "volume_cm3": 103.94328029927914,
+    "appearances": [
+      "Robot26 Machined aluminum"
+    ]
+  },
+  {
+    "link": "left_hip_pitch_link",
+    "part": "Left_H08_Roll_61810_bearing_references",
+    "count": 2,
+    "volume_cm3": 18.96736564604918,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "left_hip_roll_link",
+    "part": "Left_Q02_CNC_yaw_to_roll_cradle",
+    "count": 1,
+    "volume_cm3": 99.25419188648257,
+    "appearances": [
+      "Robot26 Machined aluminum"
+    ]
+  },
+  {
+    "link": "left_hip_roll_link",
+    "part": "Left_V26_Hip_yaw_output_hub",
+    "count": 1,
+    "volume_cm3": 3.870946291764182,
+    "appearances": [
+      "DJI_(28, 29, 33)"
+    ]
+  },
+  {
+    "link": "left_thigh",
+    "part": "Left_N06_Upper_leg_oval_stub_L",
+    "count": 1,
+    "volume_cm3": 6.573840481800441,
+    "appearances": [
+      "N06_Upper_leg_oval_stub_L_finish"
+    ]
+  },
+  {
+    "link": "left_thigh",
+    "part": "Left_N04_Knee_pillow_block_R",
+    "count": 20,
+    "volume_cm3": 6.541393985350231,
+    "appearances": [
+      "N04_Knee_pillow_block_R_finish"
+    ]
+  },
+  {
+    "link": "left_thigh",
+    "part": "Left_N06_Upper_leg_oval_stub_R",
+    "count": 1,
+    "volume_cm3": 6.616281942821018,
+    "appearances": [
+      "N06_Upper_leg_oval_stub_R_finish"
+    ]
+  },
+  {
+    "link": "left_thigh",
+    "part": "Left_R01_DJI_10018_77KV_ESTIMATED_REFERENCE",
+    "count": 56,
+    "volume_cm3": 88.0838510794237,
+    "appearances": [
+      "DJI_(106, 112, 118)",
+      "DJI_(154, 160, 165)",
+      "DJI_(165, 171, 175)",
+      "DJI_(166, 170, 174)",
+      "DJI_(28, 29, 33)",
+      "DJI_(34, 35, 38)",
+      "Steel - Satin"
+    ]
+  },
+  {
+    "link": "left_thigh",
+    "part": "Left_T04_GWK7010_Hip_yaw_REFERENCE",
+    "count": 1,
+    "volume_cm3": 53.13097558235483,
+    "appearances": [
+      "DJI_(28, 29, 33)"
+    ]
+  },
+  {
+    "link": "left_thigh",
+    "part": "Left_P02_Knee_rail_screws_and_sleeves_L",
+    "count": 6,
+    "volume_cm3": 1.1899850316973295,
+    "appearances": [
+      "v12_(150, 158, 166)"
+    ]
+  },
+  {
+    "link": "left_thigh",
+    "part": "Left_P02_Knee_rail_screws_and_sleeves_R",
+    "count": 6,
+    "volume_cm3": 1.1899850316973293,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "left_thigh",
+    "part": "Left_P06_Gearbox_output_REFERENCE",
+    "count": 1,
+    "volume_cm3": 7.621001122784592,
+    "appearances": [
+      "v12_(150, 158, 166)"
+    ]
+  },
+  {
+    "link": "left_thigh",
+    "part": "Left_P07_Motor_output_sprocket_BLANK",
+    "count": 1,
+    "volume_cm3": 4.345503133513904,
+    "appearances": [
+      "v12_sprocket_orange"
+    ]
+  },
+  {
+    "link": "left_thigh",
+    "part": "Left_P08_Sprocket_output_flange",
+    "count": 1,
+    "volume_cm3": 0.692308846080794,
+    "appearances": [
+      "v12_(150, 158, 166)"
+    ]
+  },
+  {
+    "link": "left_thigh",
+    "part": "Left_P09_Opposite_output_support_pin_6mm",
+    "count": 1,
+    "volume_cm3": 1.1026990214099697,
+    "appearances": [
+      "v12_(150, 158, 166)"
+    ]
+  },
+  {
+    "link": "left_thigh",
+    "part": "Left_Q01_CNC_rail_to_yaw_crosshead",
+    "count": 1,
+    "volume_cm3": 102.92980069004551,
+    "appearances": [
+      "Robot26 Machined aluminum"
+    ]
+  },
+  {
+    "link": "left_thigh",
+    "part": "Left_P01_Knee_side_rail_seat_L",
+    "count": 1,
+    "volume_cm3": 35.99893693710712,
+    "appearances": [
+      "v12_(150, 158, 166)"
+    ]
+  },
+  {
+    "link": "left_thigh",
+    "part": "Left_P01_Knee_side_rail_seat_R",
+    "count": 1,
+    "volume_cm3": 35.99893693710706,
+    "appearances": [
+      "v12_(150, 158, 166)"
+    ]
+  },
+  {
+    "link": "left_thigh",
+    "part": "Left_P03_Circular_motor_gearbox_case",
+    "count": 1,
+    "volume_cm3": 30.440081887463645,
+    "appearances": [
+      "v12_(150, 158, 166)"
+    ]
+  },
+  {
+    "link": "left_thigh",
+    "part": "Left_P05_Gearbox_front_cover",
+    "count": 1,
+    "volume_cm3": 88.69949846357942,
+    "appearances": [
+      "Robot26 Printed structural polymer"
+    ]
+  },
+  {
+    "link": "left_thigh",
+    "part": "Left_P12_Case_clamp_and_cover_hardware",
+    "count": 12,
+    "volume_cm3": 2.162741497769543,
+    "appearances": [
+      "v12_(150, 158, 166)"
+    ]
+  },
+  {
+    "link": "left_thigh",
+    "part": "Left_P14_Motor_to_backplate_M4_screws",
+    "count": 8,
+    "volume_cm3": 1.218937949592836,
+    "appearances": [
+      "T06_Pelvis_HALF_REFERENCE_finish"
+    ]
+  },
+  {
+    "link": "left_thigh",
+    "part": "Left_P15_Separate_motor_backplate_and_rail_saddles",
+    "count": 1,
+    "volume_cm3": 118.38759495674692,
+    "appearances": [
+      "Robot26 Printed structural polymer"
+    ]
+  },
+  {
+    "link": "left_thigh",
+    "part": "Left_N10_Drive_side_pedestal_hardware",
+    "count": 4,
+    "volume_cm3": 4.12805274681682,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "left_thigh",
+    "part": "Left_H03_Hip_yaw_6007_bearing_REFERENCE",
+    "count": 1,
+    "volume_cm3": 28.797409059131603,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "left_thigh",
+    "part": "Left_H04_Hip_yaw_bearing_retainer",
+    "count": 1,
+    "volume_cm3": 8.514721400878177,
+    "appearances": [
+      "Robot26 Machined aluminum"
+    ]
+  },
+  {
+    "link": "left_thigh",
+    "part": "C27_Left_thigh_front",
+    "count": 1,
+    "volume_cm3": 113.30521057959332,
+    "appearances": [
+      "C27 Pale shell"
+    ]
+  },
+  {
+    "link": "left_thigh",
+    "part": "C27_Left_thigh_rear",
+    "count": 1,
+    "volume_cm3": 114.42058409263996,
+    "appearances": [
+      "C27 Pale shell"
+    ]
+  },
+  {
+    "link": "left_shin",
+    "part": "Left_S02_Pitch_bearing_left",
+    "count": 20,
+    "volume_cm3": 6.541394177806352,
+    "appearances": [
+      "S02_Pitch_bearing_left_finish"
+    ]
+  },
+  {
+    "link": "left_shin",
+    "part": "Left_S03_Pitch_bearing_right",
+    "count": 20,
+    "volume_cm3": 6.541393976595551,
+    "appearances": [
+      "S03_Pitch_bearing_right_finish"
+    ]
+  },
+  {
+    "link": "left_shin",
+    "part": "Left_S05_Continuous_oval_steel_rail_L",
+    "count": 1,
+    "volume_cm3": 9.077031214039803,
+    "appearances": [
+      "S05_Continuous_oval_steel_rail_L_finish"
+    ]
+  },
+  {
+    "link": "left_shin",
+    "part": "Left_S05_Continuous_oval_steel_rail_R",
+    "count": 1,
+    "volume_cm3": 9.077031214039803,
+    "appearances": [
+      "S05_Continuous_oval_steel_rail_R_finish"
+    ]
+  },
+  {
+    "link": "left_shin",
+    "part": "Left_S06_Dual_7010_motor_carrier",
+    "count": 1,
+    "volume_cm3": 272.7727845647716,
+    "appearances": [
+      "S01_Ankle_to_oval_rail_adapter_finish"
+    ]
+  },
+  {
+    "link": "left_shin",
+    "part": "Left_S10_Separate_motor_plate_B",
+    "count": 1,
+    "volume_cm3": 26.471163381795076,
+    "appearances": [
+      "S10_Separate_motor_plate_B_finish"
+    ]
+  },
+  {
+    "link": "left_shin",
+    "part": "Left_S10_Separate_motor_plate_A",
+    "count": 1,
+    "volume_cm3": 26.47116338179511,
+    "appearances": [
+      "S10_Separate_motor_plate_A_finish"
+    ]
+  },
+  {
+    "link": "left_shin",
+    "part": "Left_H02_M3_motor_plate_hardware",
+    "count": 68,
+    "volume_cm3": 4.0733890346447135,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "left_shin",
+    "part": "Left_M01_GWK7010_A",
+    "count": 1,
+    "volume_cm3": 53.130975582354935,
+    "appearances": [
+      "Robot26 Purchased motor case"
+    ]
+  },
+  {
+    "link": "left_shin",
+    "part": "Left_M01_GWK7010_B",
+    "count": 1,
+    "volume_cm3": 53.130975582354864,
+    "appearances": [
+      "Robot26 Purchased motor case"
+    ]
+  },
+  {
+    "link": "left_shin",
+    "part": "Left_H01_Steel_crush_sleeves",
+    "count": 12,
+    "volume_cm3": 1.266690157927459,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "left_shin",
+    "part": "Left_E03_ODrive_board_no_connectors",
+    "count": 15,
+    "volume_cm3": 19.660306295688393,
+    "appearances": [
+      "E03_ODrive_board_no_connectors_finish"
+    ]
+  },
+  {
+    "link": "left_shin",
+    "part": "Left_E04_TPU_upper_rail_envelope",
+    "count": 1,
+    "volume_cm3": 6.653748725833046,
+    "appearances": [
+      "E04_TPU_upper_rail_envelope_finish"
+    ]
+  },
+  {
+    "link": "left_shin",
+    "part": "Left_E05_TPU_board_spacer_1",
+    "count": 1,
+    "volume_cm3": 0.0598630480141562,
+    "appearances": [
+      "E05_TPU_board_spacer_1_finish"
+    ]
+  },
+  {
+    "link": "left_shin",
+    "part": "Left_E05_TPU_board_spacer_2",
+    "count": 1,
+    "volume_cm3": 0.059863048014156234,
+    "appearances": [
+      "E05_TPU_board_spacer_2_finish"
+    ]
+  },
+  {
+    "link": "left_shin",
+    "part": "Left_E06_ODrive_M3_top_fasteners",
+    "count": 8,
+    "volume_cm3": 0.4356021720530758,
+    "appearances": [
+      "E06_ODrive_M3_top_fasteners_finish",
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "left_shin",
+    "part": "Left_N01_Aluminum_knee_stack_1",
+    "count": 1,
+    "volume_cm3": 25.896698633029022,
+    "appearances": [
+      "v12_(150, 158, 166)"
+    ]
+  },
+  {
+    "link": "left_shin",
+    "part": "Left_N01_Aluminum_knee_stack_2",
+    "count": 1,
+    "volume_cm3": 23.074863593888246,
+    "appearances": [
+      "v12_(150, 158, 166)"
+    ]
+  },
+  {
+    "link": "left_shin",
+    "part": "Left_N01_Aluminum_knee_stack_4",
+    "count": 1,
+    "volume_cm3": 23.075091024585713,
+    "appearances": [
+      "v12_(150, 158, 166)"
+    ]
+  },
+  {
+    "link": "left_shin",
+    "part": "Left_N01_Aluminum_knee_stack_5",
+    "count": 1,
+    "volume_cm3": 25.823390931063216,
+    "appearances": [
+      "v12_(150, 158, 166)"
+    ]
+  },
+  {
+    "link": "left_shin",
+    "part": "Left_N02_Knee_shaft_8mm",
+    "count": 1,
+    "volume_cm3": 5.227610175573195,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "left_shin",
+    "part": "Left_N03_Sprocket_blank_LAYOUT",
+    "count": 1,
+    "volume_cm3": 22.20941394190569,
+    "appearances": [
+      "v12_sprocket_orange"
+    ]
+  },
+  {
+    "link": "left_shin",
+    "part": "Left_N07_Knee_stack_fasteners",
+    "count": 22,
+    "volume_cm3": 6.388500917705756,
+    "appearances": [
+      "v12_(150, 158, 166)"
+    ]
+  },
+  {
+    "link": "left_shin",
+    "part": "Left_N09_Knee_sprocket_standoff_hub",
+    "count": 1,
+    "volume_cm3": 10.641829462514002,
+    "appearances": [
+      "v12_(150, 158, 166)"
+    ]
+  },
+  {
+    "link": "left_shin",
+    "part": "C27_Left_calf_blue_mark",
+    "count": 1,
+    "volume_cm3": 0.7419524311274062,
+    "appearances": [
+      "C27 Blue accent"
+    ]
+  },
+  {
+    "link": "left_shin",
+    "part": "C27_Left_shin_front_upper",
+    "count": 1,
+    "volume_cm3": 64.06549000382174,
+    "appearances": [
+      "C27 Pale shell"
+    ]
+  },
+  {
+    "link": "left_shin",
+    "part": "C27_Left_shin_front",
+    "count": 1,
+    "volume_cm3": 63.22600043359603,
+    "appearances": [
+      "C27 Pale shell"
+    ]
+  },
+  {
+    "link": "left_shin",
+    "part": "C27_Left_shin_rear_upper",
+    "count": 1,
+    "volume_cm3": 72.67828057568202,
+    "appearances": [
+      "C27 Pale shell"
+    ]
+  },
+  {
+    "link": "left_shin",
+    "part": "C27_Left_shin_rear",
+    "count": 1,
+    "volume_cm3": 69.11365131685329,
+    "appearances": [
+      "C27 Pale shell"
+    ]
+  },
+  {
+    "link": "left_shin",
+    "part": "C28_Left_ankle_shroud",
+    "count": 1,
+    "volume_cm3": 48.51725719130787,
+    "appearances": [
+      "C28 Pale shell"
+    ]
+  },
+  {
+    "link": "left_shin",
+    "part": "Left_S01_Ankle_to_oval_rail_adapter",
+    "count": 1,
+    "volume_cm3": 111.83901697638345,
+    "appearances": [
+      "S01_Ankle_to_oval_rail_adapter_finish"
+    ]
+  },
+  {
+    "link": "left_shin",
+    "part": "C28_Left_knee_shroud",
+    "count": 1,
+    "volume_cm3": 36.953814124361344,
+    "appearances": [
+      "C28 Pale shell"
+    ]
+  },
+  {
+    "link": "left_shoulder_pitch_link",
+    "part": "S24_L_pitch_carrier_roll_housing",
+    "count": 1,
+    "volume_cm3": 162.66562254383064,
+    "appearances": [
+      "Robot26 Printed structural polymer"
+    ]
+  },
+  {
+    "link": "left_shoulder_pitch_link",
+    "part": "S24_L_rear_journal_washer",
+    "count": 1,
+    "volume_cm3": 1.0993061013441832,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "left_shoulder_pitch_link",
+    "part": "S25_L_GWK6010_pitch_rotating_hub",
+    "count": 1,
+    "volume_cm3": 4.650399045664935,
+    "appearances": [
+      "Robot26 Machined aluminum"
+    ]
+  },
+  {
+    "link": "left_shoulder_pitch_link",
+    "part": "S25_L_GWK6010_roll_stator",
+    "count": 1,
+    "volume_cm3": 51.053899398358425,
+    "appearances": [
+      "Robot26 Purchased motor case"
+    ]
+  },
+  {
+    "link": "left_shoulder_pitch_link",
+    "part": "S25_L_pitch_removable_inner_collar",
+    "count": 1,
+    "volume_cm3": 0.4806636759992472,
+    "appearances": [
+      "Robot26 Machined aluminum"
+    ]
+  },
+  {
+    "link": "left_shoulder_pitch_link",
+    "part": "S25_L_motor_mount_fasteners",
+    "count": 8,
+    "volume_cm3": 0.5804092427507394,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "left_upper_arm",
+    "part": "S24_L_roll_driven_output",
+    "count": 1,
+    "volume_cm3": 21.606997214047922,
+    "appearances": [
+      "Steel - Satin"
+    ]
+  },
+  {
+    "link": "left_upper_arm",
+    "part": "S24_L_6005_rear_support_bearing",
+    "count": 1,
+    "volume_cm3": 14.928848289859335,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "left_upper_arm",
+    "part": "C27_Left_upper_arm_front",
+    "count": 1,
+    "volume_cm3": 64.64779610153161,
+    "appearances": [
+      "C27 Pale shell"
+    ]
+  },
+  {
+    "link": "left_upper_arm",
+    "part": "C27_Left_upper_arm_rear",
+    "count": 1,
+    "volume_cm3": 64.66011322358577,
+    "appearances": [
+      "C27 Pale shell"
+    ]
+  },
+  {
+    "link": "left_upper_arm",
+    "part": "C28_Left_shoulder_cuff_shroud",
+    "count": 1,
+    "volume_cm3": 14.745743884158404,
+    "appearances": [
+      "C28 Pale shell"
+    ]
+  },
+  {
+    "link": "left_upper_arm",
+    "part": "S24_L_rear_bearing_cap",
+    "count": 1,
+    "volume_cm3": 7.101004706762406,
+    "appearances": [
+      "Steel - Satin"
+    ]
+  },
+  {
+    "link": "left_upper_arm",
+    "part": "S24_L_drive_and_retainer_fasteners",
+    "count": 10,
+    "volume_cm3": 2.4194190423459423,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "left_upper_arm",
+    "part": "S25_L_GWK6010_roll_rotating_hub",
+    "count": 1,
+    "volume_cm3": 4.6503990456649325,
+    "appearances": [
+      "Robot26 Machined aluminum"
+    ]
+  },
+  {
+    "link": "left_upper_arm",
+    "part": "E29_L_RDS51150_case_REFERENCE",
+    "count": 1,
+    "volume_cm3": 90.76966883205644,
+    "appearances": [
+      "V29 Servo graphite"
+    ]
+  },
+  {
+    "link": "left_upper_arm",
+    "part": "S29_L_upper_arm_servo_case_cradle",
+    "count": 1,
+    "volume_cm3": 245.18049392641086,
+    "appearances": [
+      "V29 Printed structural blue grey"
+    ]
+  },
+  {
+    "link": "right_shoulder_pitch_link",
+    "part": "S24_R_pitch_carrier_roll_housing",
+    "count": 1,
+    "volume_cm3": 162.66562254383092,
+    "appearances": [
+      "Robot26 Printed structural polymer"
+    ]
+  },
+  {
+    "link": "right_shoulder_pitch_link",
+    "part": "S24_R_rear_journal_washer",
+    "count": 1,
+    "volume_cm3": 1.0993061013441832,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "right_shoulder_pitch_link",
+    "part": "S25_R_GWK6010_pitch_rotating_hub",
+    "count": 1,
+    "volume_cm3": 4.650399045664933,
+    "appearances": [
+      "Robot26 Machined aluminum"
+    ]
+  },
+  {
+    "link": "right_shoulder_pitch_link",
+    "part": "S25_R_GWK6010_roll_stator",
+    "count": 1,
+    "volume_cm3": 51.05389939835838,
+    "appearances": [
+      "Robot26 Purchased motor case"
+    ]
+  },
+  {
+    "link": "right_shoulder_pitch_link",
+    "part": "S25_R_pitch_removable_inner_collar",
+    "count": 1,
+    "volume_cm3": 0.48066367599924364,
+    "appearances": [
+      "Robot26 Machined aluminum"
+    ]
+  },
+  {
+    "link": "right_shoulder_pitch_link",
+    "part": "S25_R_motor_mount_fasteners",
+    "count": 8,
+    "volume_cm3": 0.5804092427507392,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "right_upper_arm",
+    "part": "S24_R_roll_driven_output",
+    "count": 1,
+    "volume_cm3": 21.60699721404789,
+    "appearances": [
+      "Steel - Satin"
+    ]
+  },
+  {
+    "link": "right_upper_arm",
+    "part": "S24_R_6005_rear_support_bearing",
+    "count": 1,
+    "volume_cm3": 14.928848289859339,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "right_upper_arm",
+    "part": "C27_Right_upper_arm_front",
+    "count": 1,
+    "volume_cm3": 64.64779610153192,
+    "appearances": [
+      "C27 Pale shell"
+    ]
+  },
+  {
+    "link": "right_upper_arm",
+    "part": "C27_Right_upper_arm_rear",
+    "count": 1,
+    "volume_cm3": 64.66011322358645,
+    "appearances": [
+      "C27 Pale shell"
+    ]
+  },
+  {
+    "link": "right_upper_arm",
+    "part": "C28_Right_shoulder_cuff_shroud",
+    "count": 1,
+    "volume_cm3": 14.743851656212591,
+    "appearances": [
+      "C28 Pale shell"
+    ]
+  },
+  {
+    "link": "right_upper_arm",
+    "part": "S24_R_rear_bearing_cap",
+    "count": 1,
+    "volume_cm3": 7.1010047067624065,
+    "appearances": [
+      "Steel - Satin"
+    ]
+  },
+  {
+    "link": "right_upper_arm",
+    "part": "S24_R_drive_and_retainer_fasteners",
+    "count": 10,
+    "volume_cm3": 2.4194190423459414,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "right_upper_arm",
+    "part": "S25_R_GWK6010_roll_rotating_hub",
+    "count": 1,
+    "volume_cm3": 4.650399045664943,
+    "appearances": [
+      "Robot26 Machined aluminum"
+    ]
+  },
+  {
+    "link": "right_upper_arm",
+    "part": "E29_R_RDS51150_case_REFERENCE",
+    "count": 1,
+    "volume_cm3": 90.76966883205645,
+    "appearances": [
+      "V29 Servo graphite"
+    ]
+  },
+  {
+    "link": "right_upper_arm",
+    "part": "S29_R_upper_arm_servo_case_cradle",
+    "count": 1,
+    "volume_cm3": 245.18049392634447,
+    "appearances": [
+      "V29 Printed structural blue grey"
+    ]
+  },
+  {
+    "link": "neck_yaw_link",
+    "part": "C28_neck_yaw_collar",
+    "count": 1,
+    "volume_cm3": 4.875630437939323,
+    "appearances": [
+      "C28 Graphite"
+    ]
+  },
+  {
+    "link": "neck_yaw_link",
+    "part": "N04_Head_yaw_output_ENVELOPE",
+    "count": 1,
+    "volume_cm3": 28.07623860377235,
+    "appearances": [
+      "Steel - Satin"
+    ]
+  },
+  {
+    "link": "neck_yaw_link",
+    "part": "N24_lower_yaw_retaining_collar",
+    "count": 1,
+    "volume_cm3": 0.5089380098814913,
+    "appearances": [
+      "Steel - Satin"
+    ]
+  },
+  {
+    "link": "neck_yaw_link",
+    "part": "N25_Feetech_yaw_ac1",
+    "count": 1,
+    "volume_cm3": 0.8493118177546022,
+    "appearances": [
+      "Robot26 Machined aluminum"
+    ]
+  },
+  {
+    "link": "neck_yaw_link",
+    "part": "N25_Feetech_yaw_ac2",
+    "count": 1,
+    "volume_cm3": 0.5591249525226889,
+    "appearances": [
+      "Robot26 Machined aluminum"
+    ]
+  },
+  {
+    "link": "neck_yaw_link",
+    "part": "N25_Feetech_pitch_case",
+    "count": 1,
+    "volume_cm3": 34.80647576141298,
+    "appearances": [
+      "DJI_(28, 29, 33)"
+    ]
+  },
+  {
+    "link": "neck_yaw_link",
+    "part": "N26_pitch_servo_removable_clamp",
+    "count": 1,
+    "volume_cm3": 3.2443199150375,
+    "appearances": [
+      "Robot26 Printed structural polymer"
+    ]
+  },
+  {
+    "link": "neck_yaw_link",
+    "part": "N26_pitch_clamp_M3_fasteners",
+    "count": 2,
+    "volume_cm3": 0.7594486080787641,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "right_forearm",
+    "part": "C27_Right_forearm_front",
+    "count": 1,
+    "volume_cm3": 57.51576089880312,
+    "appearances": [
+      "C27 Pale shell"
+    ]
+  },
+  {
+    "link": "right_forearm",
+    "part": "C27_Right_forearm_rear",
+    "count": 1,
+    "volume_cm3": 57.483461232616946,
+    "appearances": [
+      "C27 Pale shell"
+    ]
+  },
+  {
+    "link": "right_forearm",
+    "part": "C28_Right_wrist_shroud",
+    "count": 1,
+    "volume_cm3": 24.77183518148178,
+    "appearances": [
+      "C28 Graphite"
+    ]
+  },
+  {
+    "link": "right_forearm",
+    "part": "R_Printed_structure",
+    "count": 1,
+    "volume_cm3": 0.0,
+    "appearances": [
+      "Robot26 Printed structural polymer"
+    ]
+  },
+  {
+    "link": "right_forearm",
+    "part": "R_Printed_shells",
+    "count": 1,
+    "volume_cm3": 0.0,
+    "appearances": [
+      "Robot26 Printed cosmetic shell"
+    ]
+  },
+  {
+    "link": "right_forearm",
+    "part": "R_Microservos",
+    "count": 1,
+    "volume_cm3": 0.0,
+    "appearances": [
+      "Robot26 Purchased motor case"
+    ]
+  },
+  {
+    "link": "right_forearm",
+    "part": "R_Hardware",
+    "count": 1,
+    "volume_cm3": 0.0,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "right_forearm",
+    "part": "Hand26_R_forearm_wrist_adapter",
+    "count": 1,
+    "volume_cm3": 25.877331455978837,
+    "appearances": [
+      "Steel - Satin"
+    ]
+  },
+  {
+    "link": "right_forearm",
+    "part": "E29_R_servo_dual_output",
+    "count": 2,
+    "volume_cm3": 0.3738039735149291,
+    "appearances": [
+      "V29 Aluminum"
+    ]
+  },
+  {
+    "link": "right_forearm",
+    "part": "A29_R_forearm_dual_servo_output_fork",
+    "count": 1,
+    "volume_cm3": 133.44518528062244,
+    "appearances": [
+      "V29 Printed structural blue grey"
+    ]
+  },
+  {
+    "link": "right_forearm",
+    "part": "E29_R_driven_horn_PACKAGING",
+    "count": 1,
+    "volume_cm3": 4.815769369836362,
+    "appearances": [
+      "V29 Aluminum"
+    ]
+  },
+  {
+    "link": "right_forearm",
+    "part": "E29_R_rear_horn_PACKAGING",
+    "count": 1,
+    "volume_cm3": 4.892675557996236,
+    "appearances": [
+      "V29 Aluminum"
+    ]
+  },
+  {
+    "link": "left_forearm",
+    "part": "C27_Left_forearm_front",
+    "count": 1,
+    "volume_cm3": 57.515760898802625,
+    "appearances": [
+      "C27 Pale shell"
+    ]
+  },
+  {
+    "link": "left_forearm",
+    "part": "C27_Left_forearm_rear",
+    "count": 1,
+    "volume_cm3": 57.48346123261757,
+    "appearances": [
+      "C27 Pale shell"
+    ]
+  },
+  {
+    "link": "left_forearm",
+    "part": "C28_Left_wrist_shroud",
+    "count": 1,
+    "volume_cm3": 24.7920596797816,
+    "appearances": [
+      "C28 Graphite"
+    ]
+  },
+  {
+    "link": "left_forearm",
+    "part": "L_Printed_structure",
+    "count": 1,
+    "volume_cm3": 0.0,
+    "appearances": [
+      "Robot26 Printed structural polymer"
+    ]
+  },
+  {
+    "link": "left_forearm",
+    "part": "L_Printed_shells",
+    "count": 1,
+    "volume_cm3": 0.0,
+    "appearances": [
+      "Robot26 Printed cosmetic shell"
+    ]
+  },
+  {
+    "link": "left_forearm",
+    "part": "L_Microservos",
+    "count": 1,
+    "volume_cm3": 0.0,
+    "appearances": [
+      "Robot26 Purchased motor case"
+    ]
+  },
+  {
+    "link": "left_forearm",
+    "part": "L_Hardware",
+    "count": 1,
+    "volume_cm3": 0.0,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "left_forearm",
+    "part": "Hand26_L_forearm_wrist_adapter",
+    "count": 1,
+    "volume_cm3": 25.87733145596416,
+    "appearances": [
+      "Steel - Satin"
+    ]
+  },
+  {
+    "link": "left_forearm",
+    "part": "E29_L_servo_dual_output",
+    "count": 2,
+    "volume_cm3": 0.37380397351843475,
+    "appearances": [
+      "V29 Aluminum"
+    ]
+  },
+  {
+    "link": "left_forearm",
+    "part": "A29_L_forearm_dual_servo_output_fork",
+    "count": 1,
+    "volume_cm3": 133.44518528058643,
+    "appearances": [
+      "V29 Printed structural blue grey"
+    ]
+  },
+  {
+    "link": "left_forearm",
+    "part": "E29_L_driven_horn_PACKAGING",
+    "count": 1,
+    "volume_cm3": 4.81576936983636,
+    "appearances": [
+      "V29 Aluminum"
+    ]
+  },
+  {
+    "link": "left_forearm",
+    "part": "E29_L_rear_horn_PACKAGING",
+    "count": 1,
+    "volume_cm3": 4.892675557996233,
+    "appearances": [
+      "V29 Aluminum"
+    ]
+  },
+  {
+    "link": "head",
+    "part": "H01_Defined_vision_head_v25",
+    "count": 1,
+    "volume_cm3": 133.50429449362642,
+    "appearances": [
+      "Robot26 Printed cosmetic shell"
+    ]
+  },
+  {
+    "link": "head",
+    "part": "N25_dual_side_head_pitch_yoke",
+    "count": 1,
+    "volume_cm3": 26.66548507411678,
+    "appearances": [
+      "Robot26 Printed structural polymer"
+    ]
+  },
+  {
+    "link": "head",
+    "part": "N25_Feetech_pitch_ac1",
+    "count": 1,
+    "volume_cm3": 0.849311817754606,
+    "appearances": [
+      "Robot26 Machined aluminum"
+    ]
+  },
+  {
+    "link": "head",
+    "part": "N25_Feetech_pitch_ac2",
+    "count": 1,
+    "volume_cm3": 0.5591249525226675,
+    "appearances": [
+      "Robot26 Machined aluminum"
+    ]
+  },
+  {
+    "link": "head",
+    "part": "H25_camera_visor_bezel",
+    "count": 1,
+    "volume_cm3": 4.090623270010709,
+    "appearances": [
+      "Steel - Satin"
+    ]
+  },
+  {
+    "link": "head",
+    "part": "H25_AIView_official_camera_CAD",
+    "count": 27,
+    "volume_cm3": 20.787290677864654,
+    "appearances": [
+      "Opaque(210,210,255)"
+    ]
+  },
+  {
+    "link": "head",
+    "part": "H26_removable_rear_head_shell",
+    "count": 1,
+    "volume_cm3": 87.20156836386892,
+    "appearances": [
+      "Robot26 Printed cosmetic shell"
+    ]
+  },
+  {
+    "link": "head",
+    "part": "H26_head_shell_M3_fasteners",
+    "count": 4,
+    "volume_cm3": 0.6706671996883782,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "right_ankle_pitch_link",
+    "part": "Right_A01_PA12CF_cross_axis_block",
+    "count": 9,
+    "volume_cm3": 27.42673088123902,
+    "appearances": [
+      "A01_PA12CF_cross_axis_block_finish",
+      "H01_Steel_crush_sleeves_finish",
+      "Steel - Satin"
+    ]
+  },
+  {
+    "link": "right_foot",
+    "part": "Right_F03_Roll_bearing_rear",
+    "count": 20,
+    "volume_cm3": 6.541320166646342,
+    "appearances": [
+      "F03_Roll_bearing_rear_finish"
+    ]
+  },
+  {
+    "link": "right_foot",
+    "part": "Right_F04_Roll_bearing_front",
+    "count": 20,
+    "volume_cm3": 6.541327542139196,
+    "appearances": [
+      "F04_Roll_bearing_front_finish"
+    ]
+  },
+  {
+    "link": "right_foot",
+    "part": "Right_F09_Purchased_bearing_M5_fasteners",
+    "count": 16,
+    "volume_cm3": 3.730171276459662,
+    "appearances": [
+      "H01_Steel_crush_sleeves_finish",
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "right_foot",
+    "part": "Right_F06_Heel_pillow_block_L",
+    "count": 20,
+    "volume_cm3": 6.541379905810321,
+    "appearances": [
+      "S02_Pitch_bearing_left_finish"
+    ]
+  },
+  {
+    "link": "right_foot",
+    "part": "Right_F07_Printed_8_to_6_bearing_sleeve_L",
+    "count": 1,
+    "volume_cm3": 0.2638937829015316,
+    "appearances": [
+      "Robot26 Printed structural polymer"
+    ]
+  },
+  {
+    "link": "right_foot",
+    "part": "Right_F06_Heel_pillow_block_R",
+    "count": 20,
+    "volume_cm3": 6.541398301472959,
+    "appearances": [
+      "S02_Pitch_bearing_left_finish"
+    ]
+  },
+  {
+    "link": "right_foot",
+    "part": "Right_F07_Printed_8_to_6_bearing_sleeve_R",
+    "count": 1,
+    "volume_cm3": 0.2638937829015306,
+    "appearances": [
+      "Robot26 Printed structural polymer"
+    ]
+  },
+  {
+    "link": "right_foot",
+    "part": "Right_F08_Heel_cross_shaft_6mm",
+    "count": 3,
+    "volume_cm3": 4.066604112696191,
+    "appearances": [
+      "H01_Steel_crush_sleeves_finish",
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "right_foot",
+    "part": "Right_F10_Heel_axial_spacers",
+    "count": 3,
+    "volume_cm3": 1.2453972283206212,
+    "appearances": [
+      "Robot26 Printed structural polymer"
+    ]
+  },
+  {
+    "link": "right_foot",
+    "part": "Right_F11_Heel_pillow_M5_hardware",
+    "count": 16,
+    "volume_cm3": 3.7301712764596635,
+    "appearances": [
+      "H01_Steel_crush_sleeves_finish",
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "right_foot",
+    "part": "C28_Right_shoe_sole_rim",
+    "count": 1,
+    "volume_cm3": 6.562315106227316,
+    "appearances": [
+      "C28 Graphite"
+    ]
+  },
+  {
+    "link": "right_foot",
+    "part": "C28_Right_shoe_upper",
+    "count": 1,
+    "volume_cm3": 129.30345403463286,
+    "appearances": [
+      "C28 Pale shell"
+    ]
+  },
+  {
+    "link": "right_foot",
+    "part": "Right_F01_Foot_plate",
+    "count": 1,
+    "volume_cm3": 46.907164632885355,
+    "appearances": [
+      "F01_Foot_plate_finish"
+    ]
+  },
+  {
+    "link": "right_foot",
+    "part": "Right_F02_Replaceable_sole",
+    "count": 1,
+    "volume_cm3": 234.44742474178798,
+    "appearances": [
+      "F02_Replaceable_sole_finish"
+    ]
+  },
+  {
+    "link": "right_hip_pitch_link",
+    "part": "Right_DJI10018_Hip_roll_REFERENCE",
+    "count": 49,
+    "volume_cm3": 84.74491381439334,
+    "appearances": [
+      "DJI_(106, 112, 118)",
+      "DJI_(154, 160, 165)",
+      "DJI_(165, 171, 175)",
+      "DJI_(166, 170, 174)",
+      "DJI_(28, 29, 33)",
+      "Steel - Satin"
+    ]
+  },
+  {
+    "link": "right_hip_pitch_link",
+    "part": "Right_Q03_CNC_roll_to_pitch_fork",
+    "count": 1,
+    "volume_cm3": 37.397448976342254,
+    "appearances": [
+      "Robot26 Machined aluminum"
+    ]
+  },
+  {
+    "link": "right_hip_pitch_link",
+    "part": "C27_Right_hip_roll_front_cap",
+    "count": 1,
+    "volume_cm3": 17.871049767479,
+    "appearances": [
+      "C27 Pale shell"
+    ]
+  },
+  {
+    "link": "right_hip_pitch_link",
+    "part": "Right_leg_H01_roll_aluminum_tube_110OD_106ID",
+    "count": 1,
+    "volume_cm3": 31.214864606068257,
+    "appearances": [
+      "Robot26 Machined aluminum"
+    ]
+  },
+  {
+    "link": "right_hip_pitch_link",
+    "part": "Right_H06_Roll_tube_recessed_endcaps",
+    "count": 2,
+    "volume_cm3": 103.943280299279,
+    "appearances": [
+      "Robot26 Machined aluminum"
+    ]
+  },
+  {
+    "link": "right_hip_pitch_link",
+    "part": "Right_H08_Roll_61810_bearing_references",
+    "count": 2,
+    "volume_cm3": 18.967365646049178,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "right_hip_roll_link",
+    "part": "Right_Q02_CNC_yaw_to_roll_cradle",
+    "count": 1,
+    "volume_cm3": 99.24259150899454,
+    "appearances": [
+      "Robot26 Machined aluminum"
+    ]
+  },
+  {
+    "link": "right_hip_roll_link",
+    "part": "Right_V26_Hip_yaw_output_hub",
+    "count": 1,
+    "volume_cm3": 3.8709462917641817,
+    "appearances": [
+      "DJI_(28, 29, 33)"
+    ]
+  },
+  {
+    "link": "right_thigh",
+    "part": "C27_Right_thigh_front",
+    "count": 1,
+    "volume_cm3": 113.30521057960038,
+    "appearances": [
+      "C27 Pale shell"
+    ]
+  },
+  {
+    "link": "right_thigh",
+    "part": "C27_Right_thigh_rear",
+    "count": 1,
+    "volume_cm3": 114.4205840925681,
+    "appearances": [
+      "C27 Pale shell"
+    ]
+  },
+  {
+    "link": "right_thigh",
+    "part": "C28_Right_knee_shroud",
+    "count": 1,
+    "volume_cm3": 36.927723035357594,
+    "appearances": [
+      "C28 Pale shell"
+    ]
+  },
+  {
+    "link": "right_thigh",
+    "part": "C28_Right_hip_yaw_shroud",
+    "count": 1,
+    "volume_cm3": 58.78499922042985,
+    "appearances": [
+      "C28 Pale shell"
+    ]
+  },
+  {
+    "link": "right_thigh",
+    "part": "Right_N04_Knee_pillow_block_L",
+    "count": 20,
+    "volume_cm3": 6.541396785398664,
+    "appearances": [
+      "N04_Knee_pillow_block_L_finish"
+    ]
+  },
+  {
+    "link": "right_thigh",
+    "part": "Right_N06_Upper_leg_oval_stub_L",
+    "count": 1,
+    "volume_cm3": 6.573840477165998,
+    "appearances": [
+      "N06_Upper_leg_oval_stub_L_finish"
+    ]
+  },
+  {
+    "link": "right_thigh",
+    "part": "Right_N04_Knee_pillow_block_R",
+    "count": 20,
+    "volume_cm3": 6.541403282066965,
+    "appearances": [
+      "N04_Knee_pillow_block_R_finish"
+    ]
+  },
+  {
+    "link": "right_thigh",
+    "part": "Right_N06_Upper_leg_oval_stub_R",
+    "count": 1,
+    "volume_cm3": 6.616281938186566,
+    "appearances": [
+      "N06_Upper_leg_oval_stub_R_finish"
+    ]
+  },
+  {
+    "link": "right_thigh",
+    "part": "Right_R01_DJI_10018_77KV_ESTIMATED_REFERENCE",
+    "count": 56,
+    "volume_cm3": 88.08385107942374,
+    "appearances": [
+      "DJI_(106, 112, 118)",
+      "DJI_(154, 160, 165)",
+      "DJI_(165, 171, 175)",
+      "DJI_(166, 170, 174)",
+      "DJI_(28, 29, 33)",
+      "DJI_(34, 35, 38)",
+      "Steel - Satin"
+    ]
+  },
+  {
+    "link": "right_thigh",
+    "part": "Right_T04_GWK7010_Hip_yaw_REFERENCE",
+    "count": 1,
+    "volume_cm3": 53.13097559270369,
+    "appearances": [
+      "DJI_(28, 29, 33)"
+    ]
+  },
+  {
+    "link": "right_thigh",
+    "part": "Right_P02_Knee_rail_screws_and_sleeves_L",
+    "count": 6,
+    "volume_cm3": 1.189985031697331,
+    "appearances": [
+      "v12_(150, 158, 166)"
+    ]
+  },
+  {
+    "link": "right_thigh",
+    "part": "Right_P02_Knee_rail_screws_and_sleeves_R",
+    "count": 6,
+    "volume_cm3": 1.1899850316973306,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "right_thigh",
+    "part": "Right_P06_Gearbox_output_REFERENCE",
+    "count": 1,
+    "volume_cm3": 7.621001122784573,
+    "appearances": [
+      "v12_(150, 158, 166)"
+    ]
+  },
+  {
+    "link": "right_thigh",
+    "part": "Right_P07_Motor_output_sprocket_BLANK",
+    "count": 1,
+    "volume_cm3": 4.345503133513903,
+    "appearances": [
+      "v12_sprocket_orange"
+    ]
+  },
+  {
+    "link": "right_thigh",
+    "part": "Right_P08_Sprocket_output_flange",
+    "count": 1,
+    "volume_cm3": 0.6923088460807969,
+    "appearances": [
+      "v12_(150, 158, 166)"
+    ]
+  },
+  {
+    "link": "right_thigh",
+    "part": "Right_P09_Opposite_output_support_pin_6mm",
+    "count": 1,
+    "volume_cm3": 1.1026990214099706,
+    "appearances": [
+      "v12_(150, 158, 166)"
+    ]
+  },
+  {
+    "link": "right_thigh",
+    "part": "Right_Q01_CNC_rail_to_yaw_crosshead",
+    "count": 1,
+    "volume_cm3": 102.92980069004514,
+    "appearances": [
+      "Robot26 Machined aluminum"
+    ]
+  },
+  {
+    "link": "right_thigh",
+    "part": "Right_P01_Knee_side_rail_seat_L",
+    "count": 1,
+    "volume_cm3": 35.99893693710713,
+    "appearances": [
+      "v12_(150, 158, 166)"
+    ]
+  },
+  {
+    "link": "right_thigh",
+    "part": "Right_P01_Knee_side_rail_seat_R",
+    "count": 1,
+    "volume_cm3": 35.99893693710712,
+    "appearances": [
+      "v12_(150, 158, 166)"
+    ]
+  },
+  {
+    "link": "right_thigh",
+    "part": "Right_P03_Circular_motor_gearbox_case",
+    "count": 1,
+    "volume_cm3": 30.440081887463677,
+    "appearances": [
+      "v12_(150, 158, 166)"
+    ]
+  },
+  {
+    "link": "right_thigh",
+    "part": "Right_P05_Gearbox_front_cover",
+    "count": 1,
+    "volume_cm3": 88.7522872270388,
+    "appearances": [
+      "Robot26 Printed structural polymer"
+    ]
+  },
+  {
+    "link": "right_thigh",
+    "part": "Right_P12_Case_clamp_and_cover_hardware",
+    "count": 12,
+    "volume_cm3": 2.1627414977695416,
+    "appearances": [
+      "v12_(150, 158, 166)"
+    ]
+  },
+  {
+    "link": "right_thigh",
+    "part": "Right_P14_Motor_to_backplate_M4_screws",
+    "count": 8,
+    "volume_cm3": 1.218937949592839,
+    "appearances": [
+      "T06_Pelvis_HALF_REFERENCE_finish"
+    ]
+  },
+  {
+    "link": "right_thigh",
+    "part": "Right_P15_Separate_motor_backplate_and_rail_saddles",
+    "count": 1,
+    "volume_cm3": 118.37875252966414,
+    "appearances": [
+      "Robot26 Printed structural polymer"
+    ]
+  },
+  {
+    "link": "right_thigh",
+    "part": "Right_N10_Drive_side_pedestal_hardware",
+    "count": 4,
+    "volume_cm3": 4.128052746817164,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "right_thigh",
+    "part": "Right_H03_Hip_yaw_6007_bearing_REFERENCE",
+    "count": 1,
+    "volume_cm3": 28.797409059131628,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "right_thigh",
+    "part": "Right_H04_Hip_yaw_bearing_retainer",
+    "count": 1,
+    "volume_cm3": 8.514721400878061,
+    "appearances": [
+      "Robot26 Machined aluminum"
+    ]
+  },
+  {
+    "link": "right_shin",
+    "part": "Right_S02_Pitch_bearing_left",
+    "count": 20,
+    "volume_cm3": 6.5414004531141385,
+    "appearances": [
+      "S02_Pitch_bearing_left_finish"
+    ]
+  },
+  {
+    "link": "right_shin",
+    "part": "Right_S03_Pitch_bearing_right",
+    "count": 20,
+    "volume_cm3": 6.541400654324403,
+    "appearances": [
+      "S03_Pitch_bearing_right_finish"
+    ]
+  },
+  {
+    "link": "right_shin",
+    "part": "Right_S05_Continuous_oval_steel_rail_L",
+    "count": 1,
+    "volume_cm3": 9.077031214039803,
+    "appearances": [
+      "S05_Continuous_oval_steel_rail_L_finish"
+    ]
+  },
+  {
+    "link": "right_shin",
+    "part": "Right_S05_Continuous_oval_steel_rail_R",
+    "count": 1,
+    "volume_cm3": 9.077031214039803,
+    "appearances": [
+      "S05_Continuous_oval_steel_rail_R_finish"
+    ]
+  },
+  {
+    "link": "right_shin",
+    "part": "Right_S06_Dual_7010_motor_carrier",
+    "count": 1,
+    "volume_cm3": 272.77278456477137,
+    "appearances": [
+      "S01_Ankle_to_oval_rail_adapter_finish"
+    ]
+  },
+  {
+    "link": "right_shin",
+    "part": "Right_S10_Separate_motor_plate_B",
+    "count": 1,
+    "volume_cm3": 26.471163381795076,
+    "appearances": [
+      "S10_Separate_motor_plate_B_finish"
+    ]
+  },
+  {
+    "link": "right_shin",
+    "part": "Right_S10_Separate_motor_plate_A",
+    "count": 1,
+    "volume_cm3": 26.471163381795094,
+    "appearances": [
+      "S10_Separate_motor_plate_A_finish"
+    ]
+  },
+  {
+    "link": "right_shin",
+    "part": "Right_H02_M3_motor_plate_hardware",
+    "count": 68,
+    "volume_cm3": 4.0733890346447135,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "right_shin",
+    "part": "Right_M01_GWK7010_A",
+    "count": 1,
+    "volume_cm3": 53.13097558235496,
+    "appearances": [
+      "Robot26 Purchased motor case"
+    ]
+  },
+  {
+    "link": "right_shin",
+    "part": "Right_M01_GWK7010_B",
+    "count": 1,
+    "volume_cm3": 53.13097558235479,
+    "appearances": [
+      "Robot26 Purchased motor case"
+    ]
+  },
+  {
+    "link": "right_shin",
+    "part": "Right_H01_Steel_crush_sleeves",
+    "count": 12,
+    "volume_cm3": 1.2666901579274579,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "right_shin",
+    "part": "Right_E03_ODrive_board_no_connectors",
+    "count": 15,
+    "volume_cm3": 19.66014716207724,
+    "appearances": [
+      "E03_ODrive_board_no_connectors_finish"
+    ]
+  },
+  {
+    "link": "right_shin",
+    "part": "Right_E04_TPU_upper_rail_envelope",
+    "count": 1,
+    "volume_cm3": 6.653748725833047,
+    "appearances": [
+      "E04_TPU_upper_rail_envelope_finish"
+    ]
+  },
+  {
+    "link": "right_shin",
+    "part": "Right_E05_TPU_board_spacer_1",
+    "count": 1,
+    "volume_cm3": 0.05986304801415623,
+    "appearances": [
+      "E05_TPU_board_spacer_1_finish"
+    ]
+  },
+  {
+    "link": "right_shin",
+    "part": "Right_E05_TPU_board_spacer_2",
+    "count": 1,
+    "volume_cm3": 0.05986304801415619,
+    "appearances": [
+      "E05_TPU_board_spacer_2_finish"
+    ]
+  },
+  {
+    "link": "right_shin",
+    "part": "Right_E06_ODrive_M3_top_fasteners",
+    "count": 8,
+    "volume_cm3": 0.43560217205307566,
+    "appearances": [
+      "E06_ODrive_M3_top_fasteners_finish",
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "right_shin",
+    "part": "Right_N01_Aluminum_knee_stack_1",
+    "count": 1,
+    "volume_cm3": 25.89651916264622,
+    "appearances": [
+      "v12_(150, 158, 166)"
+    ]
+  },
+  {
+    "link": "right_shin",
+    "part": "Right_N01_Aluminum_knee_stack_2",
+    "count": 1,
+    "volume_cm3": 23.075091024585678,
+    "appearances": [
+      "v12_(150, 158, 166)"
+    ]
+  },
+  {
+    "link": "right_shin",
+    "part": "Right_N01_Aluminum_knee_stack_4",
+    "count": 1,
+    "volume_cm3": 23.074863593888225,
+    "appearances": [
+      "v12_(150, 158, 166)"
+    ]
+  },
+  {
+    "link": "right_shin",
+    "part": "Right_N01_Aluminum_knee_stack_5",
+    "count": 1,
+    "volume_cm3": 25.823641098894722,
+    "appearances": [
+      "v12_(150, 158, 166)"
+    ]
+  },
+  {
+    "link": "right_shin",
+    "part": "Right_N02_Knee_shaft_8mm",
+    "count": 1,
+    "volume_cm3": 5.2276101755731945,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "right_shin",
+    "part": "Right_N03_Sprocket_blank_LAYOUT",
+    "count": 1,
+    "volume_cm3": 22.20941394190569,
+    "appearances": [
+      "v12_sprocket_orange"
+    ]
+  },
+  {
+    "link": "right_shin",
+    "part": "Right_N07_Knee_stack_fasteners",
+    "count": 22,
+    "volume_cm3": 6.388500917705752,
+    "appearances": [
+      "v12_(150, 158, 166)"
+    ]
+  },
+  {
+    "link": "right_shin",
+    "part": "Right_N09_Knee_sprocket_standoff_hub",
+    "count": 1,
+    "volume_cm3": 10.641829462514007,
+    "appearances": [
+      "v12_(150, 158, 166)"
+    ]
+  },
+  {
+    "link": "right_shin",
+    "part": "C27_Right_calf_blue_mark",
+    "count": 1,
+    "volume_cm3": 0.7419524311274062,
+    "appearances": [
+      "C27 Blue accent"
+    ]
+  },
+  {
+    "link": "right_shin",
+    "part": "C27_Right_shin_front_upper",
+    "count": 1,
+    "volume_cm3": 64.0610778922505,
+    "appearances": [
+      "C27 Pale shell"
+    ]
+  },
+  {
+    "link": "right_shin",
+    "part": "C27_Right_shin_front",
+    "count": 1,
+    "volume_cm3": 63.22452544580027,
+    "appearances": [
+      "C27 Pale shell"
+    ]
+  },
+  {
+    "link": "right_shin",
+    "part": "C27_Right_shin_rear_upper",
+    "count": 1,
+    "volume_cm3": 72.71065026926874,
+    "appearances": [
+      "C27 Pale shell"
+    ]
+  },
+  {
+    "link": "right_shin",
+    "part": "C27_Right_shin_rear",
+    "count": 1,
+    "volume_cm3": 69.10250814930464,
+    "appearances": [
+      "C27 Pale shell"
+    ]
+  },
+  {
+    "link": "right_shin",
+    "part": "C28_Right_ankle_shroud",
+    "count": 1,
+    "volume_cm3": 48.51814782312211,
+    "appearances": [
+      "C28 Pale shell"
+    ]
+  },
+  {
+    "link": "right_shin",
+    "part": "Right_S01_Ankle_to_oval_rail_adapter",
+    "count": 1,
+    "volume_cm3": 111.83913481490016,
+    "appearances": [
+      "S01_Ankle_to_oval_rail_adapter_finish"
+    ]
+  },
+  {
+    "link": "pelvis",
+    "part": "Left_DJI10018_Hip_pitch_REFERENCE",
+    "count": 49,
+    "volume_cm3": 84.74491381437988,
+    "appearances": [
+      "DJI_(106, 112, 118)",
+      "DJI_(154, 160, 165)",
+      "DJI_(165, 171, 175)",
+      "DJI_(166, 170, 174)",
+      "DJI_(28, 29, 33)",
+      "Steel - Satin"
+    ]
+  },
+  {
+    "link": "pelvis",
+    "part": "Left_H02_Hip_pitch_roll_bearing_REFERENCES",
+    "count": 2,
+    "volume_cm3": 12.139114013471028,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "pelvis",
+    "part": "Left_H05_DJI10018_pitch_gearbox_shell_ESTIMATE",
+    "count": 1,
+    "volume_cm3": 31.214864606068616,
+    "appearances": [
+      "Robot26 Machined aluminum"
+    ]
+  },
+  {
+    "link": "pelvis",
+    "part": "Left_H07_Pitch_tube_recessed_endcaps",
+    "count": 2,
+    "volume_cm3": 76.20568798359034,
+    "appearances": [
+      "Robot26 Machined aluminum"
+    ]
+  },
+  {
+    "link": "pelvis",
+    "part": "Right_DJI10018_Hip_pitch_REFERENCE",
+    "count": 49,
+    "volume_cm3": 84.74491381438,
+    "appearances": [
+      "DJI_(106, 112, 118)",
+      "DJI_(154, 160, 165)",
+      "DJI_(165, 171, 175)",
+      "DJI_(166, 170, 174)",
+      "DJI_(28, 29, 33)",
+      "Steel - Satin"
+    ]
+  },
+  {
+    "link": "pelvis",
+    "part": "Right_H02_Hip_pitch_roll_bearing_REFERENCES",
+    "count": 2,
+    "volume_cm3": 12.139114013471028,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "pelvis",
+    "part": "Right_H05_DJI10018_pitch_gearbox_shell_ESTIMATE",
+    "count": 1,
+    "volume_cm3": 31.214864606068645,
+    "appearances": [
+      "Robot26 Machined aluminum"
+    ]
+  },
+  {
+    "link": "pelvis",
+    "part": "Right_H07_Pitch_tube_recessed_endcaps",
+    "count": 2,
+    "volume_cm3": 76.20568798358997,
+    "appearances": [
+      "Robot26 Machined aluminum"
+    ]
+  },
+  {
+    "link": "pelvis",
+    "part": "W01_GWK7010_Waist_yaw_REFERENCE (1)",
+    "count": 1,
+    "volume_cm3": 53.130975582355106,
+    "appearances": [
+      "DJI_(28, 29, 33)"
+    ]
+  },
+  {
+    "link": "pelvis",
+    "part": "C28_waist_front_reinforced_holder",
+    "count": 1,
+    "volume_cm3": 130.0067889617033,
+    "appearances": [
+      "C28 Pale shell"
+    ]
+  },
+  {
+    "link": "pelvis",
+    "part": "C28_waist_rear_reinforced_holder",
+    "count": 1,
+    "volume_cm3": 142.35631286478844,
+    "appearances": [
+      "C28 Pale shell"
+    ]
+  },
+  {
+    "link": "pelvis",
+    "part": "W04_PA12CF_fixed_yaw_mount (1)",
+    "count": 1,
+    "volume_cm3": 35.12680967680874,
+    "appearances": [
+      "S01_Ankle_to_oval_rail_adapter_finish"
+    ]
+  },
+  {
+    "link": "pelvis",
+    "part": "W13_fixed_motor_M3_correct_flange_REFERENCES (1)",
+    "count": 8,
+    "volume_cm3": 1.1922344120373098,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "pelvis",
+    "part": "W14_casing_M4_bolt_REFERENCES (1)",
+    "count": 4,
+    "volume_cm3": 1.2189379495927468,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "mechanism_wj_drive_l",
+    "part": "W23_6010_crank_L (1)",
+    "count": 11,
+    "volume_cm3": 10.943206473950715,
+    "appearances": [
+      "Steel - Satin"
+    ]
+  },
+  {
+    "link": "mechanism_wj_rod_l_tilt",
+    "part": "W25_M6_waist_tie_rod_L (1)",
+    "count": 5,
+    "volume_cm3": 6.536008476500916,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "mechanism_wj_drive_r",
+    "part": "W24_6010_crank_R (1)",
+    "count": 11,
+    "volume_cm3": 10.943206473950733,
+    "appearances": [
+      "Steel - Satin"
+    ]
+  },
+  {
+    "link": "mechanism_wj_rod_r_tilt",
+    "part": "W26_M6_waist_tie_rod_R (1)",
+    "count": 5,
+    "volume_cm3": 6.536008476500667,
+    "appearances": [
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "mechanism_left_motor_a_output",
+    "part": "Left_M02_Aluminum_crank_A",
+    "count": 11,
+    "volume_cm3": 12.88654263237078,
+    "appearances": [
+      "H01_Steel_crush_sleeves_finish",
+      "M02_Aluminum_crank_A_finish",
+      "Steel - Satin"
+    ]
+  },
+  {
+    "link": "mechanism_left_motor_b_output",
+    "part": "Left_M02_Aluminum_crank_B",
+    "count": 11,
+    "volume_cm3": 12.886542632370784,
+    "appearances": [
+      "H01_Steel_crush_sleeves_finish",
+      "M02_Aluminum_crank_B_finish",
+      "Steel - Satin"
+    ]
+  },
+  {
+    "link": "mechanism_left_rod_a_bearing_tilt",
+    "part": "Left_L01_Threaded_link_rod_A",
+    "count": 3,
+    "volume_cm3": 11.72269208829887,
+    "appearances": [
+      "H01_Steel_crush_sleeves_finish",
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "mechanism_left_rod_a_bearing_tilt",
+    "part": "Left_L02_Oval_steel_reinforcement_A",
+    "count": 1,
+    "volume_cm3": 5.779538397917561,
+    "appearances": [
+      "S05_Continuous_oval_steel_rail_L_finish"
+    ]
+  },
+  {
+    "link": "mechanism_left_rod_a_bearing_tilt",
+    "part": "Left_L03_Threaded_oval_plug_A_lower",
+    "count": 1,
+    "volume_cm3": 2.322869450961343,
+    "appearances": [
+      "S01_Ankle_to_oval_rail_adapter_finish"
+    ]
+  },
+  {
+    "link": "mechanism_left_rod_a_bearing_tilt",
+    "part": "Left_L03_Threaded_oval_plug_A_upper",
+    "count": 1,
+    "volume_cm3": 2.3228693735595765,
+    "appearances": [
+      "S01_Ankle_to_oval_rail_adapter_finish"
+    ]
+  },
+  {
+    "link": "mechanism_left_rod_a_bearing_tilt",
+    "part": "Left_L04_Central_rod_guide_A",
+    "count": 1,
+    "volume_cm3": 17.958559228744917,
+    "appearances": [
+      "S01_Ankle_to_oval_rail_adapter_finish"
+    ]
+  },
+  {
+    "link": "mechanism_left_rod_b_bearing_tilt",
+    "part": "Left_L01_Threaded_link_rod_B",
+    "count": 3,
+    "volume_cm3": 9.906697056727808,
+    "appearances": [
+      "H01_Steel_crush_sleeves_finish",
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "mechanism_left_rod_b_bearing_tilt",
+    "part": "Left_L02_Oval_steel_reinforcement_B",
+    "count": 1,
+    "volume_cm3": 3.517979894384624,
+    "appearances": [
+      "S05_Continuous_oval_steel_rail_L_finish"
+    ]
+  },
+  {
+    "link": "mechanism_left_rod_b_bearing_tilt",
+    "part": "Left_L03_Threaded_oval_plug_B_lower",
+    "count": 1,
+    "volume_cm3": 2.3228403497879646,
+    "appearances": [
+      "S01_Ankle_to_oval_rail_adapter_finish"
+    ]
+  },
+  {
+    "link": "mechanism_left_rod_b_bearing_tilt",
+    "part": "Left_L03_Threaded_oval_plug_B_upper",
+    "count": 1,
+    "volume_cm3": 2.3228403843680985,
+    "appearances": [
+      "S01_Ankle_to_oval_rail_adapter_finish"
+    ]
+  },
+  {
+    "link": "mechanism_left_rod_b_bearing_tilt",
+    "part": "Left_L04_Central_rod_guide_B",
+    "count": 1,
+    "volume_cm3": 9.43392668345486,
+    "appearances": [
+      "S01_Ankle_to_oval_rail_adapter_finish"
+    ]
+  },
+  {
+    "link": "mechanism_right_motor_a_output",
+    "part": "Right_M02_Aluminum_crank_A",
+    "count": 11,
+    "volume_cm3": 12.886542632370782,
+    "appearances": [
+      "H01_Steel_crush_sleeves_finish",
+      "M02_Aluminum_crank_A_finish",
+      "Steel - Satin"
+    ]
+  },
+  {
+    "link": "mechanism_right_motor_b_output",
+    "part": "Right_M02_Aluminum_crank_B",
+    "count": 11,
+    "volume_cm3": 12.886542632370782,
+    "appearances": [
+      "H01_Steel_crush_sleeves_finish",
+      "M02_Aluminum_crank_B_finish",
+      "Steel - Satin"
+    ]
+  },
+  {
+    "link": "mechanism_right_rod_a_bearing_tilt",
+    "part": "Right_L01_Threaded_link_rod_A",
+    "count": 3,
+    "volume_cm3": 11.722692088349417,
+    "appearances": [
+      "H01_Steel_crush_sleeves_finish",
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "mechanism_right_rod_a_bearing_tilt",
+    "part": "Right_L02_Oval_steel_reinforcement_A",
+    "count": 1,
+    "volume_cm3": 5.779538397917567,
+    "appearances": [
+      "S05_Continuous_oval_steel_rail_L_finish"
+    ]
+  },
+  {
+    "link": "mechanism_right_rod_a_bearing_tilt",
+    "part": "Right_L03_Threaded_oval_plug_A_lower",
+    "count": 1,
+    "volume_cm3": 2.322869451043288,
+    "appearances": [
+      "S01_Ankle_to_oval_rail_adapter_finish"
+    ]
+  },
+  {
+    "link": "mechanism_right_rod_a_bearing_tilt",
+    "part": "Right_L03_Threaded_oval_plug_A_upper",
+    "count": 1,
+    "volume_cm3": 2.322869373642101,
+    "appearances": [
+      "S01_Ankle_to_oval_rail_adapter_finish"
+    ]
+  },
+  {
+    "link": "mechanism_right_rod_a_bearing_tilt",
+    "part": "Right_L04_Central_rod_guide_A",
+    "count": 1,
+    "volume_cm3": 17.958559228744967,
+    "appearances": [
+      "S01_Ankle_to_oval_rail_adapter_finish"
+    ]
+  },
+  {
+    "link": "mechanism_right_rod_b_bearing_tilt",
+    "part": "Right_L01_Threaded_link_rod_B",
+    "count": 3,
+    "volume_cm3": 9.906697056711048,
+    "appearances": [
+      "H01_Steel_crush_sleeves_finish",
+      "Robot26 Steel hardware"
+    ]
+  },
+  {
+    "link": "mechanism_right_rod_b_bearing_tilt",
+    "part": "Right_L02_Oval_steel_reinforcement_B",
+    "count": 1,
+    "volume_cm3": 3.517979894384626,
+    "appearances": [
+      "S05_Continuous_oval_steel_rail_L_finish"
+    ]
+  },
+  {
+    "link": "mechanism_right_rod_b_bearing_tilt",
+    "part": "Right_L03_Threaded_oval_plug_B_lower",
+    "count": 1,
+    "volume_cm3": 2.3228403497774335,
+    "appearances": [
+      "S01_Ankle_to_oval_rail_adapter_finish"
+    ]
+  },
+  {
+    "link": "mechanism_right_rod_b_bearing_tilt",
+    "part": "Right_L03_Threaded_oval_plug_B_upper",
+    "count": 1,
+    "volume_cm3": 2.3228403843575824,
+    "appearances": [
+      "S01_Ankle_to_oval_rail_adapter_finish"
+    ]
+  },
+  {
+    "link": "mechanism_right_rod_b_bearing_tilt",
+    "part": "Right_L04_Central_rod_guide_B",
+    "count": 1,
+    "volume_cm3": 9.433926683454859,
+    "appearances": [
+      "S01_Ankle_to_oval_rail_adapter_finish"
+    ]
+  }
+]

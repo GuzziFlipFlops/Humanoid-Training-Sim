@@ -1,0 +1,19 @@
+{
+  "recorded_utc": "2026-10-06T08:29:47.914798+00:00",
+  "action": "Deploy proved commanded-travel termination correction; preserve exact original full learner.",
+  "current_stage": "run_350",
+  "current_stage_qualified": false,
+  "highest_fresh_teacher_qualified_command_m_s": 3,
+  "numerical_rewards_or_weights_changed": false,
+  "independent_classifier_changed": false,
+  "physics_motor_caps_changed": false,
+  "termination_predicate_changed": true,
+  "source_signature_migration_explicit": true,
+  "actor_critic_Adam_exploration_retained": true,
+  "smoke_actors_deployed": false,
+  "human_like_arms_certified": false,
+  "velocity_ceiling_proven": false,
+  "actual5m_s_proven": false,
+  "actual4m_s_fallback_proven": false,
+  "automation_active_every5hours": true
+}

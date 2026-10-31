@@ -1,0 +1,17 @@
+{
+  "selected": "posture_conditioned_walking_prior_v1",
+  "deployed": true,
+  "run": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261005_r36_posture_conditioned_priors",
+  "exact_checkpoint": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261004_r35_upper_body_refinement\\213_run_150_train_068\\candidate.pt",
+  "checkpoint_sha256": "ec62b406f83b5a6f78a9b4979ccedfe4200b41bd1abc7c4d8cb35037ccd71c91",
+  "actor_critic_Adam_exploration_retained": true,
+  "diagnostic_learned_actors_deployed": false,
+  "running_imitation_deployed": false,
+  "student_observations_truthful": true,
+  "reward_geometry_caps_commands_unchanged": true,
+  "prior_gradient_formula_unchanged": true,
+  "prior_teacher_targets_changed": true,
+  "why": "Reproduced tilted-head teacher feedback dependence; all-prior-only correction passes all walking/standing cases in matched nominal/pushed test and improves head posture. Running-only imitation loses its initial flight gain by128updates.",
+  "running_qualified": false,
+  "velocity_ceiling_proven": false
+}

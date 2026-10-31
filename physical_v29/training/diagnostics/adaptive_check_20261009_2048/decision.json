@@ -1,0 +1,19 @@
+{
+  "recorded_utc": "2026-10-09T23:40:26.840845+00:00",
+  "production_continuation": "Same exact original full learner resumed; no experimental actor or gradient deployed",
+  "experiment": "Final21-output-row derivative versus identical shared target and unchanged full-state control",
+  "all_expected_components_complete": true,
+  "branch_all_gates_pass": {
+    "control": false,
+    "shared": false,
+    "rows": false
+  },
+  "deployment": "Rejected for immediate deployment; preserve all evidence and useful passing actors",
+  "production_source_reward_gain_cap_actor_optimizer_reset": false,
+  "endpoint_established": false,
+  "next_priorities": [
+    "Compare fresh exact 3.5 m/s direction and every retained command, especially 0.15 m/s path efficiency, 1.5 m/s true flight, the new nominal 0.65 m/s bilateral-stance failure and both retained 3 m/s direction failures. Preserve the current full learner, separately passing current-speed actors, and the neutral-head actor 267 with its reverified all-prior certificate. The selected final-row restriction does not protect other commands, and neither tested route qualifies for deployment. Next run a bounded complete-state continuation from neutral-head 267 against an unchanged current-state control, at 64/128 updates in two learning seeds with every nominal, pushed, prior, head, direction and flight gate plus independently seeded initial states. Preserve both complete actors, critics, Adam and exploration; this is an earlier learned-state branch, not a from-scratch restart or tilted-head rollback. Check its exact teacher/context/load provenance first. Promote or deploy only after the full contract passes. Do not repeat the rejected target route, copy diagnostic controllers into inference, or use teacher labels above their 3 m/s certificate. Any later reward change needs explicit versioned provenance, full-objective counterexamples and matched retention tests.",
+    "Inspect actual head yaw/pitch, shoulder pitch/roll and elbow angle, physical target and velocity timelines at every speed, including bilateral amplitude, arm-leg phase, slow bias and saturation. Fixed-state head preservation under an isolated selected derivative does not preserve closed-loop head or gait during full PPO learning. Compare the earlier neutral-head branch's upper coordination with the current learner and complete per-command returns before another upper refinement. Keep the existing 20-batch upper refinement, 35/1 gains, truthful observations, forward head, useful legs and both teachers. Collins 2009 measures walking at 1.25 m/s and provides shoulder/elbow time plots; numerical axes/rest/morphology mapping remains unverified. The inspected official Unitree material did not provide mapped speed-matched encoder curves. Human/Unitree likeness and calibrated optical gaze remain uncertified; no imposed reference curve, production hybrid, cap raise or repeated rejected gain/mean candidate.",
+    "Verify supervisor 39000, one actual CUDA worker, all 55 frozen hashes and 53 protected authored files, local ground and exact full-state recovery with both teachers. Count 27,507 inherited updates plus current completed and 50 hash-proven recoveries; exclude 32 unsaved R39 updates and all diagnostic samples. Exclude the documented suspension only through each timing endpoint. Keep target 8,192, reserve 300 MiB, host guards/fallback and 180 continuous healthy training seconds; Fusion stays closed. This check's native 5 ms motor attribution covers 0.15/1.5 m/s only, and sparse 3.5 m/s crossings cannot inherit it. A later high-speed plateau needs actor-specific requested/applied torque, CAD motor speeds and sustained driving saturation. The endpoint still requires every unchanged gate and 32 independently seeded states per command: qualified 5 m/s, or qualified 4 m/s with causal native limits proving 5 is blocked."
+  ]
+}

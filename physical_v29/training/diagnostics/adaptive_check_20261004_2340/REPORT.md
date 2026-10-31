@@ -1,0 +1,40 @@
+# October4 23:40UTC adaptive check and full-body GUI recordings
+
+The requested five full-body GUI videos are complete, checked and linked to the user. The exact R34 supervisor resumed after a temporary saved-boundary pause. No training rewards, optimizer, policy, joint, collision, motor limit or frozen source changed in this check.
+
+## Recordings
+
+All140 compatible original physical_v29 CAD meshes and source RGBA materials are rendered on their matching articulated bodies. The separate playback URDF preserves every frozen nonvisual link element and joint exactly. Current CADv32 was not substituted. Diagnostic visual-instance overrides and material binding affect only render subtrees. Actual GUI import/neutral preview and moving frames were inspected; initial washed-out lighting/black band and an instance-proxy material binding failure were preserved and fixed before final capture.
+
+All2500 encoded H.264 frames decode, each video has500 distinct physical and rendered frames at50FPS,1280x720, exactly10 simulated seconds in10 real playback seconds. Slow capture took114–123wallseconds per clip, excluding settling. Full-frame and closeup sheets at0/2.5/5/7.5/10seconds per speed plus nine takeoff/landing-neighbor frames were visually inspected. Original head, torso, waist/motor assemblies, arms/hands/fingers, thighs, shins, ankles and feet remain attached and framed. Zero falls.
+
+| Command m/s | Actual signed forward m/s | Video |
+|---|---|---|
+| 0.15 | 0.223 | [locomotion_015.mp4](E:/Aditya/robot_sim/physical_v29/training/videos/full_body_gui_20261004_2340/locomotion_015.mp4) |
+| 0.35 | 0.435 | [locomotion_035.mp4](E:/Aditya/robot_sim/physical_v29/training/videos/full_body_gui_20261004_2340/locomotion_035.mp4) |
+| 0.65 | 0.728 | [locomotion_065.mp4](E:/Aditya/robot_sim/physical_v29/training/videos/full_body_gui_20261004_2340/locomotion_065.mp4) |
+| 1.00 | 1.043 | [locomotion_100.mp4](E:/Aditya/robot_sim/physical_v29/training/videos/full_body_gui_20261004_2340/locomotion_100.mp4) |
+| 1.50 | 1.483 | [locomotion_150.mp4](E:/Aditya/robot_sim/physical_v29/training/videos/full_body_gui_20261004_2340/locomotion_150.mp4) |
+
+The four walking clips use the exact freshly qualified baseline actor;1.5 uses preserved checkpoint038, which passed the running case nominal/pushed but failed slow retention. No higher speed is actually demonstrated. The running video measures2% geometric flight, ten brief control ticks. This is a recording, not whole-stage qualification. Tilted head, crouched knees and asymmetric arm posture are real policy output; cosmetic pose correction was not applied. Full-CAD collision clearance/hardware dynamics remain unqualified because training collision proxies are unchanged.
+
+## Pause and resume
+
+Owned supervisor PID14864 was suspended at checkpoint065 after1025 completed new main updates, with evaluation067 drained before the GUI. Exact checkpointSHA:ff63f6e14266f2c389c7de5b3256c79b614d061a11a9b3aae24dfcefbf64af43. The GUI exited before the same supervisor resumed at2026-10-05T00:07:44.229284+00:00. Pause:1458.4seconds (24.31minutes), including rendering repairs/capture/encoding/frame QA. Evaluation067 wrapper and whole-chain clocks include this pause; exclude it from throughput comparisons. No critic/Adam/exploration reset or training restart. Verified one owned training worker and all46 frozen hashes after resume; see resumed_owned_observation.json and resumed_main_evidence.json.
+
+## Behavioral status and focused diagnosis
+
+R34 checkpoint038 at449 new updates passed the1.5 running case:1.476/1.477m/s signed travel and1.8854%/1.7569% geometric flight,100% survival. Earlier0.15/0.35 failed speed. Later actors recover prior walking but lose flight. At checkpoint065/1025 updates, matching066nominal/067pushed retain every stopped and prior walking command; running signed1.457/1.460m/s,100% survival,29/30 alternating landings, but geometric flight0% in both. Complete run_150 remains unqualified. The successful baseline walking actor and flight actor are preserved. No5m/s or motor-ceiling endpoint.
+
+New CPU phase/action comparison reconstructs each of three saved actors on its own observed histories within4.77e-6 max action error, then compares them at identical running states. Latest intended-flight windows still have a loaded leg100% of the time, with about366N on the loaded side; geometric clearance is zero. All observed/action commands agree. Latest all-output raw clipping is37.17%; pitch ankles clip about69%/64% and roll ankles76%/78% in the bounded reconstructed samples. The successful flight actor also clips heavily, so clipping alone does not establish the cause. Knees are not clipped in those samples. Cross-state clipped responses and pre-CAD target changes are saved; these are not applied targets or closed-loop counterfactuals. Exact sampled CAD motor velocities show isolated ankle overshoot and elbow saturation, not a persistent locomotion-relevant velocity ceiling. No motor cap changed.
+
+The earlier bounded knee-retraction physics test gained flight but lost total objective through velocity-tracking, acceleration and height costs; this remains a stronger next lead than another arbitrary force weight. This check prioritizes the user capture and adds matched-history/phase diagnostics. It leaves useful retained-walking learning intact. At the next owned boundary, if zero flight persists, collect multiple actual PPO/prior parameter-gradient samples and a phase-timed normal-limit effective-target/full-objective physical comparison using the preserved flight and grounded actors. Measure cost/advantage and clipped/CAD-projected leg target response; distinguish command1.2–1.5 walking-class exposure from exact1.5 running rows. Do not assume retention-gradient conflict, raise action/motor caps, erase walking, or spend another check only waiting. A source repair must follow reproduced evidence and CPU/physics/PPO/load tests in a fresh freeze.
+
+## Resources
+
+Last two completed6144 blocks: active collection+PPO 44715/44609 samples/s; worker-effective 38475/38403. Last minimumGPU 669MiB, host 7556MiB. Main pre-update KL/action-command mismatch remain zero. Current resumed block068 is6144. Target8192,300MiB VRAM reserve, host guards, full-state fallback and180healthy live-training seconds before upward ramps remain. Eval/GUI idle memory does not qualify an upward ramp. Separate denominators and exclude logged pauses; do not present partial postresume samples as completed throughput.
+
+Evidence: capture_config.json; video_verification.json; frame_visual_review.json; video_pause.json/video_resume.json; evidence.json; running_audit.json; phase_target_comparison.json; resumed_main_evidence.json. The same adaptive three-hour heartbeat stays active, with only the fulfilled one-time capture priority removed. Leave the computer on.
+
+
+Final post-resume evidence at2026-10-05T00:16:20.878561+00:00: same R34 remains run_150 at1089 completed main updates; block068 completed64 actual PPO updates at42737 active/36632 worker-effective samples/s, minimumGPU1017MiB andhost5721MiB, all pre-update KL/command mismatches0. Matching069nominal/070pushed on exact068 achieve signed1.479/1.479m/s,100% survival,29/30 alternating landings, but geometric flight0%/0.00694%, below1.5%. Retained0.35 narrowly fails nominal speed at0.449m/s; all pushed priors pass. Thus the earlier065 all-prior pass did not establish sustained retention. Current block071 runs6144 with one actual CUDA worker and46hashes verified. Read resume_learning_verification.json and final_owned_observation.json. No new source/reward change; preserved038 flight actor and qualified walking baseline remain. CPU history inventory:34physical runs,97legacy launches,61original RSL sessions,31CAD groups,1164operations,8historical missing manifest artifacts,0differing hashes,0read warnings. Three-hour heartbeat remains active with completed video priority removed and controlled diagnosis priorities.

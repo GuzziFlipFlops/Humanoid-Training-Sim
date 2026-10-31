@@ -1,0 +1,15 @@
+"""CPU-only fixed-state intervention; no simulator or deployed input rewrite."""
+import json,numpy as np,torch
+from pathlib import Path
+from torch import nn
+OUT=Path(__file__).resolve().parent;z=np.load(OUT/'hybrid_response/telemetry.npz');per=int(z['robots_per_group']);names=list(z['joint_names']);head=[names.index(n) for n in ['head_yaw','head_pitch']];upper=[names.index(n) for n in ['head_yaw','head_pitch','left_shoulder_pitch','right_shoulder_pitch','left_shoulder_roll','right_shoulder_roll','left_elbow_pitch','right_elbow_pitch']];lower=[i for i in range(23) if i not in upper]
+checkpoint=OUT.parents[1]/'runs/locomotion_20261004_r34_bilateral_swing_unloading/038_run_150_train_007/candidate.pt';saved=torch.load(checkpoint,map_location='cpu',weights_only=False);model=nn.Sequential(nn.Linear(400,512),nn.ELU(),nn.Linear(512,256),nn.ELU(),nn.Linear(256,128),nn.ELU(),nn.Linear(128,23));model.load_state_dict({k.removeprefix('mlp.'):v for k,v in saved['actor_state_dict'].items() if k.startswith('mlp.')});model.eval();torch.set_num_threads(4)
+ticks=np.where(z['time']>=3.)[0][::5];baseline=torch.tensor(z['observations'][ticks,per:2*per]).reshape(-1,5,80);reference=model(baseline.reshape(-1,400)).detach();rows=[]
+for group in [2,3]:
+ obs=torch.tensor(z['observations'][ticks,group*per:(group+1)*per]).reshape(-1,5,80);actual=model(obs.reshape(-1,400)).detach();recorded=torch.tensor(z['raw_action'][ticks,group*per:(group+1)*per]).reshape(-1,23);error=float((actual[:,lower]-recorded[:,lower]).abs().max());assert error<1e-4,error
+ for name,ids,bases in [('head_position',head,[9]),('head_position_velocity_previous_action',head,[9,32,55]),('all_upper_position_velocity_previous_action',upper,[9,32,55])]:
+  changed=obs.clone();columns=[b+i for b in bases for i in ids];changed[:,:,columns]=baseline[:,:,columns]
+  response=model(changed.reshape(-1,400)).detach();before=(actual[:,lower]-reference[:,lower]);after=(response[:,lower]-reference[:,lower]);delta=response[:,lower]-actual[:,lower];effective=response[:,lower].clamp(-3,3)-actual[:,lower].clamp(-3,3)
+  rows.append(dict(group=str(z['groups'][group]),intervention=name,samples=len(obs),before_lower_difference_from_original_run_rms=float(before.square().mean().sqrt()),after_lower_difference_rms=float(after.square().mean().sqrt()),lower_raw_action_response_rms=float(delta.square().mean().sqrt()),lower_clipped_action_response_rms=float(effective.square().mean().sqrt()),largest_joint_responses=[dict(name=names[lower[i]],clipped_rms=float(effective[:,i].square().mean().sqrt())) for i in torch.argsort(effective.square().mean(0),descending=True)[:4]],source_action_reproduction_max_error=error))
+result=dict(completed=True,results=rows,scope='Fixed-state, five-frame history substitution from simultaneously recorded original actor. Demonstrates input dependence, not causal gait rescue or illegitimate input use; physics/COM and controller-state feedback remain confounded. No production input change.')
+(OUT/'head_observation_dependency.json').write_text(json.dumps(result,indent=2));print(json.dumps(result,indent=2))

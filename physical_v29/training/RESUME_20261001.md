@@ -1,0 +1,28 @@
+# Training restart — October 1, 2026
+
+## October 1 restart after the status check
+
+The r2 chain stopped after a Windows reader temporarily blocked renaming
+`progress.tmp` onto `progress.json`. It had completed a 150-update training
+block, failed the independent nominal standing gate, and then advanced 58
+updates into the next block. This is a logging failure, not a policy promotion.
+
+The status writer now retries transient sharing violations for up to five
+seconds. Three tests passed, including a real held Windows read handle and a
+permanent-lock case that preserves the old file and reports failure. The
+supervisor uses the same writer; the helper is included in each frozen source
+snapshot. No dynamics, rewards, actuator limits or gates were changed.
+
+The latest periodic `model_50.pt` was recovered from the interrupted block.
+Its missing provenance metadata was restored using that worker's run config
+and matching source/asset hashes. Actor/critic tensors were checked unchanged;
+the original checkpoint remains untouched. No standing qualification was added.
+
+The r3 chain resumes at **4,096 environments**, the count that completed the
+previous sustained block. It uses **100-update blocks**, a **300 MiB reserve**
+and a **16-hour ceiling**. The same stand/walk/run stages and independent
+nominal/push/retention gates apply. Read `ACTIVE_RUN.json` and the indicated
+live state for actual progress; this note is a dated restart record.
+
+All files remain local. No Git commit/push or external experiment logger.
+

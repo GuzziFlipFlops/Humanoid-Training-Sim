@@ -1,0 +1,6 @@
+{
+  "isaacsim-5.1.0.0.dist-info": true,
+  "rsl_rl_lib-5.0.1.dist-info": true,
+  "torch-2.7.0+cu128.dist-info": true,
+  "IsaacLab_commit": "b0542fe2d45bf91c4e1d9ef6952b9c709c80b4e8"
+}

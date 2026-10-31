@@ -1,0 +1,117 @@
+{
+  "waist_yaw": {
+    "effort_Nm": null,
+    "velocity_rad_s": null,
+    "continuous_Nm": null
+  },
+  "waist_pitch": {
+    "effort_Nm": null,
+    "velocity_rad_s": null,
+    "continuous_Nm": null
+  },
+  "waist_roll": {
+    "effort_Nm": null,
+    "velocity_rad_s": null,
+    "continuous_Nm": null
+  },
+  "left_ankle_pitch": {
+    "effort_Nm": null,
+    "velocity_rad_s": null,
+    "continuous_Nm": null
+  },
+  "left_ankle_roll": {
+    "effort_Nm": null,
+    "velocity_rad_s": null,
+    "continuous_Nm": null
+  },
+  "left_hip_pitch": {
+    "effort_Nm": null,
+    "velocity_rad_s": null,
+    "continuous_Nm": null
+  },
+  "left_hip_roll": {
+    "effort_Nm": null,
+    "velocity_rad_s": null,
+    "continuous_Nm": null
+  },
+  "left_hip_yaw": {
+    "effort_Nm": null,
+    "velocity_rad_s": null,
+    "continuous_Nm": null
+  },
+  "left_knee_pitch": {
+    "effort_Nm": null,
+    "velocity_rad_s": null,
+    "continuous_Nm": null
+  },
+  "left_shoulder_pitch": {
+    "effort_Nm": null,
+    "velocity_rad_s": null,
+    "continuous_Nm": null
+  },
+  "left_shoulder_roll": {
+    "effort_Nm": null,
+    "velocity_rad_s": null,
+    "continuous_Nm": null
+  },
+  "right_shoulder_pitch": {
+    "effort_Nm": null,
+    "velocity_rad_s": null,
+    "continuous_Nm": null
+  },
+  "right_shoulder_roll": {
+    "effort_Nm": null,
+    "velocity_rad_s": null,
+    "continuous_Nm": null
+  },
+  "head_yaw": {
+    "effort_Nm": null,
+    "velocity_rad_s": null,
+    "continuous_Nm": null
+  },
+  "right_elbow_pitch": {
+    "effort_Nm": null,
+    "velocity_rad_s": null,
+    "continuous_Nm": null
+  },
+  "left_elbow_pitch": {
+    "effort_Nm": null,
+    "velocity_rad_s": null,
+    "continuous_Nm": null
+  },
+  "head_pitch": {
+    "effort_Nm": null,
+    "velocity_rad_s": null,
+    "continuous_Nm": null
+  },
+  "right_ankle_pitch": {
+    "effort_Nm": null,
+    "velocity_rad_s": null,
+    "continuous_Nm": null
+  },
+  "right_ankle_roll": {
+    "effort_Nm": null,
+    "velocity_rad_s": null,
+    "continuous_Nm": null
+  },
+  "right_hip_pitch": {
+    "effort_Nm": null,
+    "velocity_rad_s": null,
+    "continuous_Nm": null
+  },
+  "right_hip_roll": {
+    "effort_Nm": null,
+    "velocity_rad_s": null,
+    "continuous_Nm": null
+  },
+  "right_hip_yaw": {
+    "effort_Nm": null,
+    "velocity_rad_s": null,
+    "continuous_Nm": null
+  },
+  "right_knee_pitch": {
+    "effort_Nm": null,
+    "velocity_rad_s": null,
+    "continuous_Nm": null
+  }
+}

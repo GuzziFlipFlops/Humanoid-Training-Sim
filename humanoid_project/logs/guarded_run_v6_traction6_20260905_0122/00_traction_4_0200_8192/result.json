@@ -1,0 +1,24 @@
+{
+  "completed": true,
+  "checkpoint": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v6_traction6_20260905_0122\\00_traction_4_0200_8192\\candidate.pt",
+  "iterations": 100,
+  "seconds": 339.10999999998603,
+  "num_envs": 8192,
+  "action_scale": 0.35,
+  "stage": "traction",
+  "velocity_boost": 1.0,
+  "boost_classes": [],
+  "stance_signal": {
+    "valid_fraction": 0.5955264282226562,
+    "ungated_mean_cost": 0.1091067886352539,
+    "mean_cost": 0.06194175084431966,
+    "weighted_mean_cost": -0.037165050506591794
+  },
+  "traction_signal": {
+    "valid_fraction": 0.9398543294270834,
+    "ungated_mean_cost": 0.12924329121907552,
+    "mean_cost": 0.09682701746622721,
+    "weighted_mean_cost": -0.05809621047973632
+  },
+  "source_sha256": "267fdf428cede5f6ea5eefef973627041ee427e1417b211c93e2800ce242bf6f"
+}

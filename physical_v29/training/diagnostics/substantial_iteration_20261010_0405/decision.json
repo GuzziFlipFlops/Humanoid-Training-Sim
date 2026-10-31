@@ -1,0 +1,208 @@
+{
+  "recorded_utc": "2026-10-10T05:47:19.068180+00:00",
+  "implemented_iteration": "command_conditioned_advantage_v1",
+  "completed": true,
+  "failure": null,
+  "candidate_full_gate_contract_pass": false,
+  "diagnostic_actor_deployed": false,
+  "original_learner_resume": {
+    "recorded_utc": "2026-10-10T05:45:53.010347+00:00",
+    "same_supervisor": true,
+    "supervisor_pid": 39000,
+    "checkpoint": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\1169_run_350_train_387\\candidate.pt",
+    "checkpoint_sha256": "29ff579111d4cc347c6b394bce4440221c7f83a78bd54a2d352fffb3d79a7115",
+    "pause_seconds": 5533.045616388321,
+    "suspended_unix": 1791605619.9552236,
+    "resumed_unix": 1791611153.00084,
+    "worker_drain_seconds": 108.86450123786926,
+    "training_source_changed": false,
+    "diagnostic_actors_deployed": false,
+    "strict_status_observations": [
+      {
+        "time": 1791611152.20869,
+        "status": "stopped"
+      }
+    ]
+  },
+  "paired_cases": [
+    {
+      "seed": 347,
+      "updates": 64,
+      "test": "nominal",
+      "lost_passing_commands": [
+        2.5
+      ],
+      "gained_passing_commands": [
+        3.0
+      ]
+    },
+    {
+      "seed": 347,
+      "updates": 64,
+      "test": "push",
+      "lost_passing_commands": [
+        2.5
+      ],
+      "gained_passing_commands": [
+        3.0
+      ]
+    },
+    {
+      "seed": 347,
+      "updates": 128,
+      "test": "nominal",
+      "lost_passing_commands": [
+        1.5
+      ],
+      "gained_passing_commands": [
+        0.35,
+        0.65
+      ]
+    },
+    {
+      "seed": 347,
+      "updates": 128,
+      "test": "push",
+      "lost_passing_commands": [
+        1.5
+      ],
+      "gained_passing_commands": [
+        0.35,
+        0.65,
+        3.0
+      ]
+    },
+    {
+      "seed": 347,
+      "updates": 128,
+      "test": "diverse_nominal",
+      "lost_passing_commands": [
+        1.5
+      ],
+      "gained_passing_commands": [
+        0.35,
+        0.65
+      ]
+    },
+    {
+      "seed": 347,
+      "updates": 128,
+      "test": "diverse_push",
+      "lost_passing_commands": [
+        1.5
+      ],
+      "gained_passing_commands": [
+        0.35,
+        0.65
+      ]
+    },
+    {
+      "seed": 359,
+      "updates": 64,
+      "test": "nominal",
+      "lost_passing_commands": [],
+      "gained_passing_commands": [
+        0.65,
+        1.5
+      ]
+    },
+    {
+      "seed": 359,
+      "updates": 64,
+      "test": "push",
+      "lost_passing_commands": [],
+      "gained_passing_commands": [
+        0.65,
+        1.5
+      ]
+    },
+    {
+      "seed": 359,
+      "updates": 128,
+      "test": "nominal",
+      "lost_passing_commands": [
+        0.15,
+        3.0
+      ],
+      "gained_passing_commands": [
+        1.0,
+        2.0
+      ]
+    },
+    {
+      "seed": 359,
+      "updates": 128,
+      "test": "push",
+      "lost_passing_commands": [
+        3.0
+      ],
+      "gained_passing_commands": [
+        1.0,
+        2.5
+      ]
+    },
+    {
+      "seed": 359,
+      "updates": 128,
+      "test": "diverse_nominal",
+      "lost_passing_commands": [
+        0.15,
+        3.0
+      ],
+      "gained_passing_commands": [
+        1.0
+      ]
+    },
+    {
+      "seed": 359,
+      "updates": 128,
+      "test": "diverse_push",
+      "lost_passing_commands": [
+        3.0
+      ],
+      "gained_passing_commands": [
+        1.0
+      ]
+    }
+  ],
+  "conclusion": "Reject candidate for ordinary deployment: complete independent gate contract does not pass. Substantial iteration was executed, with evidence preserved.",
+  "source_hashes_all_verify": true,
+  "paired_rollout_proof": [
+    {
+      "seed": 347,
+      "first_preupdate_rollout_bitwise_equal": {
+        "raw_advantage": true,
+        "old_global_normalized": true,
+        "labels": true,
+        "policy_observations": true,
+        "returns": true,
+        "values": true,
+        "rewards": true,
+        "dones": true,
+        "actions": true
+      },
+      "advantages_intentionally_differ": true
+    },
+    {
+      "seed": 359,
+      "first_preupdate_rollout_bitwise_equal": {
+        "raw_advantage": true,
+        "old_global_normalized": true,
+        "labels": true,
+        "policy_observations": true,
+        "returns": true,
+        "values": true,
+        "rewards": true,
+        "dones": true,
+        "actions": true
+      },
+      "advantages_intentionally_differ": true
+    }
+  ],
+  "upper_time_series_saved": true,
+  "upper_visual_QA_pending": false,
+  "deadline_utc": "2026-10-10T09:03:00+00:00",
+  "final_check_and_stop_not_extended": true,
+  "no_speed_success_or_ceiling_inferred": true,
+  "final_upper_visual_QA_receipt": "E:\\Aditya\\robot_sim\\physical_v29\\training\\diagnostics\\substantial_iteration_20261010_0405\\final_upper_visual_QA.json"
+}

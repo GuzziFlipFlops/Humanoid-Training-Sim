@@ -1,0 +1,22 @@
+{
+  "run": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state",
+  "status": "stopped_by_user_budget",
+  "recorded_utc": "2026-10-07T04:12:34.948741+00:00",
+  "prior_run": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261006_r39_commanded_travel_teacher_certificate",
+  "initial_full_checkpoint": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261006_r39_commanded_travel_teacher_certificate\\498_run_350_train_163\\candidate.pt",
+  "selected_full_checkpoint": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261006_r39_commanded_travel_teacher_certificate\\498_run_350_train_163\\candidate.pt",
+  "selected_sha256": "c04ae2f26310d5514905ce1a2fec9159594ec8ce8d5a19f67910291f497e2ae2",
+  "reason": "Goal-driven budget and exact full-state teacher-context recovery after18h elapsed guard interrupted R39; no physical/reward/gain change",
+  "repair_report": "E:\\Aditya\\robot_sim\\physical_v29\\training\\diagnostics\\adaptive_check_20261007_0344\\REPORT.md",
+  "same_learned_state_and_stage": true,
+  "supervisor_pid": 39000,
+  "launcher_pid": 10268,
+  "full_context_proof": "E:\\Aditya\\robot_sim\\physical_v29\\training\\diagnostics\\adaptive_check_20261007_0344\\resume_context_cpu.json",
+  "verified_utc": "2026-10-07T04:33:02.651993+00:00",
+  "latest_completed_checkpoint": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\010_run_350_train_001_part_02\\candidate.pt",
+  "verified_report": "E:\\Aditya\\robot_sim\\physical_v29\\training\\diagnostics\\adaptive_check_20261007_0344\\REPORT.md",
+  "checkpoint": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\1226_run_350_train_406\\candidate.pt",
+  "checkpoint_sha256": "aa6c13541b5dc5693bf586822025806399256e5f15327f25dd671c41c2d3876e",
+  "stop_receipt": "E:\\Aditya\\robot_sim\\physical_v29\\training\\diagnostics\\final_check_20261010_0905\\stop_receipt.json",
+  "resume_requires_new_user_authorization": true
+}

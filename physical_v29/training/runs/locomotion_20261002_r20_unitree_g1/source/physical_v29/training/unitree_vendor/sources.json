@@ -1,0 +1,50 @@
+{
+  "unitree_commit": "4960b84732b0c2ec593dccbfe963fda1bcd7b1e3",
+  "files": [
+    {
+      "file": "h1_cfg.py",
+      "url": "https://raw.githubusercontent.com/unitreerobotics/unitree_rl_lab/4960b84732b0c2ec593dccbfe963fda1bcd7b1e3/source/unitree_rl_lab/unitree_rl_lab/tasks/locomotion/robots/h1/velocity_env_cfg.py",
+      "sha256": "2811746c2aae8944d55bed0e274ded65025d658809ff0b63f23326707e3a8e8e"
+    },
+    {
+      "file": "g1_cfg.py",
+      "url": "https://raw.githubusercontent.com/unitreerobotics/unitree_rl_lab/4960b84732b0c2ec593dccbfe963fda1bcd7b1e3/source/unitree_rl_lab/unitree_rl_lab/tasks/locomotion/robots/g1/29dof/velocity_env_cfg.py",
+      "sha256": "22deed51bf779bb9730cdbb48df3b098ec64dab15984942153f0073d40840b8f"
+    },
+    {
+      "file": "rewards.py",
+      "url": "https://raw.githubusercontent.com/unitreerobotics/unitree_rl_lab/4960b84732b0c2ec593dccbfe963fda1bcd7b1e3/source/unitree_rl_lab/unitree_rl_lab/tasks/locomotion/mdp/rewards.py",
+      "sha256": "8a41249e85997414f759c56b990ebd8a9289f7d98c47e2fc70f54180e86d4ad3"
+    },
+    {
+      "file": "ppo.py",
+      "url": "https://raw.githubusercontent.com/unitreerobotics/unitree_rl_lab/4960b84732b0c2ec593dccbfe963fda1bcd7b1e3/source/unitree_rl_lab/unitree_rl_lab/tasks/locomotion/agents/rsl_rl_ppo_cfg.py",
+      "sha256": "0f15211f85adc84cf6586770dad448f080d579ea55b4f509aca20a36a11310f7"
+    },
+    {
+      "file": "mdp_init.py",
+      "url": "https://raw.githubusercontent.com/unitreerobotics/unitree_rl_lab/4960b84732b0c2ec593dccbfe963fda1bcd7b1e3/source/unitree_rl_lab/unitree_rl_lab/tasks/locomotion/mdp/__init__.py",
+      "sha256": "2b61e4b16274bdad8174e7a11f49a6cde647b015b0acbe0c0861bd9c0b935546"
+    },
+    {
+      "file": "README.md",
+      "url": "https://raw.githubusercontent.com/unitreerobotics/unitree_rl_lab/4960b84732b0c2ec593dccbfe963fda1bcd7b1e3/README.md",
+      "sha256": "87a0ca55d9896c74b6b6fa690a3795c6ebc1635e57d2d50f36d87fcfe7718a32"
+    },
+    {
+      "file": "LICENCE",
+      "url": "https://raw.githubusercontent.com/unitreerobotics/unitree_rl_lab/4960b84732b0c2ec593dccbfe963fda1bcd7b1e3/LICENCE",
+      "sha256": "ff28cacaef7b9919a0fb905136cf4ccffba5191522bf5d024c4339932c0edc28"
+    },
+    {
+      "file": "isaac_rewards.py",
+      "local_source": "IsaacLab/source/isaaclab/isaaclab/envs/mdp/rewards.py",
+      "sha256": "16434c6977132fa94ea0a6d71a18a5025e58136c19ea1a70df7d81bd5987c033"
+    },
+    {
+      "file": "velocity_rewards.py",
+      "local_source": "IsaacLab/source/isaaclab_tasks/isaaclab_tasks/manager_based/locomotion/velocity/mdp/rewards.py",
+      "sha256": "c0441764c360fdab4a3c661802d808e96ffb04a101f2aadd2686984653a56bd9"
+    }
+  ]
+}

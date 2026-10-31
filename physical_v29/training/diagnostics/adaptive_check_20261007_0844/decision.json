@@ -1,0 +1,462 @@
+{
+  "recorded_utc": "2026-10-07T09:27:46.155195+00:00",
+  "action": "REJECT teacher-context removal for deployment; resume same original R40 full-state learner.",
+  "reason": "Candidate recovers the slowest-speed gait but only slightly improves current drift at128 updates and introduces1.5 lateral and2.5 slip failures that unchanged control avoids. Current3.5 direction remains unqualified. Extra independently seeded initial states retain a comparison, not qualification.",
+  "matched_test": "E:\\Aditya\\robot_sim\\physical_v29\\training\\diagnostics\\adaptive_check_20261007_0844\\matched_context_review.json",
+  "comparisons": [
+    {
+      "branch": "control",
+      "updates": 64,
+      "tests": {
+        "nominal": {
+          "signed_speed": 3.4044370675386664,
+          "lateral_speed": 0.39625415518000595,
+          "true_flight": 0.355243057012558,
+          "head_RMS_deg": 3.5783121585845947,
+          "all_survive": true,
+          "failures": [
+            {
+              "command": 0.15,
+              "failures": [
+                "forward_net_travel"
+              ]
+            },
+            {
+              "command": 1.5,
+              "failures": [
+                "geometric_flight"
+              ]
+            },
+            {
+              "command": 2.5,
+              "failures": [
+                "world_lateral_speed"
+              ]
+            },
+            {
+              "command": 3.0,
+              "failures": [
+                "lateral_speed",
+                "world_lateral_speed"
+              ]
+            },
+            {
+              "command": 3.5,
+              "failures": [
+                "world_lateral_speed"
+              ]
+            }
+          ]
+        },
+        "pushed": {
+          "signed_speed": 3.4150358322778893,
+          "lateral_speed": 0.3678137404446142,
+          "true_flight": 0.35711807012557983,
+          "head_RMS_deg": 3.5900065898895264,
+          "all_survive": true,
+          "failures": [
+            {
+              "command": 0.15,
+              "failures": [
+                "forward_net_travel"
+              ]
+            },
+            {
+              "command": 1.5,
+              "failures": [
+                "geometric_flight"
+              ]
+            },
+            {
+              "command": 2.5,
+              "failures": [
+                "world_lateral_speed"
+              ]
+            },
+            {
+              "command": 3.0,
+              "failures": [
+                "lateral_speed",
+                "world_lateral_speed"
+              ]
+            },
+            {
+              "command": 3.5,
+              "failures": [
+                "world_lateral_speed"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "branch": "control",
+      "updates": 128,
+      "tests": {
+        "nominal": {
+          "signed_speed": 3.415850087084584,
+          "lateral_speed": 0.38338431967526426,
+          "true_flight": 0.3653472363948822,
+          "head_RMS_deg": 3.3689587116241455,
+          "all_survive": true,
+          "failures": [
+            {
+              "command": 0.15,
+              "failures": [
+                "completed_right_steps",
+                "bilateral_steps",
+                "alternating_landings",
+                "forward_net_travel"
+              ]
+            },
+            {
+              "command": 3.0,
+              "failures": [
+                "world_lateral_speed"
+              ]
+            },
+            {
+              "command": 3.5,
+              "failures": [
+                "world_lateral_speed"
+              ]
+            }
+          ]
+        },
+        "pushed": {
+          "signed_speed": 3.4263369216266293,
+          "lateral_speed": 0.3530871481946852,
+          "true_flight": 0.36944442987442017,
+          "head_RMS_deg": 3.3770992755889893,
+          "all_survive": true,
+          "failures": [
+            {
+              "command": 0.15,
+              "failures": [
+                "bilateral_steps",
+                "alternating_landings",
+                "forward_net_travel"
+              ]
+            },
+            {
+              "command": 3.0,
+              "failures": [
+                "world_lateral_speed"
+              ]
+            },
+            {
+              "command": 3.5,
+              "failures": [
+                "world_lateral_speed"
+              ]
+            }
+          ]
+        },
+        "push_seed1901": {
+          "signed_speed": 3.4256164579751105,
+          "lateral_speed": 0.37547393430118037,
+          "true_flight": 0.36937499046325684,
+          "head_RMS_deg": 3.376216411590576,
+          "all_survive": true,
+          "failures": [
+            {
+              "command": 0.15,
+              "failures": [
+                "completed_right_steps",
+                "bilateral_steps",
+                "alternating_landings",
+                "forward_net_travel"
+              ]
+            },
+            {
+              "command": 3.0,
+              "failures": [
+                "world_lateral_speed"
+              ]
+            },
+            {
+              "command": 3.5,
+              "failures": [
+                "world_lateral_speed"
+              ]
+            }
+          ]
+        },
+        "diverse_nominal": {
+          "signed_speed": 3.415692271508651,
+          "lateral_speed": 0.3788796875186202,
+          "true_flight": 0.36461806297302246,
+          "head_RMS_deg": 3.366271495819092,
+          "all_survive": true,
+          "failures": [
+            {
+              "command": 0.15,
+              "failures": [
+                "completed_right_steps",
+                "bilateral_steps",
+                "alternating_landings",
+                "forward_net_travel"
+              ]
+            },
+            {
+              "command": 3.0,
+              "failures": [
+                "world_lateral_speed"
+              ]
+            },
+            {
+              "command": 3.5,
+              "failures": [
+                "world_lateral_speed"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "branch": "candidate",
+      "updates": 64,
+      "tests": {
+        "nominal": {
+          "signed_speed": 3.4274759366275878,
+          "lateral_speed": 0.4705355913238389,
+          "true_flight": 0.3735416531562805,
+          "head_RMS_deg": 4.099753379821777,
+          "all_survive": true,
+          "failures": [
+            {
+              "command": 0.15,
+              "failures": [
+                "forward_net_travel"
+              ]
+            },
+            {
+              "command": 1.5,
+              "failures": [
+                "geometric_flight"
+              ]
+            },
+            {
+              "command": 2.5,
+              "failures": [
+                "foot_slip"
+              ]
+            },
+            {
+              "command": 3.0,
+              "failures": [
+                "world_lateral_speed"
+              ]
+            },
+            {
+              "command": 3.5,
+              "failures": [
+                "lateral_speed",
+                "world_lateral_speed"
+              ]
+            }
+          ]
+        },
+        "pushed": {
+          "signed_speed": 3.4367290882175197,
+          "lateral_speed": 0.44884133180609076,
+          "true_flight": 0.37638887763023376,
+          "head_RMS_deg": 4.103607177734375,
+          "all_survive": true,
+          "failures": [
+            {
+              "command": 0.15,
+              "failures": [
+                "forward_net_travel"
+              ]
+            },
+            {
+              "command": 1.5,
+              "failures": [
+                "geometric_flight"
+              ]
+            },
+            {
+              "command": 2.5,
+              "failures": [
+                "foot_slip"
+              ]
+            },
+            {
+              "command": 3.0,
+              "failures": [
+                "world_lateral_speed"
+              ]
+            },
+            {
+              "command": 3.5,
+              "failures": [
+                "lateral_speed",
+                "world_lateral_speed"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "branch": "candidate",
+      "updates": 128,
+      "tests": {
+        "nominal": {
+          "signed_speed": 3.4051491509519476,
+          "lateral_speed": 0.3620532973846369,
+          "true_flight": 0.34593749046325684,
+          "head_RMS_deg": 3.3161141872406006,
+          "all_survive": true,
+          "failures": [
+            {
+              "command": 1.5,
+              "failures": [
+                "world_lateral_speed"
+              ]
+            },
+            {
+              "command": 2.5,
+              "failures": [
+                "foot_slip"
+              ]
+            },
+            {
+              "command": 3.0,
+              "failures": [
+                "world_lateral_speed"
+              ]
+            },
+            {
+              "command": 3.5,
+              "failures": [
+                "world_lateral_speed"
+              ]
+            }
+          ]
+        },
+        "pushed": {
+          "signed_speed": 3.41152335158107,
+          "lateral_speed": 0.34286175007728975,
+          "true_flight": 0.3484027683734894,
+          "head_RMS_deg": 3.3210628032684326,
+          "all_survive": true,
+          "failures": [
+            {
+              "command": 1.5,
+              "failures": [
+                "world_lateral_speed"
+              ]
+            },
+            {
+              "command": 2.5,
+              "failures": [
+                "foot_slip"
+              ]
+            },
+            {
+              "command": 3.0,
+              "failures": [
+                "world_lateral_speed"
+              ]
+            },
+            {
+              "command": 3.5,
+              "failures": [
+                "world_lateral_speed"
+              ]
+            }
+          ]
+        },
+        "push_seed1901": {
+          "signed_speed": 3.4105335415325353,
+          "lateral_speed": 0.3591927229270714,
+          "true_flight": 0.3492361009120941,
+          "head_RMS_deg": 3.318701982498169,
+          "all_survive": true,
+          "failures": [
+            {
+              "command": 1.5,
+              "failures": [
+                "world_lateral_speed"
+              ]
+            },
+            {
+              "command": 2.5,
+              "failures": [
+                "foot_slip"
+              ]
+            },
+            {
+              "command": 3.0,
+              "failures": [
+                "world_lateral_speed"
+              ]
+            },
+            {
+              "command": 3.5,
+              "failures": [
+                "world_lateral_speed"
+              ]
+            }
+          ]
+        },
+        "diverse_nominal": {
+          "signed_speed": 3.4067052962809967,
+          "lateral_speed": 0.3645820018455553,
+          "true_flight": 0.34638887643814087,
+          "head_RMS_deg": 3.3171133995056152,
+          "all_survive": true,
+          "failures": [
+            {
+              "command": 1.5,
+              "failures": [
+                "world_lateral_speed"
+              ]
+            },
+            {
+              "command": 2.5,
+              "failures": [
+                "foot_slip"
+              ]
+            },
+            {
+              "command": 3.0,
+              "failures": [
+                "world_lateral_speed"
+              ]
+            },
+            {
+              "command": 3.5,
+              "failures": [
+                "world_lateral_speed"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "diagnostic_actors_deployed": false,
+  "production_source_reward_gain_caps_or_optimizer_reset": false,
+  "full_actor_critic_Adam_exploration_preserved": true,
+  "should_start_from_scratch": false,
+  "current_stage_qualified": false,
+  "highest_existing_contract_qualified_speed_m_s": 3.0,
+  "actual5m_s_proven": false,
+  "actual4m_s_fallback_proven": false,
+  "velocity_ceiling_proven": false,
+  "human_like_upper_motion_certified": false,
+  "seed_scope": "Extra seed2301 provides32 independently generated small nominal-physics q/qd initial states per command on each diagnostic128 actor. It does not qualify production, failed current cases,5m/s,or4m/s. Seed1901 changes pushes only; ordinary nominal seeds still clone initial states.",
+  "unchanged_gate_classifiers": true,
+  "original_signature_does_not_certify_diagnostic_training_override": true,
+  "truthful_teacher349_freshly_passes_both_tests": true,
+  "next_focused_tests": [
+    "Compare fresh exact current3.5 direction and all prior gates. The old-head-context removal is rejected after64/128 full-state controls and diverse resets; preserve current learner,267 and349. Use the yaw-aligned objective audit to test truthful normal-limit heading-feedback response and complete objective versus fixed-frame drift. Verify actual yaw-channel sensitivity and target/heading timing before any narrowly versioned64/128 learning candidate. Do not blindly repeat rejected fixed-frame kernels,teacher changes,arbitrary weights or relax gates.",
+    "Inspect mandatory upper angles,targets,velocities and arm-leg phase by speed. Separate slow shoulder bias drift from cycle swing. Existing upper20-batch refinement stays; both matched actors retain asymmetry. Before another upper change measure effective targets,auxiliary/PPO gradients and physical coupling. Original gains35/1 and native caps remain; no fabricated Unitree encoder curves,world-gaze certification,spoof,hybrid or tilted-head rollback.",
+    "Verify same full-state supervisor,one worker55 hashes,local ground,27507 inherited plus current completed and41 hash-proven recovery updates. Keep8192 target,reserve300,host fallback and180 healthy training seconds. Exclude documented pause,exclude all diagnostic samples. Extend reproducible independent initial-state tests to eventual endpoint actors; final5 or conditional4 still requires every gate and causal limits for4."
+  ]
+}

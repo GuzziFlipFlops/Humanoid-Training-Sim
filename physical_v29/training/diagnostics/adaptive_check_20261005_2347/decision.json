@@ -1,0 +1,18 @@
+{
+  "recorded_utc": "2026-10-06T00:02:22.187449+00:00",
+  "action": "Preserve improving same full-state learner; replace obsolete stalled1.5 diagnosis with running-retention and teacher-provenance audits",
+  "runtime_reward_physics_caps_optimizer_actor_changed": false,
+  "training_paused": false,
+  "run_150_historically_qualified": true,
+  "current_run_200_qualified": false,
+  "velocity_ceiling_proven": false,
+  "actual_5_m_s_proven": false,
+  "next_tests": [
+    "Preserve the same improving R37 full-state learner. Checkpoint199 newly qualifies running1.5 with exact200/201 full nominal/pushed/stopped/prior gates. The2.0 case now repeatedly passes actual speed, geometric flight and direction, but prior1.5 flight fails. Compare complete newer pairs; only promote2.0 when every stopped/prior case passes on that same actor. Monitor the2.5 frontier only after full qualification; no5m/s or ceiling is established.",
+    "Investigate prior-teacher context provenance before any estimator or reward redesign. Promotion replaced the prior teacher with neutral-head checkpoint199 but the old R34 head table still applies to walking commands. Exact actual-history CPU replay reproduces artificial self-teacher lower target RMS0.231-0.258 on199 versus~1e-6 without conditioning. On222 truthful current states, labels change0.236-0.279RMS; the student is closer to conditioned labels. This is an identified target/fixed-point mismatch, not proof of the1.5 flight regression: the table does not affect1.5 labels. If retention remains stalled, test teacher-specific context binding, keeping old R34 conditioning for its original teacher and truthful labels for newer certified neutral-head teachers. Measure actual per-command advantages and PPO/prior gradients, then compare unchanged current full-state control and candidate at64/128 updates with every prior/head/direction/flight gate. Preserve currentactor/critic/Adam/exploration, truthful student observations and all motor caps. Do not deploy solely from CPU sensitivity or erase posture/2.0 progress.",
+    "Verify55 frozen hashes, one actual worker,6144/8192 memory and exact full-state recovery. Count58 retained recovery updates separately from supervisor completed operations; exclude the679.7s historical R37 pauses. No pause occurred this check. The current6144-to8192 ramp requires about2091MiB freeGPU and180continuous healthyTRAININGseconds plus host guards. New exact10Hz CAD Jacobian motor audit at2.0 has ankle p99 cap ratios~0.88/0.84 and brief sampled crossings, not driving clipping or a ceiling. Perform actor-specific5ms clipping/torque attribution if high-speed plateau appears. Preserve rejected timing offsets, box smoothing, running-row transfer,44% exposure and teacher-clipping-equivalence decisions absent new evidence; CAPG remains an undeployed lower-priority lead."
+  ],
+  "teacher_context_candidate_deployed": false,
+  "teacher_context_causal_learning_validation": false,
+  "actual_PPO_advantage_gradient_capture_performed": false
+}

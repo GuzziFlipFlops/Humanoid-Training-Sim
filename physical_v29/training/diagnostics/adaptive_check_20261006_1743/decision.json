@@ -1,0 +1,27 @@
+{
+  "recorded_utc": "2026-10-06T18:26:13.766557+00:00",
+  "action": "Reject this fixed-frame kernel for immediate deployment; resume the same original full learner and existing upper refinement.",
+  "reason": "At128 updates lateral improves about57%, but both3.5 direction tests still fail and a new2.5 no_hopping failure appears in both, while control passes2.5. Preserving gait outweighs isolated direction improvement. The frame hypothesis remains a research lead requiring focused retention/gradient evidence.",
+  "diagnostic_actors_deployed": false,
+  "production_source_reward_PD_caps_optimizer_or_actor_reset": false,
+  "current_stage_qualified": false,
+  "highest_existing_contract_qualified_speed_m_s": 3.0,
+  "velocity_ceiling_proven": false,
+  "human_like_upper_motion_certified": false,
+  "actual5m_s_proven": false,
+  "actual4m_s_fallback_proven": false,
+  "matched_test": "E:\\Aditya\\robot_sim\\physical_v29\\training\\diagnostics\\adaptive_check_20261006_1743\\matched_direction_review.json",
+  "next_focused_tests": [
+    "Latest original267 now passes every stopped/prior case through3m/s in matching268/269; preserve that useful actor and full neutral-head learner.3.5 still fails direction at3.489/3.496 signed and0.516/0.488 lateral. Direction correction is a promising but undeployed hypothesis: exact4096-env128 comparison lowers3.5 lateral0.590/0.571 to0.254/0.242m/s, yet world-lateral still fails and retained2.5 hop fraction2.299% exceeds the unchanged2% cap in both tests;1.5 flight also fails. First analyze per-command actual advantages/PPO versus prior gradients and2.5 landing events on these saved actors. Require a bounded retention-preserving candidate, independently seeded replication and full-state64/128 control/all gates before deployment; original signatures do not certify diagnostic reward overrides. Do not blindly repeat the same kernel, permanently infer the frame hypothesis false, arbitrarily change weights, or deploy diagnostic actors.",
+    "Every check inspect actual upper angle/target/velocity timelines. Actual shoulder35/1 free-base tests show high-frequency attenuation; more damping worsens pitch and is not selected. Before an upper repair, test bounded normal-limit stiffness/damping or feasible target-velocity/phase response with truthful feedback and motor-effort/base coupling, then narrow full-state matched control/retention tests. Preserve current head/gait/full learner. Cross-check the CPU modeled world head axis against actual Isaac head-link orientation and original CAD face axis before any world-forward posture label; native head zero alone is insufficient. No cap raise, spoof, hybrid or fabricated human/Unitree curves.",
+    "Verify same owned worker55 frozen hashes/local ground/exact full-state recovery, completed plus33 proven recovered R39 updates and16936 inherited, moving6144/8192 target/reserve300/host fallback/180continuoushealthyTRAINING-second ramp. Exclude this1599.9s diagnostic pause and earlier1823.6s pause from clocks. All10 current normal-limit physical cohorts have zero native5ms driving-speed clips, not proof of a high-speed ceiling. Before final5 or conditional4 endpoint establish32 independently seeded nominal-physics initial-state trials per command with all unchanged classifiers; nominal clones alone are insufficient. Preserve useful actors, unsaved Fusion and fulfilled videos."
+  ],
+  "postresume_all_prior_passing_actor": {
+    "checkpoint": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261006_r39_commanded_travel_teacher_certificate\\267_run_350_train_086\\candidate.pt",
+    "sha256": "20a133fdd4843118d816172239201a387ca947b38952fb38f094a156afa0a320",
+    "nominal": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261006_r39_commanded_travel_teacher_certificate\\268_run_350_gate_087_nominal",
+    "pushed": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261006_r39_commanded_travel_teacher_certificate\\269_run_350_gate_087_push",
+    "all_prior_pass": true,
+    "current3_5_qualified": false
+  }
+}

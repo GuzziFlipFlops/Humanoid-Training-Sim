@@ -1,0 +1,266 @@
+{
+  "left_ankle": {
+    "pitch_origin_mm": [
+      -120.00000000000028,
+      11.67499999999999,
+      31.600000000000364
+    ],
+    "pitch_axis": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "roll_origin_mm": [
+      -120.00000000000026,
+      11.608749380930494,
+      14.600129092976593
+    ],
+    "roll_axis": [
+      0.0,
+      -0.9999924062955156,
+      0.003897095239380199
+    ],
+    "joint_names": [
+      "left_ankle_pitch",
+      "left_ankle_roll"
+    ],
+    "motor_on_moving_link": false,
+    "motors": [
+      {
+        "name": "Left_Motor_A_output",
+        "center_mm": [
+          -120.00000000000017,
+          70.70000000000002,
+          335.0000000000002
+        ],
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "crank_vector_mm": [
+          22.996241099806156,
+          -4.263256414560601e-14,
+          -0.41580678155116857
+        ],
+        "bottom_eye_mm": [
+          -97.00259688119324,
+          50.58205127527336,
+          14.08845122214869
+        ],
+        "rod_length_mm": 321.1265365864368,
+        "motor_limits_rad": [
+          -1.7278759594743862,
+          1.7627825445142729
+        ]
+      },
+      {
+        "name": "Left_Motor_B_output",
+        "center_mm": [
+          -120.0000000000002,
+          63.70000000000001,
+          253.00000000000023
+        ],
+        "axis": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "crank_vector_mm": [
+          -22.99976293642365,
+          -4.973799150320701e-14,
+          0.10442637747590311
+        ],
+        "bottom_eye_mm": [
+          -142.99966222920466,
+          50.58407618799958,
+          14.608042667895182
+        ],
+        "rod_length_mm": 238.856761470133,
+        "motor_limits_rad": [
+          -1.7400932642383466,
+          1.7505652397503124
+        ]
+      }
+    ],
+    "source": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v29\\native_joint_map_saved.json",
+    "source_sha256": "506a3e0bb45bebb168dbb3d68a4e478dee4575a792c1bdae81c2ac0bf8f86538",
+    "scope": "Exact saved shaft and rod-eye closure geometry. Motor angular limits checked. Rod-end contact angles, elastic deformation, friction and passive mesh animation not simulated."
+  },
+  "right_ankle": {
+    "pitch_origin_mm": [
+      120.0,
+      11.675,
+      31.60000000000001
+    ],
+    "pitch_axis": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "roll_origin_mm": [
+      119.99999999999997,
+      11.608749380930512,
+      14.60012909297626
+    ],
+    "roll_axis": [
+      0.0,
+      0.9999924062955156,
+      -0.003897095239381309
+    ],
+    "joint_names": [
+      "right_ankle_pitch",
+      "right_ankle_roll"
+    ],
+    "motor_on_moving_link": false,
+    "motors": [
+      {
+        "name": "Right_Motor_A_output",
+        "center_mm": [
+          120.0,
+          70.7,
+          334.99999999999994
+        ],
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "crank_vector_mm": [
+          -22.9962410998062,
+          0.0,
+          -0.4158067815514528
+        ],
+        "bottom_eye_mm": [
+          97.00259688119301,
+          50.58205127527338,
+          14.088451222148368
+        ],
+        "rod_length_mm": 321.1265365864366,
+        "motor_limits_rad": [
+          -1.7278759594743862,
+          1.7627825445142729
+        ]
+      },
+      {
+        "name": "Right_Motor_B_output",
+        "center_mm": [
+          120.0,
+          63.7,
+          252.99999999999994
+        ],
+        "axis": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "crank_vector_mm": [
+          22.99976293642368,
+          0.0,
+          0.10442637747581784
+        ],
+        "bottom_eye_mm": [
+          142.99966222920432,
+          50.584076187999614,
+          14.608042667894843
+        ],
+        "rod_length_mm": 238.85676147013297,
+        "motor_limits_rad": [
+          -1.7400932642383466,
+          1.7505652397503124
+        ]
+      }
+    ],
+    "source": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v29\\native_joint_map_saved.json",
+    "source_sha256": "506a3e0bb45bebb168dbb3d68a4e478dee4575a792c1bdae81c2ac0bf8f86538",
+    "scope": "Exact saved shaft and rod-eye closure geometry. Motor angular limits checked. Rod-end contact angles, elastic deformation, friction and passive mesh animation not simulated."
+  },
+  "waist": {
+    "pitch_origin_mm": [
+      0.0,
+      48.343134,
+      957.0
+    ],
+    "pitch_axis": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "roll_origin_mm": [
+      -2.0062499947200236e-15,
+      48.34313399999998,
+      983.9999999999995
+    ],
+    "roll_axis": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "joint_names": [
+      "waist_pitch",
+      "waist_roll"
+    ],
+    "motor_on_moving_link": true,
+    "motors": [
+      {
+        "name": "WJ_drive_L",
+        "center_mm": [
+          -63.499999999992944,
+          23.343133999999978,
+          1025.0000000000114
+        ],
+        "axis": [
+          1.0,
+          0.0,
+          -2.842170943040398e-13
+        ],
+        "crank_vector_mm": [
+          33.50000000000153,
+          -24.432008140435812,
+          8.892523726455465
+        ],
+        "bottom_eye_mm": [
+          -30.00000000000002,
+          3.3431340000000267,
+          964.9999999999995
+        ],
+        "rod_length_mm": 69.03493696353135,
+        "motor_limits_rad": [
+          -1.0471975511965976,
+          1.0471975511965976
+        ]
+      },
+      {
+        "name": "WJ_drive_R",
+        "center_mm": [
+          63.500000000007034,
+          23.343134000000006,
+          1024.9999999999893
+        ],
+        "axis": [
+          1.0,
+          0.0,
+          -2.1316282072802985e-13
+        ],
+        "crank_vector_mm": [
+          -33.49999999999848,
+          -24.432008140431883,
+          8.892523726478203
+        ],
+        "bottom_eye_mm": [
+          29.999999999999986,
+          3.3431340000000094,
+          964.9999999999999
+        ],
+        "rod_length_mm": 69.03493696353144,
+        "motor_limits_rad": [
+          -1.0471975511965976,
+          1.0471975511965976
+        ]
+      }
+    ],
+    "source": "E:\\Aditya\\robot_sim\\outputs\\shin_cad_20260912\\v29\\native_joint_map_saved.json",
+    "source_sha256": "506a3e0bb45bebb168dbb3d68a4e478dee4575a792c1bdae81c2ac0bf8f86538",
+    "scope": "Exact saved shaft and rod-eye closure geometry. Motor angular limits checked. Rod-end contact angles, elastic deformation, friction and passive mesh animation not simulated."
+  }
+}

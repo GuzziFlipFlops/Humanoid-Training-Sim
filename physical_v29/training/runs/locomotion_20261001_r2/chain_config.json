@@ -1,0 +1,62 @@
+{
+  "stages": [
+    [
+      "stand",
+      0.0
+    ],
+    [
+      "walk_035",
+      0.35
+    ],
+    [
+      "walk_065",
+      0.65
+    ],
+    [
+      "walk_100",
+      1.0
+    ],
+    [
+      "run_150",
+      1.5
+    ],
+    [
+      "run_200",
+      2.0
+    ],
+    [
+      "run_250",
+      2.5
+    ]
+  ],
+  "reserve_mb": 300,
+  "max_hours": 18.0,
+  "iterations_per_block": 150,
+  "train_environment_fallback": [
+    8192,
+    6144,
+    4096
+  ],
+  "eval_envs": 128,
+  "evaluation_seconds": 20,
+  "seeds": [
+    901,
+    1301
+  ],
+  "sources_sha256": {
+    "environment.py": "931170598950eb382a33ac2d7b47e54170c8276ce45d44748720b1d6da398d68",
+    "worker.py": "aaf28ec8d139ba77fa24263ff5295c190aff828f9e5a1969a145d69ef32ef4a2",
+    "evaluation.py": "c529be9399d8dc0af08a395ee3173da8e3faf8dd9823e617eb55d96027d00cfa",
+    "supervisor.py": "526026d70d56ad1d361de7c9beaa1013eaf05c62d58a953a1ccd9e8f59bac89d",
+    "mass_estimate.json": "760fccba4ae16568a3c08b25ca11fd01ee9a1fcd40a6d57dd58a2c9b3c37282d",
+    "assets/robot_training.urdf": "26d5579ac6ac05e4d35180abf323398fa8fc0fdaa41003b1c55b694fc635eb17",
+    "assets/motion_reference.npz": "37af2ab6c2ac3246f973a2170702a7a98dcb5f032248d91cba8f079216556c4a",
+    "physical_assets/actuator_limits.json": "b395e16136108b99c5e1f6b3c4688568c7ae5aff23c05acad25308638fabba16",
+    "physical_assets/differential_geometry.json": "bbb24cb6b6043995f214c07621f914cfd7bc8dc8cca441f757cb939d7ca3c84e",
+    "physical_v29/hardware_actuators.py": "fd916c3243db9d05ec769bfd6871050fdba771763aa55c093f505b136127f0db",
+    "physical_v29/cad_differential.py": "6ecdabdda8f312d7d7cbcf04011b507f14a52415eb60fcebf8b1e53ca6f2b36c",
+    "physical_v29/assets/export_metadata.json": "07505f194e55eeb3a9d97ecc3d3a1b56dbe59e6129866bcf06dffaa6ac4999d0"
+  },
+  "no_cameras": true,
+  "local_only": true
+}

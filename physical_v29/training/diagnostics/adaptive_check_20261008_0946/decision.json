@@ -1,0 +1,13 @@
+{
+  "recorded_utc": "2026-10-08T10:19:00.156494+00:00",
+  "decision": "PRESERVE_IMPROVING_ORIGINAL_FULL_LEARNER",
+  "explanation": "Preserve the useful current-speed direction improvement. Full retention and upper motion remain incomplete. Four passive gradient batches show both signs of alignment; they do not justify a new deployed loss. Continue existing refinements and test truthful sequential individual-cycle/state-conditioned coverage before a narrow candidate.",
+  "production_change": false,
+  "diagnostic_actors_deployed": false,
+  "new_candidate_learning_tested": false,
+  "next_tests": [
+    "Preserve actor 605, whose 3.5 m/s running case passes both tests, and compare newer exact actors with all stopped and earlier-speed gates. Actor 605 still fails 0.15 net travel, 1.5 flight and 2.5 slip. Audit their actual per-command advantages, teacher targets and landing/force events before a narrow retention continuation. Current-speed success alone does not promote the stage; preserve actor 267 and separately certified 349.",
+    "Continue mandatory upper angle, target, velocity, bilateral and arm-leg timelines. Same actor 605 gives phase-balanced 3.5 m/s shoulder outputs (-16.04, -28.52 degrees) on stable-command training states versus (-28.15, +9.90) on deterministic evaluation states. Measure truthful sequential per-robot cycle coverage, command transitions, exploration and arm-history/hidden-feature response. Stage an individual-cycle or state-conditioned two-final-row derivative only after reset-safe CPU fixtures, physical response, exact full-state 64/128 controls, all gates and independent seeds. The ensemble-mean candidate remains rejected. Preserve forward head, legs, teachers, 35/1 gains and all learned state; no observation substitution, hybrid or imposed reference curve.",
+    "Verify supervisor 39000, one worker, 55 hashes, local ground, exact full-state teachers and actual retained samples. Preserve 27,507 inherited updates plus completed and 50 verified R40 recoveries; exclude 32 unsaved R39 updates. Exclude this check's 110.1-second failed-import and 197.7-second successful-capture pauses through each timing endpoint. Keep target 8192, reserve 300 MiB, host guards and 180 continuous healthy training seconds; do not force a ramp from evaluation memory. Correctly mapped actor-605 motor samples show right ankle motor 2 at/above cap in 1.96% of 10 Hz samples. If a high-speed plateau appears, measure current-actor 5 ms requested/applied torque and sustained driving clips before any limit conclusion. Only qualified 5 m/s or qualified 4 m/s with causal limits blocking 5 ends the same five-hour heartbeat."
+  ]
+}

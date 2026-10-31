@@ -1,0 +1,12 @@
+{
+  "conclusion": "Reject the tested earlier complete-state continuation for deployment. Both learning seeds retain useful 1.5 m/s flight but fail the full direction and prior-speed contract. The unchanged current-state controls also remain unqualified. Preserve both complete learned states and resume the original full learner; prioritize a measured, versioned objective/update that protects each command's retained behavior.",
+  "interpretation": "At 128 updates, earlier-state ordinary nominal/pushed 1.5 m/s geometric flight is 2.226/2.132% in seed 317 and 1.875/1.861% in seed 331; corresponding controls have 0.000/0.035% and 0.000/0.049%. The earlier branches nevertheless have 3.5 m/s lateral speeds 0.623/0.599 and 0.451/0.421 m/s, versus control 0.148/0.137 and 0.373/0.349. Both earlier seeds fail 2.5 m/s slip and retained 3 m/s direction at 128; seed 331 adds retained 1 m/s direction failure, and slow path efficiency is not reliably recovered. Individually seeded initial states reproduce these failures. All robots survive, so survival alone is insufficient. Fresh actor 267 passed all priors through 3 m/s before this continuation, making its subsequent retention loss reproduced evidence. The complete checkpoint, including critic/Adam/exploration, is the branch difference; this does not isolate a reward term, actor feature or mechanical arm cause. Running neck RMS increases from matched controls 2.40 to 3.92 degrees and 4.55 to 5.65 degrees in the earlier branches; smaller shoulder offsets alone do not certify a better upper controller. This bounded failure does not prove every earlier-state approach ineffective, 5 m/s impossible or a native motor ceiling. No new reward, CPO optimizer, teacher target, diagnostic actor, gain or cap is deployed.",
+  "diagnostic_actor_deployed": false,
+  "production_source_reward_gain_cap_or_optimizer_reset": false,
+  "original_learner_preserved": true,
+  "earlier_checkpoint_preserved": true,
+  "experiment_validation": "experiment_validation.json",
+  "next_research": "constraint_reward_review.md",
+  "endpoint_established": false,
+  "computer_on": true
+}

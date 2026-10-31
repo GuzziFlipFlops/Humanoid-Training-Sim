@@ -1,0 +1,87 @@
+{
+  "reference_type": "CAD IK gait prior; no copied source joint angles; not dynamically validated motion",
+  "root_height": 0.905836568639,
+  "stand": {
+    "waist_yaw": 0.0,
+    "waist_pitch": 0.0,
+    "waist_roll": 0.0,
+    "left_ankle_pitch": -0.342105583587295,
+    "left_ankle_roll": -0.001113587797488964,
+    "left_hip_pitch": -0.341674929776706,
+    "left_hip_roll": 0.023433580118372446,
+    "left_hip_yaw": -0.14172464752917938,
+    "left_knee_pitch": 0.654061425353114,
+    "left_shoulder_pitch": 0.0,
+    "left_shoulder_roll": 0.0,
+    "right_shoulder_pitch": 0.0,
+    "right_shoulder_roll": 0.0,
+    "head_yaw": 0.0,
+    "right_elbow_pitch": -0.3,
+    "left_elbow_pitch": -0.3,
+    "head_pitch": 0.0,
+    "right_ankle_pitch": -0.34216655757386316,
+    "right_ankle_roll": -0.0011139822672357686,
+    "right_hip_pitch": -0.3417359889525228,
+    "right_hip_roll": 0.023441986029329228,
+    "right_hip_yaw": -0.14174916145419592,
+    "right_knee_pitch": 0.6541789630423788
+  },
+  "clips": [
+    {
+      "speed": 0.0,
+      "duty": 0.62,
+      "frequency": 0.9,
+      "foot_clearance_m": 0.035,
+      "max_foot_position_error_m": 9.323580904231577e-10,
+      "max_orientation_error_rad": 8.963110530434778e-09
+    },
+    {
+      "speed": 0.35,
+      "duty": 0.62,
+      "frequency": 1.075,
+      "foot_clearance_m": 0.0413,
+      "max_foot_position_error_m": 0.0008146386852866651,
+      "max_orientation_error_rad": 0.026547035398934042
+    },
+    {
+      "speed": 0.65,
+      "duty": 0.62,
+      "frequency": 1.225,
+      "foot_clearance_m": 0.046700000000000005,
+      "max_foot_position_error_m": 0.0018160849613766104,
+      "max_orientation_error_rad": 0.06140083016080497
+    },
+    {
+      "speed": 1.0,
+      "duty": 0.62,
+      "frequency": 1.4,
+      "foot_clearance_m": 0.053000000000000005,
+      "max_foot_position_error_m": 0.002694085944456875,
+      "max_orientation_error_rad": 0.0950899494170189
+    },
+    {
+      "speed": 1.5,
+      "duty": 0.48,
+      "frequency": 1.65,
+      "foot_clearance_m": 0.062,
+      "max_foot_position_error_m": 0.0037454254959315672,
+      "max_orientation_error_rad": 0.13871810872956813
+    },
+    {
+      "speed": 2.0,
+      "duty": 0.43,
+      "frequency": 1.9,
+      "foot_clearance_m": 0.07100000000000001,
+      "max_foot_position_error_m": 0.004787393005898421,
+      "max_orientation_error_rad": 0.1835029468356984
+    },
+    {
+      "speed": 2.5,
+      "duty": 0.43,
+      "frequency": 2.15,
+      "foot_clearance_m": 0.08,
+      "max_foot_position_error_m": 0.016785864842979472,
+      "max_orientation_error_rad": 0.2325986443338079
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "schema": "commanded_travel_guard_v1",
+  "prior_run": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261005_r37_offline_ground_full_state",
+  "checkpoint": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261005_r37_offline_ground_full_state\\459_run_350_train_036\\candidate.pt",
+  "checkpoint_sha256": "75b0a3ea651e5bb9872404b9df8ac0686eb38a24f04e3cf639ad90425ad92a08",
+  "old_reward_signature": "25aa2923e9b9369acb2adb02db5d2ea460a8079df5e10a6e253cf899a6bf3c46",
+  "new_reward_signature": "8e5ce54a3d4d626eaf4cc7488a542485924cdfec69b4dabfd8daaf1b504c7e9d",
+  "allowed_checkpoint_sha256": [
+    "75b0a3ea651e5bb9872404b9df8ac0686eb38a24f04e3cf639ad90425ad92a08",
+    "18e19ec3b558922a5927136d2b1b51fc3b68dc44a22df252e5630fce84c00a3e"
+  ],
+  "source_hashes": {
+    "cad_differential.py": "ebad5ef4004f682fbab01faac6f5a94bd4f8b1bbd700ed7382a9ad46c5342988",
+    "hardware_actuators.py": "3ccb0f1be7eb7ba6fc2579d258e1a1cb85de2d943d7af449596a55148c3d3431",
+    "owned_cuda_graph.py": "fc15b703f007aff31fea35daf418809b38f557231e114f5efb3bba63586bdca5",
+    "assets/actuator_limits.json": "b395e16136108b99c5e1f6b3c4688568c7ae5aff23c05acad25308638fabba16",
+    "assets/differential_geometry.json": "bbb24cb6b6043995f214c07621f914cfd7bc8dc8cca441f757cb939d7ca3c84e",
+    "assets/export_metadata.json": "07505f194e55eeb3a9d97ecc3d3a1b56dbe59e6129866bcf06dffaa6ac4999d0",
+    "training/command_curriculum.py": "bb523c62ead24d61eeee8518855fab832757724e537d059aa6e09ce47efece49",
+    "training/curriculum_provenance.py": "52f549d6e76aeb922d9b2c7a1eb2de2ad3f9b16a5a2766421a1ed10bd2a6c70b",
+    "training/environment.py": "e60769643bf2c0c84d7c1dc96f688fa67c47c26ba4b7830127becffda9e6ac30",
+    "training/environment_unitree.py": "4c696acd5d0b7882d72110487f051e541c9c26a17b4c0dec23f2767b82817909",
+    "training/evaluation.py": "dc7c5279baf1bdee188aa103b5bc3c5de20e3907b0e69a111804111d02a1dd23",
+    "training/evaluation_steps.py": "0b3ad04af6e1ef5b5f3a76df0acf27e788b5ee3f7e46c299ae668b269edac7c8",
+    "training/heading_control.py": "361fd19167b92c67f5dc5a16c7c7d113f496a6077e3f8ea5d41c7958c11d2ae6",
+    "training/mass_estimate.json": "760fccba4ae16568a3c08b25ca11fd01ee9a1fcd40a6d57dd58a2c9b3c37282d",
+    "training/memory_guard.py": "9962a52b2188ba2c47ec8ce1cdc4fa5290ccd7a67e60aa8d388f1d559ab7784c",
+    "training/offline_ground.py": "9dae10cdd8f5b61a26b3edf2f9488151ad56499af9f3f6e866fdf01079bd4f2d",
+    "training/ppo_update_audit.py": "c65be7ce883a00ce5cc454f59ddd03cde079645a3256673d08de137fb688b374",
+    "training/reference_geometry.py": "252622273e48f247cc988d60e84711d3f1c103269fb19a2c9cf5758375d69c09",
+    "training/reward_warm_start.py": "ddb46aa44fcffcde99ff8c85410d55abf00563708694363d4836a3e866089de6",
+    "training/stage_rewards.py": "3729ae1fc7d94ee3a17470dde8131165ac2e9e45d475b1a83a9668b4ff39649c",
+    "training/standing_retention.py": "fb1d137d9325a2f08b6220aeb28a305711febb7bb8bdab02cf2641c41531d8a6",
+    "training/status_io.py": "d9b14fc5022dd5a97cbcd411bd79d228cf6bcfa78b4b8192a55b2a2985fe1734",
+    "training/support_geometry.py": "15a06dae46482a3900c9bb229e60c3ee831185fc08635f18b7262b4b444638e7",
+    "training/teacher_head_context.json": "f289af08cabb51e82e10c80e42ceecdddf5b5dc2e8aa916db9ed1e48e5d0280e",
+    "training/teacher_head_context.py": "e98ffed8d42d8bbb6a76d9113e80bd519ed988df71ec6e4165a6232348a6a21a",
+    "training/unitree_reward_port.py": "3c9ef52c50b7bec2b65180dfaa5be97871e1b213ebf78450b105ed7505697c59",
+    "training/upper_body_refinement.py": "d925675b1d499e54e500ae5d0d7ce7b7c3d4444126127dd86eefc4c678de0dfa",
+    "training/walking_rewards.py": "ea721f6d7f07a6b42330cad5236fef467fce926b8a5889b8f4ec5946ff32793d",
+    "training/worker.py": "e5d40517d4f9560abeafefbacc03c29172c0c349ed55f0dee0a90ef30b8fa405",
+    "training/worker_unitree.py": "6ecc342a7860d42dfde67d5699551815efc004f72e9aab49ab3e3405d55bd74c",
+    "training/assets/motion_reference.npz": "37af2ab6c2ac3246f973a2170702a7a98dcb5f032248d91cba8f079216556c4a",
+    "training/assets/robot_training.urdf": "26d5579ac6ac05e4d35180abf323398fa8fc0fdaa41003b1c55b694fc635eb17",
+    "training/assets/ground/default_environment.usd": "8a21c317d638d33a4e6c20c958a7ed8f4d8c5195efd7e20f1b85178b4a15638a",
+    "training/assets/ground/manifest.json": "bdcdae6728fd22ea8771f0b0e1278b72c9b55ffb2190949e6c4c129c82f269df",
+    "training/assets/ground/Materials/Textures/WireframeBlur_basecolor.png": "deab39088eaf39ed7be951966c5e6bd5e58b90ab64743b0cdc8e5579fd5a99d9",
+    "training/assets/ground/Materials/Textures/WireframeBlur_blue.png": "44fc0e82007bb0bd94631cd7ec45986a71ed74b9413899fbffac13efe151be4b",
+    "training/assets/ground/Materials/Textures/Wireframe_blue.png": "940b96ee8c8e53bd1acbc770d4ca0ac98bed9c96439ab386d1b27dbc9790cc4e",
+    "training/unitree_vendor/g1_cfg.py": "22deed51bf779bb9730cdbb48df3b098ec64dab15984942153f0073d40840b8f",
+    "training/unitree_vendor/g1_cfg.py.rewards.txt": "8cc753b8aa8812d069b57411f80b0cd7d13d48d4242cc4e4d8f1d09d7be41829",
+    "training/unitree_vendor/h1_cfg.py": "2811746c2aae8944d55bed0e274ded65025d658809ff0b63f23326707e3a8e8e",
+    "training/unitree_vendor/h1_cfg.py.rewards.txt": "5743720b475996cb2080caa73914d8693df907fe64eb1cddcfd61a927b7d8e9a",
+    "training/unitree_vendor/h2_velocity_cfg.py": "87a58574713e66c406ee5defd33240c30646092be495480249c84646799e8bc3",
+    "training/unitree_vendor/isaac_rewards.py": "16434c6977132fa94ea0a6d71a18a5025e58136c19ea1a70df7d81bd5987c033",
+    "training/unitree_vendor/LICENCE": "ff28cacaef7b9919a0fb905136cf4ccffba5191522bf5d024c4339932c0edc28",
+    "training/unitree_vendor/mdp_init.py": "2b61e4b16274bdad8174e7a11f49a6cde647b015b0acbe0c0861bd9c0b935546",
+    "training/unitree_vendor/ppo.py": "0f15211f85adc84cf6586770dad448f080d579ea55b4f509aca20a36a11310f7",
+    "training/unitree_vendor/README.md": "87a0ca55d9896c74b6b6fa690a3795c6ebc1635e57d2d50f36d87fcfe7718a32",
+    "training/unitree_vendor/rewards.py": "8a41249e85997414f759c56b990ebd8a9289f7d98c47e2fc70f54180e86d4ad3",
+    "training/unitree_vendor/rlgym_legged_robot.py": "255c67339be0c8e98332a632330d62d56c61de4c2e93c43bd30402e9d76eac3d",
+    "training/unitree_vendor/rlgym_legged_robot_config.py": "009677a88e2cca66feae457a90679c32fc8676272045a29649a125fb59f2ef56",
+    "training/unitree_vendor/rlgym_LICENSE": "aef6394ba1597725a68308167324e675f562e6606027404deb1b9da254c2b9c1",
+    "training/unitree_vendor/sources.json": "e779b4078b595256cb7f074c13e9234a59342303559e404c29446874016f95ee",
+    "training/unitree_vendor/velocity_rewards.py": "c0441764c360fdab4a3c661802d808e96ffb04a101f2aadd2686984653a56bd9"
+  },
+  "cpu_tests_passed": true,
+  "gates_relaxed": false,
+  "environment_replacements": [
+    [
+      "  self.commands=torch.zeros((self.num_envs,3),device=self.device);self.phase=torch.zeros(self.num_envs,device=self.device)\n",
+      "  self.commands=torch.zeros((self.num_envs,3),device=self.device);self.phase=torch.zeros(self.num_envs,device=self.device)\n  self.command_travel_budget=torch.zeros(self.num_envs,device=self.device);self._command_travel_tick=-1\n"
+    ],
+    [
+      "  finite=torch.isfinite(self.robot.data.joint_pos).all(1)&torch.isfinite(m['height'])\n",
+      "  finite=torch.isfinite(self.robot.data.joint_pos).all(1)&torch.isfinite(m['height'])\n  # Preserve the 60m excess-travel margin; commanded locomotion is allowed.\n  # Charge the exact action command once per control tick, across switches.\n  if self._command_travel_tick!=self.common_step_counter:\n   command=getattr(self,'action_commands',self.commands)\n   self.command_travel_budget.add_(command[:,:2].norm(dim=1)*self.step_dt)\n   self._command_travel_tick=self.common_step_counter\n"
+    ],
+    [
+      "   excessive_drift=m['drift']>60.,nonfoot_impact=",
+      "   excessive_drift=m['drift']>(60.+self.command_travel_budget),nonfoot_impact="
+    ],
+    [
+      "  self.start_xy[env_ids]=root[:,:2];self.phase[env_ids]=0.\n",
+      "  self.start_xy[env_ids]=root[:,:2];self.phase[env_ids]=0.;self.command_travel_budget[env_ids]=0.\n"
+    ]
+  ],
+  "worker_replacements": [
+    [
+      "parser.add_argument('--actor_warm_start',action='store_true')\n",
+      "parser.add_argument('--actor_warm_start',action='store_true')\nparser.add_argument('--termination_proof',default='')\n"
+    ],
+    [
+      "def agent_config():\n",
+      "def validate_commanded_travel_checkpoint(checkpoint,signature,proof_path):\n \"\"\"Explicit termination-only continuation; never a general signature bypass.\"\"\"\n proof=json.loads(Path(proof_path).read_text())\n assert proof['schema']=='commanded_travel_guard_v1'\n assert signature==proof['old_reward_signature']\n assert sha(checkpoint) in proof['allowed_checkpoint_sha256']\n assert reward_signature()==proof['new_reward_signature']\n root=HERE.parent\n actual={p.relative_to(root).as_posix():sha(p) for p in root.rglob('*')\n  if p.is_file() and '__pycache__' not in p.parts and p.suffix!='.pyc' and 'usd' not in p.parts}\n assert actual==proof['source_hashes'],'Termination migration protected source mismatch'\n assert proof['cpu_tests_passed'] and not proof['gates_relaxed']\n return dict(schema=proof['schema'],proof_path=str(Path(proof_path).resolve()),\n  proof_sha256=sha(proof_path),old_source_signature=signature,new_source_signature=reward_signature(),\n  full_actor_critic_Adam_exploration_retained=True,gates_relaxed=False)\n\ndef agent_config():\n"
+    ],
+    [
+      "    assert saved['infos'].get('reward_signature')==reward_signature(),'Reward/observation/action source changed; use explicit audited actor transfer'\n",
+      "    if saved['infos'].get('reward_signature')!=reward_signature():\n     assert args.termination_proof,'Reward/observation/action source changed; explicit termination proof required'\n     migration=validate_commanded_travel_checkpoint(args.checkpoint,saved['infos'].get('reward_signature'),args.termination_proof)\n     atomic_json(out/'termination_checkpoint_migration.json',migration)\n"
+    ],
+    [
+      "    assert teacher_saved['infos']['reward_signature']==reward_signature(),'Teacher reward/runtime differs'\n",
+      "    if teacher_saved['infos']['reward_signature']!=reward_signature():\n     assert args.termination_proof,'Teacher source changed; explicit termination proof required'\n     migration=validate_commanded_travel_checkpoint(certificate['checkpoint'],teacher_saved['infos']['reward_signature'],args.termination_proof)\n     atomic_json(out/'termination_teacher_migration.json',migration)\n"
+    ]
+  ],
+  "implementation_hashes": {
+    "training/environment.py": "e60769643bf2c0c84d7c1dc96f688fa67c47c26ba4b7830127becffda9e6ac30",
+    "training/worker_unitree.py": "6ecc342a7860d42dfde67d5699551815efc004f72e9aab49ab3e3405d55bd74c"
+  },
+  "reason": "Correct artificial60m absolute travel failure; retain original60m margin beyond integrated action-command travel. Reward bodies/weights and verifier unchanged.",
+  "qualifies_locomotion": false,
+  "supervisor_sha256": "dc33601290b1a1a2f3c9053391bc0ecf4763533a16dcdb50734209f4e6178f5b",
+  "completed_operation_main_updates": 9517,
+  "verified_recovered_main_updates": 58,
+  "preserved_inherited_main_updates": 7361,
+  "actual_preserved_total_main_updates": 16936,
+  "recovered_evidence": [
+    {
+      "folder": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261005_r37_offline_ground_full_state\\069_run_150_train_021",
+      "checkpoint_sha256": "e6ad42ce32d94bb99e8f8078ed295ead7060f4a48185a7c88c23814fe1190e28",
+      "updates": 58,
+      "exact_receivers": [
+        "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261005_r37_offline_ground_full_state\\070_run_150_train_021_part_02"
+      ],
+      "samples": 11403264,
+      "active_seconds": 244.92441987991333,
+      "worker_seconds": 296.43904542922974
+    }
+  ],
+  "pause_started_unix": 1791272968.9117312,
+  "smoke_actors_deployed": false,
+  "full_actor_critic_Adam_exploration_continuation": true,
+  "cpu_tests": {
+    "path": "travel_guard_cpu_tests.json",
+    "sha256": "92dc4a53bcda996fca929091548fc248c72aacbf776fc7deca12231b4d1dc203"
+  },
+  "physical_validation": {
+    "path": "physical_validation.json",
+    "sha256": "9df9edc3d05cc0a1d18955b1a92e9ef06bb7f7143f0e2e366017f115fb661fab"
+  },
+  "physical_parity": {
+    "path": "physical_parity.json",
+    "sha256": "4b1149a989543358c1642deac3a2f5514d25e735f2381d2ad3de61eaee8bf87e"
+  },
+  "full_state_smoke": {
+    "path": "physical_full_load_smoke.json",
+    "sha256": "78ebb8915d23cee18d862558557068c5babcf670fff3d660bfa6c34ac4665185"
+  }
+}

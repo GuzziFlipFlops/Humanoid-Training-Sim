@@ -1,0 +1,1760 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="humanoid_physical_v29">
+  <!--Hardware effort/velocity limits pending user configuration. URDF limit numbers below are test-fixture placeholders only. Closed-loop ankle/waist transmissions are represented by anatomical output joints; details in export_metadata.json.-->
+  <link name="pelvis">
+    <inertial>
+      <origin xyz="-0.004214548991027842 0.0 -0.06504640960693359" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.004858419324052162" iyy="0.0034004489288330733" izz="0.004721135028058331" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual name="pelvis_material_128">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/pelvis_material_128.stl" />
+      </geometry>
+      <material name="pelvis_material_128">
+        <color rgba="0.10980392156862745 0.11372549019607843 0.12941176470588237 1.0" />
+      </material>
+    </visual>
+    <visual name="pelvis_material_129">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/pelvis_material_129.stl" />
+      </geometry>
+      <material name="pelvis_material_129">
+        <color rgba="0.6039215686274509 0.6274509803921569 0.6470588235294118 1.0" />
+      </material>
+    </visual>
+    <visual name="pelvis_material_130">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/pelvis_material_130.stl" />
+      </geometry>
+      <material name="pelvis_material_130">
+        <color rgba="0.41568627450980394 0.4392156862745098 0.4627450980392157 1.0" />
+      </material>
+    </visual>
+    <visual name="pelvis_material_131">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/pelvis_material_131.stl" />
+      </geometry>
+      <material name="pelvis_material_131">
+        <color rgba="0.6470588235294118 0.6705882352941176 0.6862745098039216 1.0" />
+      </material>
+    </visual>
+    <visual name="pelvis_material_132">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/pelvis_material_132.stl" />
+      </geometry>
+      <material name="pelvis_material_132">
+        <color rgba="0.6 0.65 0.7 1.0" />
+      </material>
+    </visual>
+    <visual name="pelvis_material_133">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/pelvis_material_133.stl" />
+      </geometry>
+      <material name="pelvis_material_133">
+        <color rgba="0.6509803921568628 0.6666666666666666 0.6823529411764706 1.0" />
+      </material>
+    </visual>
+    <visual name="pelvis_material_134">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/pelvis_material_134.stl" />
+      </geometry>
+      <material name="pelvis_material_134">
+        <color rgba="0.8352941176470589 0.8745098039215686 0.9019607843137255 1.0" />
+      </material>
+    </visual>
+    <visual name="pelvis_material_135">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/pelvis_material_135.stl" />
+      </geometry>
+      <material name="pelvis_material_135">
+        <color rgba="0.14901960784313725 0.27450980392156865 0.37254901960784315 1.0" />
+      </material>
+    </visual>
+    <collision name="pelvis_PROVISIONAL_bbox">
+      <origin xyz="-0.004214548991027842 0.0 -0.06504640960693359" rpy="0 0 0" />
+      <geometry>
+        <box size="0.13992493629455566 0.1925477409362793 0.1456928253173828" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="waist_yaw_link">
+    <inertial>
+      <origin xyz="-0.004292811677757264 0.0 0.05634114837646484" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.002007405732378849" iyy="0.001639821288060917" izz="0.0013664154908322149" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual name="waist_yaw_link_material_00">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/waist_yaw_link_material_00.stl" />
+      </geometry>
+      <material name="waist_yaw_link_material_00">
+        <color rgba="0.10980392156862745 0.11372549019607843 0.12941176470588237 1.0" />
+      </material>
+    </visual>
+    <visual name="waist_yaw_link_material_01">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/waist_yaw_link_material_01.stl" />
+      </geometry>
+      <material name="waist_yaw_link_material_01">
+        <color rgba="0.6 0.65 0.7 1.0" />
+      </material>
+    </visual>
+    <visual name="waist_yaw_link_material_02">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/waist_yaw_link_material_02.stl" />
+      </geometry>
+      <material name="waist_yaw_link_material_02">
+        <color rgba="0.14901960784313725 0.27450980392156865 0.37254901960784315 1.0" />
+      </material>
+    </visual>
+    <collision name="waist_yaw_link_PROVISIONAL_bbox">
+      <origin xyz="-0.004292811677757264 0.0 0.05634114837646484" rpy="0 0 0" />
+      <geometry>
+        <box size="0.07741438031196593 0.10199999809265137 0.11698234558105469" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="waist_pitch_link">
+    <inertial>
+      <origin xyz="1.2657012920386235e-09 0.0 0.014249999999999999" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.00025218725204475536" iyy="0.0004042705698808812" izz="0.0002480833254655205" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual name="waist_pitch_link_material_03">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/waist_pitch_link_material_03.stl" />
+      </geometry>
+      <material name="waist_pitch_link_material_03">
+        <color rgba="0.11372549019607843 0.2784313725490196 0.3686274509803922 1.0" />
+      </material>
+    </visual>
+    <visual name="waist_pitch_link_material_04">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/waist_pitch_link_material_04.stl" />
+      </geometry>
+      <material name="waist_pitch_link_material_04">
+        <color rgba="0.14901960784313725 0.27450980392156865 0.37254901960784315 1.0" />
+      </material>
+    </visual>
+    <visual name="waist_pitch_link_material_05">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/waist_pitch_link_material_05.stl" />
+      </geometry>
+      <material name="waist_pitch_link_material_05">
+        <color rgba="0.6 0.65 0.7 1.0" />
+      </material>
+    </visual>
+    <collision name="waist_pitch_link_PROVISIONAL_bbox">
+      <origin xyz="1.2657012920386235e-09 0.0 0.014249999999999999" rpy="0 0 0" />
+      <geometry>
+        <box size="0.04899999856948853 0.024000000953674317 0.04949996948242187" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="torso">
+    <inertial>
+      <origin xyz="0.014343133046325663 0.0 0.20352479553222702" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.02562481987128973" iyy="0.01922881962206284" izz="0.01024666681925456" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual name="torso_material_06">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/torso_material_06.stl" />
+      </geometry>
+      <material name="torso_material_06">
+        <color rgba="0.11372549019607843 0.2784313725490196 0.3686274509803922 1.0" />
+      </material>
+    </visual>
+    <visual name="torso_material_07">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/torso_material_07.stl" />
+      </geometry>
+      <material name="torso_material_07">
+        <color rgba="0.6 0.65 0.7 1.0" />
+      </material>
+    </visual>
+    <visual name="torso_material_08">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/torso_material_08.stl" />
+      </geometry>
+      <material name="torso_material_08">
+        <color rgba="0.16862745098039217 0.19215686274509805 0.21176470588235294 1.0" />
+      </material>
+    </visual>
+    <visual name="torso_material_09">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/torso_material_09.stl" />
+      </geometry>
+      <material name="torso_material_09">
+        <color rgba="0.12549019607843137 0.1607843137254902 0.18823529411764706 1.0" />
+      </material>
+    </visual>
+    <visual name="torso_material_10">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/torso_material_10.stl" />
+      </geometry>
+      <material name="torso_material_10">
+        <color rgba="0.15294117647058825 0.16470588235294117 0.1843137254901961 1.0" />
+      </material>
+    </visual>
+    <visual name="torso_material_11">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/torso_material_11.stl" />
+      </geometry>
+      <material name="torso_material_11">
+        <color rgba="0.8352941176470589 0.8745098039215686 0.9019607843137255 1.0" />
+      </material>
+    </visual>
+    <visual name="torso_material_12">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/torso_material_12.stl" />
+      </geometry>
+      <material name="torso_material_12">
+        <color rgba="0.10196078431372549 0.5450980392156862 0.6470588235294118 1.0" />
+      </material>
+    </visual>
+    <visual name="torso_material_13">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/torso_material_13.stl" />
+      </geometry>
+      <material name="torso_material_13">
+        <color rgba="0.10980392156862745 0.11372549019607843 0.12941176470588237 1.0" />
+      </material>
+    </visual>
+    <collision name="torso_PROVISIONAL_bbox">
+      <origin xyz="0.014343133046325663 0.0 0.20352479553222702" rpy="0 0 0" />
+      <geometry>
+        <box size="0.15199999809265138 0.3160000038146973 0.4556773376464843" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_ankle_pitch_link">
+    <inertial>
+      <origin xyz="0.003591223764419546 -2.384185505271974e-09 -0.00849993649721182" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.0008326139458507445" iyy="0.0003616358231459789" izz="0.0009396886316999395" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual name="left_ankle_pitch_link_material_14">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_ankle_pitch_link_material_14.stl" />
+      </geometry>
+      <material name="left_ankle_pitch_link_material_14">
+        <color rgba="0.14901960784313725 0.27450980392156865 0.37254901960784315 1.0" />
+      </material>
+    </visual>
+    <visual name="left_ankle_pitch_link_material_15">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_ankle_pitch_link_material_15.stl" />
+      </geometry>
+      <material name="left_ankle_pitch_link_material_15">
+        <color rgba="0.5098039215686274 0.592156862745098 0.6392156862745098 1.0" />
+      </material>
+    </visual>
+    <visual name="left_ankle_pitch_link_material_16">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_ankle_pitch_link_material_16.stl" />
+      </geometry>
+      <material name="left_ankle_pitch_link_material_16">
+        <color rgba="0.6 0.65 0.7 1.0" />
+      </material>
+    </visual>
+    <collision name="left_ankle_pitch_link_PROVISIONAL_bbox">
+      <origin xyz="0.003591223764419546 -2.384185505271974e-09 -0.00849993649721182" rpy="0 0 0" />
+      <geometry>
+        <box size="0.05303077459335327 0.09200000286102294 0.039081540703773496" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_foot">
+    <inertial>
+      <origin xyz="0.04695764159284455 2.5326962749261384e-16 -0.00753595050697043" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.0013237482260462941" iyy="0.0057389094174575385" izz="0.006742922587074888" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual name="left_foot_material_17">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_foot_material_17.stl" />
+      </geometry>
+      <material name="left_foot_material_17">
+        <color rgba="0.6078431372549019 0.6274509803921569 0.6431372549019608 1.0" />
+      </material>
+    </visual>
+    <visual name="left_foot_material_18">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_foot_material_18.stl" />
+      </geometry>
+      <material name="left_foot_material_18">
+        <color rgba="0.6 0.65 0.7 1.0" />
+      </material>
+    </visual>
+    <visual name="left_foot_material_19">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_foot_material_19.stl" />
+      </geometry>
+      <material name="left_foot_material_19">
+        <color rgba="0.5098039215686274 0.592156862745098 0.6392156862745098 1.0" />
+      </material>
+    </visual>
+    <visual name="left_foot_material_20">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_foot_material_20.stl" />
+      </geometry>
+      <material name="left_foot_material_20">
+        <color rgba="0.11372549019607843 0.2784313725490196 0.3686274509803922 1.0" />
+      </material>
+    </visual>
+    <visual name="left_foot_material_21">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_foot_material_21.stl" />
+      </geometry>
+      <material name="left_foot_material_21">
+        <color rgba="0.27450980392156865 0.32941176470588235 0.37254901960784315 1.0" />
+      </material>
+    </visual>
+    <visual name="left_foot_material_22">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_foot_material_22.stl" />
+      </geometry>
+      <material name="left_foot_material_22">
+        <color rgba="0.8352941176470589 0.8745098039215686 0.9019607843137255 1.0" />
+      </material>
+    </visual>
+    <visual name="left_foot_material_23">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_foot_material_23.stl" />
+      </geometry>
+      <material name="left_foot_material_23">
+        <color rgba="0.6862745098039216 0.7254901960784313 0.7529411764705882 1.0" />
+      </material>
+    </visual>
+    <collision name="left_foot_PROVISIONAL_bbox">
+      <origin xyz="0.04695764159284455 2.5326962749261384e-16 -0.00753595050697043" rpy="0 0 0" />
+      <geometry>
+        <box size="0.2587440872192383 0.11818023681640624 0.04379966139793396" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_hip_pitch_link">
+    <inertial>
+      <origin xyz="0.009977747275527946 -0.09835675861376089 -0.07016991069402831" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.002973662643216638" iyy="0.0024105549856428266" izz="0.0019117728198136661" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual name="left_hip_pitch_link_material_24">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_hip_pitch_link_material_24.stl" />
+      </geometry>
+      <material name="left_hip_pitch_link_material_24">
+        <color rgba="0.10980392156862745 0.11372549019607843 0.12941176470588237 1.0" />
+      </material>
+    </visual>
+    <visual name="left_hip_pitch_link_material_25">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_hip_pitch_link_material_25.stl" />
+      </geometry>
+      <material name="left_hip_pitch_link_material_25">
+        <color rgba="0.6039215686274509 0.6274509803921569 0.6470588235294118 1.0" />
+      </material>
+    </visual>
+    <visual name="left_hip_pitch_link_material_26">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_hip_pitch_link_material_26.stl" />
+      </geometry>
+      <material name="left_hip_pitch_link_material_26">
+        <color rgba="0.41568627450980394 0.4392156862745098 0.4627450980392157 1.0" />
+      </material>
+    </visual>
+    <visual name="left_hip_pitch_link_material_27">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_hip_pitch_link_material_27.stl" />
+      </geometry>
+      <material name="left_hip_pitch_link_material_27">
+        <color rgba="0.6470588235294118 0.6705882352941176 0.6862745098039216 1.0" />
+      </material>
+    </visual>
+    <visual name="left_hip_pitch_link_material_28">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_hip_pitch_link_material_28.stl" />
+      </geometry>
+      <material name="left_hip_pitch_link_material_28">
+        <color rgba="0.6 0.65 0.7 1.0" />
+      </material>
+    </visual>
+    <visual name="left_hip_pitch_link_material_29">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_hip_pitch_link_material_29.stl" />
+      </geometry>
+      <material name="left_hip_pitch_link_material_29">
+        <color rgba="0.6509803921568628 0.6666666666666666 0.6823529411764706 1.0" />
+      </material>
+    </visual>
+    <visual name="left_hip_pitch_link_material_30">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_hip_pitch_link_material_30.stl" />
+      </geometry>
+      <material name="left_hip_pitch_link_material_30">
+        <color rgba="0.8352941176470589 0.8745098039215686 0.9019607843137255 1.0" />
+      </material>
+    </visual>
+    <collision name="left_hip_pitch_link_PROVISIONAL_bbox">
+      <origin xyz="0.009977747275527946 -0.09835675861376089 -0.07016991069402831" rpy="0 0 0" />
+      <geometry>
+        <box size="0.0899554944038391 0.12185763359069825 0.14434219360351563" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_hip_roll_link">
+    <inertial>
+      <origin xyz="-0.032499999926391625 2.7755575615628914e-17 -0.031546968078613194" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.0017454696841302999" iyy="0.0020879170730329936" izz="0.001068219219271949" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual name="left_hip_roll_link_material_31">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_hip_roll_link_material_31.stl" />
+      </geometry>
+      <material name="left_hip_roll_link_material_31">
+        <color rgba="0.6 0.65 0.7 1.0" />
+      </material>
+    </visual>
+    <visual name="left_hip_roll_link_material_32">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_hip_roll_link_material_32.stl" />
+      </geometry>
+      <material name="left_hip_roll_link_material_32">
+        <color rgba="0.10980392156862745 0.11372549019607843 0.12941176470588237 1.0" />
+      </material>
+    </visual>
+    <collision name="left_hip_roll_link_PROVISIONAL_bbox">
+      <origin xyz="-0.032499999926391625 2.7755575615628914e-17 -0.031546968078613194" rpy="0 0 0" />
+      <geometry>
+        <box size="0.09199999809265137 0.06598962783813477 0.12880607604980468" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_thigh">
+    <inertial>
+      <origin xyz="-0.0009480451801452683 -4.76837156565546e-09 -0.14244999313354514" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.009314848312360673" iyy="0.00926376717843714" izz="0.003084612118249342" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual name="left_thigh_material_33">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_thigh_material_33.stl" />
+      </geometry>
+      <material name="left_thigh_material_33">
+        <color rgba="0.47058823529411764 0.5647058823529412 0.615686274509804 1.0" />
+      </material>
+    </visual>
+    <visual name="left_thigh_material_34">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_thigh_material_34.stl" />
+      </geometry>
+      <material name="left_thigh_material_34">
+        <color rgba="0.5686274509803921 0.615686274509804 0.6431372549019608 1.0" />
+      </material>
+    </visual>
+    <visual name="left_thigh_material_35">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_thigh_material_35.stl" />
+      </geometry>
+      <material name="left_thigh_material_35">
+        <color rgba="0.10980392156862745 0.11372549019607843 0.12941176470588237 1.0" />
+      </material>
+    </visual>
+    <visual name="left_thigh_material_36">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_thigh_material_36.stl" />
+      </geometry>
+      <material name="left_thigh_material_36">
+        <color rgba="0.6039215686274509 0.6274509803921569 0.6470588235294118 1.0" />
+      </material>
+    </visual>
+    <visual name="left_thigh_material_37">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_thigh_material_37.stl" />
+      </geometry>
+      <material name="left_thigh_material_37">
+        <color rgba="0.41568627450980394 0.4392156862745098 0.4627450980392157 1.0" />
+      </material>
+    </visual>
+    <visual name="left_thigh_material_38">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_thigh_material_38.stl" />
+      </geometry>
+      <material name="left_thigh_material_38">
+        <color rgba="0.6470588235294118 0.6705882352941176 0.6862745098039216 1.0" />
+      </material>
+    </visual>
+    <visual name="left_thigh_material_39">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_thigh_material_39.stl" />
+      </geometry>
+      <material name="left_thigh_material_39">
+        <color rgba="0.6 0.65 0.7 1.0" />
+      </material>
+    </visual>
+    <visual name="left_thigh_material_40">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_thigh_material_40.stl" />
+      </geometry>
+      <material name="left_thigh_material_40">
+        <color rgba="0.13333333333333333 0.13725490196078433 0.14901960784313725 1.0" />
+      </material>
+    </visual>
+    <visual name="left_thigh_material_41">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_thigh_material_41.stl" />
+      </geometry>
+      <material name="left_thigh_material_41">
+        <color rgba="0.6509803921568628 0.6666666666666666 0.6823529411764706 1.0" />
+      </material>
+    </visual>
+    <visual name="left_thigh_material_42">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_thigh_material_42.stl" />
+      </geometry>
+      <material name="left_thigh_material_42">
+        <color rgba="0.5882352941176471 0.6196078431372549 0.6509803921568628 1.0" />
+      </material>
+    </visual>
+    <visual name="left_thigh_material_43">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_thigh_material_43.stl" />
+      </geometry>
+      <material name="left_thigh_material_43">
+        <color rgba="0.11372549019607843 0.2784313725490196 0.3686274509803922 1.0" />
+      </material>
+    </visual>
+    <visual name="left_thigh_material_44">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_thigh_material_44.stl" />
+      </geometry>
+      <material name="left_thigh_material_44">
+        <color rgba="0.4745098039215686 0.5215686274509804 0.592156862745098 1.0" />
+      </material>
+    </visual>
+    <visual name="left_thigh_material_45">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_thigh_material_45.stl" />
+      </geometry>
+      <material name="left_thigh_material_45">
+        <color rgba="0.8352941176470589 0.8745098039215686 0.9019607843137255 1.0" />
+      </material>
+    </visual>
+    <collision name="left_thigh_PROVISIONAL_bbox">
+      <origin xyz="-0.0009480451801452683 -4.76837156565546e-09 -0.14244999313354514" rpy="0 0 0" />
+      <geometry>
+        <box size="0.13491177082061767 0.13716471672058106 0.304900016784668" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_shin">
+    <inertial>
+      <origin xyz="-0.006162776873413097 -0.01000000238418565 -0.19302484241724022" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.019889463580521766" iyy="0.019563902004371803" izz="0.0031285989622583978" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual name="left_shin_material_46">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_shin_material_46.stl" />
+      </geometry>
+      <material name="left_shin_material_46">
+        <color rgba="0.6078431372549019 0.6274509803921569 0.6431372549019608 1.0" />
+      </material>
+    </visual>
+    <visual name="left_shin_material_47">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_shin_material_47.stl" />
+      </geometry>
+      <material name="left_shin_material_47">
+        <color rgba="0.3803921568627451 0.47058823529411764 0.5215686274509804 1.0" />
+      </material>
+    </visual>
+    <visual name="left_shin_material_48">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_shin_material_48.stl" />
+      </geometry>
+      <material name="left_shin_material_48">
+        <color rgba="0.14901960784313725 0.27450980392156865 0.37254901960784315 1.0" />
+      </material>
+    </visual>
+    <visual name="left_shin_material_49">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_shin_material_49.stl" />
+      </geometry>
+      <material name="left_shin_material_49">
+        <color rgba="0.6 0.65 0.7 1.0" />
+      </material>
+    </visual>
+    <visual name="left_shin_material_50">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_shin_material_50.stl" />
+      </geometry>
+      <material name="left_shin_material_50">
+        <color rgba="0.16862745098039217 0.19215686274509805 0.21176470588235294 1.0" />
+      </material>
+    </visual>
+    <visual name="left_shin_material_51">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_shin_material_51.stl" />
+      </geometry>
+      <material name="left_shin_material_51">
+        <color rgba="0.1568627450980392 0.5098039215686274 0.29411764705882354 1.0" />
+      </material>
+    </visual>
+    <visual name="left_shin_material_52">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_shin_material_52.stl" />
+      </geometry>
+      <material name="left_shin_material_52">
+        <color rgba="0.2980392156862745 0.3843137254901961 0.4196078431372549 1.0" />
+      </material>
+    </visual>
+    <visual name="left_shin_material_53">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_shin_material_53.stl" />
+      </geometry>
+      <material name="left_shin_material_53">
+        <color rgba="0.5882352941176471 0.6352941176470588 0.6666666666666666 1.0" />
+      </material>
+    </visual>
+    <visual name="left_shin_material_54">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_shin_material_54.stl" />
+      </geometry>
+      <material name="left_shin_material_54">
+        <color rgba="0.5882352941176471 0.6196078431372549 0.6509803921568628 1.0" />
+      </material>
+    </visual>
+    <visual name="left_shin_material_55">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_shin_material_55.stl" />
+      </geometry>
+      <material name="left_shin_material_55">
+        <color rgba="0.10196078431372549 0.5450980392156862 0.6470588235294118 1.0" />
+      </material>
+    </visual>
+    <visual name="left_shin_material_56">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_shin_material_56.stl" />
+      </geometry>
+      <material name="left_shin_material_56">
+        <color rgba="0.8352941176470589 0.8745098039215686 0.9019607843137255 1.0" />
+      </material>
+    </visual>
+    <visual name="left_shin_material_136">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_shin_material_136.stl" />
+      </geometry>
+      <material name="left_shin_material_136">
+        <color rgba="0.7529411764705882 0.5882352941176471 0.2823529411764706 1.0" />
+      </material>
+    </visual>
+    <visual name="left_shin_material_137">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_shin_material_137.stl" />
+      </geometry>
+      <material name="left_shin_material_137">
+        <color rgba="0.5098039215686274 0.592156862745098 0.6392156862745098 1.0" />
+      </material>
+    </visual>
+    <collision name="left_shin_PROVISIONAL_bbox">
+      <origin xyz="-0.006162776873413097 -0.01000000238418565 -0.19302484241724022" rpy="0 0 0" />
+      <geometry>
+        <box size="0.12968509674072265 0.14396167278289795 0.4668496543169022" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_shoulder_pitch_link">
+    <inertial>
+      <origin xyz="-0.00699999903142438 0.02239999485009463 3.299543459289733e-08" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.0018302163434869196" iyy="0.0009886295505144326" izz="0.0017542534133263455" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual name="left_shoulder_pitch_link_material_57">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_shoulder_pitch_link_material_57.stl" />
+      </geometry>
+      <material name="left_shoulder_pitch_link_material_57">
+        <color rgba="0.11372549019607843 0.2784313725490196 0.3686274509803922 1.0" />
+      </material>
+    </visual>
+    <visual name="left_shoulder_pitch_link_material_58">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_shoulder_pitch_link_material_58.stl" />
+      </geometry>
+      <material name="left_shoulder_pitch_link_material_58">
+        <color rgba="0.6 0.65 0.7 1.0" />
+      </material>
+    </visual>
+    <visual name="left_shoulder_pitch_link_material_59">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_shoulder_pitch_link_material_59.stl" />
+      </geometry>
+      <material name="left_shoulder_pitch_link_material_59">
+        <color rgba="0.16862745098039217 0.19215686274509805 0.21176470588235294 1.0" />
+      </material>
+    </visual>
+    <collision name="left_shoulder_pitch_link_PROVISIONAL_bbox">
+      <origin xyz="-0.00699999903142438 0.02239999485009463 3.299543459289733e-08" rpy="0 0 0" />
+      <geometry>
+        <box size="0.0739999981224537 0.12480000495910645 0.07992218017578125" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_upper_arm">
+    <inertial>
+      <origin xyz="-9.965896607608271e-08 -0.01306636619574263 -0.12730568447282734" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.009267546031738825" iyy="0.009532225711102137" izz="0.0016793274274241885" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual name="left_upper_arm_material_60">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_upper_arm_material_60.stl" />
+      </geometry>
+      <material name="left_upper_arm_material_60">
+        <color rgba="0.6 0.65 0.7 1.0" />
+      </material>
+    </visual>
+    <visual name="left_upper_arm_material_61">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_upper_arm_material_61.stl" />
+      </geometry>
+      <material name="left_upper_arm_material_61">
+        <color rgba="0.8352941176470589 0.8745098039215686 0.9019607843137255 1.0" />
+      </material>
+    </visual>
+    <collision name="left_upper_arm_PROVISIONAL_bbox">
+      <origin xyz="-9.965896607608271e-08 -0.01306636619574263 -0.12730568447282734" rpy="0 0 0" />
+      <geometry>
+        <box size="0.1080001974105835 0.0921297264099121 0.32050376892089844" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_shoulder_pitch_link">
+    <inertial>
+      <origin xyz="-0.006999999031424373 -0.022399994850222666 3.29955025801798e-08" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.0018302163434869196" iyy="0.0009886295505144326" izz="0.0017542534133263455" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual name="right_shoulder_pitch_link_material_62">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_shoulder_pitch_link_material_62.stl" />
+      </geometry>
+      <material name="right_shoulder_pitch_link_material_62">
+        <color rgba="0.11372549019607843 0.2784313725490196 0.3686274509803922 1.0" />
+      </material>
+    </visual>
+    <visual name="right_shoulder_pitch_link_material_63">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_shoulder_pitch_link_material_63.stl" />
+      </geometry>
+      <material name="right_shoulder_pitch_link_material_63">
+        <color rgba="0.6 0.65 0.7 1.0" />
+      </material>
+    </visual>
+    <visual name="right_shoulder_pitch_link_material_64">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_shoulder_pitch_link_material_64.stl" />
+      </geometry>
+      <material name="right_shoulder_pitch_link_material_64">
+        <color rgba="0.16862745098039217 0.19215686274509805 0.21176470588235294 1.0" />
+      </material>
+    </visual>
+    <collision name="right_shoulder_pitch_link_PROVISIONAL_bbox">
+      <origin xyz="-0.006999999031424373 -0.022399994850222666 3.29955025801798e-08" rpy="0 0 0" />
+      <geometry>
+        <box size="0.0739999981224537 0.12480000495910645 0.07992218017578125" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_upper_arm">
+    <inertial>
+      <origin xyz="-9.965896602057156e-08 0.013066366195614732 -0.12747692623301304" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.00928585034950499" iyy="0.009550530028868302" izz="0.0016793274274241885" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual name="right_upper_arm_material_65">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_upper_arm_material_65.stl" />
+      </geometry>
+      <material name="right_upper_arm_material_65">
+        <color rgba="0.6 0.65 0.7 1.0" />
+      </material>
+    </visual>
+    <visual name="right_upper_arm_material_66">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_upper_arm_material_66.stl" />
+      </geometry>
+      <material name="right_upper_arm_material_66">
+        <color rgba="0.8352941176470589 0.8745098039215686 0.9019607843137255 1.0" />
+      </material>
+    </visual>
+    <collision name="right_upper_arm_PROVISIONAL_bbox">
+      <origin xyz="-9.965896602057156e-08 0.013066366195614732 -0.12747692623301304" rpy="0 0 0" />
+      <geometry>
+        <box size="0.1080001974105835 0.0921297264099121 0.3208462524414063" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="neck_yaw_link">
+    <inertial>
+      <origin xyz="7.36083988900349e-11 -7.62688523447963e-14 0.010550020788438131" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.0015084989632169407" iyy="0.0013084989632169406" izz="0.0006166666666666667" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual name="neck_yaw_link_material_67">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/neck_yaw_link_material_67.stl" />
+      </geometry>
+      <material name="neck_yaw_link_material_67">
+        <color rgba="0.27450980392156865 0.32941176470588235 0.37254901960784315 1.0" />
+      </material>
+    </visual>
+    <visual name="neck_yaw_link_material_68">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/neck_yaw_link_material_68.stl" />
+      </geometry>
+      <material name="neck_yaw_link_material_68">
+        <color rgba="0.6 0.65 0.7 1.0" />
+      </material>
+    </visual>
+    <visual name="neck_yaw_link_material_69">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/neck_yaw_link_material_69.stl" />
+      </geometry>
+      <material name="neck_yaw_link_material_69">
+        <color rgba="0.10980392156862745 0.11372549019607843 0.12941176470588237 1.0" />
+      </material>
+    </visual>
+    <visual name="neck_yaw_link_material_70">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/neck_yaw_link_material_70.stl" />
+      </geometry>
+      <material name="neck_yaw_link_material_70">
+        <color rgba="0.11372549019607843 0.2784313725490196 0.3686274509803922 1.0" />
+      </material>
+    </visual>
+    <collision name="neck_yaw_link_PROVISIONAL_bbox">
+      <origin xyz="7.36083988900349e-11 -7.62688523447963e-14 0.010550020788438131" rpy="0 0 0" />
+      <geometry>
+        <box size="0.05 0.07 0.11489990234375" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_forearm">
+    <inertial>
+      <origin xyz="-0.02526042830944061 -0.014665820524520257 -0.21022957123601962" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.020669727959372546" iyy="0.0202028062120853" izz="0.0034485098129203294" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual name="right_forearm_material_71">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_forearm_material_71.stl" />
+      </geometry>
+      <material name="right_forearm_material_71">
+        <color rgba="0.8352941176470589 0.8745098039215686 0.9019607843137255 1.0" />
+      </material>
+    </visual>
+    <visual name="right_forearm_material_72">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_forearm_material_72.stl" />
+      </geometry>
+      <material name="right_forearm_material_72">
+        <color rgba="0.27450980392156865 0.32941176470588235 0.37254901960784315 1.0" />
+      </material>
+    </visual>
+    <visual name="right_forearm_material_73">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_forearm_material_73.stl" />
+      </geometry>
+      <material name="right_forearm_material_73">
+        <color rgba="0.11372549019607843 0.2784313725490196 0.3686274509803922 1.0" />
+      </material>
+    </visual>
+    <visual name="right_forearm_material_74">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_forearm_material_74.stl" />
+      </geometry>
+      <material name="right_forearm_material_74">
+        <color rgba="0.16862745098039217 0.19215686274509805 0.21176470588235294 1.0" />
+      </material>
+    </visual>
+    <visual name="right_forearm_material_75">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_forearm_material_75.stl" />
+      </geometry>
+      <material name="right_forearm_material_75">
+        <color rgba="0.6 0.65 0.7 1.0" />
+      </material>
+    </visual>
+    <collision name="right_forearm_PROVISIONAL_bbox">
+      <origin xyz="-0.02526042830944061 -0.014665820524520257 -0.21022957123601962" rpy="0 0 0" />
+      <geometry>
+        <box size="0.13375174164772033 0.15327292442321777 0.4738608932495117" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_forearm">
+    <inertial>
+      <origin xyz="-0.025423692584037778 0.014207751676864007 -0.21022957123601962" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.020646394717773124" iyy="0.020210094057518495" izz="0.0034324644167541053" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual name="left_forearm_material_76">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_forearm_material_76.stl" />
+      </geometry>
+      <material name="left_forearm_material_76">
+        <color rgba="0.8352941176470589 0.8745098039215686 0.9019607843137255 1.0" />
+      </material>
+    </visual>
+    <visual name="left_forearm_material_77">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_forearm_material_77.stl" />
+      </geometry>
+      <material name="left_forearm_material_77">
+        <color rgba="0.27450980392156865 0.32941176470588235 0.37254901960784315 1.0" />
+      </material>
+    </visual>
+    <visual name="left_forearm_material_78">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_forearm_material_78.stl" />
+      </geometry>
+      <material name="left_forearm_material_78">
+        <color rgba="0.11372549019607843 0.2784313725490196 0.3686274509803922 1.0" />
+      </material>
+    </visual>
+    <visual name="left_forearm_material_79">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_forearm_material_79.stl" />
+      </geometry>
+      <material name="left_forearm_material_79">
+        <color rgba="0.16862745098039217 0.19215686274509805 0.21176470588235294 1.0" />
+      </material>
+    </visual>
+    <visual name="left_forearm_material_80">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/left_forearm_material_80.stl" />
+      </geometry>
+      <material name="left_forearm_material_80">
+        <color rgba="0.6 0.65 0.7 1.0" />
+      </material>
+    </visual>
+    <collision name="left_forearm_PROVISIONAL_bbox">
+      <origin xyz="-0.025423692584037778 0.014207751676864007 -0.21022957123601962" rpy="0 0 0" />
+      <geometry>
+        <box size="0.13407827019691468 0.15235678672790526 0.4738608932495117" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="head">
+    <inertial>
+      <origin xyz="0.0005931354305115932 -9.775170349557438e-08 0.04757240543199259" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.003916861724970054" iyy="0.0035886297200360207" izz="0.0037126067784363885" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual name="head_material_81">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/head_material_81.stl" />
+      </geometry>
+      <material name="head_material_81">
+        <color rgba="0.8352941176470589 0.8745098039215686 0.9019607843137255 1.0" />
+      </material>
+    </visual>
+    <visual name="head_material_82">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/head_material_82.stl" />
+      </geometry>
+      <material name="head_material_82">
+        <color rgba="0.11372549019607843 0.2784313725490196 0.3686274509803922 1.0" />
+      </material>
+    </visual>
+    <visual name="head_material_83">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/head_material_83.stl" />
+      </geometry>
+      <material name="head_material_83">
+        <color rgba="0.6 0.65 0.7 1.0" />
+      </material>
+    </visual>
+    <visual name="head_material_84">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/head_material_84.stl" />
+      </geometry>
+      <material name="head_material_84">
+        <color rgba="0.8235294117647058 0.8235294117647058 1.0 1.0" />
+      </material>
+    </visual>
+    <collision name="head_PROVISIONAL_bbox">
+      <origin xyz="0.0005931354305115932 -9.775170349557438e-08 0.04757240543199259" rpy="0 0 0" />
+      <geometry>
+        <box size="0.14249999523162843 0.1557081651687622 0.15085525512695314" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_ankle_pitch_link">
+    <inertial>
+      <origin xyz="0.0035912237644195565 2.384185789766624e-09 -0.008499936497211464" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.0008326139458507445" iyy="0.0003616358231459789" izz="0.0009396886316999395" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual name="right_ankle_pitch_link_material_85">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_ankle_pitch_link_material_85.stl" />
+      </geometry>
+      <material name="right_ankle_pitch_link_material_85">
+        <color rgba="0.14901960784313725 0.27450980392156865 0.37254901960784315 1.0" />
+      </material>
+    </visual>
+    <visual name="right_ankle_pitch_link_material_86">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_ankle_pitch_link_material_86.stl" />
+      </geometry>
+      <material name="right_ankle_pitch_link_material_86">
+        <color rgba="0.5098039215686274 0.592156862745098 0.6392156862745098 1.0" />
+      </material>
+    </visual>
+    <visual name="right_ankle_pitch_link_material_87">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_ankle_pitch_link_material_87.stl" />
+      </geometry>
+      <material name="right_ankle_pitch_link_material_87">
+        <color rgba="0.6 0.65 0.7 1.0" />
+      </material>
+    </visual>
+    <collision name="right_ankle_pitch_link_PROVISIONAL_bbox">
+      <origin xyz="0.0035912237644195565 2.384185789766624e-09 -0.008499936497211464" rpy="0 0 0" />
+      <geometry>
+        <box size="0.05303077459335327 0.09200000286102294 0.039081540703773496" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_foot">
+    <inertial>
+      <origin xyz="0.04695764159284456 3.122502256758253e-17 -0.007535950506970095" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.0013237482260462941" iyy="0.005738909417457536" izz="0.006742922587074885" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual name="right_foot_material_88">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_foot_material_88.stl" />
+      </geometry>
+      <material name="right_foot_material_88">
+        <color rgba="0.6078431372549019 0.6274509803921569 0.6431372549019608 1.0" />
+      </material>
+    </visual>
+    <visual name="right_foot_material_89">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_foot_material_89.stl" />
+      </geometry>
+      <material name="right_foot_material_89">
+        <color rgba="0.6 0.65 0.7 1.0" />
+      </material>
+    </visual>
+    <visual name="right_foot_material_90">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_foot_material_90.stl" />
+      </geometry>
+      <material name="right_foot_material_90">
+        <color rgba="0.5098039215686274 0.592156862745098 0.6392156862745098 1.0" />
+      </material>
+    </visual>
+    <visual name="right_foot_material_91">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_foot_material_91.stl" />
+      </geometry>
+      <material name="right_foot_material_91">
+        <color rgba="0.11372549019607843 0.2784313725490196 0.3686274509803922 1.0" />
+      </material>
+    </visual>
+    <visual name="right_foot_material_92">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_foot_material_92.stl" />
+      </geometry>
+      <material name="right_foot_material_92">
+        <color rgba="0.27450980392156865 0.32941176470588235 0.37254901960784315 1.0" />
+      </material>
+    </visual>
+    <visual name="right_foot_material_93">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_foot_material_93.stl" />
+      </geometry>
+      <material name="right_foot_material_93">
+        <color rgba="0.8352941176470589 0.8745098039215686 0.9019607843137255 1.0" />
+      </material>
+    </visual>
+    <visual name="right_foot_material_94">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_foot_material_94.stl" />
+      </geometry>
+      <material name="right_foot_material_94">
+        <color rgba="0.6862745098039216 0.7254901960784313 0.7529411764705882 1.0" />
+      </material>
+    </visual>
+    <collision name="right_foot_PROVISIONAL_bbox">
+      <origin xyz="0.04695764159284456 3.122502256758253e-17 -0.007535950506970095" rpy="0 0 0" />
+      <geometry>
+        <box size="0.25874408721923825 0.11818023681640624 0.04379966139793396" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_hip_pitch_link">
+    <inertial>
+      <origin xyz="0.009946849179425905 0.09335666324632921 -0.07016990730443853" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.0031850878408962143" iyy="0.0024099067968235853" izz="0.0021225498286740014" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual name="right_hip_pitch_link_material_95">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_hip_pitch_link_material_95.stl" />
+      </geometry>
+      <material name="right_hip_pitch_link_material_95">
+        <color rgba="0.10980392156862745 0.11372549019607843 0.12941176470588237 1.0" />
+      </material>
+    </visual>
+    <visual name="right_hip_pitch_link_material_96">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_hip_pitch_link_material_96.stl" />
+      </geometry>
+      <material name="right_hip_pitch_link_material_96">
+        <color rgba="0.6039215686274509 0.6274509803921569 0.6470588235294118 1.0" />
+      </material>
+    </visual>
+    <visual name="right_hip_pitch_link_material_97">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_hip_pitch_link_material_97.stl" />
+      </geometry>
+      <material name="right_hip_pitch_link_material_97">
+        <color rgba="0.41568627450980394 0.4392156862745098 0.4627450980392157 1.0" />
+      </material>
+    </visual>
+    <visual name="right_hip_pitch_link_material_98">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_hip_pitch_link_material_98.stl" />
+      </geometry>
+      <material name="right_hip_pitch_link_material_98">
+        <color rgba="0.6470588235294118 0.6705882352941176 0.6862745098039216 1.0" />
+      </material>
+    </visual>
+    <visual name="right_hip_pitch_link_material_99">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_hip_pitch_link_material_99.stl" />
+      </geometry>
+      <material name="right_hip_pitch_link_material_99">
+        <color rgba="0.6 0.65 0.7 1.0" />
+      </material>
+    </visual>
+    <visual name="right_hip_pitch_link_material_100">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_hip_pitch_link_material_100.stl" />
+      </geometry>
+      <material name="right_hip_pitch_link_material_100">
+        <color rgba="0.6509803921568628 0.6666666666666666 0.6823529411764706 1.0" />
+      </material>
+    </visual>
+    <visual name="right_hip_pitch_link_material_101">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_hip_pitch_link_material_101.stl" />
+      </geometry>
+      <material name="right_hip_pitch_link_material_101">
+        <color rgba="0.8352941176470589 0.8745098039215686 0.9019607843137255 1.0" />
+      </material>
+    </visual>
+    <collision name="right_hip_pitch_link_PROVISIONAL_bbox">
+      <origin xyz="0.009946849179425905 0.09335666324632921 -0.07016990730443853" rpy="0 0 0" />
+      <geometry>
+        <box size="0.08991225004196167 0.13185744285583495 0.14434219360351563" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_hip_roll_link">
+    <inertial>
+      <origin xyz="-0.03250159679722342 -2.7755575615628914e-17 -0.03154021452581992" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.001745579422522648" iyy="0.0020882058814965018" izz="0.0010683982893431086" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual name="right_hip_roll_link_material_102">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_hip_roll_link_material_102.stl" />
+      </geometry>
+      <material name="right_hip_roll_link_material_102">
+        <color rgba="0.6 0.65 0.7 1.0" />
+      </material>
+    </visual>
+    <visual name="right_hip_roll_link_material_103">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_hip_roll_link_material_103.stl" />
+      </geometry>
+      <material name="right_hip_roll_link_material_103">
+        <color rgba="0.10980392156862745 0.11372549019607843 0.12941176470588237 1.0" />
+      </material>
+    </visual>
+    <collision name="right_hip_roll_link_PROVISIONAL_bbox">
+      <origin xyz="-0.03250159679722342 -2.7755575615628914e-17 -0.03154021452581992" rpy="0 0 0" />
+      <geometry>
+        <box size="0.09201167583465575 0.06598962783813477 0.12881118774414063" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_thigh">
+    <inertial>
+      <origin xyz="-0.0009804306950048566 2.384185723847132e-09 -0.14849998646578888" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.010367414011981692" iyy="0.010157099234940415" izz="0.003243845761367087" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual name="right_thigh_material_104">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_thigh_material_104.stl" />
+      </geometry>
+      <material name="right_thigh_material_104">
+        <color rgba="0.8352941176470589 0.8745098039215686 0.9019607843137255 1.0" />
+      </material>
+    </visual>
+    <visual name="right_thigh_material_105">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_thigh_material_105.stl" />
+      </geometry>
+      <material name="right_thigh_material_105">
+        <color rgba="0.5686274509803921 0.615686274509804 0.6431372549019608 1.0" />
+      </material>
+    </visual>
+    <visual name="right_thigh_material_106">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_thigh_material_106.stl" />
+      </geometry>
+      <material name="right_thigh_material_106">
+        <color rgba="0.47058823529411764 0.5647058823529412 0.615686274509804 1.0" />
+      </material>
+    </visual>
+    <visual name="right_thigh_material_107">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_thigh_material_107.stl" />
+      </geometry>
+      <material name="right_thigh_material_107">
+        <color rgba="0.10980392156862745 0.11372549019607843 0.12941176470588237 1.0" />
+      </material>
+    </visual>
+    <visual name="right_thigh_material_108">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_thigh_material_108.stl" />
+      </geometry>
+      <material name="right_thigh_material_108">
+        <color rgba="0.6039215686274509 0.6274509803921569 0.6470588235294118 1.0" />
+      </material>
+    </visual>
+    <visual name="right_thigh_material_109">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_thigh_material_109.stl" />
+      </geometry>
+      <material name="right_thigh_material_109">
+        <color rgba="0.41568627450980394 0.4392156862745098 0.4627450980392157 1.0" />
+      </material>
+    </visual>
+    <visual name="right_thigh_material_110">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_thigh_material_110.stl" />
+      </geometry>
+      <material name="right_thigh_material_110">
+        <color rgba="0.6470588235294118 0.6705882352941176 0.6862745098039216 1.0" />
+      </material>
+    </visual>
+    <visual name="right_thigh_material_111">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_thigh_material_111.stl" />
+      </geometry>
+      <material name="right_thigh_material_111">
+        <color rgba="0.6 0.65 0.7 1.0" />
+      </material>
+    </visual>
+    <visual name="right_thigh_material_112">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_thigh_material_112.stl" />
+      </geometry>
+      <material name="right_thigh_material_112">
+        <color rgba="0.13333333333333333 0.13725490196078433 0.14901960784313725 1.0" />
+      </material>
+    </visual>
+    <visual name="right_thigh_material_113">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_thigh_material_113.stl" />
+      </geometry>
+      <material name="right_thigh_material_113">
+        <color rgba="0.6509803921568628 0.6666666666666666 0.6823529411764706 1.0" />
+      </material>
+    </visual>
+    <visual name="right_thigh_material_114">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_thigh_material_114.stl" />
+      </geometry>
+      <material name="right_thigh_material_114">
+        <color rgba="0.5882352941176471 0.6196078431372549 0.6509803921568628 1.0" />
+      </material>
+    </visual>
+    <visual name="right_thigh_material_115">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_thigh_material_115.stl" />
+      </geometry>
+      <material name="right_thigh_material_115">
+        <color rgba="0.11372549019607843 0.2784313725490196 0.3686274509803922 1.0" />
+      </material>
+    </visual>
+    <visual name="right_thigh_material_116">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_thigh_material_116.stl" />
+      </geometry>
+      <material name="right_thigh_material_116">
+        <color rgba="0.4745098039215686 0.5215686274509804 0.592156862745098 1.0" />
+      </material>
+    </visual>
+    <collision name="right_thigh_PROVISIONAL_bbox">
+      <origin xyz="-0.0009804306950048566 2.384185723847132e-09 -0.14849998646578888" rpy="0 0 0" />
+      <geometry>
+        <box size="0.13491177082061767 0.14396167278289795 0.3220000076293945" />
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_shin">
+    <inertial>
+      <origin xyz="-0.009644439146820075 -2.6464462280287315e-07 -0.19542730060815813" rpy="0 0 0" />
+      <mass value="1.0" />
+      <inertia ixx="0.019023378839222005" iyy="0.01904549776865814" izz="0.0024879866322994717" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual name="right_shin_material_117">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_shin_material_117.stl" />
+      </geometry>
+      <material name="right_shin_material_117">
+        <color rgba="0.6078431372549019 0.6274509803921569 0.6431372549019608 1.0" />
+      </material>
+    </visual>
+    <visual name="right_shin_material_118">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_shin_material_118.stl" />
+      </geometry>
+      <material name="right_shin_material_118">
+        <color rgba="0.3803921568627451 0.47058823529411764 0.5215686274509804 1.0" />
+      </material>
+    </visual>
+    <visual name="right_shin_material_119">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_shin_material_119.stl" />
+      </geometry>
+      <material name="right_shin_material_119">
+        <color rgba="0.14901960784313725 0.27450980392156865 0.37254901960784315 1.0" />
+      </material>
+    </visual>
+    <visual name="right_shin_material_120">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_shin_material_120.stl" />
+      </geometry>
+      <material name="right_shin_material_120">
+        <color rgba="0.6 0.65 0.7 1.0" />
+      </material>
+    </visual>
+    <visual name="right_shin_material_121">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_shin_material_121.stl" />
+      </geometry>
+      <material name="right_shin_material_121">
+        <color rgba="0.16862745098039217 0.19215686274509805 0.21176470588235294 1.0" />
+      </material>
+    </visual>
+    <visual name="right_shin_material_122">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_shin_material_122.stl" />
+      </geometry>
+      <material name="right_shin_material_122">
+        <color rgba="0.1568627450980392 0.5098039215686274 0.29411764705882354 1.0" />
+      </material>
+    </visual>
+    <visual name="right_shin_material_123">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_shin_material_123.stl" />
+      </geometry>
+      <material name="right_shin_material_123">
+        <color rgba="0.2980392156862745 0.3843137254901961 0.4196078431372549 1.0" />
+      </material>
+    </visual>
+    <visual name="right_shin_material_124">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_shin_material_124.stl" />
+      </geometry>
+      <material name="right_shin_material_124">
+        <color rgba="0.5882352941176471 0.6352941176470588 0.6666666666666666 1.0" />
+      </material>
+    </visual>
+    <visual name="right_shin_material_125">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_shin_material_125.stl" />
+      </geometry>
+      <material name="right_shin_material_125">
+        <color rgba="0.5882352941176471 0.6196078431372549 0.6509803921568628 1.0" />
+      </material>
+    </visual>
+    <visual name="right_shin_material_126">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_shin_material_126.stl" />
+      </geometry>
+      <material name="right_shin_material_126">
+        <color rgba="0.10196078431372549 0.5450980392156862 0.6470588235294118 1.0" />
+      </material>
+    </visual>
+    <visual name="right_shin_material_127">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_shin_material_127.stl" />
+      </geometry>
+      <material name="right_shin_material_127">
+        <color rgba="0.8352941176470589 0.8745098039215686 0.9019607843137255 1.0" />
+      </material>
+    </visual>
+    <visual name="right_shin_material_138">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_shin_material_138.stl" />
+      </geometry>
+      <material name="right_shin_material_138">
+        <color rgba="0.7529411764705882 0.5882352941176471 0.2823529411764706 1.0" />
+      </material>
+    </visual>
+    <visual name="right_shin_material_139">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/right_shin_material_139.stl" />
+      </geometry>
+      <material name="right_shin_material_139">
+        <color rgba="0.5098039215686274 0.592156862745098 0.6392156862745098 1.0" />
+      </material>
+    </visual>
+    <collision name="right_shin_PROVISIONAL_bbox">
+      <origin xyz="-0.009644439146820075 -2.6464462280287315e-07 -0.19542730060815813" rpy="0 0 0" />
+      <geometry>
+        <box size="0.1227217721939087 0.12163554668426513 0.46204473793506623" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="waist_yaw" type="revolute">
+    <parent link="pelvis" />
+    <child link="waist_yaw_link" />
+    <origin xyz="0.0 0.0 0.0" rpy="0 0 0" />
+    <axis xyz="0.0 0.0 1.0" />
+    <limit lower="-0.7853981633974483" upper="0.7853981633974483" effort="1000" velocity="10" />
+    <dynamics damping="0" friction="0" />
+  </joint>
+  <joint name="waist_pitch" type="revolute">
+    <parent link="waist_yaw_link" />
+    <child link="waist_pitch_link" />
+    <origin xyz="-0.025 0.0 0.028" rpy="0 0 0" />
+    <axis xyz="0.0 1.0 0.0" />
+    <limit lower="-0.5235987755982988" upper="0.3490658503988659" effort="1000" velocity="10" />
+    <dynamics damping="0" friction="0" />
+  </joint>
+  <joint name="waist_roll" type="revolute">
+    <parent link="waist_pitch_link" />
+    <child link="torso" />
+    <origin xyz="2.1316282072803006e-17 -2.0062499947200238e-18 0.026999999999999545" rpy="0 0 0" />
+    <axis xyz="-1.0 0.0 0.0" />
+    <limit lower="-0.5235987755982988" upper="0.5235987755982988" effort="1000" velocity="10" />
+    <dynamics damping="0" friction="0" />
+  </joint>
+  <joint name="left_ankle_pitch" type="revolute">
+    <parent link="left_shin" />
+    <child link="left_ankle_pitch_link" />
+    <origin xyz="0.011668134000000005 -0.010000000000000142 -0.3989999999999997" rpy="0 0 0" />
+    <axis xyz="0.0 1.0 0.0" />
+    <limit lower="-0.4852015320544236" upper="0.43982297150257105" effort="1000" velocity="10" />
+    <dynamics damping="0" friction="0" />
+  </joint>
+  <joint name="left_ankle_roll" type="revolute">
+    <parent link="left_ankle_pitch_link" />
+    <child link="left_foot" />
+    <origin xyz="6.625061906949625e-05 2.842170943040401e-17 -0.01699987090702377" rpy="0 0 0" />
+    <axis xyz="0.9999924062955156 0.0 0.003897095239380199" />
+    <limit lower="-0.16406094968746698" upper="0.18500490071139894" effort="1000" velocity="10" />
+    <dynamics damping="0" friction="0" />
+  </joint>
+  <joint name="left_hip_pitch" type="revolute">
+    <parent link="pelvis" />
+    <child link="left_hip_pitch_link" />
+    <origin xyz="3.552713678800501e-18 -0.01916561935407359 -0.061510143016909186" rpy="0 0 0" />
+    <axis xyz="0.0 0.9063077870366641 0.42261826174066924" />
+    <limit lower="-0.7853981633974483" upper="0.7853981633974483" effort="1000" velocity="10" />
+    <dynamics damping="0" friction="0" />
+  </joint>
+  <joint name="left_hip_roll" type="revolute">
+    <parent link="left_hip_pitch_link" />
+    <child link="left_hip_roll_link" />
+    <origin xyz="0.032500000000000015 -0.10083438064592644 -0.08388985698309091" rpy="0 0 0" />
+    <axis xyz="1.0 0.0 0.0" />
+    <limit lower="-0.5235987755982988" upper="0.5235987755982988" effort="1000" velocity="10" />
+    <dynamics damping="0" friction="0" />
+  </joint>
+  <joint name="left_hip_yaw" type="revolute">
+    <parent link="left_hip_roll_link" />
+    <child link="left_thigh" />
+    <origin xyz="-0.0325 1.4210854715202004e-17 -0.07209999999999968" rpy="0 0 0" />
+    <axis xyz="0.0 0.0 -1.0" />
+    <limit lower="-0.7853981633974483" upper="0.7853981633974483" effort="1000" velocity="10" />
+    <dynamics damping="0" friction="0" />
+  </joint>
+  <joint name="left_knee_pitch" type="revolute">
+    <parent link="left_thigh" />
+    <child link="left_shin" />
+    <origin xyz="-1.0658141036401503e-17 0.009999999999999872 -0.28090000000000015" rpy="0 0 0" />
+    <axis xyz="0.0 1.0 0.0" />
+    <limit lower="0.0" upper="2.0943951023931953" effort="1000" velocity="10" />
+    <dynamics damping="0" friction="0" />
+  </joint>
+  <joint name="left_shoulder_pitch" type="revolute">
+    <parent link="torso" />
+    <child link="left_shoulder_pitch_link" />
+    <origin xyz="0.020343133999999836 -0.19699999999993595 0.3513634313600346" rpy="0 0 0" />
+    <axis xyz="0.0 1.0 -2.8421709430403604e-13" />
+    <limit lower="-1.5707963267948966" upper="1.5707963267948966" effort="1000" velocity="10" />
+    <dynamics damping="0" friction="0" />
+  </joint>
+  <joint name="left_shoulder_roll" type="revolute">
+    <parent link="left_shoulder_pitch_link" />
+    <child link="left_upper_arm" />
+    <origin xyz="1.5276668818842153e-16 -1.4210854715202004e-16 2.2737367544323206e-16" rpy="0 0 0" />
+    <axis xyz="-1.0 0.0 0.0" />
+    <limit lower="-0.3665191429188092" upper="1.6406094968746698" effort="1000" velocity="10" />
+    <dynamics damping="0" friction="0" />
+  </joint>
+  <joint name="right_shoulder_pitch" type="revolute">
+    <parent link="torso" />
+    <child link="right_shoulder_pitch_link" />
+    <origin xyz="0.02034313399999983 0.19700000000006399 0.3513634313599666" rpy="0 0 0" />
+    <axis xyz="0.0 1.0 -2.8421709430403604e-13" />
+    <limit lower="-1.5707963267948966" upper="1.5707963267948966" effort="1000" velocity="10" />
+    <dynamics damping="0" friction="0" />
+  </joint>
+  <joint name="right_shoulder_roll" type="revolute">
+    <parent link="right_shoulder_pitch_link" />
+    <child link="right_upper_arm" />
+    <origin xyz="1.0658141036401502e-16 0.0 0.0" rpy="0 0 0" />
+    <axis xyz="-1.0 0.0 0.0" />
+    <limit lower="-1.6406094968746698" upper="0.3665191429188092" effort="1000" velocity="10" />
+    <dynamics damping="0" friction="0" />
+  </joint>
+  <joint name="head_yaw" type="revolute">
+    <parent link="torso" />
+    <child link="neck_yaw_link" />
+    <origin xyz="0.01999999999999998 7.627209307953233e-14 0.4223634313599998" rpy="0 0 0" />
+    <axis xyz="0.0 1.7229273563402628e-13 1.0" />
+    <limit lower="-1.5707963267948966" upper="1.5707963267948966" effort="1000" velocity="10" />
+    <dynamics damping="0" friction="0" />
+  </joint>
+  <joint name="right_elbow_pitch" type="revolute">
+    <parent link="right_upper_arm" />
+    <child link="right_forearm" />
+    <origin xyz="4.263256414560601e-17 0.028745327398540754 -0.27349352122624143" rpy="0 0 0" />
+    <axis xyz="0.0 0.9945218953682856 0.10452846326753656" />
+    <limit lower="-2.356194490192345" upper="0.0" effort="1000" velocity="10" />
+    <dynamics damping="0" friction="0" />
+  </joint>
+  <joint name="left_elbow_pitch" type="revolute">
+    <parent link="left_upper_arm" />
+    <child link="left_forearm" />
+    <origin xyz="-1.0658141036401503e-17 -0.02874532739866865 -0.27349352122630965" rpy="0 0 0" />
+    <axis xyz="0.0 0.9945218953682524 -0.1045284632678531" />
+    <limit lower="-2.356194490192345" upper="0.0" effort="1000" velocity="10" />
+    <dynamics damping="0" friction="0" />
+  </joint>
+  <joint name="head_pitch" type="revolute">
+    <parent link="neck_yaw_link" />
+    <child link="head" />
+    <origin xyz="-1.1723955140041654e-16 9.789433437991438e-15 0.05600000000000023" rpy="0 0 0" />
+    <axis xyz="0.0 1.0 -2.8421709430404023e-13" />
+    <limit lower="-0.5235987755982988" upper="0.5235987755982988" effort="1000" velocity="10" />
+    <dynamics damping="0" friction="0" />
+  </joint>
+  <joint name="right_ankle_pitch" type="revolute">
+    <parent link="right_shin" />
+    <child link="right_ankle_pitch_link" />
+    <origin xyz="0.011668133999999998 0.0 -0.399" rpy="0 0 0" />
+    <axis xyz="0.0 1.0 0.0" />
+    <limit lower="-0.4852015320544236" upper="0.43982297150257105" effort="1000" velocity="10" />
+    <dynamics damping="0" friction="0" />
+  </joint>
+  <joint name="right_ankle_roll" type="revolute">
+    <parent link="right_ankle_pitch_link" />
+    <child link="right_foot" />
+    <origin xyz="6.625061906948915e-05 -2.842170943040401e-17 -0.016999870907023748" rpy="0 0 0" />
+    <axis xyz="-0.9999924062955156 0.0 -0.003897095239381309" />
+    <limit lower="-0.16406094968746698" upper="0.18500490071139894" effort="1000" velocity="10" />
+    <dynamics damping="0" friction="0" />
+  </joint>
+  <joint name="right_hip_pitch" type="revolute">
+    <parent link="pelvis" />
+    <child link="right_hip_pitch_link" />
+    <origin xyz="5.2520277040770226e-05 0.019165619354073613 -0.06151014640649896" rpy="0 0 0" />
+    <axis xyz="-5.455045833118702e-05 0.9063077870366548 -0.4226182582200738" />
+    <limit lower="-0.7853981633974483" upper="0.7853981633974483" effort="1000" velocity="10" />
+    <dynamics damping="0" friction="0" />
+  </joint>
+  <joint name="right_hip_roll" type="revolute">
+    <parent link="right_hip_pitch_link" />
+    <child link="right_hip_roll_link" />
+    <origin xyz="0.03248917144623856 0.10083438064592641 -0.08389405129912643" rpy="0 0 0" />
+    <axis xyz="-0.9999999916695149 0.0 0.00012907738090670726" />
+    <limit lower="-0.5235987755982988" upper="0.5235987755982988" effort="1000" velocity="10" />
+    <dynamics damping="0" friction="0" />
+  </joint>
+  <joint name="right_hip_yaw" type="revolute">
+    <parent link="right_hip_roll_link" />
+    <child link="right_thigh" />
+    <origin xyz="-0.032509306208419735 4.263256414560601e-17 -0.07209580438449394" rpy="0 0 0" />
+    <axis xyz="0.00012907738086820005 0.0 0.9999999916695148" />
+    <limit lower="-0.7853981633974483" upper="0.7853981633974483" effort="1000" velocity="10" />
+    <dynamics damping="0" friction="0" />
+  </joint>
+  <joint name="right_knee_pitch" type="revolute">
+    <parent link="right_thigh" />
+    <child link="right_shin" />
+    <origin xyz="-3.2385514859591066e-05 -7.105427357601002e-17 -0.2808999979098806" rpy="0 0 0" />
+    <axis xyz="0.0 1.0 0.0" />
+    <limit lower="0.0" upper="2.0943951023931953" effort="1000" velocity="10" />
+    <dynamics damping="0" friction="0" />
+  </joint>
+</robot>

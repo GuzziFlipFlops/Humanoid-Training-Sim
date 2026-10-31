@@ -1,0 +1,6 @@
+# Keep frozen source and evidence byte-exact for checkpoint provenance checks.
+source/** -text
+config/** -text
+checkpoints/** -text
+results/** -text
+manifest.json -text

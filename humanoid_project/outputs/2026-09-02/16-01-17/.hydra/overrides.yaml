@@ -1,0 +1,3 @@
+- env.commands.base_velocity.ranges.lin_vel_x=[0.3,1.9]
+- env.curriculum.speed.params.initial_max_speed=1.9
+- env.curriculum.speed.params.ramp_steps=24000

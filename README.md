@@ -1,0 +1,1 @@
+This is a repository that contains all the training I have done for a humanoid robot my and my friend are building. I’m currently working on using reinforcement learning in ISAAC lab to train it digitally and in the future we will have a real live demo ready.

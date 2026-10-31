@@ -1,0 +1,100 @@
+{
+  "recorded_utc": "2026-10-09T18:25:38.914975+00:00",
+  "deploy": false,
+  "endpoint": false,
+  "production_reward_or_target_changed": false,
+  "tested_candidate": "neutral267_coupled_exact_command_candidate_v1",
+  "status": "Rejected for immediate deployment; preserve partial learned progress and all evidence",
+  "two_seed_targeted_behavioral_gain_replicated": false,
+  "genuine_flight_gain_replicated": true,
+  "slow_path_gain_replicated": false,
+  "matched_gains": [
+    {
+      "seed": 229,
+      "test": "nominal",
+      "control_flight": 0.0011111111380159855,
+      "candidate_flight": 0.008888889104127884,
+      "control_path": 0.6757750860508815,
+      "candidate_path": 0.8161210313023476,
+      "control_current_lateral": 0.22944260430236102,
+      "candidate_current_lateral": 0.2299490772244942
+    },
+    {
+      "seed": 229,
+      "test": "push",
+      "control_flight": 0.001145833288319409,
+      "candidate_flight": 0.008055555634200573,
+      "control_path": 0.6639911668048529,
+      "candidate_path": 0.8049445176524388,
+      "control_current_lateral": 0.21642745477693706,
+      "candidate_current_lateral": 0.2146285288842322
+    },
+    {
+      "seed": 229,
+      "test": "diverse_nominal",
+      "control_flight": 0.0009722222457639873,
+      "candidate_flight": 0.008888889104127884,
+      "control_path": 0.6757230583022795,
+      "candidate_path": 0.8158926729023078,
+      "control_current_lateral": 0.23434725392989647,
+      "candidate_current_lateral": 0.2342796605210439
+    },
+    {
+      "seed": 229,
+      "test": "diverse_push",
+      "control_flight": 0.0011805555550381541,
+      "candidate_flight": 0.008472221903502941,
+      "control_path": 0.6491558616566766,
+      "candidate_path": 0.7992016389295955,
+      "control_current_lateral": 0.24497686207617045,
+      "candidate_current_lateral": 0.23836008292576039
+    },
+    {
+      "seed": 241,
+      "test": "nominal",
+      "control_flight": 0.0,
+      "candidate_flight": 0.007916666567325592,
+      "control_path": 0.8502066266259221,
+      "candidate_path": 0.8159789073924961,
+      "control_current_lateral": 0.1942207843752047,
+      "candidate_current_lateral": 0.26916232691068387
+    },
+    {
+      "seed": 241,
+      "test": "push",
+      "control_flight": 0.00034722223062999547,
+      "candidate_flight": 0.007326388731598854,
+      "control_path": 0.8408081920685453,
+      "candidate_path": 0.8053977180610933,
+      "control_current_lateral": 0.181411433881721,
+      "candidate_current_lateral": 0.24942137334787146
+    },
+    {
+      "seed": 241,
+      "test": "diverse_nominal",
+      "control_flight": 0.0,
+      "candidate_flight": 0.008541666902601719,
+      "control_path": 0.8501011163090805,
+      "candidate_path": 0.8159910138569109,
+      "control_current_lateral": 0.18970018096642788,
+      "candidate_current_lateral": 0.26778462768256583
+    },
+    {
+      "seed": 241,
+      "test": "diverse_push",
+      "control_flight": 0.0003819444391410798,
+      "candidate_flight": 0.007847222499549389,
+      "control_path": 0.8358073474419174,
+      "candidate_path": 0.7979567884934143,
+      "control_current_lateral": 0.1984203582390227,
+      "candidate_current_lateral": 0.26959901366008227
+    }
+  ],
+  "exact_full_state_controls_and_independent_initial_states_complete": true,
+  "explanation": "The coupled target improves 1.5 m/s flight in both learning seeds but remains below the unchanged 1.5% minimum. Slow path improvement does not replicate: seed 241 worsens it at 128 updates. Seed 241 also loses the control\u2019s passing 3.5 m/s direction at 64 updates and adds 3 m/s direction failures at 128. Neck RMS rises in both seeds. Reject this version for immediate deployment and do not extend the identical target solely for flight. No experimental actor or training-target override enters production; the exact original full learner resumes.",
+  "shared_target_head_route": "Zero direct head derivative does not protect shared hidden features. Four fixed-state target-only SGD probes reproduce small head-output changes; this is not proof of the cause of the observed 128-update neck change.",
+  "reviewer_failure": "The URDF metadata order was incorrectly used by the CPU reviewer. The experimental hook used the correct observed Isaac order. The unnecessary aborted evaluation and safe original resume remain preserved.",
+  "candidate_not_permanently_disproved": true,
+  "limits_not_raised": true,
+  "diagnostic_composites_deployed": false
+}

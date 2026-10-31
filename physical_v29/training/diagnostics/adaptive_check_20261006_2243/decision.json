@@ -1,0 +1,17 @@
+{
+  "recorded_utc": "2026-10-06T23:04:49.366615+00:00",
+  "production_action": "Resume/preserve same original full-state learner and existing upper refinement",
+  "runtime_changed": false,
+  "reward_changed": false,
+  "PD_changed_in_production": false,
+  "optimizer_reset": false,
+  "diagnostic_actors_deployed": false,
+  "current_stage_qualified": false,
+  "goal_or_native_limit_endpoint_proven": false,
+  "reason": "Physical shoulder candidate improves response but lacks retained-skill/control learning validation. Actual gradient samples are mixed, not proof of globally opposed objectives. New diagnostics support focused next experiments; no justified production repair is yet qualified.",
+  "next_tests": [
+    "Preserve useful same full-state learner and last all-prior267/independently certified349. Current3.5 direction and recurring prior failures remain unqualified. Before another reward repair, use new actual per-command advantages/mean-network PPO/teacher evidence and startup landing attribution. Fixed-frame candidate128 reduced drift but added a real2.5 paired startup touchdown at0.90/0.94s; keep rejected. Independently seeded replication and a bounded retention-preserving current-state64/128 control comparison are required before any versioned deployment. Do not simply repeat the same kernel or arbitrary weights.",
+    "Required upper timelines every check. New native-limit192-robot20s stiffness35/50/70,damping1 physical test improves fast shoulder response but does not certify natural motion or all prior gates. At3.5 K70 phase-89.6/-58.6deg versusK35-175.4/-92.7; lateral.303 versus.412,torque peaks27.7/25.8Nm. Keep undeployed: next bounded full-state64/128 unchanged-control versus shoulder-only gain candidate, with all nominal/pushed/prior/head/direction/flight tests and independent seed before selecting gains. Avoid blindly increasing posture weights or damping. Actual Isaac head orientation now matches URDF FK within0.000074deg; native-forward world-heading RMS12.21deg versus neck4.01 inK35 cohort. CAD face/camera optical axis still uncalibrated: no gaze label/certification from nativezero alone. Preserve head/gait/full state. CPU stopped-hook subtraction failed; resolve passive accounting separately, never infer a runtime fault or repair from that diagnostic failure.",
+    "Verify same owned supervisor/one actual worker,55 hashes/local ground/full actor-critic-Adam-exploration and33 retainedR39 recovery+16936inherited. Target8192/reserve300/hostfallback/180 continuous healthy TRAINING-second ramps unchanged. Exclude this167.4s pause and prior1823.6/1599.9s from clocks. New200Hz shoulder-sweep has zero shoulder driving clips;K70 isolated left-elbow clips do not prove a ceiling. Endpoint still verified5 or verified4 with controlled native limits blocking5,>=32 independently seeded initial-state trials per command/all gates,save/pause both/brief/computeron."
+  ]
+}

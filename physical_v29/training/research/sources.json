@@ -1,0 +1,50 @@
+[
+  {
+    "file": "unitree_g1_cfg.py",
+    "url": "https://raw.githubusercontent.com/unitreerobotics/unitree_rl_lab/main/source/unitree_rl_lab/unitree_rl_lab/tasks/locomotion/robots/g1/29dof/velocity_env_cfg.py",
+    "sha256": "22deed51bf779bb9730cdbb48df3b098ec64dab15984942153f0073d40840b8f",
+    "bytes": 13948
+  },
+  {
+    "file": "unitree_ppo_cfg.py",
+    "url": "https://raw.githubusercontent.com/unitreerobotics/unitree_rl_lab/main/source/unitree_rl_lab/unitree_rl_lab/tasks/locomotion/agents/rsl_rl_ppo_cfg.py",
+    "sha256": "0f15211f85adc84cf6586770dad448f080d579ea55b4f509aca20a36a11310f7",
+    "bytes": 1042
+  },
+  {
+    "file": "unitree_rewards.py",
+    "url": "https://raw.githubusercontent.com/unitreerobotics/unitree_rl_lab/main/source/unitree_rl_lab/unitree_rl_lab/tasks/locomotion/mdp/rewards.py",
+    "sha256": "8a41249e85997414f759c56b990ebd8a9289f7d98c47e2fc70f54180e86d4ad3",
+    "bytes": 9583
+  },
+  {
+    "file": "asimov_motion_dataset.py",
+    "url": "https://raw.githubusercontent.com/menloresearch/cyclotron/main/source/cyclotron/cyclotron/tasks/locomotion/motion_dataset.py",
+    "sha256": "35d56bb6ba05a992c7365a6357462d4f9a48f9fb67b8d50e3f5b8c6204699940",
+    "bytes": 11059
+  },
+  {
+    "file": "asimov_walk.npz",
+    "url": "https://raw.githubusercontent.com/menloresearch/cyclotron/main/source/cyclotron/cyclotron/tasks/locomotion/motions/policy_delay_walk_slow.npz",
+    "sha256": "23fb84ec2acd34213d475315870743d7c84a7e209e9888a4b775ccfcc0a40135",
+    "bytes": 4876334
+  },
+  {
+    "file": "asimov_ppo_cfg.py",
+    "url": "https://raw.githubusercontent.com/menloresearch/cyclotron/main/source/cyclotron/cyclotron/tasks/locomotion/agents/rsl_rl_ppo_cfg.py",
+    "sha256": "ae0194a59be2387387235958c6007802896821f7ba60c1f24fe05ae03f0b38aa",
+    "bytes": 3773
+  },
+  {
+    "file": "asimov_amp_ppo.py",
+    "url": "https://raw.githubusercontent.com/menloresearch/cyclotron/main/source/cyclotron/cyclotron/algorithms/amp_ppo.py",
+    "sha256": "19d16f58c2344481e79a36e4674eca3c42d302b1b9defff9ab9f5d59674f72f0",
+    "bytes": 22133
+  },
+  {
+    "file": "humanoidgym_reference.py",
+    "url": "https://raw.githubusercontent.com/roboterax/humanoid-gym/main/humanoid/envs/custom/humanoid_env.py",
+    "sha256": "7baa5cf85e172cb1dbac7094040c995495e47b76eec1a15623ad262d1a1c1c93",
+    "bytes": 24579
+  }
+]

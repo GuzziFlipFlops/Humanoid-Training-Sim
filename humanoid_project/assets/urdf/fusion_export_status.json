@@ -1,0 +1,1013 @@
+{
+  "ok": true,
+  "f3d": "C:\\Users\\rshan\\Documents\\GitHub\\Humanoid-Robot\\CAD\\Simulation\\Humanoid5ft\\humanoid_5ft_ragdoll.f3d",
+  "step": "C:\\Users\\rshan\\Documents\\GitHub\\Humanoid-Robot\\CAD\\Simulation\\Humanoid5ft\\humanoid_5ft_ragdoll.step",
+  "urdf": "C:\\Users\\rshan\\Documents\\GitHub\\Humanoid-Robot\\CAD\\Simulation\\Humanoid5ft\\humanoid_5ft_ragdoll.urdf",
+  "dynamics": "C:\\Users\\rshan\\Documents\\GitHub\\Humanoid-Robot\\CAD\\Simulation\\Humanoid5ft\\humanoid_5ft_ragdoll_dynamics.json",
+  "isaac_actuators": "C:\\Users\\rshan\\Documents\\GitHub\\Humanoid-Robot\\CAD\\Simulation\\Humanoid5ft\\humanoid_5ft_ragdoll_isaac_actuators.json",
+  "f3z": {
+    "attempted": true,
+    "created": false,
+    "requested_path": "C:\\Users\\rshan\\Documents\\GitHub\\Humanoid-Robot\\CAD\\Simulation\\Humanoid5ft\\humanoid_5ft_ragdoll.f3z",
+    "normalized_f3d": "C:\\Users\\rshan\\Documents\\GitHub\\Humanoid-Robot\\CAD\\Simulation\\Humanoid5ft\\humanoid_5ft_ragdoll.f3z.f3d",
+    "reason": "Fusion normalized the F3Z request to another F3D because the assembly has no external Fusion design references."
+  },
+  "components": 31,
+  "simulation_revolute_joints": 22,
+  "cad_motor_revolute_joints": 4,
+  "cad_passive_ball_joints": 8,
+  "native_fusion_joints": 34,
+  "requested_native_fusion_joints": 34,
+  "dof": 22,
+  "height_m": 1.524,
+  "modeled_mass_kg": 38.0,
+  "target_complete_mass_kg": 39.0,
+  "mass_calibration": [
+    {
+      "link": "pelvis",
+      "target_mass_kg": 3.5,
+      "ok": true,
+      "body_count": 1,
+      "fusion_mass_kg": 3.5,
+      "fusion_com_xyz_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bodies": [
+        {
+          "body": "pelvis_solid",
+          "target_mass_kg": 3.5,
+          "fusion_mass_kg": 3.5,
+          "volume_cm3": 6656.0,
+          "density_kg_m3": 525.8413461538462,
+          "material": "RobotMass_pelvis_1"
+        }
+      ]
+    },
+    {
+      "link": "waist_yaw_link",
+      "target_mass_kg": 1.0,
+      "ok": true,
+      "body_count": 2,
+      "fusion_mass_kg": 1.0,
+      "fusion_com_xyz_m": [
+        0.0,
+        0.0,
+        0.01
+      ],
+      "bodies": [
+        {
+          "body": "waist_yaw_link_solid",
+          "target_mass_kg": 0.33999999999999997,
+          "fusion_mass_kg": 0.3399999999999999,
+          "volume_cm3": 1080.0,
+          "density_kg_m3": 314.8148148148148,
+          "material": "RobotMass_waist_yaw_link_1"
+        },
+        {
+          "body": "waist_yaw_motor",
+          "target_mass_kg": 0.66,
+          "fusion_mass_kg": 0.66,
+          "volume_cm3": 377.85600000000005,
+          "density_kg_m3": 1746.6971544715445,
+          "material": "RobotMass_waist_yaw_link_2"
+        }
+      ]
+    },
+    {
+      "link": "torso",
+      "target_mass_kg": 8.2,
+      "ok": true,
+      "body_count": 4,
+      "fusion_mass_kg": 8.2,
+      "fusion_com_xyz_m": [
+        0.0,
+        0.02151219512195122,
+        0.1329390243902439
+      ],
+      "bodies": [
+        {
+          "body": "torso_solid",
+          "target_mass_kg": 2.539999999999999,
+          "fusion_mass_kg": 2.539999999999999,
+          "volume_cm3": 15232.000000000002,
+          "density_kg_m3": 166.7542016806722,
+          "material": "RobotMass_torso_1"
+        },
+        {
+          "body": "battery_module",
+          "target_mass_kg": 3.4,
+          "fusion_mass_kg": 3.4,
+          "volume_cm3": 1078.0,
+          "density_kg_m3": 3153.9888682745827,
+          "material": "RobotMass_torso_2"
+        },
+        {
+          "body": "electronics_module",
+          "target_mass_kg": 1.6,
+          "fusion_mass_kg": 1.6,
+          "volume_cm3": 693.0,
+          "density_kg_m3": 2308.8023088023087,
+          "material": "RobotMass_torso_3"
+        },
+        {
+          "body": "waist_pitch_motor",
+          "target_mass_kg": 0.66,
+          "fusion_mass_kg": 0.66,
+          "volume_cm3": 377.85600000000005,
+          "density_kg_m3": 1746.6971544715445,
+          "material": "RobotMass_torso_4"
+        }
+      ]
+    },
+    {
+      "link": "left_hip_yaw_link",
+      "target_mass_kg": 1.1,
+      "ok": true,
+      "body_count": 2,
+      "fusion_mass_kg": 1.1,
+      "fusion_com_xyz_m": [
+        0.0,
+        0.0,
+        -0.017
+      ],
+      "bodies": [
+        {
+          "body": "left_hip_yaw_link_solid",
+          "target_mass_kg": 0.44000000000000006,
+          "fusion_mass_kg": 0.44000000000000006,
+          "volume_cm3": 735.0,
+          "density_kg_m3": 598.639455782313,
+          "material": "RobotMass_left_hip_yaw_link_1"
+        },
+        {
+          "body": "left_hip_yaw_motor",
+          "target_mass_kg": 0.66,
+          "fusion_mass_kg": 0.66,
+          "volume_cm3": 377.85600000000005,
+          "density_kg_m3": 1746.6971544715445,
+          "material": "RobotMass_left_hip_yaw_link_2"
+        }
+      ]
+    },
+    {
+      "link": "left_hip_roll_link",
+      "target_mass_kg": 1.1,
+      "ok": true,
+      "body_count": 2,
+      "fusion_mass_kg": 1.1,
+      "fusion_com_xyz_m": [
+        0.0,
+        0.0,
+        -0.01672727272727273
+      ],
+      "bodies": [
+        {
+          "body": "left_hip_roll_link_solid",
+          "target_mass_kg": 0.3800000000000001,
+          "fusion_mass_kg": 0.3800000000000001,
+          "volume_cm3": 665.0,
+          "density_kg_m3": 571.4285714285716,
+          "material": "RobotMass_left_hip_roll_link_1"
+        },
+        {
+          "body": "left_hip_roll_motor",
+          "target_mass_kg": 0.72,
+          "fusion_mass_kg": 0.72,
+          "volume_cm3": 410.11199999999997,
+          "density_kg_m3": 1755.61797752809,
+          "material": "RobotMass_left_hip_roll_link_2"
+        }
+      ]
+    },
+    {
+      "link": "left_thigh",
+      "target_mass_kg": 3.6,
+      "ok": true,
+      "body_count": 4,
+      "fusion_mass_kg": 3.6,
+      "fusion_com_xyz_m": [
+        0.0,
+        0.00786111111111111,
+        -0.1596527777777778
+      ],
+      "bodies": [
+        {
+          "body": "left_thigh_solid",
+          "target_mass_kg": 0.5,
+          "fusion_mass_kg": 0.49999999999999994,
+          "volume_cm3": 2441.2,
+          "density_kg_m3": 204.81730296575455,
+          "material": "RobotMass_left_thigh_1"
+        },
+        {
+          "body": "left_hip_pitch_motor",
+          "target_mass_kg": 1.5,
+          "fusion_mass_kg": 1.5,
+          "volume_cm3": 664.125,
+          "density_kg_m3": 2258.610954263128,
+          "material": "RobotMass_left_thigh_2"
+        },
+        {
+          "body": "left_knee_motor_above_joint",
+          "target_mass_kg": 1.5,
+          "fusion_mass_kg": 1.5,
+          "volume_cm3": 664.125,
+          "density_kg_m3": 2258.610954263128,
+          "material": "RobotMass_left_thigh_3"
+        },
+        {
+          "body": "left_knee_chain_guard",
+          "target_mass_kg": 0.1,
+          "fusion_mass_kg": 0.09999999999999999,
+          "volume_cm3": 100.80000000000007,
+          "density_kg_m3": 992.0634920634914,
+          "material": "RobotMass_left_thigh_4"
+        }
+      ]
+    },
+    {
+      "link": "left_shank",
+      "target_mass_kg": 2.16,
+      "ok": true,
+      "body_count": 3,
+      "fusion_mass_kg": 2.16,
+      "fusion_com_xyz_m": [
+        0.0,
+        0.027805555555555556,
+        -0.1571944444444444
+      ],
+      "bodies": [
+        {
+          "body": "left_shank_solid",
+          "target_mass_kg": 1.068,
+          "fusion_mass_kg": 1.0679999999999998,
+          "volume_cm3": 1823.25,
+          "density_kg_m3": 585.7671740024681,
+          "material": "RobotMass_left_shank_1"
+        },
+        {
+          "body": "left_ankle_motor_upper",
+          "target_mass_kg": 0.546,
+          "fusion_mass_kg": 0.546,
+          "volume_cm3": 311.22,
+          "density_kg_m3": 1754.3859649122805,
+          "material": "RobotMass_left_shank_2"
+        },
+        {
+          "body": "left_ankle_motor_lower",
+          "target_mass_kg": 0.546,
+          "fusion_mass_kg": 0.546,
+          "volume_cm3": 311.2199999999999,
+          "density_kg_m3": 1754.3859649122812,
+          "material": "RobotMass_left_shank_3"
+        }
+      ]
+    },
+    {
+      "link": "left_ankle_pitch_link",
+      "target_mass_kg": 0.35,
+      "ok": true,
+      "body_count": 1,
+      "fusion_mass_kg": 0.35,
+      "fusion_com_xyz_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bodies": [
+        {
+          "body": "left_ankle_pitch_link_solid",
+          "target_mass_kg": 0.35,
+          "fusion_mass_kg": 0.35,
+          "volume_cm3": 432.0,
+          "density_kg_m3": 810.1851851851852,
+          "material": "RobotMass_left_ankle_pitch_link_1"
+        }
+      ]
+    },
+    {
+      "link": "left_foot",
+      "target_mass_kg": 0.65,
+      "ok": true,
+      "body_count": 3,
+      "fusion_mass_kg": 0.6500000000000001,
+      "fusion_com_xyz_m": [
+        2.1350442781253004e-19,
+        0.04906153846153845,
+        -0.046738461538461534
+      ],
+      "bodies": [
+        {
+          "body": "left_foot_solid",
+          "target_mass_kg": 0.5700000000000001,
+          "fusion_mass_kg": 0.5700000000000001,
+          "volume_cm3": 1559.9999999999998,
+          "density_kg_m3": 365.38461538461553,
+          "material": "RobotMass_left_foot_1"
+        },
+        {
+          "body": "left_ankle_output_arm_left",
+          "target_mass_kg": 0.04,
+          "fusion_mass_kg": 0.039999999999999994,
+          "volume_cm3": 6.6240000000000006,
+          "density_kg_m3": 6038.647342995168,
+          "material": "RobotMass_left_foot_2"
+        },
+        {
+          "body": "left_ankle_output_arm_right",
+          "target_mass_kg": 0.04,
+          "fusion_mass_kg": 0.039999999999999994,
+          "volume_cm3": 6.6240000000000006,
+          "density_kg_m3": 6038.647342995168,
+          "material": "RobotMass_left_foot_3"
+        }
+      ]
+    },
+    {
+      "link": "right_hip_yaw_link",
+      "target_mass_kg": 1.1,
+      "ok": true,
+      "body_count": 2,
+      "fusion_mass_kg": 1.1,
+      "fusion_com_xyz_m": [
+        0.0,
+        0.0,
+        -0.017
+      ],
+      "bodies": [
+        {
+          "body": "right_hip_yaw_link_solid",
+          "target_mass_kg": 0.44000000000000006,
+          "fusion_mass_kg": 0.44000000000000006,
+          "volume_cm3": 735.0,
+          "density_kg_m3": 598.639455782313,
+          "material": "RobotMass_right_hip_yaw_link_1"
+        },
+        {
+          "body": "right_hip_yaw_motor",
+          "target_mass_kg": 0.66,
+          "fusion_mass_kg": 0.66,
+          "volume_cm3": 377.85600000000005,
+          "density_kg_m3": 1746.6971544715445,
+          "material": "RobotMass_right_hip_yaw_link_2"
+        }
+      ]
+    },
+    {
+      "link": "right_hip_roll_link",
+      "target_mass_kg": 1.1,
+      "ok": true,
+      "body_count": 2,
+      "fusion_mass_kg": 1.1,
+      "fusion_com_xyz_m": [
+        0.0,
+        0.0,
+        -0.01672727272727273
+      ],
+      "bodies": [
+        {
+          "body": "right_hip_roll_link_solid",
+          "target_mass_kg": 0.3800000000000001,
+          "fusion_mass_kg": 0.3800000000000001,
+          "volume_cm3": 665.0,
+          "density_kg_m3": 571.4285714285716,
+          "material": "RobotMass_right_hip_roll_link_1"
+        },
+        {
+          "body": "right_hip_roll_motor",
+          "target_mass_kg": 0.72,
+          "fusion_mass_kg": 0.72,
+          "volume_cm3": 410.11199999999997,
+          "density_kg_m3": 1755.61797752809,
+          "material": "RobotMass_right_hip_roll_link_2"
+        }
+      ]
+    },
+    {
+      "link": "right_thigh",
+      "target_mass_kg": 3.6,
+      "ok": true,
+      "body_count": 4,
+      "fusion_mass_kg": 3.6,
+      "fusion_com_xyz_m": [
+        0.0,
+        0.00786111111111111,
+        -0.1596527777777778
+      ],
+      "bodies": [
+        {
+          "body": "right_thigh_solid",
+          "target_mass_kg": 0.5,
+          "fusion_mass_kg": 0.49999999999999994,
+          "volume_cm3": 2441.2,
+          "density_kg_m3": 204.81730296575455,
+          "material": "RobotMass_right_thigh_1"
+        },
+        {
+          "body": "right_hip_pitch_motor",
+          "target_mass_kg": 1.5,
+          "fusion_mass_kg": 1.5,
+          "volume_cm3": 664.125,
+          "density_kg_m3": 2258.610954263128,
+          "material": "RobotMass_right_thigh_2"
+        },
+        {
+          "body": "right_knee_motor_above_joint",
+          "target_mass_kg": 1.5,
+          "fusion_mass_kg": 1.5,
+          "volume_cm3": 664.125,
+          "density_kg_m3": 2258.610954263128,
+          "material": "RobotMass_right_thigh_3"
+        },
+        {
+          "body": "right_knee_chain_guard",
+          "target_mass_kg": 0.1,
+          "fusion_mass_kg": 0.09999999999999999,
+          "volume_cm3": 100.80000000000007,
+          "density_kg_m3": 992.0634920634914,
+          "material": "RobotMass_right_thigh_4"
+        }
+      ]
+    },
+    {
+      "link": "right_shank",
+      "target_mass_kg": 2.16,
+      "ok": true,
+      "body_count": 3,
+      "fusion_mass_kg": 2.16,
+      "fusion_com_xyz_m": [
+        0.0,
+        0.027805555555555556,
+        -0.1571944444444444
+      ],
+      "bodies": [
+        {
+          "body": "right_shank_solid",
+          "target_mass_kg": 1.068,
+          "fusion_mass_kg": 1.0679999999999998,
+          "volume_cm3": 1823.25,
+          "density_kg_m3": 585.7671740024681,
+          "material": "RobotMass_right_shank_1"
+        },
+        {
+          "body": "right_ankle_motor_upper",
+          "target_mass_kg": 0.546,
+          "fusion_mass_kg": 0.546,
+          "volume_cm3": 311.22,
+          "density_kg_m3": 1754.3859649122805,
+          "material": "RobotMass_right_shank_2"
+        },
+        {
+          "body": "right_ankle_motor_lower",
+          "target_mass_kg": 0.546,
+          "fusion_mass_kg": 0.546,
+          "volume_cm3": 311.2199999999999,
+          "density_kg_m3": 1754.3859649122812,
+          "material": "RobotMass_right_shank_3"
+        }
+      ]
+    },
+    {
+      "link": "right_ankle_pitch_link",
+      "target_mass_kg": 0.35,
+      "ok": true,
+      "body_count": 1,
+      "fusion_mass_kg": 0.35,
+      "fusion_com_xyz_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bodies": [
+        {
+          "body": "right_ankle_pitch_link_solid",
+          "target_mass_kg": 0.35,
+          "fusion_mass_kg": 0.35,
+          "volume_cm3": 432.0,
+          "density_kg_m3": 810.1851851851852,
+          "material": "RobotMass_right_ankle_pitch_link_1"
+        }
+      ]
+    },
+    {
+      "link": "right_foot",
+      "target_mass_kg": 0.65,
+      "ok": true,
+      "body_count": 3,
+      "fusion_mass_kg": 0.6500000000000001,
+      "fusion_com_xyz_m": [
+        2.1350442781253004e-19,
+        0.04906153846153845,
+        -0.046738461538461534
+      ],
+      "bodies": [
+        {
+          "body": "right_foot_solid",
+          "target_mass_kg": 0.5700000000000001,
+          "fusion_mass_kg": 0.5700000000000001,
+          "volume_cm3": 1559.9999999999998,
+          "density_kg_m3": 365.38461538461553,
+          "material": "RobotMass_right_foot_1"
+        },
+        {
+          "body": "right_ankle_output_arm_left",
+          "target_mass_kg": 0.04,
+          "fusion_mass_kg": 0.039999999999999994,
+          "volume_cm3": 6.6240000000000006,
+          "density_kg_m3": 6038.647342995168,
+          "material": "RobotMass_right_foot_2"
+        },
+        {
+          "body": "right_ankle_output_arm_right",
+          "target_mass_kg": 0.04,
+          "fusion_mass_kg": 0.039999999999999994,
+          "volume_cm3": 6.6240000000000006,
+          "density_kg_m3": 6038.647342995168,
+          "material": "RobotMass_right_foot_3"
+        }
+      ]
+    },
+    {
+      "link": "left_shoulder_pitch_link",
+      "target_mass_kg": 0.6,
+      "ok": true,
+      "body_count": 2,
+      "fusion_mass_kg": 0.5999999999999999,
+      "fusion_com_xyz_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bodies": [
+        {
+          "body": "left_shoulder_pitch_link_solid",
+          "target_mass_kg": 0.07499999999999996,
+          "fusion_mass_kg": 0.07499999999999996,
+          "volume_cm3": 642.6,
+          "density_kg_m3": 116.71335200746958,
+          "material": "RobotMass_left_shoulder_pitch_link_1"
+        },
+        {
+          "body": "left_shoulder_pitch_motor",
+          "target_mass_kg": 0.525,
+          "fusion_mass_kg": 0.5249999999999999,
+          "volume_cm3": 257.0400000000001,
+          "density_kg_m3": 2042.4836601307184,
+          "material": "RobotMass_left_shoulder_pitch_link_2"
+        }
+      ]
+    },
+    {
+      "link": "left_upper_arm",
+      "target_mass_kg": 1.0,
+      "ok": true,
+      "body_count": 2,
+      "fusion_mass_kg": 1.0,
+      "fusion_com_xyz_m": [
+        0.0,
+        0.0,
+        -0.08532499999999998
+      ],
+      "bodies": [
+        {
+          "body": "left_upper_arm_solid",
+          "target_mass_kg": 0.475,
+          "fusion_mass_kg": 0.475,
+          "volume_cm3": 1489.6000000000004,
+          "density_kg_m3": 318.8775510204081,
+          "material": "RobotMass_left_upper_arm_1"
+        },
+        {
+          "body": "left_shoulder_roll_motor",
+          "target_mass_kg": 0.525,
+          "fusion_mass_kg": 0.525,
+          "volume_cm3": 260.1,
+          "density_kg_m3": 2018.4544405997692,
+          "material": "RobotMass_left_upper_arm_2"
+        }
+      ]
+    },
+    {
+      "link": "left_forearm",
+      "target_mass_kg": 0.6,
+      "ok": true,
+      "body_count": 2,
+      "fusion_mass_kg": 0.6,
+      "fusion_com_xyz_m": [
+        0.0,
+        0.0,
+        -0.061259999999999995
+      ],
+      "bodies": [
+        {
+          "body": "left_forearm_solid",
+          "target_mass_kg": 0.22199999999999998,
+          "fusion_mass_kg": 0.22199999999999995,
+          "volume_cm3": 975.0,
+          "density_kg_m3": 227.69230769230765,
+          "material": "RobotMass_left_forearm_1"
+        },
+        {
+          "body": "left_elbow_motor",
+          "target_mass_kg": 0.378,
+          "fusion_mass_kg": 0.378,
+          "volume_cm3": 214.49999999999991,
+          "density_kg_m3": 1762.237762237763,
+          "material": "RobotMass_left_forearm_2"
+        }
+      ]
+    },
+    {
+      "link": "right_shoulder_pitch_link",
+      "target_mass_kg": 0.6,
+      "ok": true,
+      "body_count": 2,
+      "fusion_mass_kg": 0.5999999999999999,
+      "fusion_com_xyz_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "bodies": [
+        {
+          "body": "right_shoulder_pitch_link_solid",
+          "target_mass_kg": 0.07499999999999996,
+          "fusion_mass_kg": 0.07499999999999996,
+          "volume_cm3": 642.6,
+          "density_kg_m3": 116.71335200746958,
+          "material": "RobotMass_right_shoulder_pitch_link_1"
+        },
+        {
+          "body": "right_shoulder_pitch_motor",
+          "target_mass_kg": 0.525,
+          "fusion_mass_kg": 0.5249999999999999,
+          "volume_cm3": 257.0400000000001,
+          "density_kg_m3": 2042.4836601307184,
+          "material": "RobotMass_right_shoulder_pitch_link_2"
+        }
+      ]
+    },
+    {
+      "link": "right_upper_arm",
+      "target_mass_kg": 1.0,
+      "ok": true,
+      "body_count": 2,
+      "fusion_mass_kg": 1.0,
+      "fusion_com_xyz_m": [
+        0.0,
+        0.0,
+        -0.08532499999999998
+      ],
+      "bodies": [
+        {
+          "body": "right_upper_arm_solid",
+          "target_mass_kg": 0.475,
+          "fusion_mass_kg": 0.475,
+          "volume_cm3": 1489.6000000000004,
+          "density_kg_m3": 318.8775510204081,
+          "material": "RobotMass_right_upper_arm_1"
+        },
+        {
+          "body": "right_shoulder_roll_motor",
+          "target_mass_kg": 0.525,
+          "fusion_mass_kg": 0.525,
+          "volume_cm3": 260.1,
+          "density_kg_m3": 2018.4544405997692,
+          "material": "RobotMass_right_upper_arm_2"
+        }
+      ]
+    },
+    {
+      "link": "right_forearm",
+      "target_mass_kg": 0.6,
+      "ok": true,
+      "body_count": 2,
+      "fusion_mass_kg": 0.6,
+      "fusion_com_xyz_m": [
+        0.0,
+        0.0,
+        -0.061259999999999995
+      ],
+      "bodies": [
+        {
+          "body": "right_forearm_solid",
+          "target_mass_kg": 0.22199999999999998,
+          "fusion_mass_kg": 0.22199999999999995,
+          "volume_cm3": 975.0,
+          "density_kg_m3": 227.69230769230765,
+          "material": "RobotMass_right_forearm_1"
+        },
+        {
+          "body": "right_elbow_motor",
+          "target_mass_kg": 0.378,
+          "fusion_mass_kg": 0.378,
+          "volume_cm3": 214.49999999999991,
+          "density_kg_m3": 1762.237762237763,
+          "material": "RobotMass_right_forearm_2"
+        }
+      ]
+    },
+    {
+      "link": "neck_yaw_link",
+      "target_mass_kg": 0.3,
+      "ok": true,
+      "body_count": 2,
+      "fusion_mass_kg": 0.3,
+      "fusion_com_xyz_m": [
+        0.0,
+        0.0,
+        0.024778333333333357
+      ],
+      "bodies": [
+        {
+          "body": "neck_yaw_link_solid",
+          "target_mass_kg": 0.08299999999999999,
+          "fusion_mass_kg": 0.08299999999999998,
+          "volume_cm3": 544.0000000000011,
+          "density_kg_m3": 152.57352941176435,
+          "material": "RobotMass_neck_yaw_link_1"
+        },
+        {
+          "body": "head_yaw_motor",
+          "target_mass_kg": 0.217,
+          "fusion_mass_kg": 0.217,
+          "volume_cm3": 89.888,
+          "density_kg_m3": 2414.115343538626,
+          "material": "RobotMass_neck_yaw_link_2"
+        }
+      ]
+    },
+    {
+      "link": "head",
+      "target_mass_kg": 2.2,
+      "ok": true,
+      "body_count": 2,
+      "fusion_mass_kg": 2.1999999999999997,
+      "fusion_com_xyz_m": [
+        3.118785673887944e-19,
+        0.0,
+        0.0848981818181818
+      ],
+      "bodies": [
+        {
+          "body": "head_solid",
+          "target_mass_kg": 1.983,
+          "fusion_mass_kg": 1.9829999999999999,
+          "volume_cm3": 5004.799999999998,
+          "density_kg_m3": 396.21962915601034,
+          "material": "RobotMass_head_1"
+        },
+        {
+          "body": "head_pitch_motor",
+          "target_mass_kg": 0.217,
+          "fusion_mass_kg": 0.217,
+          "volume_cm3": 89.888,
+          "density_kg_m3": 2414.115343538626,
+          "material": "RobotMass_head_2"
+        }
+      ]
+    },
+    {
+      "link": "left_ankle_upper_crank",
+      "target_mass_kg": 0.04,
+      "ok": true,
+      "body_count": 1,
+      "fusion_mass_kg": 0.039999999999999994,
+      "fusion_com_xyz_m": [
+        -0.02,
+        0.078,
+        -0.085
+      ],
+      "bodies": [
+        {
+          "body": "left_ankle_upper_crank",
+          "target_mass_kg": 0.04,
+          "fusion_mass_kg": 0.039999999999999994,
+          "volume_cm3": 4.0000000000000036,
+          "density_kg_m3": 9999.99999999999,
+          "material": "RobotMass_left_ankle_upper_crank_1"
+        }
+      ]
+    },
+    {
+      "link": "left_ankle_lower_crank",
+      "target_mass_kg": 0.04,
+      "ok": true,
+      "body_count": 1,
+      "fusion_mass_kg": 0.039999999999999994,
+      "fusion_com_xyz_m": [
+        0.02,
+        0.078,
+        -0.175
+      ],
+      "bodies": [
+        {
+          "body": "left_ankle_lower_crank",
+          "target_mass_kg": 0.04,
+          "fusion_mass_kg": 0.039999999999999994,
+          "volume_cm3": 4.0000000000000036,
+          "density_kg_m3": 9999.99999999999,
+          "material": "RobotMass_left_ankle_lower_crank_1"
+        }
+      ]
+    },
+    {
+      "link": "left_ankle_rod_a",
+      "target_mass_kg": 0.08,
+      "ok": true,
+      "body_count": 1,
+      "fusion_mass_kg": 0.08,
+      "fusion_com_xyz_m": [
+        -0.043,
+        0.07799999999999999,
+        -0.225
+      ],
+      "bodies": [
+        {
+          "body": "left_ankle_rod_a",
+          "target_mass_kg": 0.08,
+          "fusion_mass_kg": 0.08,
+          "volume_cm3": 17.92411381351948,
+          "density_kg_m3": 4463.261103578746,
+          "material": "RobotMass_left_ankle_rod_a_1"
+        }
+      ]
+    },
+    {
+      "link": "left_ankle_rod_b",
+      "target_mass_kg": 0.08,
+      "ok": true,
+      "body_count": 1,
+      "fusion_mass_kg": 0.08,
+      "fusion_com_xyz_m": [
+        0.043,
+        0.078,
+        -0.27
+      ],
+      "bodies": [
+        {
+          "body": "left_ankle_rod_b",
+          "target_mass_kg": 0.08,
+          "fusion_mass_kg": 0.08,
+          "volume_cm3": 12.166061647057361,
+          "density_kg_m3": 6575.669458271224,
+          "material": "RobotMass_left_ankle_rod_b_1"
+        }
+      ]
+    },
+    {
+      "link": "right_ankle_upper_crank",
+      "target_mass_kg": 0.04,
+      "ok": true,
+      "body_count": 1,
+      "fusion_mass_kg": 0.039999999999999994,
+      "fusion_com_xyz_m": [
+        -0.02,
+        0.078,
+        -0.085
+      ],
+      "bodies": [
+        {
+          "body": "right_ankle_upper_crank",
+          "target_mass_kg": 0.04,
+          "fusion_mass_kg": 0.039999999999999994,
+          "volume_cm3": 4.0000000000000036,
+          "density_kg_m3": 9999.99999999999,
+          "material": "RobotMass_right_ankle_upper_crank_1"
+        }
+      ]
+    },
+    {
+      "link": "right_ankle_lower_crank",
+      "target_mass_kg": 0.04,
+      "ok": true,
+      "body_count": 1,
+      "fusion_mass_kg": 0.039999999999999994,
+      "fusion_com_xyz_m": [
+        0.02,
+        0.078,
+        -0.175
+      ],
+      "bodies": [
+        {
+          "body": "right_ankle_lower_crank",
+          "target_mass_kg": 0.04,
+          "fusion_mass_kg": 0.039999999999999994,
+          "volume_cm3": 4.0000000000000036,
+          "density_kg_m3": 9999.99999999999,
+          "material": "RobotMass_right_ankle_lower_crank_1"
+        }
+      ]
+    },
+    {
+      "link": "right_ankle_rod_a",
+      "target_mass_kg": 0.08,
+      "ok": true,
+      "body_count": 1,
+      "fusion_mass_kg": 0.08,
+      "fusion_com_xyz_m": [
+        -0.043,
+        0.07799999999999999,
+        -0.225
+      ],
+      "bodies": [
+        {
+          "body": "right_ankle_rod_a",
+          "target_mass_kg": 0.08,
+          "fusion_mass_kg": 0.08,
+          "volume_cm3": 17.92411381351948,
+          "density_kg_m3": 4463.261103578746,
+          "material": "RobotMass_right_ankle_rod_a_1"
+        }
+      ]
+    },
+    {
+      "link": "right_ankle_rod_b",
+      "target_mass_kg": 0.08,
+      "ok": true,
+      "body_count": 1,
+      "fusion_mass_kg": 0.08,
+      "fusion_com_xyz_m": [
+        0.043,
+        0.078,
+        -0.27
+      ],
+      "bodies": [
+        {
+          "body": "right_ankle_rod_b",
+          "target_mass_kg": 0.08,
+          "fusion_mass_kg": 0.08,
+          "volume_cm3": 12.166061647057361,
+          "density_kg_m3": 6575.669458271224,
+          "material": "RobotMass_right_ankle_rod_b_1"
+        }
+      ]
+    }
+  ],
+  "ankle_mechanism_joints": [
+    {
+      "name": "left_ankle_motor_a_output",
+      "type": "revolute",
+      "ok": true
+    },
+    {
+      "name": "left_ankle_motor_b_output",
+      "type": "revolute",
+      "ok": true
+    },
+    {
+      "name": "left_ankle_rod_a_motor_pivot",
+      "type": "ball",
+      "ok": true
+    },
+    {
+      "name": "left_ankle_rod_b_motor_pivot",
+      "type": "ball",
+      "ok": true
+    },
+    {
+      "name": "left_ankle_rod_a_foot_pivot",
+      "type": "ball",
+      "ok": true
+    },
+    {
+      "name": "left_ankle_rod_b_foot_pivot",
+      "type": "ball",
+      "ok": true
+    },
+    {
+      "name": "right_ankle_motor_a_output",
+      "type": "revolute",
+      "ok": true
+    },
+    {
+      "name": "right_ankle_motor_b_output",
+      "type": "revolute",
+      "ok": true
+    },
+    {
+      "name": "right_ankle_rod_a_motor_pivot",
+      "type": "ball",
+      "ok": true
+    },
+    {
+      "name": "right_ankle_rod_b_motor_pivot",
+      "type": "ball",
+      "ok": true
+    },
+    {
+      "name": "right_ankle_rod_a_foot_pivot",
+      "type": "ball",
+      "ok": true
+    },
+    {
+      "name": "right_ankle_rod_b_foot_pivot",
+      "type": "ball",
+      "ok": true
+    }
+  ],
+  "fusion_geometry_mass_kg": 38.0,
+  "mass_calibration_failures": []
+}

@@ -1,0 +1,819 @@
+{
+  "supervisor_pid": 16864,
+  "status": "stopped_gate",
+  "child_pid": 0,
+  "num_envs": 8192,
+  "reserve_mb": 512,
+  "plan": [
+    [
+      "speed",
+      4.5,
+      400
+    ],
+    [
+      "speed",
+      5.0,
+      500
+    ],
+    [
+      "speed",
+      5.5,
+      600
+    ],
+    [
+      "speed",
+      6.0,
+      800
+    ]
+  ],
+  "max_additional_iterations": 2300,
+  "approved_walker": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\rsl_rl\\humanoid5ft_natural_walk\\2026-08-31_17-06-10\\model_2098.pt",
+  "original_runner": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\rsl_rl\\humanoid5ft_natural_run_from_working_walk\\2026-09-01_19-54-34\\model_3800.pt",
+  "history": [
+    {
+      "block": "smoke64",
+      "mode": "train",
+      "result": {
+        "completed": true,
+        "checkpoint": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\smoke64\\candidate.pt",
+        "iterations": 16,
+        "seconds": 24.562000000005355,
+        "num_envs": 64,
+        "action_scale": 0.35,
+        "stage": "speed",
+        "velocity_boost": 1.0,
+        "boost_classes": [],
+        "stance_signal": {
+          "valid_fraction": 0.5280354817708334,
+          "ungated_mean_cost": 0.12758854031562805,
+          "mean_cost": 0.06911320984363556,
+          "weighted_mean_cost": -0.041467925906181334
+        },
+        "traction_signal": {
+          "valid_fraction": 0.8898111979166666,
+          "ungated_mean_cost": 0.15701018770535788,
+          "mean_cost": 0.10238097111384074,
+          "weighted_mean_cost": -0.06142858266830444
+        },
+        "torso_signal": {
+          "active_fraction": 0.4940999348958333,
+          "mean_tilt_rad": 0.15782506267229715,
+          "mean_cost": 0.07078835864861806,
+          "weighted_mean_cost": -0.14157671729723612
+        },
+        "source_sha256": "a770187d4eaf274e5417b97061cc6b126a5a61b6044c473006927e9ea305ea4e",
+        "peak_sampled_gpu_mb": 3861
+      }
+    },
+    {
+      "block": "smoke_checkpoint_reload",
+      "mode": "eval",
+      "result": {
+        "completed": true,
+        "evaluation": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\smoke_checkpoint_reload\\evaluation.json",
+        "seconds": 54.78100000001723,
+        "source_sha256": "13cdc3b92eacb1468da695d55cc9a9bb7e9d632eac872bd03c5376dc1b25faf8",
+        "peak_sampled_gpu_mb": 3868
+      }
+    },
+    {
+      "block": "benchmark_8192",
+      "mode": "train",
+      "result": {
+        "completed": true,
+        "checkpoint": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\benchmark_8192\\candidate.pt",
+        "iterations": 4,
+        "seconds": 15.375,
+        "num_envs": 8192,
+        "action_scale": 0.35,
+        "stage": "speed",
+        "velocity_boost": 1.0,
+        "boost_classes": [],
+        "stance_signal": {
+          "valid_fraction": 0.3143170674641927,
+          "ungated_mean_cost": 0.06268057227134705,
+          "mean_cost": 0.025346959630648296,
+          "weighted_mean_cost": -0.015208175778388976
+        },
+        "traction_signal": {
+          "valid_fraction": 0.7457046508789062,
+          "ungated_mean_cost": 0.16395774483680725,
+          "mean_cost": 0.0751352459192276,
+          "weighted_mean_cost": -0.045081147551536555
+        },
+        "torso_signal": {
+          "active_fraction": 0.5713653564453125,
+          "mean_tilt_rad": 0.2310787240664164,
+          "mean_cost": 0.18456957737604776,
+          "weighted_mean_cost": -0.3691391547520955
+        },
+        "source_sha256": "a770187d4eaf274e5417b97061cc6b126a5a61b6044c473006927e9ea305ea4e",
+        "peak_sampled_gpu_mb": 6655,
+        "environment_steps_per_second": 51150.04878048781
+      }
+    },
+    {
+      "block": "walking_seed_eval_47",
+      "mode": "eval",
+      "result": {
+        "completed": true,
+        "evaluation": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\walking_seed_eval_47\\evaluation.json",
+        "seconds": 47.687000000005355,
+        "source_sha256": "dbddd7222f591d8d43d5e13d679a8ec4f9deb251dd864a15f78e9f88dcf6e174",
+        "peak_sampled_gpu_mb": 3860
+      }
+    },
+    {
+      "block": "walking_seed_eval_83",
+      "mode": "eval",
+      "result": {
+        "completed": true,
+        "evaluation": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\walking_seed_eval_83\\evaluation.json",
+        "seconds": 47.953000000008615,
+        "source_sha256": "dbddd7222f591d8d43d5e13d679a8ec4f9deb251dd864a15f78e9f88dcf6e174",
+        "peak_sampled_gpu_mb": 3855
+      }
+    },
+    {
+      "block": "resume_check_eval_47",
+      "mode": "eval",
+      "result": {
+        "completed": true,
+        "evaluation": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\resume_check_eval_47\\evaluation.json",
+        "seconds": 55.59299999999348,
+        "source_sha256": "a770187d4eaf274e5417b97061cc6b126a5a61b6044c473006927e9ea305ea4e",
+        "peak_sampled_gpu_mb": 3859
+      }
+    },
+    {
+      "block": "resume_check_eval_83",
+      "mode": "eval",
+      "result": {
+        "completed": true,
+        "evaluation": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\resume_check_eval_83\\evaluation.json",
+        "seconds": 54.76500000001397,
+        "source_sha256": "a770187d4eaf274e5417b97061cc6b126a5a61b6044c473006927e9ea305ea4e",
+        "peak_sampled_gpu_mb": 3855
+      }
+    },
+    {
+      "block": "00_speed_4.5_0200_8192",
+      "mode": "train",
+      "result": {
+        "completed": true,
+        "checkpoint": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\00_speed_4.5_0200_8192\\candidate.pt",
+        "iterations": 200,
+        "seconds": 678.2190000000119,
+        "num_envs": 8192,
+        "action_scale": 0.35,
+        "stage": "speed",
+        "velocity_boost": 1.0,
+        "boost_classes": [],
+        "stance_signal": {
+          "valid_fraction": 0.5746742757161458,
+          "ungated_mean_cost": 0.1113259506225586,
+          "mean_cost": 0.06096412022908529,
+          "weighted_mean_cost": -0.036578472137451176
+        },
+        "traction_signal": {
+          "valid_fraction": 0.9304892985026042,
+          "ungated_mean_cost": 0.13470605214436848,
+          "mean_cost": 0.09827072143554688,
+          "weighted_mean_cost": -0.058962432861328115
+        },
+        "torso_signal": {
+          "active_fraction": 0.5727530924479166,
+          "mean_tilt_rad": 0.13410596211751302,
+          "mean_cost": 0.02851222038269043,
+          "weighted_mean_cost": -0.05702444076538086
+        },
+        "source_sha256": "a770187d4eaf274e5417b97061cc6b126a5a61b6044c473006927e9ea305ea4e",
+        "peak_sampled_gpu_mb": 6668
+      }
+    },
+    {
+      "block": "00_speed_4.5_0200_eval_47",
+      "mode": "eval",
+      "result": {
+        "completed": true,
+        "evaluation": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\00_speed_4.5_0200_eval_47\\evaluation.json",
+        "seconds": 52.70299999997951,
+        "source_sha256": "ddc154b56fbb8d92883416c6d451df9534cc2e752733177f0d38b805fb16a166",
+        "peak_sampled_gpu_mb": 3855
+      }
+    },
+    {
+      "block": "00_speed_4.5_0200_eval_83",
+      "mode": "eval",
+      "result": {
+        "completed": true,
+        "evaluation": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\00_speed_4.5_0200_eval_83\\evaluation.json",
+        "seconds": 55.40700000000652,
+        "source_sha256": "ddc154b56fbb8d92883416c6d451df9534cc2e752733177f0d38b805fb16a166",
+        "peak_sampled_gpu_mb": 3855
+      }
+    },
+    {
+      "block": "01_speed_5_0000_eval_47",
+      "mode": "eval",
+      "result": {
+        "completed": true,
+        "evaluation": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\01_speed_5_0000_eval_47\\evaluation.json",
+        "seconds": 53.06200000003446,
+        "source_sha256": "ddc154b56fbb8d92883416c6d451df9534cc2e752733177f0d38b805fb16a166",
+        "peak_sampled_gpu_mb": 3855
+      }
+    },
+    {
+      "block": "01_speed_5_0000_eval_83",
+      "mode": "eval",
+      "result": {
+        "completed": true,
+        "evaluation": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\01_speed_5_0000_eval_83\\evaluation.json",
+        "seconds": 52.92099999997299,
+        "source_sha256": "ddc154b56fbb8d92883416c6d451df9534cc2e752733177f0d38b805fb16a166",
+        "peak_sampled_gpu_mb": 3859
+      }
+    },
+    {
+      "block": "01_speed_5_0200_8192",
+      "mode": "train",
+      "result": {
+        "completed": true,
+        "checkpoint": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\01_speed_5_0200_8192\\candidate.pt",
+        "iterations": 200,
+        "seconds": 678.5630000000237,
+        "num_envs": 8192,
+        "action_scale": 0.35,
+        "stage": "speed",
+        "velocity_boost": 1.0,
+        "boost_classes": [],
+        "stance_signal": {
+          "valid_fraction": 0.5403594462076823,
+          "ungated_mean_cost": 0.10941792805989584,
+          "mean_cost": 0.056614322662353514,
+          "weighted_mean_cost": -0.03396859359741211
+        },
+        "traction_signal": {
+          "valid_fraction": 0.9167332967122396,
+          "ungated_mean_cost": 0.13665173848470052,
+          "mean_cost": 0.09724231719970704,
+          "weighted_mean_cost": -0.05834539031982422
+        },
+        "torso_signal": {
+          "active_fraction": 0.5726363118489584,
+          "mean_tilt_rad": 0.13301069895426432,
+          "mean_cost": 0.01946495532989502,
+          "weighted_mean_cost": -0.03892991065979004
+        },
+        "source_sha256": "ddc154b56fbb8d92883416c6d451df9534cc2e752733177f0d38b805fb16a166",
+        "peak_sampled_gpu_mb": 6668
+      }
+    },
+    {
+      "block": "01_speed_5_0200_eval_47",
+      "mode": "eval",
+      "result": {
+        "completed": true,
+        "evaluation": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\01_speed_5_0200_eval_47\\evaluation.json",
+        "seconds": 55.39100000000326,
+        "source_sha256": "b221ef74afb9d407e02106e19f712cab1debcc35f1e341ecda10a6c7b16ba83d",
+        "peak_sampled_gpu_mb": 3855
+      }
+    },
+    {
+      "block": "01_speed_5_0200_eval_83",
+      "mode": "eval",
+      "result": {
+        "completed": true,
+        "evaluation": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\01_speed_5_0200_eval_83\\evaluation.json",
+        "seconds": 53.31199999997625,
+        "source_sha256": "b221ef74afb9d407e02106e19f712cab1debcc35f1e341ecda10a6c7b16ba83d",
+        "peak_sampled_gpu_mb": 3855
+      }
+    },
+    {
+      "block": "01_speed_5_0400_8192",
+      "mode": "train",
+      "result": {
+        "completed": true,
+        "checkpoint": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\01_speed_5_0400_8192\\candidate.pt",
+        "iterations": 200,
+        "seconds": 665.2189999999828,
+        "num_envs": 8192,
+        "action_scale": 0.35,
+        "stage": "speed",
+        "velocity_boost": 1.0,
+        "boost_classes": [],
+        "stance_signal": {
+          "valid_fraction": 0.5361869303385417,
+          "ungated_mean_cost": 0.11404132843017578,
+          "mean_cost": 0.058792254130045574,
+          "weighted_mean_cost": -0.03527535247802734
+        },
+        "traction_signal": {
+          "valid_fraction": 0.9182858276367187,
+          "ungated_mean_cost": 0.1267382558186849,
+          "mean_cost": 0.08879841486612956,
+          "weighted_mean_cost": -0.05327904891967773
+        },
+        "torso_signal": {
+          "active_fraction": 0.5723272705078125,
+          "mean_tilt_rad": 0.11697745005289714,
+          "mean_cost": 0.013194825649261475,
+          "weighted_mean_cost": -0.02638965129852295
+        },
+        "source_sha256": "b221ef74afb9d407e02106e19f712cab1debcc35f1e341ecda10a6c7b16ba83d",
+        "peak_sampled_gpu_mb": 6659
+      }
+    },
+    {
+      "block": "01_speed_5_0400_eval_47",
+      "mode": "eval",
+      "result": {
+        "completed": true,
+        "evaluation": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\01_speed_5_0400_eval_47\\evaluation.json",
+        "seconds": 55.07800000003772,
+        "source_sha256": "89cb755d856e14d8b158da7c0d765f5ab17576e7774fa860089c3692d9dce61e",
+        "peak_sampled_gpu_mb": 3855
+      }
+    },
+    {
+      "block": "01_speed_5_0400_eval_83",
+      "mode": "eval",
+      "result": {
+        "completed": true,
+        "evaluation": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\01_speed_5_0400_eval_83\\evaluation.json",
+        "seconds": 54.81199999997625,
+        "source_sha256": "89cb755d856e14d8b158da7c0d765f5ab17576e7774fa860089c3692d9dce61e",
+        "peak_sampled_gpu_mb": 3855
+      }
+    },
+    {
+      "block": "02_speed_5.5_0000_eval_47",
+      "mode": "eval",
+      "result": {
+        "completed": true,
+        "evaluation": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\02_speed_5.5_0000_eval_47\\evaluation.json",
+        "seconds": 52.84399999998277,
+        "source_sha256": "89cb755d856e14d8b158da7c0d765f5ab17576e7774fa860089c3692d9dce61e",
+        "peak_sampled_gpu_mb": 3855
+      }
+    },
+    {
+      "block": "02_speed_5.5_0000_eval_83",
+      "mode": "eval",
+      "result": {
+        "completed": true,
+        "evaluation": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\02_speed_5.5_0000_eval_83\\evaluation.json",
+        "seconds": 55.18699999997625,
+        "source_sha256": "89cb755d856e14d8b158da7c0d765f5ab17576e7774fa860089c3692d9dce61e",
+        "peak_sampled_gpu_mb": 3855
+      }
+    },
+    {
+      "block": "02_speed_5.5_0200_8192",
+      "mode": "train",
+      "result": {
+        "completed": true,
+        "checkpoint": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\02_speed_5.5_0200_8192\\candidate.pt",
+        "iterations": 200,
+        "seconds": 665.875,
+        "num_envs": 8192,
+        "action_scale": 0.35,
+        "stage": "speed",
+        "velocity_boost": 1.0,
+        "boost_classes": [],
+        "stance_signal": {
+          "valid_fraction": 0.5067670694986979,
+          "ungated_mean_cost": 0.118800048828125,
+          "mean_cost": 0.06280294418334961,
+          "weighted_mean_cost": -0.03768176651000976
+        },
+        "traction_signal": {
+          "valid_fraction": 0.9039418538411458,
+          "ungated_mean_cost": 0.1263546625773112,
+          "mean_cost": 0.0848510487874349,
+          "weighted_mean_cost": -0.050910629272460935
+        },
+        "torso_signal": {
+          "active_fraction": 0.5724513244628906,
+          "mean_tilt_rad": 0.12277030944824219,
+          "mean_cost": 0.010887613296508789,
+          "weighted_mean_cost": -0.021775226593017578
+        },
+        "source_sha256": "89cb755d856e14d8b158da7c0d765f5ab17576e7774fa860089c3692d9dce61e",
+        "peak_sampled_gpu_mb": 6659
+      }
+    },
+    {
+      "block": "02_speed_5.5_0200_eval_47",
+      "mode": "eval",
+      "result": {
+        "completed": true,
+        "evaluation": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\02_speed_5.5_0200_eval_47\\evaluation.json",
+        "seconds": 53.01500000001397,
+        "source_sha256": "5a60f06a4868e1fad837af546bf86385b7e6efa0e5fe135ce222fec38f6e4966",
+        "peak_sampled_gpu_mb": 3855
+      }
+    },
+    {
+      "block": "02_speed_5.5_0200_eval_83",
+      "mode": "eval",
+      "result": {
+        "completed": true,
+        "evaluation": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\02_speed_5.5_0200_eval_83\\evaluation.json",
+        "seconds": 52.15600000001723,
+        "source_sha256": "5a60f06a4868e1fad837af546bf86385b7e6efa0e5fe135ce222fec38f6e4966",
+        "peak_sampled_gpu_mb": 3855
+      }
+    },
+    {
+      "block": "02_speed_5.5_0400_8192",
+      "mode": "train",
+      "result": {
+        "completed": true,
+        "checkpoint": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\02_speed_5.5_0400_8192\\candidate.pt",
+        "iterations": 200,
+        "seconds": 664.594000000041,
+        "num_envs": 8192,
+        "action_scale": 0.35,
+        "stage": "speed",
+        "velocity_boost": 1.0,
+        "boost_classes": [],
+        "stance_signal": {
+          "valid_fraction": 0.5067670694986979,
+          "ungated_mean_cost": 0.118800048828125,
+          "mean_cost": 0.06280294418334961,
+          "weighted_mean_cost": -0.03768176651000976
+        },
+        "traction_signal": {
+          "valid_fraction": 0.9039418538411458,
+          "ungated_mean_cost": 0.1263546625773112,
+          "mean_cost": 0.0848510487874349,
+          "weighted_mean_cost": -0.050910629272460935
+        },
+        "torso_signal": {
+          "active_fraction": 0.5724513244628906,
+          "mean_tilt_rad": 0.12277030944824219,
+          "mean_cost": 0.010887613296508789,
+          "weighted_mean_cost": -0.021775226593017578
+        },
+        "source_sha256": "89cb755d856e14d8b158da7c0d765f5ab17576e7774fa860089c3692d9dce61e",
+        "peak_sampled_gpu_mb": 6659
+      }
+    },
+    {
+      "block": "02_speed_5.5_0400_eval_47",
+      "mode": "eval",
+      "result": {
+        "completed": true,
+        "evaluation": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\02_speed_5.5_0400_eval_47\\evaluation.json",
+        "seconds": 55.35899999999674,
+        "source_sha256": "5a60f06a4868e1fad837af546bf86385b7e6efa0e5fe135ce222fec38f6e4966",
+        "peak_sampled_gpu_mb": 3855
+      }
+    },
+    {
+      "block": "02_speed_5.5_0400_eval_83",
+      "mode": "eval",
+      "result": {
+        "completed": true,
+        "evaluation": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\02_speed_5.5_0400_eval_83\\evaluation.json",
+        "seconds": 54.98499999998603,
+        "source_sha256": "5a60f06a4868e1fad837af546bf86385b7e6efa0e5fe135ce222fec38f6e4966",
+        "peak_sampled_gpu_mb": 3859
+      }
+    },
+    {
+      "block": "02_speed_5.5_0600_8192",
+      "mode": "train",
+      "result": {
+        "completed": true,
+        "checkpoint": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\02_speed_5.5_0600_8192\\candidate.pt",
+        "iterations": 200,
+        "seconds": 675.0619999999763,
+        "num_envs": 8192,
+        "action_scale": 0.35,
+        "stage": "speed",
+        "velocity_boost": 1.0,
+        "boost_classes": [],
+        "stance_signal": {
+          "valid_fraction": 0.5067670694986979,
+          "ungated_mean_cost": 0.118800048828125,
+          "mean_cost": 0.06280294418334961,
+          "weighted_mean_cost": -0.03768176651000976
+        },
+        "traction_signal": {
+          "valid_fraction": 0.9039418538411458,
+          "ungated_mean_cost": 0.1263546625773112,
+          "mean_cost": 0.0848510487874349,
+          "weighted_mean_cost": -0.050910629272460935
+        },
+        "torso_signal": {
+          "active_fraction": 0.5724513244628906,
+          "mean_tilt_rad": 0.12277030944824219,
+          "mean_cost": 0.010887613296508789,
+          "weighted_mean_cost": -0.021775226593017578
+        },
+        "source_sha256": "89cb755d856e14d8b158da7c0d765f5ab17576e7774fa860089c3692d9dce61e",
+        "peak_sampled_gpu_mb": 6659
+      }
+    },
+    {
+      "block": "02_speed_5.5_0600_eval_47",
+      "mode": "eval",
+      "result": {
+        "completed": true,
+        "evaluation": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\02_speed_5.5_0600_eval_47\\evaluation.json",
+        "seconds": 54.81199999997625,
+        "source_sha256": "5a60f06a4868e1fad837af546bf86385b7e6efa0e5fe135ce222fec38f6e4966",
+        "peak_sampled_gpu_mb": 3859
+      }
+    },
+    {
+      "block": "02_speed_5.5_0600_eval_83",
+      "mode": "eval",
+      "result": {
+        "completed": true,
+        "evaluation": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\02_speed_5.5_0600_eval_83\\evaluation.json",
+        "seconds": 55.21899999998277,
+        "source_sha256": "5a60f06a4868e1fad837af546bf86385b7e6efa0e5fe135ce222fec38f6e4966",
+        "peak_sampled_gpu_mb": 3855
+      }
+    }
+  ],
+  "velocity_boost": 1.0,
+  "boost_classes": [],
+  "original_hashes": {
+    "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\rsl_rl\\humanoid5ft_natural_walk\\2026-08-31_17-06-10\\model_2098.pt": "dbddd7222f591d8d43d5e13d679a8ec4f9deb251dd864a15f78e9f88dcf6e174",
+    "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\rsl_rl\\humanoid5ft_natural_run_from_working_walk\\2026-09-01_19-54-34\\model_3800.pt": "054cb098d7a8bf1535da3a9f26217637a27d0109719068d5e645561da32604ff",
+    "E:\\Aditya\\robot_sim\\humanoid_project\\humanoid_cfg.py": "3db22fc26b4ee76a6b6765e71ff713503e35d2b138aeb2463df0523f4e9c1096",
+    "E:\\Aditya\\robot_sim\\humanoid_project\\source\\humanoid_tasks\\curriculum\\env_cfg.py": "cc03f167c410106f500bfdf93f680d25af6dfceb64a952a13dcc037deaa9f9cf",
+    "E:\\Aditya\\robot_sim\\humanoid_project\\source\\humanoid_tasks\\curriculum\\skill_mdp.py": "42f9a7469d54ce8a7e256fb89993207ea0804c9279d58b27a8c61089b06bd797",
+    "E:\\Aditya\\robot_sim\\humanoid_project\\assets\\usd\\humanoid_5ft.usd": "8206681b855b4cb1f7ace48363ae880105205289f861817f5c6a68af20ab7049"
+  },
+  "resume_gate": {
+    "walking_pass": true,
+    "stage_pass": true,
+    "checks": [
+      {
+        "seed": 47,
+        "walking": {
+          "0.5:speed_mae": true,
+          "0.5:lateral_speed": true,
+          "0.5:slip": true,
+          "0.5:torso_tilt_deg": true,
+          "0.5:stance_asymmetry": true,
+          "0.5:foot_crossing": true,
+          "0.5:knee_crossing": true,
+          "0.5:nonfoot": true,
+          "0.5:falls": true,
+          "0.5:samples": true,
+          "0.5:steps": true,
+          "0.5:speed_absolute": true,
+          "1.0:speed_mae": true,
+          "1.0:lateral_speed": true,
+          "1.0:slip": true,
+          "1.0:torso_tilt_deg": true,
+          "1.0:stance_asymmetry": true,
+          "1.0:foot_crossing": true,
+          "1.0:knee_crossing": true,
+          "1.0:nonfoot": true,
+          "1.0:falls": true,
+          "1.0:samples": true,
+          "1.0:steps": true,
+          "1.0:speed_absolute": true
+        },
+        "stage": {
+          "target_speed": true,
+          "falls": true,
+          "enough_prefall": true,
+          "completed_steps": true,
+          "slip": true,
+          "nonfoot": true,
+          "foot_crossing": true,
+          "knee_crossing": true,
+          "balance": true,
+          "unreachable_targets": true,
+          "waist_unreachable": true,
+          "torso_mean_tilt": true,
+          "torso_lean_occupancy": true
+        }
+      },
+      {
+        "seed": 83,
+        "walking": {
+          "0.5:speed_mae": true,
+          "0.5:lateral_speed": true,
+          "0.5:slip": true,
+          "0.5:torso_tilt_deg": true,
+          "0.5:stance_asymmetry": true,
+          "0.5:foot_crossing": true,
+          "0.5:knee_crossing": true,
+          "0.5:nonfoot": true,
+          "0.5:falls": true,
+          "0.5:samples": true,
+          "0.5:steps": true,
+          "0.5:speed_absolute": true,
+          "1.0:speed_mae": true,
+          "1.0:lateral_speed": true,
+          "1.0:slip": true,
+          "1.0:torso_tilt_deg": true,
+          "1.0:stance_asymmetry": true,
+          "1.0:foot_crossing": true,
+          "1.0:knee_crossing": true,
+          "1.0:nonfoot": true,
+          "1.0:falls": true,
+          "1.0:samples": true,
+          "1.0:steps": true,
+          "1.0:speed_absolute": true
+        },
+        "stage": {
+          "target_speed": true,
+          "falls": true,
+          "enough_prefall": true,
+          "completed_steps": true,
+          "slip": true,
+          "nonfoot": true,
+          "foot_crossing": true,
+          "knee_crossing": true,
+          "balance": true,
+          "unreachable_targets": true,
+          "waist_unreachable": true,
+          "torso_mean_tilt": true,
+          "torso_lean_occupancy": true
+        }
+      }
+    ],
+    "checkpoint": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v6_traction6_20260905_0122\\00_traction_4_0200_8192\\candidate.pt",
+    "input_checkpoint": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v6_traction6_20260905_0122\\00_traction_4_0100_8192\\candidate.pt",
+    "stage": "traction",
+    "ceiling": 4.0,
+    "evaluated_as": "00_traction_4_0200"
+  },
+  "resume_source": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v7_posture6_20260905_0640\\state.json",
+  "resume_checkpoint": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v6_traction6_20260905_0122\\00_traction_4_0200_8192\\candidate.pt",
+  "timestamp": "2026-09-05T08:41:04.807282",
+  "message": "speed did not pass within 600 iterations. Speed NOT advanced.",
+  "active_block": "02_speed_5.5_0600_eval_83",
+  "stdout": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\02_speed_5.5_0600_eval_83\\stdout.log",
+  "stderr": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\02_speed_5.5_0600_eval_83\\stderr.log",
+  "block_iteration": 0,
+  "block_iterations": 3,
+  "child_elapsed_s": 60.3,
+  "gpu": {
+    "used_mb": 3855,
+    "total_mb": 8188,
+    "free_mb": 4333,
+    "utilization": 40,
+    "power_w": "[N/A]",
+    "temperature_c": "47"
+  },
+  "stage_iterations_display": 598,
+  "benchmarks": [
+    {
+      "completed": true,
+      "checkpoint": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\benchmark_8192\\candidate.pt",
+      "iterations": 4,
+      "seconds": 15.375,
+      "num_envs": 8192,
+      "action_scale": 0.35,
+      "stage": "speed",
+      "velocity_boost": 1.0,
+      "boost_classes": [],
+      "stance_signal": {
+        "valid_fraction": 0.3143170674641927,
+        "ungated_mean_cost": 0.06268057227134705,
+        "mean_cost": 0.025346959630648296,
+        "weighted_mean_cost": -0.015208175778388976
+      },
+      "traction_signal": {
+        "valid_fraction": 0.7457046508789062,
+        "ungated_mean_cost": 0.16395774483680725,
+        "mean_cost": 0.0751352459192276,
+        "weighted_mean_cost": -0.045081147551536555
+      },
+      "torso_signal": {
+        "active_fraction": 0.5713653564453125,
+        "mean_tilt_rad": 0.2310787240664164,
+        "mean_cost": 0.18456957737604776,
+        "weighted_mean_cost": -0.3691391547520955
+      },
+      "source_sha256": "a770187d4eaf274e5417b97061cc6b126a5a61b6044c473006927e9ea305ea4e",
+      "peak_sampled_gpu_mb": 6655,
+      "environment_steps_per_second": 51150.04878048781
+    }
+  ],
+  "seed_checkpoint": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v6_traction6_20260905_0122\\00_traction_4_0200_8192\\candidate.pt",
+  "action_scale": 0.35,
+  "last_accepted_checkpoint": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\01_speed_5_0400_8192\\candidate.pt",
+  "stage": "speed",
+  "stage_index": 2,
+  "speed_ceiling": 5.5,
+  "stage_budget": 600,
+  "stage_completed_before_block": 400,
+  "block_size": 200,
+  "last_gate": {
+    "walking_pass": false,
+    "stage_pass": false,
+    "checks": [
+      {
+        "seed": 47,
+        "walking": {
+          "0.5:speed_mae": true,
+          "0.5:lateral_speed": true,
+          "0.5:slip": true,
+          "0.5:torso_tilt_deg": true,
+          "0.5:stance_asymmetry": true,
+          "0.5:foot_crossing": true,
+          "0.5:knee_crossing": true,
+          "0.5:nonfoot": true,
+          "0.5:falls": true,
+          "0.5:samples": true,
+          "0.5:steps": true,
+          "0.5:speed_absolute": true,
+          "1.0:speed_mae": true,
+          "1.0:lateral_speed": true,
+          "1.0:slip": true,
+          "1.0:torso_tilt_deg": true,
+          "1.0:stance_asymmetry": false,
+          "1.0:foot_crossing": true,
+          "1.0:knee_crossing": true,
+          "1.0:nonfoot": true,
+          "1.0:falls": true,
+          "1.0:samples": true,
+          "1.0:steps": true,
+          "1.0:speed_absolute": true
+        },
+        "stage": {
+          "target_speed": true,
+          "falls": true,
+          "enough_prefall": true,
+          "completed_steps": true,
+          "slip": true,
+          "nonfoot": true,
+          "foot_crossing": true,
+          "knee_crossing": true,
+          "balance": true,
+          "unreachable_targets": false,
+          "waist_unreachable": true,
+          "torso_mean_tilt": true,
+          "torso_lean_occupancy": true,
+          "running_has_flight": true
+        }
+      },
+      {
+        "seed": 83,
+        "walking": {
+          "0.5:speed_mae": true,
+          "0.5:lateral_speed": true,
+          "0.5:slip": true,
+          "0.5:torso_tilt_deg": true,
+          "0.5:stance_asymmetry": true,
+          "0.5:foot_crossing": true,
+          "0.5:knee_crossing": true,
+          "0.5:nonfoot": true,
+          "0.5:falls": true,
+          "0.5:samples": true,
+          "0.5:steps": true,
+          "0.5:speed_absolute": true,
+          "1.0:speed_mae": true,
+          "1.0:lateral_speed": true,
+          "1.0:slip": true,
+          "1.0:torso_tilt_deg": true,
+          "1.0:stance_asymmetry": false,
+          "1.0:foot_crossing": true,
+          "1.0:knee_crossing": true,
+          "1.0:nonfoot": true,
+          "1.0:falls": true,
+          "1.0:samples": true,
+          "1.0:steps": true,
+          "1.0:speed_absolute": true
+        },
+        "stage": {
+          "target_speed": true,
+          "falls": true,
+          "enough_prefall": true,
+          "completed_steps": true,
+          "slip": true,
+          "nonfoot": true,
+          "foot_crossing": true,
+          "knee_crossing": true,
+          "balance": true,
+          "unreachable_targets": false,
+          "waist_unreachable": true,
+          "torso_mean_tilt": true,
+          "torso_lean_occupancy": true,
+          "running_has_flight": true
+        }
+      }
+    ],
+    "checkpoint": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\02_speed_5.5_0600_8192\\candidate.pt",
+    "input_checkpoint": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_run_v8_posture6_20260905_0705\\01_speed_5_0400_8192\\candidate.pt",
+    "stage": "speed",
+    "ceiling": 5.5,
+    "evaluated_as": "02_speed_5.5_0600"
+  },
+  "completed_additional_iterations": 1200
+}

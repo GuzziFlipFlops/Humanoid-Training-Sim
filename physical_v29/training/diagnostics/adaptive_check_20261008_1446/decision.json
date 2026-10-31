@@ -1,0 +1,25 @@
+{
+  "recorded_utc": "2026-10-08T16:47:51.457258+00:00",
+  "verdict": "REJECT",
+  "deploy": false,
+  "explanation": "The individual completed-cycle shoulder-mean candidate is rejected for deployment. At 64 updates it reduces fast shoulder bias but increases 3.5 m/s lateral drift to 0.461/0.442 m/s versus unchanged control 0.096/0.098, and adds a nominal 1 m/s support failure. At 128 updates its drift remains 0.381/0.358 versus control 0.078/0.109; the support failure persists and retained 1.5 m/s geometric flight still fails. Nominal fast shoulder slow RMS is 16.46/4.56 degrees versus control 15.71/6.17, so the earlier improvement does not remain superior on both sides. Actual 2.5 and 3 m/s target biases still reverse slowly. Independent initial-state tests preserve the failure evidence. Keep the exact original full-state learner, existing upper refinement and all gates; no diagnostic actor or new gradient enters production. This rejects the tested continuation, not every possible cycle-based refinement.",
+  "next_tests": [
+    "Read fresh exact current-speed and every prior gate first, preserving useful actors. The matched unchanged control passes 3.5 m/s but fails 0.15 net travel and 1.5 true flight; newer original 719 recovers 0.15 in both tests while 1.5 flight and 3/3.5 direction still fail. Keep exact actor scope and prioritize persistent failures. Prioritize their per-command actual advantages, teacher effective targets and contact/landing events. If those failures persist, test one bounded exact-command retention rehearsal on the CURRENT full state against unchanged 64/128 controls and independent training/initial-state seeds, retaining current direction, all other speeds and posture. The earlier 44% exposure, course, fixed-frame, teacher-context and other rejected variants remain rejected absent new evidence; do not change arbitrary weights or relax gates.",
+    "Inspect every actual head/shoulder pitch+roll/elbow angle, target and velocity timeline, bilateral and arm-leg phase, and noncancelling slow bias. The new individual-cycle mean candidate is rejected: early fast bias reduction weakens direction/support and is not sustained on both shoulders at 128. Quantify current lower-output sensitivity to arm-history variation on saved truthful states and distinguish physical arm/base coupling from learned feedback dependence in bounded normal-limit cohorts before another shoulder derivative. Latest cycle snapshots cover only a subset of robots/states; they do not certify deterministic evaluation coverage. Preserve head, gait, full state, both teachers, 35/1 gains and existing upper 20 batches/update. No production observation substitution, imposed reference curve, gain/cap increase or repeat of the same failed mean candidate without new evidence.",
+    "Verify the same supervisor 39000, one actual worker, 55 frozen hashes, local ground, exact actor/critic/Adam/exploration and both teachers after diagnostic resume. Count 27,507 inherited plus fresh completed and hash-proven recovered main updates; exclude unsaved R39, capacity, smoke and diagnostic learning. Exclude all three documented suspensions through each timing endpoint. Keep the 8,192 target, 300 MiB reserve, host guards/fallback and 180 continuous healthy TRAINING seconds before ramps; Fusion stays closed. Final 5 m/s or conditional 4 m/s requires every unchanged gate and 32 independently seeded states per command, with actor-specific native 5 ms CAD speed/torque and sustained driving-saturation evidence proving 5 blocked for the 4 m/s fallback. Exact 716 nominal/pushed 10 Hz audits find left ankle motor 2 at/above cap in 2.031%/1.997% of 3.5 m/s samples (p99 1.639/1.652 times cap), with right motor 2 at 1.111%/0.833%. Attribute duration and requested/applied 5 ms driving speeds/torques on the newer plateau actor before inferring a ceiling; sampled overspeed alone is insufficient."
+  ],
+  "matched_control": "E:\\Aditya\\robot_sim\\physical_v29\\training\\diagnostics\\adaptive_check_20261008_1446\\matched_sequence\\control_128_train\\candidate.pt",
+  "diagnostic_candidate": "E:\\Aditya\\robot_sim\\physical_v29\\training\\diagnostics\\adaptive_check_20261008_1446\\matched_sequence\\candidate_128_train\\candidate.pt",
+  "training_seeds": [
+    149
+  ],
+  "independently_seeded_evaluations": [
+    2309,
+    1911
+  ],
+  "production_changed": false,
+  "keep_original_full_state": true,
+  "no_from_scratch_restart": true,
+  "no_endpoint_established": true,
+  "computer_on": true
+}

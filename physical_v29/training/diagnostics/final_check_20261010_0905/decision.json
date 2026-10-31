@@ -1,0 +1,19 @@
+{
+  "recorded_utc": "2026-10-10T09:58:27.983572+00:00",
+  "status": "complete_user_budget_stop",
+  "reliable_speed_breakthrough": false,
+  "qualified_5_or_4": false,
+  "causal_actuator_ceiling": false,
+  "automation_status": "PAUSED",
+  "remaining_scheduled_prompts": 0,
+  "learning_authorized": false,
+  "computer_on": true,
+  "final_checkpoint": "E:\\Aditya\\robot_sim\\physical_v29\\training\\diagnostics\\final_check_20261010_0905\\final_full_state_checkpoint.pt",
+  "final_checkpoint_sha256": "aa6c13541b5dc5693bf586822025806399256e5f15327f25dd671c41c2d3876e",
+  "selected_video_checkpoint_sha256": "0ad6a1cc1c018951b82d05c67d02ca7a2663eb93845030e255a04503c60a61d0",
+  "video_count": 10,
+  "motor_shafts": 23,
+  "population_trials_per_command": 32,
+  "native_sample_Hz": 200,
+  "report": "E:\\Aditya\\robot_sim\\physical_v29\\training\\diagnostics\\final_check_20261010_0905\\REPORT.md"
+}

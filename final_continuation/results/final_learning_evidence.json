@@ -1,0 +1,805 @@
+{
+  "recorded_utc": "2026-10-10T09:19:05.625087+00:00",
+  "state_status": "stopped_by_user_budget",
+  "saved_checkpoint": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\1226_run_350_train_406\\candidate.pt",
+  "saved_checkpoint_sha256": "aa6c13541b5dc5693bf586822025806399256e5f15327f25dd671c41c2d3876e",
+  "frozen_hashes": {
+    "environment_unitree.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\environment_unitree.py",
+      "expected": "4c696acd5d0b7882d72110487f051e541c9c26a17b4c0dec23f2767b82817909",
+      "actual": "4c696acd5d0b7882d72110487f051e541c9c26a17b4c0dec23f2767b82817909"
+    },
+    "worker_unitree.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\worker_unitree.py",
+      "expected": "6ecc342a7860d42dfde67d5699551815efc004f72e9aab49ab3e3405d55bd74c",
+      "actual": "6ecc342a7860d42dfde67d5699551815efc004f72e9aab49ab3e3405d55bd74c"
+    },
+    "unitree_reward_port.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\unitree_reward_port.py",
+      "expected": "3c9ef52c50b7bec2b65180dfaa5be97871e1b213ebf78450b105ed7505697c59",
+      "actual": "3c9ef52c50b7bec2b65180dfaa5be97871e1b213ebf78450b105ed7505697c59"
+    },
+    "stage_rewards.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\stage_rewards.py",
+      "expected": "3729ae1fc7d94ee3a17470dde8131165ac2e9e45d475b1a83a9668b4ff39649c",
+      "actual": "3729ae1fc7d94ee3a17470dde8131165ac2e9e45d475b1a83a9668b4ff39649c"
+    },
+    "support_geometry.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\support_geometry.py",
+      "expected": "15a06dae46482a3900c9bb229e60c3ee831185fc08635f18b7262b4b444638e7",
+      "actual": "15a06dae46482a3900c9bb229e60c3ee831185fc08635f18b7262b4b444638e7"
+    },
+    "reward_warm_start.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\reward_warm_start.py",
+      "expected": "ddb46aa44fcffcde99ff8c85410d55abf00563708694363d4836a3e866089de6",
+      "actual": "ddb46aa44fcffcde99ff8c85410d55abf00563708694363d4836a3e866089de6"
+    },
+    "heading_control.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\heading_control.py",
+      "expected": "361fd19167b92c67f5dc5a16c7c7d113f496a6077e3f8ea5d41c7958c11d2ae6",
+      "actual": "361fd19167b92c67f5dc5a16c7c7d113f496a6077e3f8ea5d41c7958c11d2ae6"
+    },
+    "environment.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\environment.py",
+      "expected": "e60769643bf2c0c84d7c1dc96f688fa67c47c26ba4b7830127becffda9e6ac30",
+      "actual": "e60769643bf2c0c84d7c1dc96f688fa67c47c26ba4b7830127becffda9e6ac30"
+    },
+    "worker.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\worker.py",
+      "expected": "e5d40517d4f9560abeafefbacc03c29172c0c349ed55f0dee0a90ef30b8fa405",
+      "actual": "e5d40517d4f9560abeafefbacc03c29172c0c349ed55f0dee0a90ef30b8fa405"
+    },
+    "evaluation.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\evaluation.py",
+      "expected": "dc7c5279baf1bdee188aa103b5bc3c5de20e3907b0e69a111804111d02a1dd23",
+      "actual": "dc7c5279baf1bdee188aa103b5bc3c5de20e3907b0e69a111804111d02a1dd23"
+    },
+    "evaluation_steps.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\evaluation_steps.py",
+      "expected": "0b3ad04af6e1ef5b5f3a76df0acf27e788b5ee3f7e46c299ae668b269edac7c8",
+      "actual": "0b3ad04af6e1ef5b5f3a76df0acf27e788b5ee3f7e46c299ae668b269edac7c8"
+    },
+    "memory_guard.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\memory_guard.py",
+      "expected": "9962a52b2188ba2c47ec8ce1cdc4fa5290ccd7a67e60aa8d388f1d559ab7784c",
+      "actual": "9962a52b2188ba2c47ec8ce1cdc4fa5290ccd7a67e60aa8d388f1d559ab7784c"
+    },
+    "supervisor_unitree.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\supervisor_unitree.py",
+      "expected": "c402c4a56f9164b55578bb60b78d40c1a2bc425297bdc4ee31184c47362a53cf",
+      "actual": "c402c4a56f9164b55578bb60b78d40c1a2bc425297bdc4ee31184c47362a53cf"
+    },
+    "status_io.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\status_io.py",
+      "expected": "d9b14fc5022dd5a97cbcd411bd79d228cf6bcfa78b4b8192a55b2a2985fe1734",
+      "actual": "d9b14fc5022dd5a97cbcd411bd79d228cf6bcfa78b4b8192a55b2a2985fe1734"
+    },
+    "walking_rewards.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\walking_rewards.py",
+      "expected": "ea721f6d7f07a6b42330cad5236fef467fce926b8a5889b8f4ec5946ff32793d",
+      "actual": "ea721f6d7f07a6b42330cad5236fef467fce926b8a5889b8f4ec5946ff32793d"
+    },
+    "standing_retention.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\standing_retention.py",
+      "expected": "fb1d137d9325a2f08b6220aeb28a305711febb7bb8bdab02cf2641c41531d8a6",
+      "actual": "fb1d137d9325a2f08b6220aeb28a305711febb7bb8bdab02cf2641c41531d8a6"
+    },
+    "ppo_update_audit.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\ppo_update_audit.py",
+      "expected": "c65be7ce883a00ce5cc454f59ddd03cde079645a3256673d08de137fb688b374",
+      "actual": "c65be7ce883a00ce5cc454f59ddd03cde079645a3256673d08de137fb688b374"
+    },
+    "reference_geometry.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\reference_geometry.py",
+      "expected": "252622273e48f247cc988d60e84711d3f1c103269fb19a2c9cf5758375d69c09",
+      "actual": "252622273e48f247cc988d60e84711d3f1c103269fb19a2c9cf5758375d69c09"
+    },
+    "mass_estimate.json": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\mass_estimate.json",
+      "expected": "760fccba4ae16568a3c08b25ca11fd01ee9a1fcd40a6d57dd58a2c9b3c37282d",
+      "actual": "760fccba4ae16568a3c08b25ca11fd01ee9a1fcd40a6d57dd58a2c9b3c37282d"
+    },
+    "assets/robot_training.urdf": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\assets\\robot_training.urdf",
+      "expected": "26d5579ac6ac05e4d35180abf323398fa8fc0fdaa41003b1c55b694fc635eb17",
+      "actual": "26d5579ac6ac05e4d35180abf323398fa8fc0fdaa41003b1c55b694fc635eb17"
+    },
+    "assets/motion_reference.npz": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\assets\\motion_reference.npz",
+      "expected": "37af2ab6c2ac3246f973a2170702a7a98dcb5f032248d91cba8f079216556c4a",
+      "actual": "37af2ab6c2ac3246f973a2170702a7a98dcb5f032248d91cba8f079216556c4a"
+    },
+    "command_curriculum.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\command_curriculum.py",
+      "expected": "bb523c62ead24d61eeee8518855fab832757724e537d059aa6e09ce47efece49",
+      "actual": "bb523c62ead24d61eeee8518855fab832757724e537d059aa6e09ce47efece49"
+    },
+    "curriculum_provenance.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\curriculum_provenance.py",
+      "expected": "52f549d6e76aeb922d9b2c7a1eb2de2ad3f9b16a5a2766421a1ed10bd2a6c70b",
+      "actual": "52f549d6e76aeb922d9b2c7a1eb2de2ad3f9b16a5a2766421a1ed10bd2a6c70b"
+    },
+    "upper_body_refinement.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\upper_body_refinement.py",
+      "expected": "d925675b1d499e54e500ae5d0d7ce7b7c3d4444126127dd86eefc4c678de0dfa",
+      "actual": "d925675b1d499e54e500ae5d0d7ce7b7c3d4444126127dd86eefc4c678de0dfa"
+    },
+    "teacher_head_context.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\teacher_head_context.py",
+      "expected": "e98ffed8d42d8bbb6a76d9113e80bd519ed988df71ec6e4165a6232348a6a21a",
+      "actual": "e98ffed8d42d8bbb6a76d9113e80bd519ed988df71ec6e4165a6232348a6a21a"
+    },
+    "teacher_head_context.json": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\teacher_head_context.json",
+      "expected": "f289af08cabb51e82e10c80e42ceecdddf5b5dc2e8aa916db9ed1e48e5d0280e",
+      "actual": "f289af08cabb51e82e10c80e42ceecdddf5b5dc2e8aa916db9ed1e48e5d0280e"
+    },
+    "unitree_vendor/g1_cfg.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\unitree_vendor\\g1_cfg.py",
+      "expected": "22deed51bf779bb9730cdbb48df3b098ec64dab15984942153f0073d40840b8f",
+      "actual": "22deed51bf779bb9730cdbb48df3b098ec64dab15984942153f0073d40840b8f"
+    },
+    "unitree_vendor/g1_cfg.py.rewards.txt": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\unitree_vendor\\g1_cfg.py.rewards.txt",
+      "expected": "8cc753b8aa8812d069b57411f80b0cd7d13d48d4242cc4e4d8f1d09d7be41829",
+      "actual": "8cc753b8aa8812d069b57411f80b0cd7d13d48d4242cc4e4d8f1d09d7be41829"
+    },
+    "unitree_vendor/h1_cfg.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\unitree_vendor\\h1_cfg.py",
+      "expected": "2811746c2aae8944d55bed0e274ded65025d658809ff0b63f23326707e3a8e8e",
+      "actual": "2811746c2aae8944d55bed0e274ded65025d658809ff0b63f23326707e3a8e8e"
+    },
+    "unitree_vendor/h1_cfg.py.rewards.txt": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\unitree_vendor\\h1_cfg.py.rewards.txt",
+      "expected": "5743720b475996cb2080caa73914d8693df907fe64eb1cddcfd61a927b7d8e9a",
+      "actual": "5743720b475996cb2080caa73914d8693df907fe64eb1cddcfd61a927b7d8e9a"
+    },
+    "unitree_vendor/h2_velocity_cfg.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\unitree_vendor\\h2_velocity_cfg.py",
+      "expected": "87a58574713e66c406ee5defd33240c30646092be495480249c84646799e8bc3",
+      "actual": "87a58574713e66c406ee5defd33240c30646092be495480249c84646799e8bc3"
+    },
+    "unitree_vendor/isaac_rewards.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\unitree_vendor\\isaac_rewards.py",
+      "expected": "16434c6977132fa94ea0a6d71a18a5025e58136c19ea1a70df7d81bd5987c033",
+      "actual": "16434c6977132fa94ea0a6d71a18a5025e58136c19ea1a70df7d81bd5987c033"
+    },
+    "unitree_vendor/LICENCE": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\unitree_vendor\\LICENCE",
+      "expected": "ff28cacaef7b9919a0fb905136cf4ccffba5191522bf5d024c4339932c0edc28",
+      "actual": "ff28cacaef7b9919a0fb905136cf4ccffba5191522bf5d024c4339932c0edc28"
+    },
+    "unitree_vendor/mdp_init.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\unitree_vendor\\mdp_init.py",
+      "expected": "2b61e4b16274bdad8174e7a11f49a6cde647b015b0acbe0c0861bd9c0b935546",
+      "actual": "2b61e4b16274bdad8174e7a11f49a6cde647b015b0acbe0c0861bd9c0b935546"
+    },
+    "unitree_vendor/ppo.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\unitree_vendor\\ppo.py",
+      "expected": "0f15211f85adc84cf6586770dad448f080d579ea55b4f509aca20a36a11310f7",
+      "actual": "0f15211f85adc84cf6586770dad448f080d579ea55b4f509aca20a36a11310f7"
+    },
+    "unitree_vendor/README.md": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\unitree_vendor\\README.md",
+      "expected": "87a0ca55d9896c74b6b6fa690a3795c6ebc1635e57d2d50f36d87fcfe7718a32",
+      "actual": "87a0ca55d9896c74b6b6fa690a3795c6ebc1635e57d2d50f36d87fcfe7718a32"
+    },
+    "unitree_vendor/rewards.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\unitree_vendor\\rewards.py",
+      "expected": "8a41249e85997414f759c56b990ebd8a9289f7d98c47e2fc70f54180e86d4ad3",
+      "actual": "8a41249e85997414f759c56b990ebd8a9289f7d98c47e2fc70f54180e86d4ad3"
+    },
+    "unitree_vendor/rlgym_legged_robot.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\unitree_vendor\\rlgym_legged_robot.py",
+      "expected": "255c67339be0c8e98332a632330d62d56c61de4c2e93c43bd30402e9d76eac3d",
+      "actual": "255c67339be0c8e98332a632330d62d56c61de4c2e93c43bd30402e9d76eac3d"
+    },
+    "unitree_vendor/rlgym_legged_robot_config.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\unitree_vendor\\rlgym_legged_robot_config.py",
+      "expected": "009677a88e2cca66feae457a90679c32fc8676272045a29649a125fb59f2ef56",
+      "actual": "009677a88e2cca66feae457a90679c32fc8676272045a29649a125fb59f2ef56"
+    },
+    "unitree_vendor/rlgym_LICENSE": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\unitree_vendor\\rlgym_LICENSE",
+      "expected": "aef6394ba1597725a68308167324e675f562e6606027404deb1b9da254c2b9c1",
+      "actual": "aef6394ba1597725a68308167324e675f562e6606027404deb1b9da254c2b9c1"
+    },
+    "unitree_vendor/sources.json": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\unitree_vendor\\sources.json",
+      "expected": "e779b4078b595256cb7f074c13e9234a59342303559e404c29446874016f95ee",
+      "actual": "e779b4078b595256cb7f074c13e9234a59342303559e404c29446874016f95ee"
+    },
+    "unitree_vendor/velocity_rewards.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\unitree_vendor\\velocity_rewards.py",
+      "expected": "c0441764c360fdab4a3c661802d808e96ffb04a101f2aadd2686984653a56bd9",
+      "actual": "c0441764c360fdab4a3c661802d808e96ffb04a101f2aadd2686984653a56bd9"
+    },
+    "physical_assets/actuator_limits.json": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\assets\\actuator_limits.json",
+      "expected": "b395e16136108b99c5e1f6b3c4688568c7ae5aff23c05acad25308638fabba16",
+      "actual": "b395e16136108b99c5e1f6b3c4688568c7ae5aff23c05acad25308638fabba16"
+    },
+    "physical_assets/differential_geometry.json": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\assets\\differential_geometry.json",
+      "expected": "bbb24cb6b6043995f214c07621f914cfd7bc8dc8cca441f757cb939d7ca3c84e",
+      "actual": "bbb24cb6b6043995f214c07621f914cfd7bc8dc8cca441f757cb939d7ca3c84e"
+    },
+    "physical_v29/hardware_actuators.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\hardware_actuators.py",
+      "expected": "3ccb0f1be7eb7ba6fc2579d258e1a1cb85de2d943d7af449596a55148c3d3431",
+      "actual": "3ccb0f1be7eb7ba6fc2579d258e1a1cb85de2d943d7af449596a55148c3d3431"
+    },
+    "physical_v29/cad_differential.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\cad_differential.py",
+      "expected": "ebad5ef4004f682fbab01faac6f5a94bd4f8b1bbd700ed7382a9ad46c5342988",
+      "actual": "ebad5ef4004f682fbab01faac6f5a94bd4f8b1bbd700ed7382a9ad46c5342988"
+    },
+    "physical_v29/owned_cuda_graph.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\owned_cuda_graph.py",
+      "expected": "fc15b703f007aff31fea35daf418809b38f557231e114f5efb3bba63586bdca5",
+      "actual": "fc15b703f007aff31fea35daf418809b38f557231e114f5efb3bba63586bdca5"
+    },
+    "physical_v29/assets/export_metadata.json": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\assets\\export_metadata.json",
+      "expected": "07505f194e55eeb3a9d97ecc3d3a1b56dbe59e6129866bcf06dffaa6ac4999d0",
+      "actual": "07505f194e55eeb3a9d97ecc3d3a1b56dbe59e6129866bcf06dffaa6ac4999d0"
+    },
+    "offline_ground.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\offline_ground.py",
+      "expected": "9dae10cdd8f5b61a26b3edf2f9488151ad56499af9f3f6e866fdf01079bd4f2d",
+      "actual": "9dae10cdd8f5b61a26b3edf2f9488151ad56499af9f3f6e866fdf01079bd4f2d"
+    },
+    "assets/ground/default_environment.usd": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\assets\\ground\\default_environment.usd",
+      "expected": "8a21c317d638d33a4e6c20c958a7ed8f4d8c5195efd7e20f1b85178b4a15638a",
+      "actual": "8a21c317d638d33a4e6c20c958a7ed8f4d8c5195efd7e20f1b85178b4a15638a"
+    },
+    "assets/ground/manifest.json": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\assets\\ground\\manifest.json",
+      "expected": "bdcdae6728fd22ea8771f0b0e1278b72c9b55ffb2190949e6c4c129c82f269df",
+      "actual": "bdcdae6728fd22ea8771f0b0e1278b72c9b55ffb2190949e6c4c129c82f269df"
+    },
+    "assets/ground/Materials/Textures/WireframeBlur_basecolor.png": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\assets\\ground\\Materials\\Textures\\WireframeBlur_basecolor.png",
+      "expected": "deab39088eaf39ed7be951966c5e6bd5e58b90ab64743b0cdc8e5579fd5a99d9",
+      "actual": "deab39088eaf39ed7be951966c5e6bd5e58b90ab64743b0cdc8e5579fd5a99d9"
+    },
+    "assets/ground/Materials/Textures/WireframeBlur_blue.png": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\assets\\ground\\Materials\\Textures\\WireframeBlur_blue.png",
+      "expected": "44fc0e82007bb0bd94631cd7ec45986a71ed74b9413899fbffac13efe151be4b",
+      "actual": "44fc0e82007bb0bd94631cd7ec45986a71ed74b9413899fbffac13efe151be4b"
+    },
+    "assets/ground/Materials/Textures/Wireframe_blue.png": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\source\\physical_v29\\training\\assets\\ground\\Materials\\Textures\\Wireframe_blue.png",
+      "expected": "940b96ee8c8e53bd1acbc770d4ca0ac98bed9c96439ab386d1b27dbc9790cc4e",
+      "actual": "940b96ee8c8e53bd1acbc770d4ca0ac98bed9c96439ab386d1b27dbc9790cc4e"
+    },
+    "vram_ramp.py": {
+      "path": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\vram_ramp.py",
+      "expected": "b8c4a804649e902894a204739660bdc5ba9e9d3b97b5b5a497d513db40f3375b",
+      "actual": "b8c4a804649e902894a204739660bdc5ba9e9d3b97b5b5a497d513db40f3375b"
+    }
+  },
+  "all_hashes_verify": true,
+  "completed_main_updates": 26023,
+  "recovered_verified_updates": 50,
+  "current_run_retained_updates": 26073,
+  "inherited_verified_updates": 27507,
+  "excluded_unsaved_R39_updates": 32,
+  "completed_main_samples": 4283940864,
+  "latest_main": {
+    "folder": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\1226_run_350_train_406",
+    "updates": 64,
+    "samples": 12582912,
+    "first_row_keys": [
+      "iteration",
+      "num_envs",
+      "speed",
+      "time",
+      "gpu",
+      "collect_seconds",
+      "learn_seconds",
+      "reward_version",
+      "behavior",
+      "joints",
+      "policy",
+      "ppo",
+      "retention",
+      "garbage_collected",
+      "locomotion_retention",
+      "upper_refinement",
+      "command_coverage"
+    ],
+    "last": {
+      "iteration": 63,
+      "num_envs": 8192,
+      "speed": 3.5,
+      "time": 1791623166.5989842,
+      "gpu": {
+        "used_mb": 6557,
+        "free_mb": 1400,
+        "utilization": 63,
+        "ram_available_mb": 7784,
+        "ram_total_mb": 32580,
+        "process_rss_mb": 8018,
+        "process_private_mb": 15113,
+        "torch_allocated_mb": 874,
+        "torch_reserved_mb": 2166
+      },
+      "collect_seconds": 4.088584899902344,
+      "learn_seconds": 1.0628066062927246,
+      "reward_version": "cad_running_bilateral_unload_v8",
+      "behavior": {
+        "moving_fraction": 0.6753336787223816,
+        "moving_forward_speed": 2.473360061645508,
+        "foot_slip": 0.15045180916786194,
+        "falls_per_s": 0.0002543131704442203,
+        "stand_forward_speed": 0.130418062210083,
+        "stand_falls_per_s": 0.0007835025899112225,
+        "healthy_fraction": 0.9999237060546875,
+        "flight_fraction": 0.1687673032283783,
+        "both_contact_fraction": 0.295074462890625,
+        "reward_survival": 1.9999898672103882,
+        "reward_upright": 3.3570544719696045,
+        "reward_torso_upright": 0.7300004363059998,
+        "reward_height": 2.4490156173706055,
+        "reward_stationary": 0.001988980220630765,
+        "reward_stand_two_feet": 0.37964361906051636,
+        "reward_stand_anchor": 0.126763254404068,
+        "reward_stand_com_support": 0.12614619731903076,
+        "reward_track_lin_vel_xy": 1.748830795288086,
+        "reward_track_ang_vel_z": 0.09307774901390076,
+        "reward_gait": 0.5354373455047607,
+        "reward_feet_clearance": 0.08553808927536011,
+        "reward_running_flight": 0.030378220602869987,
+        "reward_running_unload": 0.24266724288463593,
+        "reward_fixed_heading": 0.5881767868995667,
+        "reward_base_linear_velocity": -0.044593580067157745,
+        "reward_base_angular_velocity": -0.14638076722621918,
+        "reward_joint_vel": -0.10686379671096802,
+        "reward_joint_acc": -0.15345855057239532,
+        "reward_action_rate": -0.2634592652320862,
+        "reward_dof_pos_limits": -0.029652973636984825,
+        "reward_energy": -0.010735200718045235,
+        "reward_joint_deviation_arms": -0.06559096276760101,
+        "reward_joint_deviation_waists": -0.1450347900390625,
+        "reward_joint_deviation_legs": -0.2641918361186981,
+        "reward_feet_slide": -0.03379923850297928,
+        "reward_undesired_contacts": -2.3377970137516968e-05,
+        "reward_walking_flight_cost": -0.0009064720361493528,
+        "reward_physical_termination": -0.0010172526817768812,
+        "shaping_raw_cost": 1.7601475715637207,
+        "shaping_bounded_cost": 1.2646996974945068,
+        "shaping_healthy": 0.9150774478912354,
+        "shaping_support_excess_m": 0.008885374292731285,
+        "shaping_activity": 0.7494744658470154,
+        "shaping_expected_swing_fraction": 0.5137838125228882,
+        "termination_low_height_per_s": 0.0002543131704442203,
+        "termination_pelvis_tilt_per_s": 0.0,
+        "termination_torso_tilt_per_s": 0.0,
+        "termination_invalid_differential_per_s": 0.0,
+        "termination_nonfinite_per_s": 0.0,
+        "termination_excessive_drift_per_s": 0.0,
+        "termination_nonfoot_impact_per_s": 0.0,
+        "action_command_difference": 0.0,
+        "heading_command_abs_rad_s": 0.02038353681564331,
+        "heading_error_abs_rad": 0.09833347797393799
+      },
+      "joints": {
+        "left_hip_pitch": {
+          "q_mean": -0.27212652564048767,
+          "target_mean": -0.27425459027290344,
+          "tracking_abs_error": 0.3052937388420105,
+          "target_clip_fraction": 0.2123565673828125,
+          "slew_fraction": 0.3813883662223816,
+          "torque_saturation_fraction": 0.0,
+          "continuous_torque_exceeded_fraction": 0.009897868148982525
+        },
+        "right_hip_pitch": {
+          "q_mean": -0.2944927215576172,
+          "target_mean": -0.28400933742523193,
+          "tracking_abs_error": 0.3086041212081909,
+          "target_clip_fraction": 0.2175445556640625,
+          "slew_fraction": 0.3918202817440033,
+          "torque_saturation_fraction": 0.0,
+          "continuous_torque_exceeded_fraction": 0.010894775390625
+        },
+        "waist_yaw": {
+          "q_mean": 0.03360576927661896,
+          "target_mean": 0.03367948532104492,
+          "tracking_abs_error": 0.24404403567314148,
+          "target_clip_fraction": 0.0598551444709301,
+          "slew_fraction": 0.4353230893611908,
+          "torque_saturation_fraction": 0.06512451171875,
+          "continuous_torque_exceeded_fraction": 0.3876393735408783
+        },
+        "left_hip_roll": {
+          "q_mean": 0.06425689160823822,
+          "target_mean": -0.018578732386231422,
+          "tracking_abs_error": 0.1791437715291977,
+          "target_clip_fraction": 0.0904185026884079,
+          "slew_fraction": 0.4360504150390625,
+          "torque_saturation_fraction": 0.0,
+          "continuous_torque_exceeded_fraction": 2.0345052689663135e-05
+        },
+        "right_hip_roll": {
+          "q_mean": 0.05773858353495598,
+          "target_mean": -0.015890605747699738,
+          "tracking_abs_error": 0.16970884799957275,
+          "target_clip_fraction": 0.0757853239774704,
+          "slew_fraction": 0.4298502802848816,
+          "torque_saturation_fraction": 0.0,
+          "continuous_torque_exceeded_fraction": 1.52587890625e-05
+        },
+        "waist_pitch": {
+          "q_mean": -0.010415489785373211,
+          "target_mean": -0.05739615112543106,
+          "tracking_abs_error": 0.13537219166755676,
+          "target_clip_fraction": 0.5714060664176941,
+          "slew_fraction": 0.2137298583984375,
+          "torque_saturation_fraction": 0.0,
+          "continuous_torque_exceeded_fraction": 0.0
+        },
+        "left_hip_yaw": {
+          "q_mean": -0.1597241312265396,
+          "target_mean": -0.1768825650215149,
+          "tracking_abs_error": 0.12726765871047974,
+          "target_clip_fraction": 0.038970947265625,
+          "slew_fraction": 0.4029083251953125,
+          "torque_saturation_fraction": 0.009368896484375,
+          "continuous_torque_exceeded_fraction": 0.2247721403837204
+        },
+        "right_hip_yaw": {
+          "q_mean": -0.15983712673187256,
+          "target_mean": -0.17921572923660278,
+          "tracking_abs_error": 0.12395976483821869,
+          "target_clip_fraction": 0.0298716239631176,
+          "slew_fraction": 0.3988800048828125,
+          "torque_saturation_fraction": 0.01048787496984005,
+          "continuous_torque_exceeded_fraction": 0.2203470915555954
+        },
+        "waist_roll": {
+          "q_mean": -0.0017698835581541061,
+          "target_mean": -0.003184385597705841,
+          "tracking_abs_error": 0.1304716020822525,
+          "target_clip_fraction": 0.4849141538143158,
+          "slew_fraction": 0.2408599853515625,
+          "torque_saturation_fraction": 0.0,
+          "continuous_torque_exceeded_fraction": 0.0001983642578125
+        },
+        "left_knee_pitch": {
+          "q_mean": 0.7573902010917664,
+          "target_mean": 0.680978000164032,
+          "tracking_abs_error": 0.16991309821605682,
+          "target_clip_fraction": 0.0432281494140625,
+          "slew_fraction": 0.4906056821346283,
+          "torque_saturation_fraction": 0.0,
+          "continuous_torque_exceeded_fraction": 9.1552734375e-05
+        },
+        "right_knee_pitch": {
+          "q_mean": 0.7892512083053589,
+          "target_mean": 0.7191881537437439,
+          "tracking_abs_error": 0.16869056224822998,
+          "target_clip_fraction": 0.0226999931037426,
+          "slew_fraction": 0.4763336181640625,
+          "torque_saturation_fraction": 0.0,
+          "continuous_torque_exceeded_fraction": 3.0517578125e-05
+        },
+        "head_yaw": {
+          "q_mean": 0.008993875235319138,
+          "target_mean": 0.009115463122725487,
+          "tracking_abs_error": 0.05814839154481888,
+          "target_clip_fraction": 0.0,
+          "slew_fraction": 0.68597412109375,
+          "torque_saturation_fraction": 0.0176951102912426,
+          "continuous_torque_exceeded_fraction": 0.0611317977309227
+        },
+        "left_shoulder_pitch": {
+          "q_mean": -0.05803511291742325,
+          "target_mean": -0.10143252462148666,
+          "tracking_abs_error": 0.170945405960083,
+          "target_clip_fraction": 0.0,
+          "slew_fraction": 0.3223012387752533,
+          "torque_saturation_fraction": 0.0,
+          "continuous_torque_exceeded_fraction": 0.0
+        },
+        "right_shoulder_pitch": {
+          "q_mean": -0.05471409857273102,
+          "target_mean": -0.09916917979717255,
+          "tracking_abs_error": 0.17221704125404358,
+          "target_clip_fraction": 0.0,
+          "slew_fraction": 0.3533935546875,
+          "torque_saturation_fraction": 0.0,
+          "continuous_torque_exceeded_fraction": 0.0
+        },
+        "left_ankle_pitch": {
+          "q_mean": -0.4075687825679779,
+          "target_mean": -0.3847052752971649,
+          "tracking_abs_error": 0.0878041535615921,
+          "target_clip_fraction": 0.7136790156364441,
+          "slew_fraction": 0.0977783203125,
+          "torque_saturation_fraction": 5.086263172415784e-06,
+          "continuous_torque_exceeded_fraction": 0.004302978515625
+        },
+        "right_ankle_pitch": {
+          "q_mean": -0.3991689085960388,
+          "target_mean": -0.38542577624320984,
+          "tracking_abs_error": 0.08428280800580978,
+          "target_clip_fraction": 0.7181752920150757,
+          "slew_fraction": 0.1073150634765625,
+          "torque_saturation_fraction": 0.0002899169921875,
+          "continuous_torque_exceeded_fraction": 0.0050862631760537624
+        },
+        "head_pitch": {
+          "q_mean": -0.00677861412987113,
+          "target_mean": -0.010772520676255226,
+          "tracking_abs_error": 0.050363343209028244,
+          "target_clip_fraction": 0.0049285888671875,
+          "slew_fraction": 0.6844584345817566,
+          "torque_saturation_fraction": 0.0028076171875,
+          "continuous_torque_exceeded_fraction": 0.0006815592641942203
+        },
+        "left_shoulder_roll": {
+          "q_mean": 0.06087861582636833,
+          "target_mean": 0.08957500755786896,
+          "tracking_abs_error": 0.15596744418144226,
+          "target_clip_fraction": 0.0322011336684227,
+          "slew_fraction": 0.3055877685546875,
+          "torque_saturation_fraction": 0.0,
+          "continuous_torque_exceeded_fraction": 0.026214599609375
+        },
+        "right_shoulder_roll": {
+          "q_mean": -0.04759795963764191,
+          "target_mean": -0.0704517662525177,
+          "tracking_abs_error": 0.15014266967773438,
+          "target_clip_fraction": 0.0400390625,
+          "slew_fraction": 0.3154296875,
+          "torque_saturation_fraction": 1.52587890625e-05,
+          "continuous_torque_exceeded_fraction": 0.014658610336482525
+        },
+        "left_ankle_roll": {
+          "q_mean": 0.04010431841015816,
+          "target_mean": 0.033342741429805756,
+          "tracking_abs_error": 0.0617719404399395,
+          "target_clip_fraction": 0.8364715576171875,
+          "slew_fraction": 0.0793050155043602,
+          "torque_saturation_fraction": 5.086263172415784e-06,
+          "continuous_torque_exceeded_fraction": 0.0015411376953125
+        },
+        "right_ankle_roll": {
+          "q_mean": 0.04868335276842117,
+          "target_mean": 0.059511080384254456,
+          "tracking_abs_error": 0.0604877732694149,
+          "target_clip_fraction": 0.8050384521484375,
+          "slew_fraction": 0.0655415877699852,
+          "torque_saturation_fraction": 0.0002899169921875,
+          "continuous_torque_exceeded_fraction": 0.0015462239971384406
+        },
+        "left_elbow_pitch": {
+          "q_mean": -0.4094544053077698,
+          "target_mean": -0.4481525421142578,
+          "tracking_abs_error": 0.09907911717891693,
+          "target_clip_fraction": 0.090301513671875,
+          "slew_fraction": 0.6461181640625,
+          "torque_saturation_fraction": 0.07305908203125,
+          "continuous_torque_exceeded_fraction": 0.0
+        },
+        "right_elbow_pitch": {
+          "q_mean": -0.4123711585998535,
+          "target_mean": -0.44733926653862,
+          "tracking_abs_error": 0.08656217157840729,
+          "target_clip_fraction": 0.0807037353515625,
+          "slew_fraction": 0.6512553095817566,
+          "torque_saturation_fraction": 0.0381418876349926,
+          "continuous_torque_exceeded_fraction": 0.0
+        }
+      },
+      "policy": {
+        "normalized_observation_abs_p99": {
+          "angular": 0.7573356032371521,
+          "gravity": 1.0430506467819214,
+          "command": 3.5,
+          "position": 0.544269323348999,
+          "velocity": 0.46691346168518066,
+          "action_history": 3.0,
+          "phase": 0.9996362328529358
+        },
+        "exploration_std": [
+          0.699999988079071,
+          0.699999988079071,
+          0.699999988079071,
+          0.699999988079071,
+          0.699999988079071,
+          0.699999988079071,
+          0.699999988079071,
+          0.699999988079071,
+          0.699999988079071,
+          0.699999988079071,
+          0.699999988079071,
+          0.699999988079071,
+          0.699999988079071,
+          0.699999988079071,
+          0.699999988079071,
+          0.699999988079071,
+          0.699999988079071,
+          0.699999988079071,
+          0.699999988079071,
+          0.699999988079071,
+          0.699999988079071,
+          0.699999988079071,
+          0.699999988079071
+        ],
+        "learning_rate": 3.375000000000001e-05,
+        "nominal_pose_max_abs_drift_rad": 0.0,
+        "scope": "Last 16 environments and 5 history frames; a diagnostic sample, not a promotion gate"
+      },
+      "ppo": {
+        "sample_count": 512,
+        "pre_update_kl": 0.0,
+        "pre_update_kl_nonterminal": 0.0,
+        "pre_update_kl_reset": null,
+        "reset_sample_fraction": 0.0,
+        "return_mean": 22.700326919555664,
+        "return_std": 2.1947035789489746,
+        "value_explained_variance": 0.9635525345802307,
+        "normalized_advantage_std": 0.9999974370002747,
+        "rollout_action_clip_fraction": 0.09903241693973541,
+        "stopped_sample_fraction": 0.310546875,
+        "optimizer_lr_before": 3.375000000000001e-05,
+        "post_update_kl": 0.012828763574361801,
+        "post_update_kl_p99": 0.058809731155633926,
+        "likelihood_clip_fraction": 0.16796875,
+        "mean_action_update_rms": 0.021662723273038864,
+        "stopped_action_update_rms": 0.013744640164077282,
+        "moving_action_update_rms": 0.02522922493517399,
+        "optimizer_lr_after": 3.375000000000001e-05,
+        "losses": {
+          "value": 0.1851791635155678,
+          "surrogate": -0.002022679353831336,
+          "entropy": 24.437310123443602
+        },
+        "scope": "Evenly spaced bounded rollout sample; diagnostic only. No PPO or inference changes."
+      },
+      "retention": {
+        "standing_prior_mse": 0.012413587421178818,
+        "standing_prior_loss": 0.0031033968552947044,
+        "weight": 0.25,
+        "batches": 20,
+        "max_teacher_samples_per_batch": 256,
+        "learner_version": "qualified_prior_retention_history5_v3",
+        "command_range": null,
+        "scope": "Training gradients only; no teacher in inference or promotion",
+        "teacher_context_version": "teacher_head_phase_context_v1",
+        "teacher_context_commands": [
+          0.15,
+          0.35,
+          0.65,
+          1.0
+        ],
+        "teacher_phase_conditioned_samples": 0,
+        "output_scope": "Unchanged .25 lower MSE formula; declared conditioned prior targets; zero head/arm copying",
+        "upper_excluded": [
+          "head_yaw",
+          "head_pitch",
+          "left_shoulder_pitch",
+          "right_shoulder_pitch",
+          "left_shoulder_roll",
+          "right_shoulder_roll",
+          "left_elbow_pitch",
+          "right_elbow_pitch"
+        ]
+      },
+      "garbage_collected": 0,
+      "locomotion_retention": {
+        "standing_prior_mse": 0.053676437586545944,
+        "standing_prior_loss": 0.013419109396636486,
+        "weight": 0.25,
+        "batches": 20,
+        "max_teacher_samples_per_batch": 256,
+        "learner_version": "qualified_prior_retention_history5_v3",
+        "command_range": [
+          0.1,
+          3.0
+        ],
+        "scope": "Training gradients only; no teacher in inference or promotion",
+        "teacher_context_version": "teacher_head_phase_context_v1",
+        "teacher_context_commands": [
+          0.15,
+          0.35,
+          0.65,
+          1.0
+        ],
+        "teacher_phase_conditioned_samples": 1775,
+        "output_scope": "Unchanged .25 lower MSE formula; declared conditioned prior targets; zero head/arm copying",
+        "upper_excluded": [
+          "head_yaw",
+          "head_pitch",
+          "left_shoulder_pitch",
+          "right_shoulder_pitch",
+          "left_shoulder_roll",
+          "right_shoulder_roll",
+          "left_elbow_pitch",
+          "right_elbow_pitch"
+        ]
+      },
+      "upper_refinement": {
+        "version": "upper_output_posture_phase_prior_v2",
+        "batches": 20,
+        "max_samples": 256,
+        "head_weight": 0.15,
+        "arm_weight": 0.025,
+        "symmetry_weight": 0.025,
+        "training_only": true,
+        "updated_rows": [
+          "head_yaw",
+          "head_pitch",
+          "left_shoulder_pitch",
+          "right_shoulder_pitch",
+          "left_shoulder_roll",
+          "right_shoulder_roll",
+          "left_elbow_pitch",
+          "right_elbow_pitch"
+        ],
+        "shared_trunk_auxiliary_gradient": false,
+        "losses": {
+          "head": 9.604656224837527e-05,
+          "arms": 0.001166640780866146,
+          "symmetry": 0.003150129457935691
+        },
+        "actual_joint_mean_rad": {
+          "head_yaw": 0.009533855132758617,
+          "head_pitch": -0.00583158154040575,
+          "left_shoulder_roll": 0.060810260474681854,
+          "right_shoulder_roll": -0.04595411568880081,
+          "left_elbow_pitch": -0.41069191694259644,
+          "right_elbow_pitch": -0.41011935472488403
+        }
+      },
+      "command_coverage": {
+        "version": "exact_prior_frontier_rehearsal_v1",
+        "stopped_fraction": 0.3250732421875,
+        "exact_command_fractions": {
+          "0.15": 0.02587890625,
+          "0.35": 0.03173828125,
+          "0.65": 0.0308837890625,
+          "1.0": 0.026123046875,
+          "1.5": 0.028564453125,
+          "2.0": 0.031982421875,
+          "2.5": 0.028564453125,
+          "3.0": 0.033203125,
+          "3.5": 0.2427978515625
+        },
+        "minimum_m_s": 0.0,
+        "maximum_m_s": 3.5,
+        "scope": "Current full-population training commands; not a behavioral gate."
+      }
+    },
+    "result": {
+      "completed": true,
+      "checkpoint": "E:\\Aditya\\robot_sim\\physical_v29\\training\\runs\\locomotion_20261007_r40_goal_budget_full_state\\1226_run_350_train_406\\candidate.pt",
+      "iterations": 64,
+      "seconds": 344.5470000000205,
+      "num_envs": 8192,
+      "gpu": {
+        "used_mb": 6557,
+        "free_mb": 1400,
+        "utilization": 63,
+        "ram_available_mb": 7763,
+        "ram_total_mb": 32580,
+        "process_rss_mb": 8018,
+        "process_private_mb": 15113,
+        "torch_allocated_mb": 874,
+        "torch_reserved_mb": 2166
+      }
+    },
+    "load_proof": {
+      "actor_equal": true,
+      "critic_equal": true,
+      "optimizer_equal": true,
+      "source_sha256": "54197a00cab3d019043b7e8cf2f308118417beccd93918abd9f2e19320dac10e",
+      "exploration_equal": true,
+      "learning_rate_restoration_follows": true
+    }
+  },
+  "no_learning_after_stop": true
+}

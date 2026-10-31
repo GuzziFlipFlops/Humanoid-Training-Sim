@@ -1,0 +1,15 @@
+from pathlib import Path
+out=Path(__file__).resolve().parent;dest=out/'head_arm_factorial'
+s=(out/'analyze_teacher_compatibility.py').read_text()
+s=s.replace("per==32 and len(groups)==36,'1152 robots with32 independent states/cohort'", "per==32 and len(groups)==22,'704 robots with32 independent states/cohort'")
+s=s.replace("    elif g['mode']=='current_body_teacher_upper':", "    elif g['mode'] in ['teacher_current_head','teacher_current_arms']:\n        expected=label['truthful_teacher_raw'][:,ids].copy()\n        selected=upper[:2] if g['mode']=='teacher_current_head' else upper[2:]\n        expected[:,:,selected]=label['current_raw'][:,ids][:,:,selected]\n    elif g['mode']=='current_body_teacher_upper':")
+s=s.replace('fig,ax=plt.subplots(4,2,figsize=(15,12),sharex=True)', 'fig,ax=plt.subplots(5,2,figsize=(15,15),sharex=True)')
+s=s.replace("'current_body_teacher_upper':'#16a34a'", "'teacher_current_head':'#16a34a','teacher_current_arms':'#9333ea'")
+s=s.replace('4401','4421')
+s=s.replace("    ax[0,col].set_title", "        neck=data['q'][:,ids][:,:,upper[:2]]\n        ax[4,col].plot(data['time'],np.rad2deg(np.sqrt(np.square(neck).sum(-1).mean(1))),color=color)\n    ax[0,col].set_title")
+s=s.replace("ax[3,col].set_xlabel", "ax[4,col].set_xlabel")
+s=s.replace("'Actualleftshoulder pitchdeg']", "'Actualleftshoulder pitchdeg','Nativehead RMS deg']")
+s=s.replace('Qualified349/body/current-upper compatibility', 'Qualified349 head versus arms own-feedback factorial')
+s=s.replace("require(result['maximum_action_command_difference']==0", "require(result['checkpoint_sha256']==read(OUT.parent/'teacher_compatibility/result.json')['checkpoint_sha256'],'Same exact917 actor as original upper compatibility probe')\nrequire(result['maximum_action_command_difference']==0")
+(dest/'analyze_teacher_compatibility.py').write_text(s)
+print(dest/'analyze_teacher_compatibility.py')

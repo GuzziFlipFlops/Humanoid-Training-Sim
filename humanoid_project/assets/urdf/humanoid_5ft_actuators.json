@@ -1,0 +1,649 @@
+{
+  "model": "humanoid_5ft_ragdoll",
+  "modeled_mass_kg": 38.0,
+  "target_complete_mass_kg": 39.0,
+  "isaac_lab_mapping": {
+    "effort_limit_sim": "peak_torque_nm",
+    "velocity_limit_sim": "max_velocity_rad_s",
+    "armature": "armature_kg_m2",
+    "stiffness": "stiffness_nm_rad",
+    "damping": "damping_nms_rad",
+    "continuous_torque_note": "Use continuous_torque_nm for thermal/current limiting; it is not the short-duration PhysX effort clamp."
+  },
+  "families": {
+    "hip_yaw": {
+      "motor": "gim8115_9_48v",
+      "continuous_torque_nm": 15.27,
+      "peak_torque_nm": 50.0,
+      "max_velocity_rad_s": 8.0,
+      "gear_ratio": 9.0,
+      "armature_kg_m2": 0.02025,
+      "stiffness_nm_rad": 120.0,
+      "damping_nms_rad": 4.0
+    },
+    "hip_roll": {
+      "motor": "gim8108_36_high_48v",
+      "continuous_torque_nm": 25.0,
+      "peak_torque_nm": 132.25,
+      "max_velocity_rad_s": 6.0,
+      "gear_ratio": 36.0,
+      "armature_kg_m2": 0.15552,
+      "stiffness_nm_rad": 180.0,
+      "damping_nms_rad": 6.0
+    },
+    "hip_pitch": {
+      "motor": "custom_hip_pitch_16",
+      "continuous_torque_nm": 60.0,
+      "peak_torque_nm": 226.8,
+      "max_velocity_rad_s": 14.0,
+      "gear_ratio": 16.0,
+      "armature_kg_m2": 0.0896,
+      "stiffness_nm_rad": 220.0,
+      "damping_nms_rad": 7.0
+    },
+    "knee_pitch": {
+      "motor": "custom_knee_pitch_16",
+      "continuous_torque_nm": 65.0,
+      "peak_torque_nm": 243.0,
+      "max_velocity_rad_s": 14.0,
+      "gear_ratio": 16.0,
+      "armature_kg_m2": 0.1024,
+      "stiffness_nm_rad": 240.0,
+      "damping_nms_rad": 7.0
+    },
+    "ankle_pitch": {
+      "motor": "2x_gim6010_36_differential",
+      "continuous_torque_nm": 40.48,
+      "peak_torque_nm": 115.0,
+      "max_velocity_rad_s": 8.0,
+      "gear_ratio": 41.4,
+      "armature_kg_m2": 0.171396,
+      "stiffness_nm_rad": 140.0,
+      "damping_nms_rad": 5.0
+    },
+    "ankle_roll": {
+      "motor": "2x_gim6010_36_differential",
+      "continuous_torque_nm": 40.48,
+      "peak_torque_nm": 65.0,
+      "max_velocity_rad_s": 6.0,
+      "gear_ratio": 41.4,
+      "armature_kg_m2": 0.171396,
+      "stiffness_nm_rad": 120.0,
+      "damping_nms_rad": 4.0
+    },
+    "waist_yaw": {
+      "motor": "gim8115_9_48v",
+      "continuous_torque_nm": 15.27,
+      "peak_torque_nm": 50.0,
+      "max_velocity_rad_s": 8.0,
+      "gear_ratio": 9.0,
+      "armature_kg_m2": 0.02025,
+      "stiffness_nm_rad": 100.0,
+      "damping_nms_rad": 3.0
+    },
+    "waist_pitch": {
+      "motor": "gim8115_9_48v",
+      "continuous_torque_nm": 15.27,
+      "peak_torque_nm": 60.0,
+      "max_velocity_rad_s": 8.0,
+      "gear_ratio": 9.0,
+      "armature_kg_m2": 0.02025,
+      "stiffness_nm_rad": 140.0,
+      "damping_nms_rad": 5.0
+    },
+    "shoulder_pitch": {
+      "motor": "gim8108_9_48v",
+      "continuous_torque_nm": 8.19,
+      "peak_torque_nm": 32.0,
+      "max_velocity_rad_s": 15.0,
+      "gear_ratio": 9.0,
+      "armature_kg_m2": 0.00972,
+      "stiffness_nm_rad": 50.0,
+      "damping_nms_rad": 2.0
+    },
+    "shoulder_roll": {
+      "motor": "gim8108_9_48v",
+      "continuous_torque_nm": 8.19,
+      "peak_torque_nm": 30.0,
+      "max_velocity_rad_s": 15.0,
+      "gear_ratio": 9.0,
+      "armature_kg_m2": 0.00972,
+      "stiffness_nm_rad": 50.0,
+      "damping_nms_rad": 2.0
+    },
+    "elbow_pitch": {
+      "motor": "gim8108_8_48v",
+      "continuous_torque_nm": 6.71,
+      "peak_torque_nm": 26.0,
+      "max_velocity_rad_s": 18.0,
+      "gear_ratio": 8.0,
+      "armature_kg_m2": 0.00768,
+      "stiffness_nm_rad": 40.0,
+      "damping_nms_rad": 1.5
+    },
+    "head_yaw": {
+      "motor": "gim4310_10_24v",
+      "continuous_torque_nm": 1.63,
+      "peak_torque_nm": 7.0,
+      "max_velocity_rad_s": 5.0,
+      "gear_ratio": 10.0,
+      "armature_kg_m2": 0.0015,
+      "stiffness_nm_rad": 15.0,
+      "damping_nms_rad": 0.5
+    },
+    "head_pitch": {
+      "motor": "gim4310_10_24v",
+      "continuous_torque_nm": 1.63,
+      "peak_torque_nm": 7.0,
+      "max_velocity_rad_s": 5.0,
+      "gear_ratio": 10.0,
+      "armature_kg_m2": 0.0015,
+      "stiffness_nm_rad": 15.0,
+      "damping_nms_rad": 0.5
+    }
+  },
+  "motor_catalog": {
+    "gim6010_36_high_48v": {
+      "manufacturer": "Steadywin",
+      "model": "GIM6010-36",
+      "variant": "48 V high-peak",
+      "workbook_cell": "P3:P25",
+      "rated_voltage_v": 48.0,
+      "gear_ratio": 36.0,
+      "rated_torque_nm": 17.6,
+      "stock_peak_torque_nm": 52.48,
+      "boosted_peak_torque_nm": 65.6,
+      "max_speed_rpm": 105.0,
+      "mass_without_driver_kg": 0.546,
+      "diameter_m": 0.076,
+      "axial_length_m": 0.0455,
+      "estimated_rotor_inertia_kg_m2": 5e-05,
+      "rotor_inertia_status": "engineering estimate; the supplied workbook does not publish rotor inertia"
+    },
+    "gim6010_48_high_48v": {
+      "manufacturer": "Steadywin",
+      "model": "GIM6010-48",
+      "variant": "48 V high-peak",
+      "workbook_cell": "R3:R25",
+      "rated_voltage_v": 48.0,
+      "gear_ratio": 48.0,
+      "rated_torque_nm": 26.2,
+      "stock_peak_torque_nm": 74.8,
+      "boosted_peak_torque_nm": 93.5,
+      "max_speed_rpm": 95.0,
+      "mass_without_driver_kg": 0.7589,
+      "diameter_m": 0.08,
+      "axial_length_m": 0.0565,
+      "rotor_inertia_status": "engineering estimate; the supplied workbook does not publish rotor inertia"
+    },
+    "gim8108_36_high_48v": {
+      "manufacturer": "Steadywin",
+      "model": "GIM8108-36",
+      "variant": "48 V high-peak",
+      "workbook_cell": "Z3:Z25",
+      "rated_voltage_v": 48.0,
+      "gear_ratio": 36.0,
+      "rated_torque_nm": 25.0,
+      "stock_peak_torque_nm": 130.2,
+      "boosted_peak_torque_nm": 162.75,
+      "max_speed_rpm": 67.1,
+      "mass_without_driver_kg": 0.72,
+      "diameter_m": 0.096,
+      "axial_length_m": 0.0445,
+      "estimated_rotor_inertia_kg_m2": 0.00012,
+      "rotor_inertia_status": "engineering estimate; the supplied workbook does not publish rotor inertia"
+    },
+    "gim10015_9_high_48v": {
+      "manufacturer": "Steadywin",
+      "model": "GIM10015-9",
+      "variant": "48 V high-peak",
+      "workbook_cell": "AI3:AI25",
+      "rated_voltage_v": 48.0,
+      "gear_ratio": 9.0,
+      "rated_torque_nm": 20.5,
+      "stock_peak_torque_nm": 112.0,
+      "boosted_peak_torque_nm": 140.0,
+      "max_speed_rpm": 114.0,
+      "mass_without_driver_kg": 1.325,
+      "diameter_m": 0.12,
+      "axial_length_m": 0.045,
+      "rotor_inertia_status": "engineering estimate; the supplied workbook does not publish rotor inertia"
+    },
+    "gim8115_9_48v": {
+      "manufacturer": "Steadywin",
+      "model": "GIM8115-9",
+      "variant": "48 V",
+      "workbook_cell": "AE3:AE25",
+      "rated_voltage_v": 48.0,
+      "gear_ratio": 9.0,
+      "rated_torque_nm": 15.27,
+      "stock_peak_torque_nm": 54.55,
+      "boosted_peak_torque_nm": 68.1875,
+      "max_speed_rpm": 125.0,
+      "mass_without_driver_kg": 0.66,
+      "diameter_m": 0.096,
+      "axial_length_m": 0.041,
+      "estimated_rotor_inertia_kg_m2": 0.00025,
+      "rotor_inertia_status": "engineering estimate; the supplied workbook does not publish rotor inertia"
+    },
+    "gim8108_9_48v": {
+      "manufacturer": "Steadywin",
+      "model": "GIM8108-9",
+      "variant": "48 V",
+      "workbook_cell": "W3:W25",
+      "rated_voltage_v": 48.0,
+      "gear_ratio": 9.0,
+      "rated_torque_nm": 8.19,
+      "stock_peak_torque_nm": 27.38,
+      "boosted_peak_torque_nm": 34.225,
+      "max_speed_rpm": 242.0,
+      "mass_without_driver_kg": 0.525,
+      "diameter_m": 0.096,
+      "axial_length_m": 0.034,
+      "estimated_rotor_inertia_kg_m2": 0.00012,
+      "rotor_inertia_status": "engineering estimate; the supplied workbook does not publish rotor inertia"
+    },
+    "gim8108_8_48v": {
+      "manufacturer": "Steadywin",
+      "model": "GIM8108-8",
+      "variant": "48 V GDZ468H high-speed winding",
+      "workbook_cell": "V3:V25",
+      "rated_voltage_v": 48.0,
+      "gear_ratio": 8.0,
+      "rated_torque_nm": 6.71,
+      "stock_peak_torque_nm": 23.09,
+      "boosted_peak_torque_nm": 28.8625,
+      "max_speed_rpm": 290.0,
+      "mass_without_driver_kg": 0.378,
+      "diameter_m": 0.092,
+      "axial_length_m": 0.044,
+      "estimated_rotor_inertia_kg_m2": 0.00012,
+      "rotor_inertia_status": "engineering estimate; the supplied workbook does not publish rotor inertia"
+    },
+    "gim4310_10_24v": {
+      "manufacturer": "Steadywin",
+      "model": "GIM4310-10",
+      "variant": "24 V",
+      "workbook_cell": "G3:G25",
+      "rated_voltage_v": 24.0,
+      "gear_ratio": 10.0,
+      "rated_torque_nm": 1.63,
+      "stock_peak_torque_nm": 7.98,
+      "boosted_peak_torque_nm": 9.975000000000001,
+      "max_speed_rpm": 212.0,
+      "mass_without_driver_kg": 0.217,
+      "diameter_m": 0.053,
+      "axial_length_m": 0.032,
+      "estimated_rotor_inertia_kg_m2": 1.5e-05,
+      "rotor_inertia_status": "engineering estimate; the supplied workbook does not publish rotor inertia"
+    },
+    "custom_hip_pitch_16": {
+      "manufacturer": "Custom",
+      "model": "HP-226-16",
+      "variant": "16:1 pancake BLDC planetary",
+      "rated_voltage_v": 48.0,
+      "gear_ratio": 16.0,
+      "rated_torque_nm": 60.0,
+      "stock_peak_torque_nm": 226.8,
+      "boosted_peak_torque_nm": 226.8,
+      "max_speed_rpm": 133.7,
+      "mass_without_driver_kg": 1.5,
+      "diameter_m": 0.115,
+      "axial_length_m": 0.055,
+      "estimated_rotor_inertia_kg_m2": 0.00035,
+      "status": "design target; requires motor, inverter, thermal, and gearbox validation",
+      "rotor_inertia_status": "engineering estimate; the supplied workbook does not publish rotor inertia"
+    },
+    "custom_knee_pitch_16": {
+      "manufacturer": "Custom",
+      "model": "KP-243-16",
+      "variant": "16:1 pancake BLDC planetary with remote chain drive",
+      "rated_voltage_v": 48.0,
+      "gear_ratio": 16.0,
+      "rated_torque_nm": 65.0,
+      "stock_peak_torque_nm": 243.0,
+      "boosted_peak_torque_nm": 243.0,
+      "max_speed_rpm": 133.7,
+      "mass_without_driver_kg": 1.5,
+      "diameter_m": 0.115,
+      "axial_length_m": 0.055,
+      "estimated_rotor_inertia_kg_m2": 0.0004,
+      "status": "design target; requires motor, inverter, thermal, chain, and gearbox validation",
+      "rotor_inertia_status": "engineering estimate; the supplied workbook does not publish rotor inertia"
+    }
+  },
+  "motor_role_assignments": {
+    "hip_yaw": {
+      "motor": "gim8115_9_48v",
+      "count": 2
+    },
+    "hip_roll": {
+      "motor": "gim8108_36_high_48v",
+      "count": 2
+    },
+    "hip_pitch": {
+      "motor": "custom_hip_pitch_16",
+      "count": 2
+    },
+    "knee_pitch": {
+      "motor": "custom_knee_pitch_16",
+      "count": 2
+    },
+    "ankle_differential": {
+      "motor": "gim6010_36_high_48v",
+      "count": 4,
+      "secondary_reduction": 1.15
+    },
+    "waist_yaw": {
+      "motor": "gim8115_9_48v",
+      "count": 1
+    },
+    "waist_pitch": {
+      "motor": "gim8115_9_48v",
+      "count": 1
+    },
+    "shoulder_pitch_roll": {
+      "motor": "gim8108_9_48v",
+      "count": 4
+    },
+    "elbow_pitch": {
+      "motor": "gim8108_8_48v",
+      "count": 2
+    },
+    "head_yaw_pitch": {
+      "motor": "gim4310_10_24v",
+      "count": 2
+    }
+  },
+  "physical_motor_count": 22,
+  "physical_motor_mass_kg": 15.554,
+  "custom_driver_mass_kg": 0.6599999999999999,
+  "armature_model": {
+    "formula": "J_reflected = motor_count_per_joint * J_rotor_estimate * effective_reduction^2",
+    "status": "Rotor inertia is an engineering estimate because the supplied Steadywin workbook does not publish it. Replace these values when measured or vendor rotor inertia becomes available.",
+    "ankle_note": "The symmetric two-motor differential contributes both motor inertias to each equivalent ankle axis; equal motor assumptions cancel the pitch-roll cross term."
+  },
+  "recovery_torque_basis": {
+    "robot_weight_n_at_38kg": 372.78000000000003,
+    "hip_pitch_floor_recovery_nm": 223.66800000000003,
+    "knee_pitch_floor_recovery_nm": 241.56144,
+    "hip_roll_recovery_nm": 128.60909999999998,
+    "note": "Conservative whole-body moment-arm checks for difficult recovery poses. They justify the approved short-duration simulation clamps but are not substitutes for trajectory-level thermal and structural validation."
+  },
+  "joints": {
+    "waist_yaw": {
+      "motor": "gim8115_9_48v",
+      "continuous_torque_nm": 15.27,
+      "peak_torque_nm": 50.0,
+      "max_velocity_rad_s": 8.0,
+      "gear_ratio": 9.0,
+      "armature_kg_m2": 0.02025,
+      "stiffness_nm_rad": 100.0,
+      "damping_nms_rad": 3.0
+    },
+    "waist_pitch": {
+      "motor": "gim8115_9_48v",
+      "continuous_torque_nm": 15.27,
+      "peak_torque_nm": 60.0,
+      "max_velocity_rad_s": 8.0,
+      "gear_ratio": 9.0,
+      "armature_kg_m2": 0.02025,
+      "stiffness_nm_rad": 140.0,
+      "damping_nms_rad": 5.0
+    },
+    "left_hip_yaw": {
+      "motor": "gim8115_9_48v",
+      "continuous_torque_nm": 15.27,
+      "peak_torque_nm": 50.0,
+      "max_velocity_rad_s": 8.0,
+      "gear_ratio": 9.0,
+      "armature_kg_m2": 0.02025,
+      "stiffness_nm_rad": 120.0,
+      "damping_nms_rad": 4.0
+    },
+    "left_hip_roll": {
+      "motor": "gim8108_36_high_48v",
+      "continuous_torque_nm": 25.0,
+      "peak_torque_nm": 132.25,
+      "max_velocity_rad_s": 6.0,
+      "gear_ratio": 36.0,
+      "armature_kg_m2": 0.15552,
+      "stiffness_nm_rad": 180.0,
+      "damping_nms_rad": 6.0
+    },
+    "left_hip_pitch": {
+      "motor": "custom_hip_pitch_16",
+      "continuous_torque_nm": 60.0,
+      "peak_torque_nm": 226.8,
+      "max_velocity_rad_s": 14.0,
+      "gear_ratio": 16.0,
+      "armature_kg_m2": 0.0896,
+      "stiffness_nm_rad": 220.0,
+      "damping_nms_rad": 7.0
+    },
+    "left_knee_pitch": {
+      "motor": "custom_knee_pitch_16",
+      "continuous_torque_nm": 65.0,
+      "peak_torque_nm": 243.0,
+      "max_velocity_rad_s": 14.0,
+      "gear_ratio": 16.0,
+      "armature_kg_m2": 0.1024,
+      "stiffness_nm_rad": 240.0,
+      "damping_nms_rad": 7.0
+    },
+    "left_ankle_pitch": {
+      "motor": "2x_gim6010_36_differential",
+      "continuous_torque_nm": 40.48,
+      "peak_torque_nm": 115.0,
+      "max_velocity_rad_s": 8.0,
+      "gear_ratio": 41.4,
+      "armature_kg_m2": 0.171396,
+      "stiffness_nm_rad": 140.0,
+      "damping_nms_rad": 5.0
+    },
+    "left_ankle_roll": {
+      "motor": "2x_gim6010_36_differential",
+      "continuous_torque_nm": 40.48,
+      "peak_torque_nm": 65.0,
+      "max_velocity_rad_s": 6.0,
+      "gear_ratio": 41.4,
+      "armature_kg_m2": 0.171396,
+      "stiffness_nm_rad": 120.0,
+      "damping_nms_rad": 4.0
+    },
+    "right_hip_yaw": {
+      "motor": "gim8115_9_48v",
+      "continuous_torque_nm": 15.27,
+      "peak_torque_nm": 50.0,
+      "max_velocity_rad_s": 8.0,
+      "gear_ratio": 9.0,
+      "armature_kg_m2": 0.02025,
+      "stiffness_nm_rad": 120.0,
+      "damping_nms_rad": 4.0
+    },
+    "right_hip_roll": {
+      "motor": "gim8108_36_high_48v",
+      "continuous_torque_nm": 25.0,
+      "peak_torque_nm": 132.25,
+      "max_velocity_rad_s": 6.0,
+      "gear_ratio": 36.0,
+      "armature_kg_m2": 0.15552,
+      "stiffness_nm_rad": 180.0,
+      "damping_nms_rad": 6.0
+    },
+    "right_hip_pitch": {
+      "motor": "custom_hip_pitch_16",
+      "continuous_torque_nm": 60.0,
+      "peak_torque_nm": 226.8,
+      "max_velocity_rad_s": 14.0,
+      "gear_ratio": 16.0,
+      "armature_kg_m2": 0.0896,
+      "stiffness_nm_rad": 220.0,
+      "damping_nms_rad": 7.0
+    },
+    "right_knee_pitch": {
+      "motor": "custom_knee_pitch_16",
+      "continuous_torque_nm": 65.0,
+      "peak_torque_nm": 243.0,
+      "max_velocity_rad_s": 14.0,
+      "gear_ratio": 16.0,
+      "armature_kg_m2": 0.1024,
+      "stiffness_nm_rad": 240.0,
+      "damping_nms_rad": 7.0
+    },
+    "right_ankle_pitch": {
+      "motor": "2x_gim6010_36_differential",
+      "continuous_torque_nm": 40.48,
+      "peak_torque_nm": 115.0,
+      "max_velocity_rad_s": 8.0,
+      "gear_ratio": 41.4,
+      "armature_kg_m2": 0.171396,
+      "stiffness_nm_rad": 140.0,
+      "damping_nms_rad": 5.0
+    },
+    "right_ankle_roll": {
+      "motor": "2x_gim6010_36_differential",
+      "continuous_torque_nm": 40.48,
+      "peak_torque_nm": 65.0,
+      "max_velocity_rad_s": 6.0,
+      "gear_ratio": 41.4,
+      "armature_kg_m2": 0.171396,
+      "stiffness_nm_rad": 120.0,
+      "damping_nms_rad": 4.0
+    },
+    "left_shoulder_pitch": {
+      "motor": "gim8108_9_48v",
+      "continuous_torque_nm": 8.19,
+      "peak_torque_nm": 32.0,
+      "max_velocity_rad_s": 15.0,
+      "gear_ratio": 9.0,
+      "armature_kg_m2": 0.00972,
+      "stiffness_nm_rad": 50.0,
+      "damping_nms_rad": 2.0
+    },
+    "left_shoulder_roll": {
+      "motor": "gim8108_9_48v",
+      "continuous_torque_nm": 8.19,
+      "peak_torque_nm": 30.0,
+      "max_velocity_rad_s": 15.0,
+      "gear_ratio": 9.0,
+      "armature_kg_m2": 0.00972,
+      "stiffness_nm_rad": 50.0,
+      "damping_nms_rad": 2.0
+    },
+    "left_elbow_pitch": {
+      "motor": "gim8108_8_48v",
+      "continuous_torque_nm": 6.71,
+      "peak_torque_nm": 26.0,
+      "max_velocity_rad_s": 18.0,
+      "gear_ratio": 8.0,
+      "armature_kg_m2": 0.00768,
+      "stiffness_nm_rad": 40.0,
+      "damping_nms_rad": 1.5
+    },
+    "right_shoulder_pitch": {
+      "motor": "gim8108_9_48v",
+      "continuous_torque_nm": 8.19,
+      "peak_torque_nm": 32.0,
+      "max_velocity_rad_s": 15.0,
+      "gear_ratio": 9.0,
+      "armature_kg_m2": 0.00972,
+      "stiffness_nm_rad": 50.0,
+      "damping_nms_rad": 2.0
+    },
+    "right_shoulder_roll": {
+      "motor": "gim8108_9_48v",
+      "continuous_torque_nm": 8.19,
+      "peak_torque_nm": 30.0,
+      "max_velocity_rad_s": 15.0,
+      "gear_ratio": 9.0,
+      "armature_kg_m2": 0.00972,
+      "stiffness_nm_rad": 50.0,
+      "damping_nms_rad": 2.0
+    },
+    "right_elbow_pitch": {
+      "motor": "gim8108_8_48v",
+      "continuous_torque_nm": 6.71,
+      "peak_torque_nm": 26.0,
+      "max_velocity_rad_s": 18.0,
+      "gear_ratio": 8.0,
+      "armature_kg_m2": 0.00768,
+      "stiffness_nm_rad": 40.0,
+      "damping_nms_rad": 1.5
+    },
+    "head_yaw": {
+      "motor": "gim4310_10_24v",
+      "continuous_torque_nm": 1.63,
+      "peak_torque_nm": 7.0,
+      "max_velocity_rad_s": 5.0,
+      "gear_ratio": 10.0,
+      "armature_kg_m2": 0.0015,
+      "stiffness_nm_rad": 15.0,
+      "damping_nms_rad": 0.5
+    },
+    "head_pitch": {
+      "motor": "gim4310_10_24v",
+      "continuous_torque_nm": 1.63,
+      "peak_torque_nm": 7.0,
+      "max_velocity_rad_s": 5.0,
+      "gear_ratio": 10.0,
+      "armature_kg_m2": 0.0015,
+      "stiffness_nm_rad": 15.0,
+      "damping_nms_rad": 0.5
+    }
+  },
+  "ankle_transmission": {
+    "type": "two-motor two-rod differential layout",
+    "input_crank_m": 0.04,
+    "output_arm_m": 0.046,
+    "torque_reduction_ratio": 1.15,
+    "effective_motor_to_joint_ratio": 41.4,
+    "small_angle_forward_mapping": {
+      "pitch_rad": "(input_crank/output_arm) * (motor_a_rad - motor_b_rad) / 2",
+      "roll_rad": "(input_crank/output_arm) * (motor_a_rad + motor_b_rad) / 2"
+    },
+    "small_angle_inverse_mapping": {
+      "motor_a_rad": "(output_arm/input_crank) * (pitch_rad + roll_rad)",
+      "motor_b_rad": "(output_arm/input_crank) * (-pitch_rad + roll_rad)"
+    },
+    "coupled_peak_torque_constraints_nm": [
+      "abs(tau_pitch + tau_roll) <= 150.88",
+      "abs(-tau_pitch + tau_roll) <= 150.88"
+    ],
+    "coupled_velocity_constraints_rad_s": [
+      "abs(qd_pitch + qd_roll) <= 9.56",
+      "abs(-qd_pitch + qd_roll) <= 9.56"
+    ],
+    "physical_two_motor_pure_axis_continuous_nm": 40.48,
+    "physical_two_motor_pure_axis_boosted_peak_nm": 150.87999999999997,
+    "cad_joint_names": [
+      "left_ankle_motor_a_output",
+      "left_ankle_motor_b_output",
+      "left_ankle_rod_a_motor_pivot",
+      "left_ankle_rod_b_motor_pivot",
+      "left_ankle_rod_a_foot_pivot",
+      "left_ankle_rod_b_foot_pivot",
+      "right_ankle_motor_a_output",
+      "right_ankle_motor_b_output",
+      "right_ankle_rod_a_motor_pivot",
+      "right_ankle_rod_b_motor_pivot",
+      "right_ankle_rod_a_foot_pivot",
+      "right_ankle_rod_b_foot_pivot"
+    ],
+    "note": "Fusion contains two motor-output revolute joints and four passive rod pivots per ankle. The URDF keeps equivalent pitch/roll output joints because its tree format cannot directly carry this closed kinematic loop."
+  },
+  "ankle_motor_sizing": {
+    "pitch_peak_joint_nm": 115.0,
+    "two_motor_peak_each_after_planetary_nm": 50.00000000000001,
+    "pitch_continuous_each_after_planetary_nm": 17.6,
+    "physical_two_motor_pure_axis_boosted_peak_nm": 150.87999999999997,
+    "coupled_peak_torque_constraints_nm": [
+      "abs(tau_pitch + tau_roll) <= 150.88",
+      "abs(-tau_pitch + tau_roll) <= 150.88"
+    ],
+    "coupled_velocity_constraints_rad_s": [
+      "abs(qd_pitch + qd_roll) <= 9.56",
+      "abs(-qd_pitch + qd_roll) <= 9.56"
+    ]
+  }
+}

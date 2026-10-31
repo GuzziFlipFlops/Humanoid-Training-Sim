@@ -1,0 +1,90 @@
+{
+  "current_convention": "Supplier sheets do not identify phase RMS, phase peak, Iq, or DC-bus current. T/Kt is an approximate supplier-convention current, not pack current.",
+  "sources": [
+    {
+      "path": "C:\\Users\\rshan\\.codex\\codex-remote-attachments\\01a08b12-e85a-7f73-8677-315c708cd9f7\\78C25BDB-3395-4655-8BFF-24E072FD48AA\\2-Exoskeleton-Motor-Selection-Table-2026.xlsx",
+      "sha256": "892b450af2a9a5585be99ff7596ce946fc45e6a42fa2c94e9b399adce5cdf742",
+      "sheet": "Sheet1"
+    },
+    {
+      "path": "C:\\Users\\rshan\\.codex\\codex-remote-attachments\\01a08b12-e85a-7f73-8677-315c708cd9f7\\78C25BDB-3395-4655-8BFF-24E072FD48AA\\1-Planetary-Reduction-Motor-Selection-Table.xlsx",
+      "sha256": "6b77393c23e02bf0f2beff19fbe3382e30cfd4091dc0b9edbd55612168c5cd03",
+      "sheet": "关节电机选型表"
+    }
+  ],
+  "variants": {
+    "WGG6010-8": {
+      "voltage_range": "12V-48V",
+      "rated_voltage_V": 24,
+      "winding_resistance_ohm": 0.85,
+      "output_Kv_rpm_V": 21.6666666666667,
+      "output_Kt_Nm_A": 0.39,
+      "internal_reduction": "1:8",
+      "source": "2-Exoskeleton-Motor-Selection-Table-2026.xlsx",
+      "sheet": "Sheet1",
+      "cells": {
+        "voltage_range": "C2",
+        "rated_voltage_V": "C3",
+        "winding_resistance_ohm": "C11",
+        "output_Kv_rpm_V": "C13",
+        "output_Kt_Nm_A": "C14",
+        "internal_reduction": "C16"
+      }
+    },
+    "WGG7010-8": {
+      "voltage_range": "12V-48V",
+      "rated_voltage_V": 24,
+      "winding_resistance_ohm": 0.27,
+      "output_Kv_rpm_V": 9.25,
+      "output_Kt_Nm_A": 0.65,
+      "internal_reduction": "1:8",
+      "source": "2-Exoskeleton-Motor-Selection-Table-2026.xlsx",
+      "sheet": "Sheet1",
+      "cells": {
+        "voltage_range": "F2",
+        "rated_voltage_V": "F3",
+        "winding_resistance_ohm": "F11",
+        "output_Kv_rpm_V": "F13",
+        "output_Kt_Nm_A": "F14",
+        "internal_reduction": "F16"
+      }
+    },
+    "GIM6010-8_24V": {
+      "voltage_range": "12~56",
+      "rated_voltage_V": 24,
+      "phase_to_phase_resistance_ohm": 0.44,
+      "output_Kv_rpm_V": 11.5416666666667,
+      "output_Kt_Nm_A": 0.47,
+      "internal_reduction": "8:1",
+      "source": "1-Planetary-Reduction-Motor-Selection-Table.xlsx",
+      "sheet": "关节电机选型表",
+      "cells": {
+        "voltage_range": "M5",
+        "rated_voltage_V": "M3",
+        "phase_to_phase_resistance_ohm": "M13",
+        "output_Kv_rpm_V": "M15",
+        "output_Kt_Nm_A": "M16",
+        "internal_reduction": "M18"
+      }
+    },
+    "GIM6010-8_48V": {
+      "voltage_range": "12~48",
+      "rated_voltage_V": 48,
+      "phase_to_phase_resistance_ohm": 0.44,
+      "output_Kv_rpm_V": 11.5416666666667,
+      "output_Kt_Nm_A": 0.65,
+      "internal_reduction": "8:1",
+      "source": "1-Planetary-Reduction-Motor-Selection-Table.xlsx",
+      "sheet": "关节电机选型表",
+      "cells": {
+        "voltage_range": "N5",
+        "rated_voltage_V": "N3",
+        "phase_to_phase_resistance_ohm": "N13",
+        "output_Kv_rpm_V": "N15",
+        "output_Kt_Nm_A": "N16",
+        "internal_reduction": "N18"
+      }
+    }
+  },
+  "ignored_rows": "Supplier maximum/rated torque and maximum/rated speed are not used to replace user assumptions."
+}

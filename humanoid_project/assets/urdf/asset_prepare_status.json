@@ -1,0 +1,126 @@
+{
+  "source": "C:\\Users\\rshan\\Documents\\GitHub\\Humanoid-Robot\\CAD\\Simulation\\Humanoid5ft\\humanoid_5ft_ragdoll.urdf",
+  "output": "E:\\Aditya\\robot_sim\\humanoid_project\\assets\\urdf\\humanoid_5ft_isaac.urdf",
+  "coordinate_mapping": "isaac_x=cad_y, isaac_y=-cad_x, isaac_z=cad_z",
+  "height_m": 1.524,
+  "modeled_mass_kg": 38.0,
+  "ankle_linkage_ratio": 1.15,
+  "ankle_effective_motor_to_joint_ratio": 41.4,
+  "leg_pitch_axis_isaac": [
+    0.0,
+    1.0,
+    0.0
+  ],
+  "axis_audit": {
+    "waist_yaw": [
+      0.0,
+      -0.0,
+      1.0
+    ],
+    "waist_pitch": [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    "left_hip_yaw": [
+      0.0,
+      -0.0,
+      1.0
+    ],
+    "left_hip_roll": [
+      1.0,
+      -0.0,
+      0.0
+    ],
+    "left_hip_pitch": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "left_knee_pitch": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "left_ankle_pitch": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "left_ankle_roll": [
+      1.0,
+      -0.0,
+      0.0
+    ],
+    "right_hip_yaw": [
+      0.0,
+      -0.0,
+      1.0
+    ],
+    "right_hip_roll": [
+      1.0,
+      -0.0,
+      0.0
+    ],
+    "right_hip_pitch": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "right_knee_pitch": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "right_ankle_pitch": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "right_ankle_roll": [
+      1.0,
+      -0.0,
+      0.0
+    ],
+    "left_shoulder_pitch": [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    "left_shoulder_roll": [
+      1.0,
+      -0.0,
+      0.0
+    ],
+    "left_elbow_pitch": [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    "right_shoulder_pitch": [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    "right_shoulder_roll": [
+      1.0,
+      -0.0,
+      0.0
+    ],
+    "right_elbow_pitch": [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    "head_yaw": [
+      0.0,
+      -0.0,
+      1.0
+    ],
+    "head_pitch": [
+      0.0,
+      -1.0,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "completed": true,
+  "checkpoint": "E:\\Aditya\\robot_sim\\humanoid_project\\logs\\guarded_getup_v14_supported_stand_20260906_105955\\00_stable_tilt05_0600_8192\\candidate.pt",
+  "seconds": 885.4370000000054,
+  "iterations": 100,
+  "num_envs": 8192,
+  "episode_counts": [
+    [
+      773277.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "reward_totals": [
+    7350294.5,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "action_contract": "supported_slew14_v2",
+  "stage": "refine",
+  "groups": 1,
+  "assist_fraction": 0.0,
+  "forced_group": -1,
+  "start_mode": "tilt5",
+  "reward_diagnostics": {
+    "recovery_objective": {
+      "finite": true,
+      "nonzero_envs": 7229,
+      "mean_abs": 6.919633388519287,
+      "max_abs": 15.792461395263672
+    },
+    "height_band": {
+      "finite": true,
+      "nonzero_envs": 7691,
+      "mean_abs": 0.607725977897644,
+      "max_abs": 2.7226409912109375
+    },
+    "upward_velocity_below_stand": {
+      "finite": true,
+      "nonzero_envs": 7691,
+      "mean_abs": 0.005597274284809828,
+      "max_abs": 0.6567400097846985
+    },
+    "upright": {
+      "finite": true,
+      "nonzero_envs": 7691,
+      "mean_abs": 0.31581079959869385,
+      "max_abs": 1.019303560256958
+    },
+    "two_foot_support": {
+      "finite": true,
+      "nonzero_envs": 7133,
+      "mean_abs": 1.3199317455291748,
+      "max_abs": 4.365741729736328
+    },
+    "quiet_stand": {
+      "finite": true,
+      "nonzero_envs": 5840,
+      "mean_abs": 1.0293108516634675e-06,
+      "max_abs": 9.639534255256876e-05
+    },
+    "stand_motion": {
+      "finite": true,
+      "nonzero_envs": 5840,
+      "mean_abs": 0.10869360715150833,
+      "max_abs": 0.8455846905708313
+    },
+    "unsupported_high": {
+      "finite": true,
+      "nonzero_envs": 5782,
+      "mean_abs": 0.04691171646118164,
+      "max_abs": 0.5458213090896606
+    },
+    "stand_workspace": {
+      "finite": true,
+      "nonzero_envs": 88,
+      "mean_abs": 4.575791899696924e-05,
+      "max_abs": 0.046260733157396317
+    },
+    "floor_stall": {
+      "finite": true,
+      "nonzero_envs": 7691,
+      "mean_abs": 0.007169729098677635,
+      "max_abs": 2.579137086868286
+    },
+    "unsafe_reset": {
+      "finite": true,
+      "nonzero_envs": 0,
+      "mean_abs": 0.0,
+      "max_abs": 0.0
+    }
+  },
+  "final_mean_assist_n": 0.0,
+  "checkpoint_input_sha256": "679353a1ad1b8a646ac51027f10db58a932dcb49b71e62d5d447781d94a84d75",
+  "source_hashes": {
+    "assistance.py": "58b2d49142f3ec66262746bf2e69e474136fa2c831d10fa87e64ac663242781c",
+    "build_pose_bank.py": "d54527841246baf4e4327beb46d5b438694baf9834a90373cce9ce543c4c0eb7",
+    "candidate.py": "32312cff94726986ebb4837b1f9b7b4f8860a75e48a9b485a361a9fae7fcffc0",
+    "chain.py": "e1067d99c3f37768fbcbcecba913574e1fab3f2d255ddf18d8c89b0a822377ee",
+    "evaluation.py": "bf109d0c00e080f7d4c2b24da84102023686f5fe5d6caf0fa53f3bdb96b94b0d",
+    "geometry.py": "7f6cb4fb6e667c45ab635653aaeb86d0e709dbda5d4cfcf120fb438cbe7ad51d",
+    "inference_helpers.py": "f7aef8358d11969bcadd89774d9c3e47d33965c61654326ffd226bca117541ec",
+    "monitor.py": "371200db9588c93c6f91e5a414063ecb96de35a66a530f944f0c57456bf31bad",
+    "prepare_recovery_asset.py": "3ec60cee70c4a2051a4e1e47705b2f6ff2e9e8d398c70cf0cf30c65b7a8c2db1",
+    "reference_motion.py": "33162330825038ac4e5dc55be5998815de1da1638b900f997a476672e11c6c3a",
+    "reference_probe.py": "f9f1bb2567933b0457a1429c5a91178d667ce36edb481504d7b2e5638a5098a2",
+    "reward_core.py": "2c54e519e7cd889299605a9ebe8d9109df19cdb419a29a53037b290c3291e397",
+    "slew_probe.py": "b3b39c878fd73ff9973c70949d3520f3489176b3732fcddf6a950c302e4654a9",
+    "telemetry.py": "631369ee26e87ea4241892724c4a0744dc537bda608369dbf32df7925af288b5",
+    "test_evaluation.py": "917fefec7648b485b00033b201376204668da514c6787198a3eb119015f58573",
+    "test_revision.py": "703494e27dcdee1c30b97e3984aee43fb52eae845d5f6930090afe6751236fcf",
+    "test_reward_core.py": "2e3617158eda75145f32e0db6ac89b8c935da745f71857184f08491b6f4a7833",
+    "worker.py": "0fc6e2633a79b30fb1376ab07cd731dd2ed8ba1df02ca43a04c5c1c22a5ac6c4"
+  }
+}
