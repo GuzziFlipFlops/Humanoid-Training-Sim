@@ -4,20 +4,20 @@ here are a few gif videos of the robotcs i've trained.
 
 Humanoid robot training for my current revision of robot, spanning different policies such as walking, standing, running
 
-![Current robot — standing](media/current_standing.gif)
+![Current robot â€” standing](media/current_standing.gif)
 
-![Current robot — walking, 1 m/s command](media/current_walking.gif)
+![Current robot â€” walking, 1 m/s command](media/current_walking.gif)
 
-![Current robot — running, 2 m/s command](media/current_running_2.gif)
+![Current robot â€” running, 2 m/s command](media/current_running_2.gif)
 
-![Current robot — running, 3.5 m/s command](media/current_running_35.gif)
+![Current robot â€” running, 3.5 m/s command](media/current_running_35.gif)
 
 Humanoid robot training for my previous iteration of robot:
 
-![Previous robot — standing](media/previous_standing.gif)
+![Previous robot â€” standing](media/previous_standing.gif)
 
-![Previous robot — walking](media/previous_walking.gif)
+![Previous robot â€” walking](media/previous_walking.gif)
 
-![Previous robot — running, 4 m/s command](media/previous_running_4.gif)
+![Previous robot â€” running, 4 m/s command](media/previous_running_4.gif)
 
-![Previous robot — running, 5 m/s command](media/previous_running_5.gif)
+![Previous robot â€” running, 5 m/s command](media/previous_running_5.gif)
