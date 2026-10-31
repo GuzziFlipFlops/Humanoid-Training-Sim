@@ -11,8 +11,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 263,
-    "sha256": "59b384a689bf7423e31bb76986243db2c274a49a91b644b3822eed35396a4847"
+    "bytes": 1062,
+    "sha256": "f0bdaf6475a757cc3998ae15ee0e847a130348c40b67e56bbea77d08abdb9194"
   },
   {
     "path": "REPRODUCTION.md",
@@ -110,6 +110,46 @@
     "sha256": "628407f4685a57fefb9182afd6925e634bb15b2cda03cfa72baa81daa9ce7bfd"
   },
   {
+    "path": "media/current_running_2.gif",
+    "bytes": 8463995,
+    "sha256": "4d873d00243cd112c379425b3264e2983075f00463e6f1215d1ff24391d240c9"
+  },
+  {
+    "path": "media/current_running_35.gif",
+    "bytes": 8882497,
+    "sha256": "b1840169037877d8f327e619bdb250be665919e432d74333260342005600620a"
+  },
+  {
+    "path": "media/current_standing.gif",
+    "bytes": 2805554,
+    "sha256": "d52b20dcd8675dc862bf375746de97daa913443c181cfb1f30404420b5621d69"
+  },
+  {
+    "path": "media/current_walking.gif",
+    "bytes": 8157543,
+    "sha256": "e06461f0c6a7230e00f07f6b7ad806dfa42cb7f8445ee0363f360481fd012a23"
+  },
+  {
+    "path": "media/previous_running_4.gif",
+    "bytes": 7596053,
+    "sha256": "3b0f102c2bfb12792044f7e4e3b881dd41ee81eeac3a275ae54d28b5c15ebf99"
+  },
+  {
+    "path": "media/previous_running_5.gif",
+    "bytes": 7817754,
+    "sha256": "e7a98bc3bdbda8282c7cc60968ba62b99448ad8b6a2b473d638127484c888dad"
+  },
+  {
+    "path": "media/previous_standing.gif",
+    "bytes": 2888001,
+    "sha256": "e3fbc1a64d5b5095d19ae70b50aa4ec780851ce8a10dc420f1f1210815d452a2"
+  },
+  {
+    "path": "media/previous_walking.gif",
+    "bytes": 7162327,
+    "sha256": "fb790c4617aba668dbbe21f1015df859dbb437e3efe53d80ee2090d37ea79857"
+  },
+  {
     "path": "physical_v29/analyze_training_sources.py",
     "bytes": 1624,
     "sha256": "dbf8c635df3ef9c542deacc25bb060030d535a7b527a1e6f51d2ca0a26e0d9c5"
@@ -188,6 +228,16 @@
     "path": "physical_v29/write_actuator_report.py",
     "bytes": 18681,
     "sha256": "9e19394d75b9b2aed3e05e60cc491a7df59aadb8e912164f5c45889b8e7ff659"
+  },
+  {
+    "path": "replication/gif_sources.json",
+    "bytes": 4465,
+    "sha256": "ee6c4bd98e44fa8443594404c031ee4449a973058b815a43bd0860be132f0004"
+  },
+  {
+    "path": "replication/gif_validation.json",
+    "bytes": 1018,
+    "sha256": "dfcd94df790dce84f515b0947785304e1d29209ca2ce673b78666065f6bcfcfe"
   },
   {
     "path": "replication/selected_checkpoints.json",

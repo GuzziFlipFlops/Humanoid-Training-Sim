@@ -1,0 +1,98 @@
+[
+  {
+    "path": "media/current_standing.gif",
+    "label": "Current robot \u2014 standing",
+    "source": "E:\\Aditya\\robot_sim\\physical_v29\\training\\videos\\final_motor_capture_20261010_0905\\locomotion_000_mp4v.mp4",
+    "source_sha256": "7599fa3db2dfcb552eaba88c0935a40c117b1e478bc28d87e7d9ff8901e01395",
+    "gif_sha256": "d52b20dcd8675dc862bf375746de97daa913443c181cfb1f30404420b5621d69",
+    "start_seconds": 1,
+    "duration_seconds": 8,
+    "frames_per_second": 12.5,
+    "cropped_top_pixels": 96,
+    "bytes": 2805554
+  },
+  {
+    "path": "media/current_walking.gif",
+    "label": "Current robot \u2014 walking, 1 m/s command",
+    "source": "E:\\Aditya\\robot_sim\\physical_v29\\training\\videos\\final_motor_capture_20261010_0905\\locomotion_100_mp4v.mp4",
+    "source_sha256": "ef02331b47684e61e7cb694bde76fb3c65154f0b45bd07a48f6c5477353a72b6",
+    "gif_sha256": "e06461f0c6a7230e00f07f6b7ad806dfa42cb7f8445ee0363f360481fd012a23",
+    "start_seconds": 1,
+    "duration_seconds": 8,
+    "frames_per_second": 12.5,
+    "cropped_top_pixels": 96,
+    "bytes": 8157543
+  },
+  {
+    "path": "media/current_running_2.gif",
+    "label": "Current robot \u2014 running, 2 m/s command",
+    "source": "E:\\Aditya\\robot_sim\\physical_v29\\training\\videos\\final_motor_capture_20261010_0905\\locomotion_200_mp4v.mp4",
+    "source_sha256": "cb516332bd1ad4ef3eea698306cd26c02fac5d5dded78f3f1eb122df7f2dc6b1",
+    "gif_sha256": "4d873d00243cd112c379425b3264e2983075f00463e6f1215d1ff24391d240c9",
+    "start_seconds": 1,
+    "duration_seconds": 8,
+    "frames_per_second": 12.5,
+    "cropped_top_pixels": 96,
+    "bytes": 8463995
+  },
+  {
+    "path": "media/current_running_35.gif",
+    "label": "Current robot \u2014 running, 3.5 m/s command",
+    "source": "E:\\Aditya\\robot_sim\\physical_v29\\training\\videos\\final_motor_capture_20261010_0905\\locomotion_350_mp4v.mp4",
+    "source_sha256": "f134236f37923c8e098a39b79a5fc056caad6a1a5cfc2c7fcfc5d5fc155eb960",
+    "gif_sha256": "b1840169037877d8f327e619bdb250be665919e432d74333260342005600620a",
+    "start_seconds": 1,
+    "duration_seconds": 8,
+    "frames_per_second": 12.5,
+    "cropped_top_pixels": 96,
+    "bytes": 8882497
+  },
+  {
+    "path": "media/previous_standing.gif",
+    "label": "Previous robot \u2014 standing",
+    "source": "C:\\Users\\rshan\\Documents\\GitHub\\Humanoid-Robot\\media\\reviews\\humanoid5ft\\stand\\video\\stand-step-0.mp4",
+    "source_sha256": "ac201c3056f350c2e072e65816c11d813be120e421b754d7817991b86e8b3696",
+    "gif_sha256": "e3fbc1a64d5b5095d19ae70b50aa4ec780851ce8a10dc420f1f1210815d452a2",
+    "start_seconds": 1,
+    "duration_seconds": 8,
+    "frames_per_second": 12.5,
+    "cropped_top_pixels": 0,
+    "bytes": 2888001
+  },
+  {
+    "path": "media/previous_walking.gif",
+    "label": "Previous robot \u2014 walking",
+    "source": "E:\\Aditya\\robot_sim\\humanoid_project\\reviews\\working_locomotion_20260905_d\\walk_1ms\\video\\walk.mp4",
+    "source_sha256": "943bee7f3cdaf6d0f4f7cd112a06918719b5489c274776342cf6c730b77d5658",
+    "gif_sha256": "fb790c4617aba668dbbe21f1015df859dbb437e3efe53d80ee2090d37ea79857",
+    "start_seconds": 1,
+    "duration_seconds": 8,
+    "frames_per_second": 12.5,
+    "cropped_top_pixels": 0,
+    "bytes": 7162327
+  },
+  {
+    "path": "media/previous_running_4.gif",
+    "label": "Previous robot \u2014 running, 4 m/s command",
+    "source": "E:\\Aditya\\robot_sim\\humanoid_project\\reviews\\working_locomotion_20260905_d\\run_4ms\\video\\Running_at_4_m_s.mp4",
+    "source_sha256": "8aad65e8ac35a5fc2ec016c40074208f1f7d316c22620e7c53f80672d6fb2a1a",
+    "gif_sha256": "3b0f102c2bfb12792044f7e4e3b881dd41ee81eeac3a275ae54d28b5c15ebf99",
+    "start_seconds": 1,
+    "duration_seconds": 8,
+    "frames_per_second": 12.5,
+    "cropped_top_pixels": 0,
+    "bytes": 7596053
+  },
+  {
+    "path": "media/previous_running_5.gif",
+    "label": "Previous robot \u2014 running, 5 m/s command",
+    "source": "E:\\Aditya\\robot_sim\\humanoid_project\\reviews\\working_locomotion_20260905_d\\run_5ms\\video\\Running_at_5_m_s.mp4",
+    "source_sha256": "60b46813a2392f632f9e9c92ed85e88a1e88b53a5bea0da66d04dc81bffed289",
+    "gif_sha256": "e7a98bc3bdbda8282c7cc60968ba62b99448ad8b6a2b473d638127484c888dad",
+    "start_seconds": 1,
+    "duration_seconds": 8,
+    "frames_per_second": 12.5,
+    "cropped_top_pixels": 0,
+    "bytes": 7817754
+  }
+]

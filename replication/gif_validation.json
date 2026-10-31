@@ -1,0 +1,50 @@
+[
+  {
+    "path": "media/current_standing.gif",
+    "frames": 100,
+    "duration_ms": 8000,
+    "unique_frames": 100
+  },
+  {
+    "path": "media/current_walking.gif",
+    "frames": 100,
+    "duration_ms": 8000,
+    "unique_frames": 100
+  },
+  {
+    "path": "media/current_running_2.gif",
+    "frames": 100,
+    "duration_ms": 8000,
+    "unique_frames": 100
+  },
+  {
+    "path": "media/current_running_35.gif",
+    "frames": 100,
+    "duration_ms": 8000,
+    "unique_frames": 100
+  },
+  {
+    "path": "media/previous_standing.gif",
+    "frames": 100,
+    "duration_ms": 8000,
+    "unique_frames": 100
+  },
+  {
+    "path": "media/previous_walking.gif",
+    "frames": 100,
+    "duration_ms": 8000,
+    "unique_frames": 100
+  },
+  {
+    "path": "media/previous_running_4.gif",
+    "frames": 100,
+    "duration_ms": 8000,
+    "unique_frames": 100
+  },
+  {
+    "path": "media/previous_running_5.gif",
+    "frames": 100,
+    "duration_ms": 8000,
+    "unique_frames": 100
+  }
+]
